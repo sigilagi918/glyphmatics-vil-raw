@@ -1,0 +1,2058 @@
+pCOMPETITORZvhz
+MODE SHARED_PRIOR_DATASET
+RULE STRUCTURE_NOT_BYTES
+NO_PRIVATE_DATA
+NO_BASE64
+NO_HIDDEN_PAYLOAD
+FILES 136
+DICT 2048
+BYTES 4167623
+
+ΨAA={ visible_layer : , state_layer
+ΨAB=visible_layer : , state_layer :
+ΨAC=, state_layer : , context_layer
+ΨAD=state_layer : , context_layer :
+ΨAE=visible_layer : , state_layer
+ΨAF=state_layer : , context_layer
+ΨAG=semantic_weight : . , digest
+ΨAH=, hanzi : , semantic_weight
+ΨAI=hanzi : , semantic_weight :
+ΨAJ=, tri_key : { visible_layer
+ΨAK=tri_key : { visible_layer :
+ΨAL=hanzi : , semantic_weight
+ΨAM=tri_key : { visible_layer
+ΨAN=: , semantic_weight : .
+ΨAO=, semantic_weight : . ,
+ΨAP=, visible : , braille
+ΨAQ=visible : , braille :
+ΨAR=: , semantic_weight :
+ΨAS=, semantic_weight : .
+ΨAT=semantic_weight : . ,
+ΨAU=: { visible_layer : ,
+ΨAV=: , context_layer : }
+ΨAW=, context_layer : } }
+ΨAX=visible : , braille
+ΨAY=, braille : , hanzi
+ΨAZ=braille : , hanzi :
+ΨBA=: , semantic_weight
+ΨBB=, semantic_weight :
+ΨBC=semantic_weight : .
+ΨBD=: { visible_layer :
+ΨBE={ visible_layer : ,
+ΨBF=: , context_layer :
+ΨBG=, context_layer : }
+ΨBH=context_layer : } }
+ΨBI=: , state_layer : ,
+ΨBJ=braille : , hanzi
+ΨBK=, semantic_weight
+ΨBL=semantic_weight :
+ΨBM=: { visible_layer
+ΨBN={ visible_layer :
+ΨBO=visible_layer : ,
+ΨBP=: , context_layer
+ΨBQ=, context_layer :
+ΨBR=context_layer : }
+ΨBS=: , state_layer :
+ΨBT=, state_layer : ,
+ΨBU=: , braille : ,
+ΨBV={ visible_layer
+ΨBW=visible_layer :
+ΨBX=, context_layer
+ΨBY=context_layer :
+ΨBZ=: , state_layer
+ΨCA=, state_layer :
+ΨCB=state_layer : ,
+ΨCC=: . , digest :
+ΨCD=, visible : ,
+ΨCE=: , braille :
+ΨCF=, braille : ,
+ΨCG=, state_layer
+ΨCH=state_layer :
+ΨCI=, tri_key : {
+ΨCJ=: , hanzi : ,
+ΨCK={ glyph_id :
+ΨCL=: . , digest
+ΨCM=. , digest :
+ΨCN=visible : ,
+ΨCO=braille : ,
+ΨCP=, visible :
+ΨCQ=: , braille
+ΨCR=, braille :
+ΨCS=: , hanzi :
+ΨCT=, tri_key :
+ΨCU=tri_key : {
+ΨCV=, hanzi : ,
+ΨCW=glyph_id :
+ΨCX={ glyph_id
+ΨCY=. , digest
+ΨCZ=, digest :
+ΨDA=, braille
+ΨDB=braille :
+ΨDC=visible :
+ΨDD=, visible
+ΨDE=: , hanzi
+ΨDF=, hanzi :
+ΨDG=tri_key :
+ΨDH=hanzi : ,
+ΨDI=, tri_key
+ΨDJ=digest :
+ΨDK=, digest
+ΨDL="confidence": "0.88",
+ΨDM=confidence : . ,
+ΨDN=script_glyph : ,
+ΨDO=canon_index : ,
+ΨDP=canon_glyph : ,
+ΨDQ=script_glyph :
+ΨDR=confidence : .
+ΨDS=script_name :
+ΨDT=canon_index :
+ΨDU=canon_glyph :
+ΨDV="script_name": "Egyptian_Hieroglyph",
+ΨDW="script_name": "Sumerian_Cuneiform",
+ΨDX="script_name": "Akkadian_Cuneiform",
+ΨDY=script_name : Egyptian_Hieroglyph ,
+ΨDZ=confidence :
+ΨEA=script_name : Sumerian_Cuneiform ,
+ΨEB=script_name : Akkadian_Cuneiform ,
+ΨEC=- - - - -
+ΨED=script_name : Egyptian_Hieroglyph
+ΨEE=script_name : Sumerian_Cuneiform
+ΨEF=script_name : Akkadian_Cuneiform
+ΨEG="notes": ""
+ΨEH="confidence": "0.95",
+ΨEI=: Egyptian_Hieroglyph ,
+ΨEJ=: Sumerian_Cuneiform ,
+ΨEK=: Akkadian_Cuneiform ,
+ΨEL=Egyptian_Hieroglyph ,
+ΨEM=: Egyptian_Hieroglyph
+ΨEN=Sumerian_Cuneiform ,
+ΨEO=: Sumerian_Cuneiform
+ΨEP=Akkadian_Cuneiform ,
+ΨEQ=: Akkadian_Cuneiform
+ΨER=L return
+ΨES=L self .
+ΨET== = = = =
+ΨEU=. append (
+ΨEV=L " \"\"\""
+ΨEW=def __init__ ( self
+ΨEX="script_name": "Latin_Extended",
+ΨEY=script_name : Latin_Extended ,
+ΨEZ=isinstance (
+ΨFA=, , , , ,
+ΨFB=script_name : Latin_Extended
+ΨFC=L def __init__ ( self
+ΨFD=def __init__ (
+ΨFE=( self ,
+ΨFF=. perform_action (
+ΨFG=: continue
+ΨFH=def __init__ ( self ,
+ΨFI=ActionInput ( id = GameAction
+ΨFJ=in range (
+ΨFK=L return None
+ΨFL=GameAction .
+ΨFM=__init__ ( self
+ΨFN=/ kaggle / working /
+ΨFO=return None
+ΨFP=L " try:"
+ΨFQ=append (
+ΨFR=. append
+ΨFS=L def __init__ (
+ΨFT=if isinstance (
+ΨFU=L if isinstance (
+ΨFV=. perform_action
+ΨFW=perform_action (
+ΨFX=L " return None"
+ΨFY="script_name": "Devanagari_Consonant",
+ΨFZ=perform_action ( ai , raw
+ΨGA=L if not
+ΨGB=json . dumps (
+ΨGC=/ kaggle / working
+ΨGD=kaggle / working /
+ΨGE=def __init__
+ΨGF=script_name : Devanagari_Consonant ,
+ΨGG=write_text ( json . dumps
+ΨGH=path : . glyphmatics /
+ΨGI=script_name : Devanagari_Consonant
+ΨGJ=( json . dumps (
+ΨGK=__init__ ( self ,
+ΨGL== self .
+ΨGM=time . time ( )
+ΨGN=L def __init__
+ΨGO=. perform_action ( ai ,
+ΨGP=L if isinstance
+ΨGQ=if isinstance
+ΨGR=__init__ (
+ΨGS=L " else:"
+ΨGT=L if not isinstance (
+ΨGU=kaggle / working
+ΨGV=from pathlib import Path
+ΨGW=extract_entities (
+ΨGX=s . _world_model
+ΨGY=path : . glyphmatics
+ΨGZ== extract_entities (
+ΨHA=. _log . info (
+ΨHB=# ------------------------------------------------------------------
+ΨHC=. perform_action ( ai
+ΨHD=perform_action ( ai ,
+ΨHE=if not isinstance (
+ΨHF=_log = _GameLogger ( game_id
+ΨHG=. n_observations
+ΨHH=L " continue"
+ΨHI=, ensure_ascii = False )
+ΨHJ=is not None
+ΨHK=/ kaggle / input
+ΨHL=json . dumps
+ΨHM=copy . deepcopy (
+ΨHN== game . perform_action (
+ΨHO=s . _level_action_count
+ΨHP=. write_text ( json .
+ΨHQ=( json . dumps
+ΨHR== copy . deepcopy (
+ΨHS=/ kaggle /
+ΨHT=for act_id , data in
+ΨHU=. append ( (
+ΨHV=, ensure_ascii = False
+ΨHW=. _log = _GameLogger (
+ΨHX=L " if isinstance(goal_val, (list, tuple, set)):"
+ΨHY=L if not isinstance
+ΨHZ=game . perform_action (
+ΨIA=time . time (
+ΨIB== _GameLogger ( game_id or
+ΨIC=#!/usr/bin/env python3
+ΨID="script_name": "Thai",
+ΨIE=in range
+ΨIF== np . array (
+ΨIG=, raw = True )
+ΨIH=: Latin_Extended ,
+ΨII=( self ) :
+ΨIJ== extract_entities
+ΨIK=( id = GameAction .
+ΨIL=perform_action ( ai
+ΨIM=ensure_ascii = False )
+ΨIN=L self . _log
+ΨIO=encoding = utf - )
+ΨIP== game . perform_action
+ΨIQ=candidate in input_root . rglob
+ΨIR=self . action_counts [ action_id
+ΨIS=self . _log = _GameLogger
+ΨIT=last_r = game . perform_action
+ΨIU=L import
+ΨIV=act_id , data
+ΨIW=if not isinstance
+ΨIX=in enumerate (
+ΨIY=self . action_scores
+ΨIZ=. _level_action_count
+ΨJA=L for act_id , data
+ΨJB=, dtype = np .
+ΨJC=, indent = , ensure_ascii
+ΨJD=indent = , ensure_ascii =
+ΨJE=. _world_model
+ΨJF=GameAction . ACTION1
+ΨJG=self . _wm . effects
+ΨJH=is not None :
+ΨJI=. write_text ( json
+ΨJJ=write_text ( json .
+ΨJK=_GameLogger ( game_id or
+ΨJL=ActionInput ( id =
+ΨJM=. glyphmatics /
+ΨJN=copy . deepcopy
+ΨJO=: . glyphmatics /
+ΨJP=ensure_ascii = False
+ΨJQ=. _log = _GameLogger
+ΨJR=_log = _GameLogger (
+ΨJS=L self . game_type =
+ΨJT=return GameAction .
+ΨJU=. _log . info
+ΨJV=_log . info (
+ΨJW=game . perform_action
+ΨJX="script_name": "Cyrillic",
+ΨJY=not isinstance (
+ΨJZ=kaggle / input
+ΨKA== copy . deepcopy
+ΨKB=L for candidate in input_root
+ΨKC=for candidate in input_root .
+ΨKD=s . _bfs_pre_solutions
+ΨKE== , ensure_ascii = False
+ΨKF=script_name : Thai ,
+ΨKG== getattr (
+ΨKH=def __init__ ( self )
+ΨKI=L " return []"
+ΨKJ=self . context
+ΨKK=np . array (
+ΨKL=. items ( )
+ΨKM=. lower ( )
+ΨKN== _GameLogger ( game_id
+ΨKO=encoding = utf -
+ΨKP=Latin_Extended ,
+ΨKQ=s . _world_model .
+ΨKR=. action_counts [ action_id ]
+ΨKS=getattr (
+ΨKT=: Latin_Extended
+ΨKU=from pathlib import
+ΨKV=pathlib import Path
+ΨKW=( id = GameAction
+ΨKX=id = GameAction .
+ΨKY=indent = , ensure_ascii
+ΨKZ=L " return 6, {'x': pos[0], 'y': pos[1]}"
+ΨLA=hashlib . sha256 (
+ΨLB=: Devanagari_Consonant ,
+ΨLC=self . _log
+ΨLD=L row [ column ]
+ΨLE=row [ column ] =
+ΨLF=self . effects
+ΨLG=/ bin / env python3
+ΨLH=for act_id , data
+ΨLI=L if s . _level_action_count
+ΨLJ=if s . _level_action_count =
+ΨLK=self . context [
+ΨLL=L ents = extract_entities (
+ΨLM=for candidate in input_root
+ΨLN=script_name : Cyrillic ,
+ΨLO=. startswith (
+ΨLP=. glyphmatics
+ΨLQ=[ str , Any ]
+ΨLR=GameAction . from_id (
+ΨLS=L " if attr.startswith('__'): continue"
+ΨLT== True )
+ΨLU=L else :
+ΨLV=. effects
+ΨLW=L if self .
+ΨLX=write_text ( json
+ΨLY== scorecard . get (
+ΨLZ=_log = _GameLogger
+ΨMA=L self . game_type
+ΨMB=self . game_type =
+ΨMC=. action_counts [ action_id
+ΨMD=action_counts [ action_id ]
+ΨME=s . _level_action_count = =
+ΨMF=. _level_action_count = = :
+ΨMG=. action_scores
+ΨMH=. _bfs_pre_solutions
+ΨMI=L " ai = ActionInput(id=GameAction.from_id(act_id), data=data) if data else ActionInput(id=GameAction.from_id(act_id))"
+ΨMJ=. game_type =
+ΨMK== np . array
+ΨML=, raw = True
+ΨMM=raw = True )
+ΨMN=return , { x :
+ΨMO=return GameAction
+ΨMP=ActionInput ( id
+ΨMQ=copy . deepcopy ( game
+ΨMR=Devanagari_Consonant ,
+ΨMS=L " for prev_lvl in range(new_level):"
+ΨMT=__init__ ( self ) :
+ΨMU=_GameLogger ( game_id
+ΨMV=L return GameAction .
+ΨMW=ents = extract_entities (
+ΨMX=. _log . warning (
+ΨMY=script_name : Thai
+ΨMZ=L return , { x
+ΨNA=self . target_colors
+ΨNB=time . time
+ΨNC=GameAction . from_id ( act_id
+ΨND=: . glyphmatics
+ΨNE=s . _prev_frame
+ΨNF== nn . Conv2d (
+ΨNG=act_id , data in
+ΨNH=dtype = np .
+ΨNI=_log . warning ( f
+ΨNJ=s . _prev_action_id
+ΨNK=if s . _level_action_count
+ΨNL=: Devanagari_Consonant
+ΨNM=in range ( , ,
+ΨNN=eff . n_observations
+ΨNO="script_name": "Khmer",
+ΨNP=s . _level_action_count =
+ΨNQ=L ents = extract_entities
+ΨNR=candidate in input_root .
+ΨNS=L last_mechanic_positions
+ΨNT=L " g.perform_action(ai, raw=True)"
+ΨNU=in enumerate
+ΨNV=append ( (
+ΨNW=self . _log . info
+ΨNX== torch .
+ΨNY=, dtype = np
+ΨNZ=not isinstance
+ΨOA=L return None ,
+ΨOB=L self . _log .
+ΨOC=. items ( ) :
+ΨOD=glyphmatics /
+ΨOE=dict [ str , Any
+ΨOF=. _world_model .
+ΨOG=player2 , targets2 , walls2
+ΨOH=# ---------------------------------------------------------------------
+ΨOI=script_name : Cyrillic
+ΨOJ=kaggle /
+ΨOK=L " self._log.info("
+ΨOL=L return None , None
+ΨOM=dtype = np . float32
+ΨON=in self .
+ΨOO=infer_player_and_goal (
+ΨOP=L " for act_id, data in prev_sol:"
+ΨOQ=, dtype =
+ΨOR=self . _log .
+ΨOS=parents = True , exist_ok
+ΨOT=action_counts [ action_id
+ΨOU=. _level_action_count = =
+ΨOV=_level_action_count = = :
+ΨOW=self . state_fields
+ΨOX=hashlib . sha256
+ΨOY=in available_ids
+ΨOZ=( self .
+ΨPA=bin / env python3
+ΨPB=exist_ok = True )
+ΨPC=encoding = utf
+ΨPD=np . float32 )
+ΨPE="script_name": "Arabic",
+ΨPF=self . scroll_indicators
+ΨPG=is None :
+ΨPH=id = GameAction
+ΨPI=ai , raw = True
+ΨPJ=GameAction . from_id
+ΨPK=raw , avail_ids , step
+ΨPL=L " g = copy.deepcopy(game)"
+ΨPM=in range ( ,
+ΨPN=[ action_id ]
+ΨPO=. write_text (
+ΨPP== GameAction .
+ΨPQ=ents = extract_entities
+ΨPR== None ) :
+ΨPS=L continue
+ΨPT=L " f = np.array(r.frame[-1])"
+ΨPU=L return [ ]
+ΨPV=not in self .
+ΨPW=. is_dir ( ) :
+ΨPX=L row [ column
+ΨPY=row [ column ]
+ΨPZ=self . game_type
+ΨQA=g . perform_action (
+ΨQB=super ( ) . __init__
+ΨQC=import numpy as np
+ΨQD=L self . target_colors =
+ΨQE=L s . _bfs_pre_solutions
+ΨQF=L " return 6, {'x': x, 'y': y}"
+ΨQG=L " last_r = game.perform_action("
+ΨQH=_log . info
+ΨQI== scorecard . get
+ΨQJ=scorecard . get (
+ΨQK=in avail_ids
+ΨQL=raw , avail_ids
+ΨQM=self . action_hints
+ΨQN=L return GameAction
+ΨQO=. glyphmatics / locks /
+ΨQP=. _level_action_count =
+ΨQQ=candidate in input_root
+ΨQR=in input_root . rglob (
+ΨQS=self . action_scores [ action_id
+ΨQT=L " final_scorecard[\"source_url\"] = final_scorecard.get(\"source_url\", SOURCE_URL)"
+ΨQU=, ensure_ascii =
+ΨQV=return None , None
+ΨQW=. _prev_action_id
+ΨQX=raw , avail_ids ,
+ΨQY=__init__ ( self )
+ΨQZ=submission . parquet
+ΨRA=script_name : Khmer ,
+ΨRB=L last_mechanic_positions = [
+ΨRC=L "def find_game_source_and_class(game_id, arc_env=None):"
+ΨRD=if self .
+ΨRE=perform_action ( ActionInput ( id
+ΨRF=_visited_hashes . add ( curr_hash
+ΨRG=/ kaggle
+ΨRH=. _log . warning
+ΨRI=_log . warning (
+ΨRJ=L " \"\"\"Record one transition and update action scores.\"\"\""
+ΨRK=L "# This replaces BFS with direct goal inference: once we know"
+ΨRL=L "if not os.getenv('KAGGLE_IS_COMPETITION_RERUN'):"
+ΨRM=. is_dir ( )
+ΨRN=( game_id
+ΨRO=. exists ( ) :
+ΨRP=L return str (
+ΨRQ=self . _dir_cycle
+ΨRR=, encoding = utf -
+ΨRS=L " s._stuck_count = 0"
+ΨRT=_level_action_count = =
+ΨRU=L " input_root = Path(\"/kaggle/input\")"
+ΨRV=digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key
+ΨRW== hashlib . sha256 (
+ΨRX=L s . _bfs_solution =
+ΨRY=L "# Brute-force BFS explores cheaply but executes wastefully."
+ΨRZ=L "# For games where entity centroids don't move (SK48-style):"
+ΨSA=L "# - action_semantics: what each action method body suggests"
+ΨSB=L " def best_action_for_level(self, game_instance, level_idx):"
+ΨSC=L "# Trained online using rewards shaped by WorldModel priors."
+ΨSD=enumerate (
+ΨSE=/ working /
+ΨSF=) : continue
+ΨSG=import torch
+ΨSH=. deepcopy ( game )
+ΨSI=# =============================================
+ΨSJ=L " submission_df.to_parquet(\"/kaggle/working/submission.parquet\", index=False)"
+ΨSK=digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key
+ΨSL=digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key
+ΨSM=digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key
+ΨSN=. time ( )
+ΨSO=nn . Conv2d ( ,
+ΨSP=L "RECORDINGS_DIR=/kaggle/working/server_recording"
+ΨSQ=self . target_colors =
+ΨSR=L g . perform_action (
+ΨSS=script_name : Arabic ,
+ΨST=L " candidates.append((gx, gy))"
+ΨSU=. perform_action ( ActionInput (
+ΨSV=( self )
+ΨSW=nn . Conv2d (
+ΨSX="script_name": "Hangul_Jamo",
+ΨSY=L " cls_name = gid[0].upper() + gid[1:] if gid else 'Unknown'"
+ΨSZ=L " def _on_level_change(s, new_level, frame, available_ids):"
+ΨTA=L " elif \"json\" in lowered or \"opaque\" in lowered or \"payload\" in lowered:"
+ΨTB=digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key
+ΨTC=digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key
+ΨTD=np . array
+ΨTE=. startswith
+ΨTF=startswith (
+ΨTG=. deepcopy (
+ΨTH=( environment_info
+ΨTI=. n_observations =
+ΨTJ=, game_id = None )
+ΨTK=game_id = None ) :
+ΨTL=L s . _stuck_count
+ΨTM=. dumps (
+ΨTN=except Exception
+ΨTO=L if hasattr (
+ΨTP=. _wm . effects
+ΨTQ="script_name": "Latin",
+ΨTR=: . glyphmatics / locks
+ΨTS=L " \"steps_executed\": len([row for row in step_rows if row.get(\"action\")]),"
+ΨTT=. glyphmatics / locks
+ΨTU=L " m_up = np.zeros_like(mask1); m_up[:-1, :] = mask1[1:, :]"
+ΨTV=L " def observe(self, action_id, frame_before, frame_after):"
+ΨTW=L " Generates a short, maximally-informative probe sequence."
+ΨTX=L " Heuristic = manhattan distance to goal entity's position"
+ΨTY=L " def __init__(self, game_cls, source_path, game_id=None):"
+ΨTZ=L return [
+ΨUA=) . hexdigest ( )
+ΨUB=self . goal_field
+ΨUC== , ensure_ascii =
+ΨUD=L " return None, None"
+ΨUE=mkdir ( parents = True
+ΨUF=True , exist_ok = True
+ΨUG=L self . target_colors
+ΨUH=self . action_counts [
+ΨUI=L if attr . startswith
+ΨUJ=if attr . startswith (
+ΨUK=L " self.game_type = 'unknown'"
+ΨUL=return , { x
+ΨUM=L for act_id ,
+ΨUN=L " s.opt = optim.Adam(s.net.parameters(), lr=0.0003)"
+ΨUO=L " print(\"Non-competition mode: wrote dummy submission.parquet\")"
+ΨUP=. _prev_frame
+ΨUQ=return None ,
+ΨUR== nn . Conv2d
+ΨUS=usr / bin / env
+ΨUT== _GameLogger (
+ΨUU== time . time (
+ΨUV=for i in range (
+ΨUW=id = GameAction . from_id
+ΨUX=L " last_player_pos = None"
+ΨUY=L " last_state_dict = None"
+ΨUZ=L last_mechanic_positions =
+ΨVA=last_mechanic_positions = [
+ΨVB=L " if hit is not None and hit not in found:"
+ΨVC=L " def _state_hash(self, g, frame, transient_fields=None):"
+ΨVD=L "# Given a loaded game class, reads the win condition by:"
+ΨVE=[ str , Any
+ΨVF=str , Any ]
+ΨVG=. game_type
+ΨVH=. float32 )
+ΨVI=digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key
+ΨVJ=: fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key :
+ΨVK=fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key : {
+ΨVL== GameAction . from_id (
+ΨVM=self ) :
+ΨVN=print ( json . dumps
+ΨVO=best_score =
+ΨVP=L return , {
+ΨVQ=s . _visited_hashes
+ΨVR=g = copy . deepcopy
+ΨVS=L " # Write a trimmed __init__.py that only imports HeuristicAgent"
+ΨVT=self . _queue
+ΨVU=_world_model .
+ΨVV=glyphmatics / locks /
+ΨVW=[ step_in_level len (
+ΨVX=_level_action_count =
+ΨVY=in input_root . rglob
+ΨVZ=L " if not r.frame: continue"
+ΨWA=extract_entities ( frame , bg
+ΨWB=. action_scores [ action_id ]
+ΨWC=L " return moves[self._dir_cycle % len(moves)], None"
+ΨWD=L " def debug(self, msg): self._base.debug(self._fmt(msg))"
+ΨWE=L " def error(self, msg): self._base.error(self._fmt(msg))"
+ΨWF=L " Complements WorldModel when movers=[] for all actions."
+ΨWG=L " # Last resort: walk /kaggle/input looking for the file"
+ΨWH=L "# 1. Extracting the full source of the win/check method"
+ΨWI=L "# to identify which field must reach which value to win"
+ΨWJ=L " # --- BFS pre-solver + source analyser (init-time) ---"
+ΨWK=L " sel = logits.gather(1, acts_c.unsqueeze(1)).squeeze(1)"
+ΨWL=L " cl = (logits[5:5 + 4096].clone() if logits.size(0) > 5"
+ΨWM=L " if sm < 1e-8: allp = torch.ones_like(allp) / len(allp)"
+ΨWN=L " raise ValueError(f\"Unsupported runtime action: {action_str}\") from exc"
+ΨWO=L " final_scorecard[\"card_id\"] = final_scorecard.get(\"card_id\", card_id)"
+ΨWP=: b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key :
+ΨWQ=b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key : {
+ΨWR=. , digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d
+ΨWS=, digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d ,
+ΨWT=: a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key :
+ΨWU=a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key : {
+ΨWV=: ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key :
+ΨWW=ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key : {
+ΨWX=exist_ok = True
+ΨWY=. unsqueeze ( )
+ΨWZ=g . perform_action
+ΨXA== getattr
+ΨXB=game_type =
+ΨXC=L " print(\"Using bundled local environments:\", BUNDLED_ENVIRONMENTS_ROOT)"
+ΨXD=: d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key :
+ΨXE=d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key : {
+ΨXF=: d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key :
+ΨXG=d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key : {
+ΨXH=. , digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc
+ΨXI=, digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc ,
+ΨXJ=: fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key
+ΨXK=fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key :
+ΨXL=. , digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581
+ΨXM=, digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 ,
+ΨXN=. , digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c
+ΨXO=, digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c ,
+ΨXP=. perform_action ( ActionInput
+ΨXQ=perform_action ( ActionInput (
+ΨXR=, get_sprites_by_name , None )
+ΨXS=L " raise FileNotFoundError(f\"stem {stem!r} not found in {[str(d) for d in ENV_DIRS]}\")"
+ΨXT=L " def _perform_and_drain(self, game, ai, max_drain=50):"
+ΨXU=L " transient = set(k for k, cnt in changed_count.items()"
+ΨXV=L " pq = [(hfn(f0), 0, counter, [], copy.deepcopy(game))]"
+ΨXW=L " Returns (action_id, estimated_steps) or (None, None)."
+ΨXX=L " s._bfs_solution = s._bfs_pre_solutions.get(new_level)"
+ΨXY=L " oh.scatter_(0, torch.from_numpy(raw).unsqueeze(0), 1)"
+ΨXZ=L " valid = sorted([a for a in avail_ids if 1 <= a <= 5])"
+ΨYA=L " moves = [a for a in avail if a in [1, 2, 3, 4]]"
+ΨYB=. items (
+ΨYC=items ( )
+ΨYD=. lower (
+ΨYE=lower ( )
+ΨYF=game_id )
+ΨYG=not None :
+ΨYH=, , , padding =
+ΨYI=, , padding = )
+ΨYJ=self . best_score
+ΨYK=. startswith ( __ )
+ΨYL=script_name : Khmer
+ΨYM=self . player_colors
+ΨYN=if __name__ == "__main__":
+ΨYO=L " \"game_id\": game_id,"
+ΨYP=L " # Multiple accepted ARC competition submission examples use this exact"
+ΨYQ=. , digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5
+ΨYR=, digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 ,
+ΨYS=. , digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e
+ΨYT=, digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e ,
+ΨYU=: b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key
+ΨYV=b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key :
+ΨYW=, digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d
+ΨYX=digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d ,
+ΨYY=: a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key
+ΨYZ=a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key :
+ΨZA=: ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key
+ΨZB=ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key :
+ΨZC=. add_argument (
+ΨZD=L " def __init__(self):"
+ΨZE=if __name__ = = __main__
+ΨZF=script_name : Hangul_Jamo ,
+ΨZG=, None )
+ΨZH=. frame [ - ]
+ΨZI=L if in available_ids
+ΨZJ=L self . best_score =
+ΨZK=self . state_fields :
+ΨZL=L " def _fmt(self, msg): return f\"[{self._gid}] {msg}\""
+ΨZM=L " def info(self, msg): self._base.info(self._fmt(msg))"
+ΨZN=L "# - which entity colours move, and in which direction"
+ΨZO=L " Lightweight causal model: action_id -> ActionEffect."
+ΨZP=L " player, goal = self.infer_player_and_goal(frame, bg)"
+ΨZQ=L " # --- Systematic cycle through all valid actions ---"
+ΨZR=L "# 1. Observe all (action, before, after) transitions."
+ΨZS=L "# Goal: build a rich WorldModel with minimum actions."
+ΨZT=L " self._build_probe_sequence(available_ids, frame, bg)"
+ΨZU=L " if transient_fields: ignore.update(transient_fields)"
+ΨZV=L " for act_id, data in actions[:min(12, len(actions))]:"
+ΨZW=L " dirs[:] = [d for d in dirs if not d.startswith('.')]"
+ΨZX=L " self._log.warning(f\"GoalReader probe failed: {e}\")"
+ΨZY=L " # (handles games that don't use get_sprites_by_name)"
+ΨZZ=L " Build an action sequence to reach the win condition."
+ΨAA=L " 2. FDM exploitation (strong signal: 80% best action)"
+ΨAB=. Conv2d ( , ,
+ΨAC="script_name": "Greek",
+ΨAD=: d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key
+ΨAE=d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key :
+ΨAF=: d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key
+ΨAG=d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key :
+ΨAH=, digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc
+ΨAI=digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc ,
+ΨAJ=fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d , tri_key
+ΨAK=, digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581
+ΨAL=digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 ,
+ΨAM=, digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c
+ΨAN=digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c ,
+ΨAO=dict [ str ,
+ΨAP=L "# Non-rerun mode: produce a dummy submission so the notebook"
+ΨAQ=raw = True
+ΨAR=L last_action =
+ΨAS=scorecard . get
+ΨAT=ActionInput (
+ΨAU=frame [ - ] )
+ΨAV=s . _bfs_solution
+ΨAW=L " for t in assign.targets:"
+ΨAX=action_counts [ action_id ] =
+ΨAY=shaped by WorldModel priors .
+ΨAZ=prev_lvl in range ( new_level
+ΨBA=L " # (background + dominant fill), sum everything else"
+ΨBB=L " vals, counts = np.unique(frame, return_counts=True)"
+ΨBC=L "# using beam search over predicted entity positions."
+ΨBD=L " self._log = _GameLogger(game_id or game_class_name)"
+ΨBE=L " self._log.warning(f\"GoalReader init failed: {e}\")"
+ΨBF=L " # World-model guided reward: are we closer to goal?"
+ΨBG=L " \"completion_blockers\": local_context.get(\"completion_blockers\"),"
+ΨBH=: fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key :
+ΨBI=fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key : {
+ΨBJ=, digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5
+ΨBK=digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 ,
+ΨBL=, digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e
+ΨBM=digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e ,
+ΨBN=b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc , tri_key
+ΨBO=digest : fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d
+ΨBP=a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 , tri_key
+ΨBQ=ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c , tri_key
+ΨBR=. exists ( )
+ΨBS=- - - - CELL
+ΨBT=if hasattr (
+ΨBU=L for act_id
+ΨBV=L s . _bfs_solution
+ΨBW=s . _bfs_solution =
+ΨBX=L " def __init__(self, cls=None):"
+ΨBY=L " with open(f'{WORKING_COPY}/agents/__init__.py', 'w') as f:"
+ΨBZ=L return ,
+ΨCA=self . action_counts
+ΨCB=L g . perform_action
+ΨCC=input_root . rglob (
+ΨCD=script_name : Arabic
+ΨCE== hashlib . sha256
+ΨCF=L " \"position_delta\": report.delta.to_dict().get(\"position_delta\"),"
+ΨCG=L " \"crossed_marker\": report.delta.to_dict().get(\"crossed_marker\"),"
+ΨCH=. , digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c
+ΨCI=, digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c ,
+ΨCJ=d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 , tri_key
+ΨCK=d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e , tri_key
+ΨCL=digest : b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc
+ΨCM=digest : a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581
+ΨCN=digest : ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c
+ΨCO=s . _log . info
+ΨCP=script_name : Latin ,
+ΨCQ=. infer_player_and_goal (
+ΨCR=last_mechanic_positions =
+ΨCS=] = final_scorecard . get
+ΨCT== final_scorecard . get (
+ΨCU=working / submission . parquet
+ΨCV=L " self._gid = str(game_id) if game_id else 'unknown'"
+ΨCW=L " dilated = mask1 | m_up | m_down | m_left | m_right"
+ΨCX=L " if action_id == 6 and data and changed_pixels > 0:"
+ΨCY=L " # Player = entity whose colors match a known mover"
+ΨCZ=L " def _detect_transient_fields(self, game, actions):"
+ΨDA=L " _, g_score, _, hist, node_game = heapq.heappop(pq)"
+ΨDB=L " for root, dirs, files in os.walk('/kaggle/input'):"
+ΨDC=L "# This is static analysis only — no game execution."
+ΨDD=L " signal_strength = best_fdm_score - worst_fdm_score"
+ΨDE=L " probe_aid, probe_data = s._should_probe(avail_ids)"
+ΨDF=L " unclicked = [(int(t[1]), int(t[0])) for t in targets if (int(t[1]), int(t[0])) not in self._clicked]"
+ΨDG=: return
+ΨDH=np . float32
+ΨDI="script_name": "Hebrew",
+ΨDJ="script_name": "Syriac",
+ΨDK=L " # Write a .env that routes everything through the gateway"
+ΨDL=not None
+ΨDM=items ( ) :
+ΨDN=pathlib import
+ΨDO=, ensure_ascii
+ΨDP=ensure_ascii =
+ΨDQ=in range ( ) :
+ΨDR=, encoding = utf
+ΨDS=for aid , eff in
+ΨDT=. deepcopy ( game
+ΨDU=deepcopy ( game )
+ΨDV=__name__ = = __main__ :
+ΨDW=. action_scores [ action_id
+ΨDX=action_scores [ action_id ]
+ΨDY=os . getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨDZ=L " matches = glob.glob(pattern, recursive=True)"
+ΨEA=L " if str(getattr(mode, \"value\", mode)).lower() == \"competition\":"
+ΨEB=L " final_scorecard = _scorecard_to_dict(arc.close_scorecard(card_id))"
+ΨEC=L " total_levels_completed = scorecard.get(\"total_levels_completed\")"
+ΨED=: fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key
+ΨEE=fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key :
+ΨEF=digest : d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5
+ΨEG=digest : d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e
+ΨEH=L " act, data = s._fallback_rand.choose(raw, avail_ids, step, None, [], np.zeros((64, 64), dtype=bool))"
+ΨEI=L " '''True when *d* contains <stem>/<version>/metadata.json (game-stem layout).'''"
+ΨEJ=. write_text
+ΨEK=write_text (
+ΨEL=return str (
+ΨEM== GameAction
+ΨEN=- - - CELL -
+ΨEO=- - CELL - -
+ΨEP=- CELL - - -
+ΨEQ=CELL - - - -
+ΨER=glyphmatics / locks
+ΨES=L " return int(np.bincount(frame.flatten()).argmax())"
+ΨET=L " After probing, hands control to EfficientPlanner."
+ΨEU=L " aid: eff for aid, eff in self._wm.effects.items()"
+ΨEV=L " initial = {k: v for k, v in game.__dict__.items()"
+ΨEW=L " f\"win_fields={list(set(self.win_fields))[:8]} \""
+ΨEX=L " gsbn = getattr(game, 'get_sprites_by_name', None)"
+ΨEY=L " oh = torch.zeros(16, 64, 64, dtype=torch.float32)"
+ΨEZ=L " positive = [a for sc, a in dir_scored if sc >= 0]"
+ΨFA=L " def _do_observe(s, raw, curr_hash, act_id, data):"
+ΨFB== GameAction . from_id
+ΨFC=perform_action ( ActionInput
+ΨFD=source_path , game_id = None
+ΨFE=, get_sprites_by_name , None
+ΨFF=get_sprites_by_name , None )
+ΨFG=_world_model . effects . get
+ΨFH=submission . parquet , index
+ΨFI=dtype = np
+ΨFJ=( tokens )
+ΨFK=, avail_ids , step
+ΨFL=. n_observations = =
+ΨFM=_perform_and_drain (
+ΨFN=if attr . startswith
+ΨFO=L s . _stuck_count =
+ΨFP=L " for candidate in input_root.rglob(\"sample_submission.parquet\"):"
+ΨFQ=, digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c
+ΨFR=digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c ,
+ΨFS=digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key
+ΨFT=digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key
+ΨFU=digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key
+ΨFV=digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key
+ΨFW=digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key
+ΨFX=digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key
+ΨFY=digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key
+ΨFZ=digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key
+ΨGA=digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key
+ΨGB=digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key
+ΨGC=digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key
+ΨGD=digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key
+ΨGE=digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key
+ΨGF=digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key
+ΨGG=digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key
+ΨGH=digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key
+ΨGI=digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key
+ΨGJ=_log . warning
+ΨGK=L " mod = importlib.util.module_from_spec(spec)"
+ΨGL=L " break"
+ΨGM=. exists (
+ΨGN=return [ ]
+ΨGO=is_dir ( ) :
+ΨGP=row [ column
+ΨGQ=[ column ] =
+ΨGR=n_observations =
+ΨGS=, game_id = None
+ΨGT=game_id = None )
+ΨGU=s . _stuck_count
+ΨGV== np . float32 )
+ΨGW=. getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨGX=getenv ( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨGY=L " WORKING_COPY = '/kaggle/working/arc-agi-3-just-explore'"
+ΨGZ=digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key
+ΨHA=digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key
+ΨHB=digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key
+ΨHC=digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key
+ΨHD=L if self
+ΨHE=return True
+ΨHF=. warning ( f
+ΨHG=kaggle / working / submission
+ΨHH=L "# FORGE v30 — World Model + Efficient Exploration"
+ΨHI=L "# Core philosophy aligned with ARC-AGI-3 scoring:"
+ΨHJ=L " colors = frozenset(o['c'] for o in current_comp)"
+ΨHK=L " ents_before = extract_entities(frame_before, bg)"
+ΨHL=L " return useful[step_in_level % len(useful)], None"
+ΨHM=L " dist = abs(px - goal['x']) + abs(py - goal['y'])"
+ΨHN=L " if np.array_equal(curr_frame, prev_frame): break"
+ΨHO=L " actions = self._scan_actions(game, f0, bg_cache)"
+ΨHP=L "# fields changed — these are the \"state fields\""
+ΨHQ=L " sprite_names = getattr(self, 'sprite_names', [])"
+ΨHR=L " gsbn = getattr(obj, 'get_sprites_by_name', None)"
+ΨHS=L " # --- Level-specific state (reset per level) ---"
+ΨHT=L " # If no GoalReader plan and no BFS, try live BFS"
+ΨHU=L " Secondary signal: novelty (visiting new states)."
+ΨHV=L " player, goal = wm.infer_player_and_goal(raw, bg)"
+ΨHW=L " if bool(getattr(obs, \"full_reset\", False)) and step_index > 0:"
+ΨHX=fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c , tri_key
+ΨHY=in lowered
+ΨHZ=import numpy as
+ΨIA=. warning ( f GoalReader
+ΨIB=act_id , data in actions
+ΨIC=L last_player_pos = None
+ΨID=L last_state_dict = None
+ΨIE=moves [ self . _dir_cycle
+ΨIF=script_name : Hangul_Jamo
+ΨIG=L "%%writefile /kaggle/working/my_agent.py"
+ΨIH=L "!pip install --no-index --find-links \\"
+ΨII=digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key
+ΨIJ=digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key
+ΨIK=. _log .
+ΨIL=[ action_id
+ΨIM=action_id ]
+ΨIN=[ step_in_level len
+ΨIO=step_in_level len (
+ΨIP=. scroll_indicators
+ΨIQ=. effects . items (
+ΨIR=effects . items ( )
+ΨIS=L last_player_pos =
+ΨIT=L last_state_dict =
+ΨIU=read_text ( encoding = utf
+ΨIV=if isinstance ( goal_val ,
+ΨIW=extract_entities ( frame ,
+ΨIX=s . _world_model . effects
+ΨIY=. _world_model . effects .
+ΨIZ=L " env = arc.make(game_id, scorecard_id=card_id, render_mode=None)"
+ΨJA=L " final_scorecard[\"tags\"] = final_scorecard.get(\"tags\", tags)"
+ΨJB=digest : fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c
+ΨJC=: fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d ,
+ΨJD=raise ValueError (
+ΨJE="script_name": "Devanagari_Vowel",
+ΨJF=_build_minimal_submission_rows ( )
+ΨJG=L " Record one (action, before, after) observation."
+ΨJH=L " pos = positions[step_in_level % len(positions)]"
+ΨJI=L " - Unique colour count as weak secondary signal."
+ΨJJ=L " Only reset the frame-specific best state.\"\"\""
+ΨJK=L " def build_plan(self, frame, bg, available_ids):"
+ΨJL=L " _, g, _, path, px, py = heapq.heappop(frontier)"
+ΨJM=L " # Competition dataset path (poonszesen dataset)"
+ΨJN=L " # Find action with delta in the right direction"
+ΨJO=L " f\"(current={current_val} target={goal_val})\")"
+ΨJP=L " s.al = [GameAction.ACTION1, GameAction.ACTION2,"
+ΨJQ=L " changed = int(np.sum(prev_raw != curr_raw)) > 0"
+ΨJR=, indent =
+ΨJS=. add_argument ( - -
+ΨJT=L "arc = Arcade(environments_dir=env_dir, operation_mode=OperationMode.OFFLINE)"
+ΨJU=digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key
+ΨJV=digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key
+ΨJW=digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key
+ΨJX== , ensure_ascii
+ΨJY=self . win_comparisons
+ΨJZ=L " if score < best_score:"
+ΨKA=L " if 6 in available_ids:"
+ΨKB=L " self.best_score = -1.0"
+ΨKC=L " self._wm = world_model"
+ΨKD=self . _perform_and_drain (
+ΨKE=current = getattr ( current
+ΨKF=shaped by WorldModel priors
+ΨKG=return GameAction . ACTION1
+ΨKH=L raise FileNotFoundError (
+ΨKI== None )
+ΨKJ=not in self
+ΨKK=frame [ - ]
+ΨKL=. _visited_hashes
+ΨKM=L " if str(getattr(mode, \"value\", mode)).lower() == \"offline\":"
+ΨKN=L " card_id = arc.open_scorecard(source_url=SOURCE_URL, tags=tags)"
+ΨKO=L " submission_df = pd.DataFrame([row], columns=sample_df.columns)"
+ΨKP=: b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc ,
+ΨKQ=: a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 ,
+ΨKR=: ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c ,
+ΨKS=self . _plan
+ΨKT=s . _bfs .
+ΨKU=) . hexdigest (
+ΨKV=. hexdigest ( )
+ΨKW=. target_colors
+ΨKX=digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key
+ΨKY=L " act = moves[self._dir_cycle % len(moves)]"
+ΨKZ=find_game_source_and_class ( game_id , arc_env
+ΨLA=/ usr / bin /
+ΨLB=self . _log . warning
+ΨLC=script_name : Greek ,
+ΨLD=L "# - whether the action causes any change at all"
+ΨLE=L " ents_after = extract_entities(frame_after, bg)"
+ΨLF=L " return valid[step_in_level % len(valid)], None"
+ΨLG=L " per level but action semantics stay the same)."
+ΨLH=L " score_before = self._frame_score(frame_before)"
+ΨLI=L " if k.startswith('__') or k in ignore: continue"
+ΨLJ=L " actions = [(a, None) for a in avail if a <= 5]"
+ΨLK=L " if time.time() - t0 > self.scan_timeout: break"
+ΨLL=L " if not last_r or not last_r.frame: return None"
+ΨLM=L " # Try to get path from arc_env object directly"
+ΨLN=L "# has access to during competition) and infers:"
+ΨLO=L " def __init__(self, source_path, game_id=None):"
+ΨLP=L " elif 'move' in str(self.action_hints).lower():"
+ΨLQ=L " s._world_model = WorldModel(game_id=s.game_id)"
+ΨLR=L " r -= 0.3 # penalise stuck actions more heavily"
+ΨLS=L " logits = s.net(tensor.unsqueeze(0)).squeeze(0)"
+ΨLT=L " target_arr = getattr(g, si.target_field, None)"
+ΨLU=L " # Strong signal: 80% exploit best, 20% explore"
+ΨLV=L " pos = unique_clicks[step % len(unique_clicks)]"
+ΨLW=L " report = runtime.observe_outcome(action_str, next_state_dict)"
+ΨLX=: d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 ,
+ΨLY=: d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e ,
+ΨLZ=: fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d
+ΨMA=fdce920957c9d898382a5de5a4193853cb969bff142cda57643a03c778d73a2d ,
+ΨMB=L " '''Return every environment_files directory found under /kaggle/input.'''"
+ΨMC=L " \"https://www.kaggle.com/datasets/poonszesen/arc-interactive-community \""
+ΨMD=: bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key :
+ΨME=bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key : {
+ΨMF=: fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key :
+ΨMG=fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key : {
+ΨMH=: d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key :
+ΨMI=d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key : {
+ΨMJ=: bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key :
+ΨMK=bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key : {
+ΨML=: f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key :
+ΨMM=f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key : {
+ΨMN=: fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key :
+ΨMO=fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key : {
+ΨMP=: e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key :
+ΨMQ=e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key : {
+ΨMR=digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key
+ΨMS=: a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key :
+ΨMT=a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key : {
+ΨMU=: fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key :
+ΨMV=fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key : {
+ΨMW=: e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key :
+ΨMX=e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key : {
+ΨMY=: b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key :
+ΨMZ=b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key : {
+ΨNA=: d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key :
+ΨNB=d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key : {
+ΨNC=: de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key :
+ΨND=de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key : {
+ΨNE=: d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key :
+ΨNF=d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key : {
+ΨNG=: de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key :
+ΨNH=de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key : {
+ΨNI=: e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key :
+ΨNJ=e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key : {
+ΨNK=: b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key :
+ΨNL=b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key : {
+ΨNM=. array (
+ΨNN=exists ( ) :
+ΨNO=L return str
+ΨNP== s . _world_model
+ΨNQ=s . _current_level
+ΨNR=( / kaggle / input
+ΨNS=/ kaggle / input )
+ΨNT=L for candidate in
+ΨNU=. mkdir ( parents =
+ΨNV== True , exist_ok =
+ΨNW=, exist_ok = True )
+ΨNX=self . step ( glyph
+ΨNY=if in available_ids
+ΨNZ=L self . best_score
+ΨOA=self . best_score =
+ΨOB=self . target_field
+ΨOC=attr . startswith (
+ΨOD=L s . _prev_frame =
+ΨOE=L " last_mechanic_positions = []"
+ΨOF=( ) . __init__ (
+ΨOG=. getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨOH=getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨOI=. _dir_cycle len ( moves
+ΨOJ=_dir_cycle len ( moves )
+ΨOK=choose ( raw , avail_ids
+ΨOL=, avail_ids
+ΨOM=range ( , ,
+ΨON=_wm . effects
+ΨOO=for i in range
+ΨOP=import torch .
+ΨOQ=[ action_id ] =
+ΨOR=L if not self .
+ΨOS=. startswith ( __
+ΨOT=startswith ( __ )
+ΨOU=array ( r . frame
+ΨOV=player2 , targets2 ,
+ΨOW=L " last_action = None"
+ΨOX=from collections import
+ΨOY=. infer_player_and_goal
+ΨOZ=g . perform_action ( ai
+ΨPA== final_scorecard . get
+ΨPB=final_scorecard . get (
+ΨPC=isinstance ( goal_val , (
+ΨPD=curr_hash , act_id , data
+ΨPE=action_scores [ action_id
+ΨPF=act_id , data in prev_sol
+ΨPG=L " s.net = ForgeNet(s.IN, s.G).to(s.device)"
+ΨPH=L " mask = (frame == c); npix = int(np.sum(mask))"
+ΨPI=L " self.effects = {} # action_id -> ActionEffect"
+ΨPJ=L " Reuse all action knowledge for the new level."
+ΨPK=L " Heuristic score for how 'good' a frame looks."
+ΨPL=L " scored = [(self.action_scores.get(a, 0.0), a)"
+ΨPM=L " ActionInput(id=GameAction.ACTION1), raw=True)"
+ΨPN=L " if (data is None and last_dir_act is not None"
+ΨPO=L " h = self._state_hash(g2, f, transient_fields)"
+ΨPP=L " # Some envs expose a module or file attribute"
+ΨPQ=L " if self.win_comparisons or self.sprite_names:"
+ΨPR=L " if not isinstance(v, (list, tuple)): continue"
+ΨPS=L " n_steps = 10 # non-numeric: just try 10 times"
+ΨPT=L " s._planner = EfficientPlanner(s._world_model)"
+ΨPU=L " def _cnn_action(s, raw, avail_ids, temp=0.5):"
+ΨPV=L " if lvl is None: lvl = getattr(lf, 'score', 0)"
+ΨPW=signal_strength = best_fdm_score - worst_fdm_score
+ΨPX=L " for candidate in input_root.rglob(\"*submission*.parquet\"):"
+ΨPY=L "def _build_minimal_submission_rows() -> list[dict[str, Any]]:"
+ΨPZ=L " print(\"Using sample submission schema from:\", sample_path)"
+ΨQA=: b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc
+ΨQB=b99acad0f12880dafea543662e6ffbcfef5d9e347c1baaad3420789a307b0cc ,
+ΨQC=: a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581
+ΨQD=a8fc996c40b42f68c3a529330650f3806379d132612e1120c2a223997d1b581 ,
+ΨQE=: ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c
+ΨQF=ecb471eab7cb858f152e327dd6f3b01365bf3224cebf69c435c8fc71a9c4e6c ,
+ΨQG=. , digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b
+ΨQH=, digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b ,
+ΨQI=. , digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89
+ΨQJ=, digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 ,
+ΨQK=. , digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf
+ΨQL=, digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf ,
+ΨQM=. , digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4
+ΨQN=, digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 ,
+ΨQO=. , digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408
+ΨQP=, digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 ,
+ΨQQ=: cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key :
+ΨQR=cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key : {
+ΨQS=. , digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd
+ΨQT=, digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd ,
+ΨQU=. , digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49
+ΨQV=, digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 ,
+ΨQW=: e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key :
+ΨQX=e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key : {
+ΨQY=: fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key :
+ΨQZ=fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key : {
+ΨRA=. , digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1
+ΨRB=, digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 ,
+ΨRC=. , digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083
+ΨRD=, digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 ,
+ΨRE=. , digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f
+ΨRF=, digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f ,
+ΨRG=. , digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac
+ΨRH=, digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac ,
+ΨRI=. , digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266
+ΨRJ=, digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 ,
+ΨRK=. , digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651
+ΨRL=, digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 ,
+ΨRM=. , digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f
+ΨRN=, digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f ,
+ΨRO=. , digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99
+ΨRP=, digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 ,
+ΨRQ=. , digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a
+ΨRR=, digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a ,
+ΨRS=. , digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d
+ΨRT=, digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d ,
+ΨRU=: ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key :
+ΨRV=ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key : {
+ΨRW=( ai , raw =
+ΨRX=script_name : Hebrew ,
+ΨRY=script_name : Syriac ,
+ΨRZ=action_id - > ActionEffect
+ΨSA=self . effects [ action_id
+ΨSB=game . perform_action ( ai
+ΨSC=self . game_type = unknown
+ΨSD=get_sprites_by_name , None
+ΨSE=L if isinstance ( goal_val
+ΨSF=L s . _bfs_pre_solutions [
+ΨSG=L " # Copy the just-explore repo to a writable location"
+ΨSH=: bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key
+ΨSI=bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key :
+ΨSJ=: fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key
+ΨSK=fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key :
+ΨSL=: d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key
+ΨSM=d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key :
+ΨSN=: bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key
+ΨSO=bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key :
+ΨSP=: f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key
+ΨSQ=f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key :
+ΨSR=. , digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767
+ΨSS=, digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 ,
+ΨST=: fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key
+ΨSU=fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key :
+ΨSV=: e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key
+ΨSW=e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key :
+ΨSX=. , digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1
+ΨSY=, digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 ,
+ΨSZ=. , digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f
+ΨTA=, digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f ,
+ΨTB=: a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key
+ΨTC=a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key :
+ΨTD=: fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key
+ΨTE=fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key :
+ΨTF=: e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key
+ΨTG=e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key :
+ΨTH=: b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key :
+ΨTI=b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key : {
+ΨTJ=: b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key
+ΨTK=b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key :
+ΨTL=: d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key
+ΨTM=d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key :
+ΨTN=: de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key
+ΨTO=de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key :
+ΨTP=: d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key
+ΨTQ=d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key :
+ΨTR=: de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key
+ΨTS=de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key :
+ΨTT=: e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key
+ΨTU=e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key :
+ΨTV=: b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key
+ΨTW=b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key :
+ΨTX=: c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key :
+ΨTY=c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key : {
+ΨTZ=. , digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed
+ΨUA=, digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed ,
+ΨUB=: str ) - >
+ΨUC=: d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5
+ΨUD=d58afe7ac282d5d7dce0794e5e6cb7c7bc91cf2ca359123c5911217434e0e5 ,
+ΨUE=: d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e
+ΨUF=d3904eb1e6c695d85b7e6e79c36c694ac39891c1c2dc0ccd093f9d2eb7bf8e ,
+ΨUG=return self .
+ΨUH=. unsqueeze (
+ΨUI== _GameLogger
+ΨUJ=_GameLogger (
+ΨUK== time . time
+ΨUL=self . solutions
+ΨUM=__name__ = = __main__
+ΨUN=L " if frame.shape[0] < 2 or frame.shape[1] < 2:"
+ΨUO=L " Updates the ActionEffect for this action_id."
+ΨUP=L " score_after = self._frame_score(frame_after)"
+ΨUQ=L " # Match win comparisons against state fields"
+ΨUR=L " steps = int(abs(remaining / best_delta)) + 1"
+ΨUS=L " s._log.warning(f\"BFS/GSA init error: {e}\")"
+ΨUT=L " # Compare histogram overlap (assembly prior)"
+ΨUU=L " 1. WM entity plan (player+goal+movers known)"
+ΨUV=L " 3. FDM moderate signal (avoid worst actions)"
+ΨUW=L " best_fdm_score, best_fdm_aid = dir_scored[0]"
+ΨUX=L " s._clicked_positions.add(click_hash(cx, cy))"
+ΨUY=L " r = s._reward(s._prev_frame, raw, curr_hash,"
+ΨUZ=L import torch
+ΨVA=self , glyph : str
+ΨVB=GameAction . RESET
+ΨVC=input_root . rglob
+ΨVD=_build_minimal_submission_rows (
+ΨVE=script_name : Devanagari_Vowel ,
+ΨVF=. append ( {
+ΨVG=np . zeros (
+ΨVH=for act_id ,
+ΨVI=L if hasattr
+ΨVJ=L self . _log =
+ΨVK=script_name : Latin
+ΨVL=L " r = g2.perform_action(ai, raw=True)"
+ΨVM=L " '''Return the environment_files path from a dataset mount, or None.'''"
+ΨVN=, digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b
+ΨVO=digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b ,
+ΨVP=, digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89
+ΨVQ=digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 ,
+ΨVR=, digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf
+ΨVS=digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf ,
+ΨVT=, digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4
+ΨVU=digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 ,
+ΨVV=, digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408
+ΨVW=digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 ,
+ΨVX=: cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key
+ΨVY=cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key :
+ΨVZ=, digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd
+ΨWA=digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd ,
+ΨWB=, digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49
+ΨWC=digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 ,
+ΨWD=: e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key
+ΨWE=e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key :
+ΨWF=: fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key
+ΨWG=fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key :
+ΨWH=, digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1
+ΨWI=digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 ,
+ΨWJ=, digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083
+ΨWK=digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 ,
+ΨWL=: a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key :
+ΨWM=a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key : {
+ΨWN=, digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f
+ΨWO=digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f ,
+ΨWP=. , digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0
+ΨWQ=, digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 ,
+ΨWR=: ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key :
+ΨWS=ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key : {
+ΨWT=, digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac
+ΨWU=digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac ,
+ΨWV=, digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266
+ΨWW=digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 ,
+ΨWX=, digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651
+ΨWY=digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 ,
+ΨWZ=, digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f
+ΨXA=digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f ,
+ΨXB=: c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key :
+ΨXC=c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key : {
+ΨXD=, digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99
+ΨXE=digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 ,
+ΨXF=, digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a
+ΨXG=digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a ,
+ΨXH=, digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d
+ΨXI=digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d ,
+ΨXJ=. , digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94
+ΨXK=, digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 ,
+ΨXL=: ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key
+ΨXM=ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key :
+ΨXN=self . goal_value
+ΨXO=list [ dict [ str
+ΨXP=import torch . nn
+ΨXQ=. _bfs_solution =
+ΨXR=L " \"goal_kind\": runtime.guidance.active_goal.get(\"kind\"),"
+ΨXS=: fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c ,
+ΨXT=. from_id ( act_id )
+ΨXU=bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b , tri_key
+ΨXV=fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 , tri_key
+ΨXW=d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf , tri_key
+ΨXX=bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 , tri_key
+ΨXY=f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 , tri_key
+ΨXZ=, digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767
+ΨYA=digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 ,
+ΨYB=fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd , tri_key
+ΨYC=e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 , tri_key
+ΨYD=, digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1
+ΨYE=digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 ,
+ΨYF=, digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f
+ΨYG=digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f ,
+ΨYH=a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 , tri_key
+ΨYI=fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 , tri_key
+ΨYJ=. , digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c
+ΨYK=, digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c ,
+ΨYL=e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f , tri_key
+ΨYM=: b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key
+ΨYN=b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key :
+ΨYO=. , digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b
+ΨYP=, digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b ,
+ΨYQ=: e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key :
+ΨYR=e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key : {
+ΨYS=b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac , tri_key
+ΨYT=d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 , tri_key
+ΨYU=de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 , tri_key
+ΨYV=d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f , tri_key
+ΨYW=. , digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356
+ΨYX=, digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 ,
+ΨYY=de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 , tri_key
+ΨYZ=e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a , tri_key
+ΨZA=b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d , tri_key
+ΨZB=: c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key
+ΨZC=c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key :
+ΨZD=, digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed
+ΨZE=digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed ,
+ΨZF=/ env python3
+ΨZG=unsqueeze ( )
+ΨZH=L " return int(np.bincount(perimeter).argmax())"
+ΨZI=L " def infer_player_and_goal(self, frame, bg):"
+ΨZJ=L " def transfer_to_level(self, new_level_idx):"
+ΨZK=L " def best_action(self, available_ids, step):"
+ΨZL=L " if not isinstance(n, ast.Compare): continue"
+ΨZM=L " for field, op, val in self.win_comparisons:"
+ΨZN=L " m = re.match(r'^(\\w+)\\[(\\d+)\\]$', part)"
+ΨZO=L " s._world_model.transfer_to_level(new_level)"
+ΨZP=L " cp = torch.sigmoid(cl / temp) / (s.G * s.G)"
+ΨZQ=L " return dir_acts[step % len(dir_acts)], None"
+ΨZR=L " if eff6 is None or eff6.n_observations < 4:"
+ΨZS=L " lvl = getattr(lf, 'levels_completed', None)"
+ΨZT=L " if si is None or si.game_type == 'unknown':"
+ΨZU=L " s._do_observe(raw, curr_hash, act_id, data)"
+ΨZV=L " f.write(\"\"\"from typing import Type, cast"
+ΨZW=L "AVAILABLE_AGENTS: dict[str, Type[Agent]] = {"
+ΨZX=L " toggle_evidence = any(e.get('toggle') for e in getattr(s._observer, 'click_effs', []))"
+ΨZY=( prev_frame
+ΨZZ=L "# add all the recording files as valid agent names"
+ΨAA=. effects .
+ΨAB=nn . Conv2d
+ΨAC=. add_argument
+ΨAD=add_argument (
+ΨAE=( self , frame
+ΨAF=. target_field
+ΨAG=except Exception as e :
+ΨAH=[ self . _dir_cycle len
+ΨAI=self . _dir_cycle len (
+ΨAJ=. read_text ( encoding =
+ΨAK=if isinstance ( goal_val
+ΨAL=raw , curr_hash , act_id
+ΨAM=extract_entities ( frame
+ΨAN=. _world_model . effects
+ΨAO=_world_model . effects .
+ΨAP=L " def _scan_actions(self, game, f0, bg):"
+ΨAQ=L " for candidate in input_root.rglob(\"environment_files\"):"
+ΨAR={ WORKING_COPY }
+ΨAS=getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨAT=. _bfs_solution
+ΨAU=, available_ids
+ΨAV=s . _clicked_positions
+ΨAW=warning ( f GoalReader
+ΨAX=last_player_pos = None
+ΨAY=last_state_dict = None
+ΨAZ=L " s._prev_frame = None"
+ΨBA=L " s._bg = _get_bg(raw)"
+ΨBB=__init__ ( self , game_id
+ΨBC=self . _perform_and_drain
+ΨBD=, source_path , game_id =
+ΨBE== self . _snapshot_deep (
+ΨBF=s . _visited_hashes . add
+ΨBG=. _visited_hashes . add (
+ΨBH=L raise FileNotFoundError
+ΨBI=raise FileNotFoundError (
+ΨBJ=L " def solve_level(self, level_idx, max_states=300000, player_ent=None,"
+ΨBK=digest : bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b
+ΨBL=digest : fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89
+ΨBM=digest : d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf
+ΨBN=digest : bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4
+ΨBO=digest : f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408
+ΨBP=cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 , tri_key
+ΨBQ=digest : fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd
+ΨBR=digest : e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49
+ΨBS=e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 , tri_key
+ΨBT=: c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key :
+ΨBU=c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key : {
+ΨBV=fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f , tri_key
+ΨBW=digest : a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1
+ΨBX=digest : fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083
+ΨBY=: a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key
+ΨBZ=a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key :
+ΨCA=digest : e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f
+ΨCB=, digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0
+ΨCC=digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 ,
+ΨCD=: ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key
+ΨCE=ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key :
+ΨCF=. , digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5
+ΨCG=, digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 ,
+ΨCH=digest : b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac
+ΨCI=digest : d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266
+ΨCJ=digest : de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651
+ΨCK=digest : d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f
+ΨCL=: c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key
+ΨCM=c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key :
+ΨCN=digest : de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99
+ΨCO=digest : e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a
+ΨCP=digest : b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d
+ΨCQ=, digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94
+ΨCR=digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 ,
+ΨCS=ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed , tri_key
+ΨCT=( parents = True ,
+ΨCU=n_observations = =
+ΨCV=L s . _world_model
+ΨCW=s . _stuck_count =
+ΨCX=si . game_type = =
+ΨCY=# -----------------------------
+ΨCZ=L return str ( environment_info
+ΨDA=return str ( environment_info .
+ΨDB=L last_mechanic_positions = [ ]
+ΨDC=( / kaggle /
+ΨDD=frame , bg )
+ΨDE=len ( self .
+ΨDF=, , , padding
+ΨDG=, , padding =
+ΨDH=, padding = )
+ΨDI=raw , curr_hash ,
+ΨDJ=in self . effects
+ΨDK=s . _prev_frame =
+ΨDL=return int ( np .
+ΨDM=, raw , avail_ids
+ΨDN=L final_scorecard
+ΨDO=s . _bfs . game_cls
+ΨDP=int ( np . bincount
+ΨDQ=, targets2 , walls2
+ΨDR=s . _prev_action_data
+ΨDS=game_id = s . game_id
+ΨDT=for a in avail_ids if
+ΨDU=L " if _check_adjacent(comp_mask, o2['mask']):"
+ΨDV=L " infer a goal entity from entity structure."
+ΨDW=L " # --- Any known-useful action, cycling ---"
+ΨDX=L " # Pick best-scoring action among available"
+ΨDY=L " return False # no plan found within budget"
+ΨDZ=L " try: r = game.perform_action(ai, raw=True)"
+ΨEA=L " last_r = game.perform_action(ai, raw=True)"
+ΨEB=L " if not hasattr(item, '__dict__'): continue"
+ΨEC=L " r += 1.0; s._visited_hashes.add(curr_hash)"
+ΨED=L " acts_c = acts.clamp(0, logits.size(1) - 1)"
+ΨEE=L " def _pick_action(s, raw, avail_ids, step):"
+ΨEF=L " 4. Click exploration (unvisited positions)"
+ΨEG=L " if (si and si.game_type == 'pattern_match'"
+ΨEH=L " if eff is None or eff.n_observations == 0:"
+ΨEI=L " growth = len(s._visited_hashes) - prev_new"
+ΨEJ=L "# has valid output for the initial commit / save."
+ΨEK=L "def _scorecard_to_dict(scorecard: Any) -> dict[str, Any]:"
+ΨEL=L " print(\"Using Kaggle-mounted environments:\", candidate)"
+ΨEM=: fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c
+ΨEN=fa30d891533ea59a6a7ce320060164ffd87f28b4e0071bf5e6bcda8ae0c ,
+ΨEO=L " if 6 in avail_ids and (targets2 or len(getattr(s._observer, 'click_effs', [])) > 0):"
+ΨEP=L " act, data = s._fallback_lawn.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨEQ=. is_dir (
+ΨER=is_dir ( )
+ΨES=L " \"No environment_files/ under /kaggle/input. Add the competition \""
+ΨET=L "# --- from arc-agi-3-interactive-testbed-200-games.ipynb cell 12 ---"
+ΨEU=digest : cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767
+ΨEV=digest : e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1
+ΨEW=. , digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681
+ΨEX=, digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 ,
+ΨEY=digest : fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f
+ΨEZ=, digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c
+ΨFA=digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c ,
+ΨFB=b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 , tri_key
+ΨFC=, digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b
+ΨFD=digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b ,
+ΨFE=: e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key
+ΨFF=e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key :
+ΨFG=, digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356
+ΨFH=digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 ,
+ΨFI=c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 , tri_key
+ΨFJ=digest : ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed
+ΨFK=s . _goal_plan
+ΨFL=. state_fields
+ΨFM=L def find_game_source_and_class ( game_id
+ΨFN=def find_game_source_and_class ( game_id ,
+ΨFO=detect_player_pos ( prev_frame , cur_frame
+ΨFP=L " act, data = s._fallback_gf2.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨFQ=L " act, data = s._fallback_nav.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨFR=. deepcopy
+ΨFS=int ( np .
+ΨFT=scorecard .
+ΨFU=deepcopy ( game
+ΨFV=avail_ids , step
+ΨFW=L "from .agent import Agent, Playback"
+ΨFX=collections import deque , defaultdict
+ΨFY=L " previous_player_pos=arc_state_dict.get(\"player_pos\"),"
+ΨFZ=: c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key
+ΨGA=c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key :
+ΨGB=a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c , tri_key
+ΨGC=digest : b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0
+ΨGD=ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b , tri_key
+ΨGE=, digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5
+ΨGF=digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 ,
+ΨGG=c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 , tri_key
+ΨGH=digest : c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94
+ΨGI=range ( ,
+ΨGJ=L last_action
+ΨGK=last_action =
+ΨGL== scorecard .
+ΨGM=L "# action sequence toward the inferred goal"
+ΨGN=L "from collections import deque, defaultdict"
+ΨGO=L "_REVERSAL_PAIRS = {1: 2, 2: 1, 3: 4, 4: 3}"
+ΨGP=L " self._wm.effects[aid].n_observations == 0"
+ΨGQ=L " if pos_key in visited_positions: continue"
+ΨGR=L " if len(path) >= self._max_depth: continue"
+ΨGS=L " self._log = _GameLogger(game_id or 'gsa')"
+ΨGT=L " if not isinstance(item, ast.FunctionDef):"
+ΨGU=L " if not isinstance(node, ast.FunctionDef):"
+ΨGV=L " # Direct scalar fields on the game object"
+ΨGW=L " and estimate how many steps it will take."
+ΨGX=L " remaining = self.goal_value - current_val"
+ΨGY=L " s.c1 = nn.Conv2d(in_ch, 32, 3, padding=1)"
+ΨGZ=L " mask = torch.full_like(al, float('-inf'))"
+ΨHA=L " best_aid, best_score = None, float('inf')"
+ΨHB=L " if raw is None: return GameAction.ACTION1"
+ΨHC=L " f\"WM_conf={s._world_model.confidence} \""
+ΨHD=L " f\"clicked={len(s._clicked_positions)} \""
+ΨHE=None ) :
+ΨHF=( tokens
+ΨHG=np . sum (
+ΨHH=deepcopy (
+ΨHI=. add_argument ( -
+ΨHJ=add_argument ( - -
+ΨHK=to_toolkit_action ( action_str
+ΨHL=submission_df = pd . DataFrame
+ΨHM=script_name : Devanagari_Vowel
+ΨHN=L " for slug in (\"arc-interactive-community\", \"arc-interactive\"):"
+ΨHO=, digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681
+ΨHP=digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 ,
+ΨHQ=digest : a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c
+ΨHR=digest : ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b
+ΨHS=e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 , tri_key
+ΨHT=digest : c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356
+ΨHU=return [
+ΨHV=. zeros (
+ΨHW=. context [
+ΨHX=. solutions
+ΨHY=( self , msg )
+ΨHZ=self , msg ) :
+ΨIA=. target_colors =
+ΨIB=self . has_target
+ΨIC=step_in_level len
+ΨID=torch . zeros ( ,
+ΨIE=. effects . items
+ΨIF=effects . items (
+ΨIG=self . _fmt ( msg
+ΨIH=L if in avail_ids
+ΨII=L last_player_pos
+ΨIJ=last_player_pos =
+ΨIK=L last_state_dict
+ΨIL=last_state_dict =
+ΨIM=candidates . append ( (
+ΨIN=isinstance ( goal_val ,
+ΨIO=dtype = torch . float32
+ΨIP=get ( self . goal_field
+ΨIQ=parquet , index = False
+ΨIR=L "def _environment_game_id(environment_info: Any) -> str:"
+ΨIS=L " elif \"level\" in lowered and \"complete\" in lowered:"
+ΨIT=_dir_cycle len ( moves
+ΨIU=L " if player and goal:"
+ΨIV=L " si = s._source_info"
+ΨIW=ensure_ascii = False ) ,
+ΨIX=if action_id not in self
+ΨIY=L self . player_colors =
+ΨIZ=L self . action_counts [
+ΨJA=self . _wm = world_model
+ΨJB=if not isinstance ( node
+ΨJC=_extract_win_condition (
+ΨJD=in self . state_fields :
+ΨJE=s . _bfs_pre_solutions [
+ΨJF=L . Directional fallback
+ΨJG=( np . sum (
+ΨJH=self . _wm .
+ΨJI=in range ( )
+ΨJJ=. Conv2d ( ,
+ΨJK=Conv2d ( , ,
+ΨJL== torch . sigmoid (
+ΨJM=script_name : Greek
+ΨJN=L " pass"
+ΨJO=: , b : ,
+ΨJP=self . _wm
+ΨJQ=if not self .
+ΨJR=, avail_ids ,
+ΨJS=range ( , , )
+ΨJT=self . game_cls
+ΨJU=( , , , padding
+ΨJV== nn . Linear (
+ΨJW=L " return act, data"
+ΨJX="canon_index": "001",
+ΨJY="canon_index": "002",
+ΨJZ="canon_index": "003",
+ΨKA="canon_index": "004",
+ΨKB="canon_index": "005",
+ΨKC="canon_index": "006",
+ΨKD="canon_index": "007",
+ΨKE="canon_index": "008",
+ΨKF="canon_index": "009",
+ΨKG="canon_index": "010",
+ΨKH="canon_index": "011",
+ΨKI="canon_index": "012",
+ΨKJ="canon_index": "013",
+ΨKK="canon_index": "014",
+ΨKL=L game_id : game_id ,
+ΨKM=final_scorecard . get
+ΨKN=] = final_scorecard .
+ΨKO=L "_mod_logger = logging.getLogger(__name__)"
+ΨKP=L " self._log = _GameLogger(game_id or 'wm')"
+ΨKQ=L " self.player_colors = candidate['colors']"
+ΨKR=L " # 3. Test ACTION5 if present and unknown"
+ΨKS=L " Beam search over WorldModel predictions."
+ΨKT=L " State = (player_x, player_y, step_count)"
+ΨKU=L " self._log = _GameLogger(game_id or 'gr')"
+ΨKV=L " if not isinstance(n, ast.Call): continue"
+ΨKW=L " f\"sprite_names = {self.sprite_names}\")"
+ΨKX=L " s.cc1 = nn.Conv2d(128, 64, 3, padding=1)"
+ΨKY=L " s._log.warning(f\"BFS live error: {e}\")"
+ΨKZ=L " bg_m = (raw == s._bg).astype(np.float32)"
+ΨLA=L " if dist < 3 and hist_diff == 0: r += 5.0"
+ΨLB=L " else torch.zeros(4096, device=s.device))"
+ΨLC=ents_before = extract_entities ( frame_before
+ΨLD=_build_probe_sequence ( available_ids , frame
+ΨLE=L " for ds in [inp / slug] + list(inp.glob(f\"datasets/*/{slug}\")):"
+ΨLF=c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681 , tri_key
+ΨLG=digest : e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5
+ΨLH=L " near = min(targets, key=lambda t: abs(t[0] - player[0]) + abs(t[1] - player[1]))"
+ΨLI=raise ValueError
+ΨLJ=L import torch .
+ΨLK=if not r . frame
+ΨLL=self . _solution
+ΨLM=L " for candidate in input_root.rglob(\"metadata.json\"):"
+ΨLN=L " last_player_pos = next_state_dict.get(\"player_pos\")"
+ΨLO=L "# Grafted from llm-visual-analyzer-arc-agi-3.ipynb, stripped of LLM/runtime glue"
+ΨLP=in [ , , ,
+ΨLQ=return , {
+ΨLR=json . loads (
+ΨLS=game_id = None
+ΨLT=. action_hints
+ΨLU=. _stuck_count
+ΨLV=in avail_ids :
+ΨLW== np . float32
+ΨLX=. agent import Agent
+ΨLY=script_name : Hebrew
+ΨLZ=script_name : Syriac
+ΨMA=L " return pool[step % len(pool)], None"
+ΨMB=def find_game_source_and_class ( game_id
+ΨMC=L " '''Return (game_id, env_dir) for a stem across all ENV_DIRS.'''"
+ΨMD=L " for vd in sorted(base.iterdir(), key=lambda p: p.name.lower()):"
+ΨME=: bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b ,
+ΨMF=: fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 ,
+ΨMG=: d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf ,
+ΨMH=: bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 ,
+ΨMI=: f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 ,
+ΨMJ=: fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd ,
+ΨMK=: e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 ,
+ΨML=digest : c2cc0180d6c3f8d51a606af24b8456d5aa0279e845e52f3354db644c681
+ΨMM=: a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 ,
+ΨMN=: fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 ,
+ΨMO=: e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f ,
+ΨMP=: b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac ,
+ΨMQ=: d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 ,
+ΨMR=: de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 ,
+ΨMS=: d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f ,
+ΨMT=: de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 ,
+ΨMU=: e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a ,
+ΨMV=: b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d ,
+ΨMW=: self .
+ΨMX=. info (
+ΨMY={ g : , b
+ΨMZ=g : , b :
+ΨNA=, b : , h
+ΨNB=b : , h :
+ΨNC=: , h : }
+ΨND=. frame [ -
+ΨNE=L "import os"
+ΨNF=L with open (
+ΨNG=. mkdir ( parents
+ΨNH=mkdir ( parents =
+ΨNI== True , exist_ok
+ΨNJ=True , exist_ok =
+ΨNK=, exist_ok = True
+ΨNL=player and goal :
+ΨNM=. action_counts [
+ΨNN=L last_r = game .
+ΨNO=self . win_fields
+ΨNP=attr . startswith
+ΨNQ=L s . _prev_frame
+ΨNR=) , encoding = utf
+ΨNS=prev_frame [ r , c
+ΨNT=player2 , targets2
+ΨNU=arc - interactive - community
+ΨNV=return str ( environment_info
+ΨNW=_resolve_environments_dir ( )
+ΨNX=last_mechanic_positions = [ ]
+ΨNY=L " eff.mover_colors.add(e_after['colors'])"
+ΨNZ=L "# or most unique pixel colours present)."
+ΨOA=L " return minority_total + len(vals) * 0.1"
+ΨOB=L " if action_id not in self.action_scores:"
+ΨOC=L " self._wm.effects[5].n_observations == 0"
+ΨOD=L " changed_count = {k: 0 for k in initial}"
+ΨOE=L " if last_r.levels_completed < level_idx:"
+ΨOF=L " prev_sol = self.solutions.get(prev_idx)"
+ΨOG=L " self.win_method_src = ast.unparse(node)"
+ΨOH=L " if 'sprite' in name.lower() and n.args:"
+ΨOI=L " if len(v) == 0 or len(v) > 32: continue"
+ΨOJ=L " if isinstance(val, (int, float, bool)):"
+ΨOK=L " name, idx = m.group(1), int(m.group(2))"
+ΨOL=L " s.c3 = nn.Conv2d(64, 128, 3, padding=1)"
+ΨOM=L " # Pass the pre-positioned game instance"
+ΨON=L " if si and si.game_type == 'scroll_map':"
+ΨOO=L " click_hash = lambda x, y: f\"c{x},{y}\""
+ΨOP=L " # Test click on each entity centre once"
+ΨOQ=L " s._on_level_change(lvl, raw, avail_ids)"
+ΨOR=L " s._log.info(f\"FRAME_ROW {list(row)}\")"
+ΨOS=self . _build_probe_sequence ( available_ids
+ΨOT=best_action_for_level ( self , game_instance
+ΨOU=_world_model . transfer_to_level ( new_level
+ΨOV=L "def to_toolkit_action(action_str: str) -> GameAction:"
+ΨOW=L " wanted = {str(game_id) for game_id in TEST_GAME_IDS}"
+ΨOX=L " if 0 <= n[0] < h and 0 <= n[1] < w and n not in vis and not walls[n[0], n[1]]:"
+ΨOY=digest : fbb595855fd592d2cd9235ac36812938d1ad515d87de7464615ea403fe64ce62 , tri_key
+ΨOZ=digest : ae6fd03ca7ce44480ded96f1da1a6cf9b31c353b9597cbb24e7b510af31c2efb , tri_key
+ΨPA=digest : f6dd7710f9e8dafdd0e56a7bc8cbd4b62243b8317a18ef7806a197b42ad45213 , tri_key
+ΨPB=digest : b56b835719b7712bc4dbd60f1425958d52f0a578a14bca556cc0175ecdfdeb3f , tri_key
+ΨPC=digest : f6fc8001b768b95361848d96dbde7de0831bde0c8706fe509fc063f5a82e391e , tri_key
+ΨPD=digest : cd80b3e5cef25c252288c8d12648ae780c1b8800f81857985464e5b265983bfe , tri_key
+ΨPE=digest : fba13b5f24f7d932f0aa321632b0970348026c6794bce9b38fccfc07867c954d , tri_key
+ΨPF=digest : f254924a818b17865d4abd1523f7e2188eb9f501cc339f291efc29d7b0d7b9c1 , tri_key
+ΨPG=digest : f5f138e13935763c2d9024549c7dfb3009e38726e9d3f5c8ad4b242a933863b5 , tri_key
+ΨPH=digest : a861ed23c2e1135b81b0dbd5b4653d787cfcc6550efaf73e4913f8927b438a48 , tri_key
+ΨPI=digest : b21220722dadd72d054603eff4bbd91f634a5e0c4fb3225d0d179db8c02b561d , tri_key
+ΨPJ=digest : b44f98856d75a542e1691731f9abbab44f2d2584ea9ee1a52b0325b830151bd6 , tri_key
+ΨPK=digest : d47a663fcd49525b510785462f6ec5f4bc01c7bb4c0cc677ab5a11fb962ba0f1 , tri_key
+ΨPL=digest : acdb4be8deb67e6d38bc1d1aef3b2fd1c16684cb1dccffc4f519a74bc4955f17 , tri_key
+ΨPM=digest : b8dfc5090f2b38c40a817e08fc07a40cd4a86de6f82e82795e73f60679f05d54 , tri_key
+ΨPN=digest : e3985d5790f9cc2378c4be24e3d23a53eb392b2cc9ede7526f5883e02a4c856d , tri_key
+ΨPO=digest : adbd075594cd671406529d3bb322a3bd9cfa1d422c94944e0e5cbf227b9fe4d9 , tri_key
+ΨPP=digest : c8f4ecf0e642c5918c60742a6eaaf54356f7b083b3ac6adcc87605ddb3293d0b , tri_key
+ΨPQ=digest : f72fc9f712498f3f81f4f0f0c277c289493af72877e646c3bed7fa23ed2d1d6c , tri_key
+ΨPR=digest : c5b7591c897f1c45863fb3bfdf672840429eda53b60710bb33ffcb61f5dc8f3d , tri_key
+ΨPS=L " avail = game._available_actions"
+ΨPT=L " name = getattr(st, \"name\", \"\") if st is not None else \"\""
+ΨPU=: cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 ,
+ΨPV=: e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 ,
+ΨPW=: fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f ,
+ΨPX=: ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed ,
+ΨPY=/ working
+ΨPZ=working /
+ΨQA=from pathlib
+ΨQB=L s . _log .
+ΨQC=. _current_level
+ΨQD=kaggle / input )
+ΨQE=for candidate in
+ΨQF=BUNDLED_ENVIRONMENTS_ROOT )
+ΨQG=( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨQH=L " with open(f'{WORKING_COPY}/.env', 'w') as f:"
+ΨQI=digest : b869bd988c4b223b2badf7d858b3be31380f3ca63890a7cfbaaf444520b97cb , tri_key
+ΨQJ=digest : de6d1f783ba44597493578985fc9281abbd83bca4dbc4c069779d8406a7bdb2 , tri_key
+ΨQK=digest : cde4e4935748782c51e02f22b90112ec80e27a214aeb045e83923d12ca824b3 , tri_key
+ΨQL=digest : dd2411f2c955b7071f04c2c4812e868d2e1af212256f55d5d655081cbb7c026 , tri_key
+ΨQM=digest : cfa2a1556c5e33b46fed888496deab73e3180398f6a2c25bdd6e2bf2e8722f3 , tri_key
+ΨQN=digest : bf4a9fc2d3faf36d26d3ed794f503f6f9018e501fc862941463a072df1acd1d , tri_key
+ΨQO=digest : d2803898705b65070d1ec61a63651e53f11b71c0afa969190913f227203dde4 , tri_key
+ΨQP=digest : f89fa6f9ab04e9837947458276f39050b1b708f967ec18d3260b9fc5038ceaa , tri_key
+ΨQQ=digest : e4b554159cf6f767e39fdf39fb409ed1e1aa1d6f4cadd5c97e3920d27d74839 , tri_key
+ΨQR=digest : cd8e885cdf98aff8f3a0f94a8a45176488411cf6d176732e0b202590400ab29 , tri_key
+ΨQS=digest : eda9c3ab2dd38772e0af46a190b67bee8a3010cb55fc44b3f9a2d4e5aa02f75 , tri_key
+ΨQT=digest : b458dd0a96f98b637d71593d470eea7a22d840b90dacd5f0ffabe8a93df9c2a , tri_key
+ΨQU=digest : ba903b21f8556208c0d41c4e4d67268d3ee9a5ed38f6f2a045e415c20286526 , tri_key
+ΨQV=digest : a4c36a641798448db65877538e53231027229e7f35598e010df273e7a90ba78 , tri_key
+ΨQW=digest : d9bdba2c56e4cd53e81d9806ad4eebacd2696d9a81818df0b429641b343a8b9 , tri_key
+ΨQX=digest : b867ac1cfe9405fb2f73a4f3f6a05d55e3c8f7984a6af18b2b5b21ac051c25d , tri_key
+ΨQY=digest : a058ae392fa5ef65a341512f035c00915b98255c2850aa083d3b484dbfb515f , tri_key
+ΨQZ=digest : d014073985d140e843106950565d83a1b1f003addfd7158f90e5312e224c45e , tri_key
+ΨRA=digest : fb4cb0c038ac72d884714539e1e0ef8907ecbc7ac8815b4d0df1d41bd14f903 , tri_key
+ΨRB=digest : dc9321c5887249dd1a15ac09e4c8b4d39460d3f036e5a5681d9cb5ae12f948f , tri_key
+ΨRC=digest : b8ced3774251628171c25ff49b5f6144e9ec1a3fb25da1abdb057fc97f76087 , tri_key
+ΨRD=digest : eeef8cb2bdc7955eda6fd65fd0a6a0a7d952674502e8aa52325c25395404b86 , tri_key
+ΨRE=digest : fa7dbb697e0465e5a714cb496b41b636404149cfce6c02012eccb8d14ee0eb3 , tri_key
+ΨRF=Conv2d ( , , ,
+ΨRG=. read_text ( encoding
+ΨRH=read_text ( encoding =
+ΨRI=, curr_hash , act_id ,
+ΨRJ=self . _queue . append
+ΨRK=self . player_colors =
+ΨRL=s . _goal_plan = deque
+ΨRM=. _goal_plan = deque (
+ΨRN=self . action_scores [
+ΨRO=_world_model . effects
+ΨRP=L " if 6 in avail_ids:"
+ΨRQ=action , before , after
+ΨRR=action_id not in self .
+ΨRS=. effects [ action_id ]
+ΨRT=L if score < best_score
+ΨRU=if score < best_score :
+ΨRV=L if in available_ids :
+ΨRW== self . _frame_score (
+ΨRX=. action_scores . get (
+ΨRY=action_scores . get ( a
+ΨRZ=if not actions : return
+ΨSA=, source_path , game_id
+ΨSB=source_path , game_id =
+ΨSC=L self . target_field =
+ΨSD=not isinstance ( node ,
+ΨSE=isinstance ( node , ast
+ΨSF== self . _snapshot_deep
+ΨSG=self . _snapshot_deep (
+ΨSH=, get_sprites_by_name ,
+ΨSI=L for prev_lvl in range
+ΨSJ=for prev_lvl in range (
+ΨSK=. _visited_hashes . add
+ΨSL=_visited_hashes . add (
+ΨSM=L candidates . append (
+ΨSN=raise FileNotFoundError
+ΨSO=L " last_mechanic_positions: list[tuple[int, int]] = []"
+ΨSP=L " print(\"Wrote /kaggle/working/submission.parquet\")"
+ΨSQ=: bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b
+ΨSR=bb3dc4a6bf94bcf2fbb71f56b039b5b0b31273074ade4ded57e31a93f259066b ,
+ΨSS=: fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89
+ΨST=fce6cac73489182c33e886b2d023d7552c057c856ad27b987f92956ffc9e5b89 ,
+ΨSU=: d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf
+ΨSV=d477979a5759f83b720d0621d84f252d1b1c6ea03bc010d59558c67ea10638bf ,
+ΨSW=: bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4
+ΨSX=bdbb936a22d6b951d699c99e4369156f53d729d3bdb0c1f62d2718750443edc4 ,
+ΨSY=: f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408
+ΨSZ=f317f6139c2a91d48f356dedb98fcdc69f60a353f7e7e690c7eca7f396bee408 ,
+ΨTA=: fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd
+ΨTB=fa0910f5565c2fe3ddbe5cd9c32255f8d45f5fc572e749c595d5efe94f0982fd ,
+ΨTC=: e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49
+ΨTD=e5b3dcd367ed4306c4ac3b94b4085d4b77faf07127e107b475f70dc4eb669c49 ,
+ΨTE=: a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1
+ΨTF=a3509541b1bd587291dc8195359bb9d1ce8759cea406dfe6ba3f6d14cff58ea1 ,
+ΨTG=: fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083
+ΨTH=fb6d91d86feaa920e78a4af7973d35f7090a6229583c2e46f4ff6c5e227d5083 ,
+ΨTI=: e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f
+ΨTJ=e415e3ea55e925560a6b9049fa0acd04f97310d1d72ec015c0de2a7f2e4f714f ,
+ΨTK=: b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 ,
+ΨTL=: b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac
+ΨTM=b4e7c8f3b1ce4e8d544cb1c5dee1e6a22d5dfdb491fdaddad84bdc6c9374ceac ,
+ΨTN=: d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266
+ΨTO=d94157b255a5b41db7737f20245fe68cc6ddccd5c8c62957229e634e787ff266 ,
+ΨTP=: de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651
+ΨTQ=de6d5f2f6c0340ddc2cfc98ed87a8e1dc22b7d01fdce07842de5171800fad651 ,
+ΨTR=: d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f
+ΨTS=d1ca84a098a2d7250b4c151c31369f3b0357581baadbe4622d337f43921eae6f ,
+ΨTT=: de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99
+ΨTU=de6046675d28dd3a56679580fbe526301ea50e786a3969833ede7c18e5c8dd99 ,
+ΨTV=: e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a
+ΨTW=e9626607fef2fdc9a33cd3678d83d09eaa8324b3a25c91a059ada1eb9cbbd78a ,
+ΨTX=: b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d
+ΨTY=b780327b44c123cf2bb5363aa71de8670eadac39882be0afbc3f8d7a8445800d ,
+ΨTZ=: c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 ,
+ΨUA=. float32
+ΨUB=float ( inf )
+ΨUC=( self , game
+ΨUD="canon_index": "015",
+ΨUE="canon_index": "016",
+ΨUF="canon_index": "017",
+ΨUG="canon_index": "018",
+ΨUH="canon_index": "019",
+ΨUI="canon_index": "020",
+ΨUJ=except Exception as e
+ΨUK=__init__ ( self , cls
+ΨUL=self . _dir_cycle len
+ΨUM=astype ( np . float32
+ΨUN=/ working / submission .
+ΨUO=L " for a in available_ids if 1 <= a <= 5]"
+ΨUP=L " if last_r is None or not last_r.frame:"
+ΨUQ=L " if not isinstance(node, ast.ClassDef):"
+ΨUR=L " f\"target_field={self.target_field} \""
+ΨUS=L " elif remaining < 0 and d < best_delta:"
+ΨUT=L " def optimal_plan(self, game_instance):"
+ΨUU=L " s.c2 = nn.Conv2d(32, 64, 3, padding=1)"
+ΨUV=L " # --- Persistent across ALL levels ---"
+ΨUW=L " # Build GoalReader plan for this level"
+ΨUX=L " seen_c.add(c); unique_clicks.append(c)"
+ΨUY=L " hist[int(v)] = hist.get(int(v), 0) + 1"
+ΨUZ=ents_after = extract_entities ( frame_after
+ΨVA=digest : a414b4e3db84489ec6e8c66566235d013429ba7b5bb6959f4048ddfe3d5a80 , tri_key
+ΨVB=digest : b811b940f8bf0fc2e61822bd7424bde32f5cd6e916f96020e6d11e9df68e70 , tri_key
+ΨVC=digest : a29ac2b786d335c3c33b0a7b23ddc4278af324e218abe7778aba190e5f4af3 , tri_key
+ΨVD=digest : c388310b8558843bdca44c4bd1b4b822f972e60aa4134ea9dfa4b5e204f89c , tri_key
+ΨVE=digest : c0868f108eb1ec7c0f74c8767e26c3a43ccc73db162e99e9a8d8932f96403f , tri_key
+ΨVF=digest : b3169c4ae146968aece4d0d002a23ff4c7b9730c703998a6a9b8775f012801 , tri_key
+ΨVG=digest : e3e1548dacd29a45cb96676a5c32563069afa1c8ddcc856f39c2d48768bda5 , tri_key
+ΨVH=digest : dc3371764fd984488d14f9bb11014738e1357837f577905c01813941bd25a4 , tri_key
+ΨVI=digest : b8785c90fdca49bac10a7cf593dca6ddf86517c73085a656df25452a5db9ed , tri_key
+ΨVJ=digest : ff0761cc3d87167ce0913a6d1eee386c1bb76527a4e88f4b858861b042001e , tri_key
+ΨVK=digest : f67ff79e18ed56073748db4fdbf59751abc25617628d815dd4d93a6f90d361 , tri_key
+ΨVL=digest : b362d906163169ad31c086872760d3de980d329dc6b2f06e53a125dbc3fd79 , tri_key
+ΨVM=) - > None :
+ΨVN=s . _log .
+ΨVO=. warning (
+ΨVP=startswith ( __
+ΨVQ=torch . zeros (
+ΨVR=L s . _bfs_step
+ΨVS=. _clicked_positions
+ΨVT=s . _bfs . solutions
+ΨVU=L last_action = None
+ΨVV=kaggle / working / server_recording
+ΨVW=L " runtime.apply_guidance(brain.bootstrap_guidance())"
+ΨVX=L " arcade_kwargs[\"operation_mode\"] = operation_mode"
+ΨVY=L " elif \"source\" in lowered and \"url\" in lowered:"
+ΨVZ=L " row = _build_row_from_sample(sample_df, scorecard)"
+ΨWA=: cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767
+ΨWB=cbb6e7a8ee17ec00d36ebfad3fcb283126449cc4ebe59b51cf579bf6c65f767 ,
+ΨWC=: e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1
+ΨWD=e85a742de6712deaddb6bda800c81e1319e1eebfbb4fcd772152933a97284d1 ,
+ΨWE=: fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f
+ΨWF=fa810b9ffe843ae39e3a5cc670b79e2237f8e0e6f9a5db6d8b7c229ef65b58f ,
+ΨWG=: a502976c0d7b0fea4cf458a8bc964d8bfebb73f5423a7ff5a105e63e73d2c ,
+ΨWH=: ad1191d0e0959386d2c7c64c5f846ae5b06ca6426f53adb883aa1008c2c4b ,
+ΨWI=: c07d6f14c29f5270cf9044ec228f1d7c8cb664a734eb43a393b60e1c09356 ,
+ΨWJ=: ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed
+ΨWK=ce875782ad7750727e703d48631fdbde48b964a79061f942094b89f36f82aed ,
+ΨWL=digest : ca6d18241b9729711f51a4c4430b452a02ffdd94a3eca106ec47b5884f8aa , tri_key
+ΨWM=digest : caa07459f0326f9cc39915811de484ee8e18cb83e29d0c4f6844f71f0c1fd , tri_key
+ΨWN=digest : dec000dc727801c66b25fa6208c59d80cfcb400ce3d96463af448599c8419 , tri_key
+ΨWO=digest : fe3103149d913f38a83100432ebab0defbe88a23809a6c2285801c83473e6 , tri_key
+ΨWP=raise SystemExit (
+ΨWQ=. from_id ( act_id
+ΨWR=from_id ( act_id )
+ΨWS=int , float , bool
+ΨWT=glyphline : self . glyphline
+ΨWU=L if hasattr ( OperationMode
+ΨWV=if hasattr ( OperationMode ,
+ΨWW=L runtime . apply_guidance (
+ΨWX== toolkit_obs_to_arc_state (
+ΨWY== np . zeros (
+ΨWZ=( ) . __init__
+ΨXA=) . __init__ (
+ΨXB=( self , glyph :
+ΨXC=, ( list , tuple
+ΨXD=s . _source_info
+ΨXE=) : self . _base
+ΨXF=: self . _base .
+ΨXG=L " self.class_name = game_class_name"
+ΨXH=L " def choose_action(s, frames, lf):"
+ΨXI=action_id , frame_before , frame_after
+ΨXJ=find_game_source_and_class ( game_id ,
+ΨXK=) . hexdigest
+ΨXL=. hexdigest (
+ΨXM=hexdigest ( )
+ΨXN=L " 'is_composite': len(current_comp) > 1"
+ΨXO=L " for aid, eff in self.effects.items():"
+ΨXP=L " sorted_counts = np.sort(counts)[::-1]"
+ΨXQ=L " n = self.action_counts[action_id] + 1"
+ΨXR=L " target_ent=None, starting_game=None):"
+ΨXS=L " f\"scroll={self.scroll_indicators} \""
+ΨXT=L " f\"action_hints={self.action_hints}\""
+ΨXU=L " if isinstance(v, (int, float, bool)):"
+ΨXV=L " for i, sp in enumerate(sprites[:16]):"
+ΨXW=L " d = deltas.get(self.goal_field, None)"
+ΨXX=L " current = getattr(current, name)[idx]"
+ΨXY=L " s._bfs_pre_solutions[new_level] = sol"
+ΨXZ=L " if 1 <= aid <= 5: mask[aid - 1] = 0.0"
+ΨYA=L " unvisited = [c for c in unique_clicks"
+ΨYB=L " eff = s._world_model.effects.get(aid)"
+ΨYC=L " return None, None # no probing needed"
+ΨYD=L " act_id, data = s._goal_plan.popleft()"
+ΨYE=best_fdm_score , best_fdm_aid = dir_scored
+ΨYF=L " 'changed': changed, 'diff': diff_count, 'toggle': is_toggle, 'step': step,"
+ΨYG=digest : b49b842d69e510e9659f4a139eb160b5176fb1616629cdfcab9e230b28c2 , tri_key
+ΨYH=digest : b868e47045edbc39763ed8f23c46ac277f432a3335082a785e8a4bf54938 , tri_key
+ΨYI=digest : a80d2bb390066fe77e23a66273d61acff5b3f8a21653884a6febb20944c1 , tri_key
+ΨYJ=digest : ca22e3aabb959c9a578345a83f738c6aafdfcf94794ec885d05134eda99b , tri_key
+ΨYK=digest : a84098444820c3db55ac36895f3ebc9505c4d7567c7e450a32683fdd7fb6 , tri_key
+ΨYL=digest : f485e7f6e346d38ddd7fd55b957a5ac285ddd338f9449500c22e03ea61a7 , tri_key
+ΨYM=digest : d36e65d4ca300b14000f473d9599f59f051ff6ac141b97c2a36d371a9049 , tri_key
+ΨYN=frame , bg
+ΨYO=dict [ str
+ΨYP=for act_id
+ΨYQ=L " mounts.extend(sd for sd in user_d.iterdir() if sd.is_dir())"
+ΨYR=L " return name in (\"WIN\", \"LOSE\", \"LOST\", \"GAME_OVER\")"
+ΨYS=: b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0
+ΨYT=b2a209c70b90e0a9ad4badb80d0d6729c1203b79e25a7509f7956497b7aeb0 ,
+ΨYU=: e5b7ec574f44197c0debe3fb6a10bc7f3d54c723f6d070b2a59a472affc5 ,
+ΨYV=: c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94
+ΨYW=c9ea0e379d7ef0a1e75d9e4707eb111ede4c01a5b6ad6640747a4010154f94 ,
+ΨYX=None , None
+ΨYY=( game_id )
+ΨYZ=self . sprite_names
+ΨZA=. _prev_action_data
+ΨZB=self . goal_field ,
+ΨZC=runtime . apply_guidance (
+ΨZD=( prev_frame , cur_frame )
+ΨZE=( prev_frame = cur_frame )
+ΨZF=avail_ids , step , player2
+ΨZG=L "from .heuristic_agent import HeuristicAgent"
+ΨZH=str , Any
+ΨZI== float (
+ΨZJ=float32 )
+ΨZK=digest : a645997782ec1479d09fbc915076a32c42ff3b96e43731869c37c542718 , tri_key
+ΨZL=: fbb595855fd592d2cd9235ac36812938d1ad515d87de7464615ea403fe64ce62 , tri_key :
+ΨZM=fbb595855fd592d2cd9235ac36812938d1ad515d87de7464615ea403fe64ce62 , tri_key : {
+ΨZN=: ae6fd03ca7ce44480ded96f1da1a6cf9b31c353b9597cbb24e7b510af31c2efb , tri_key :
+ΨZO=ae6fd03ca7ce44480ded96f1da1a6cf9b31c353b9597cbb24e7b510af31c2efb , tri_key : {
+ΨZP=: f6dd7710f9e8dafdd0e56a7bc8cbd4b62243b8317a18ef7806a197b42ad45213 , tri_key :
+ΨZQ=f6dd7710f9e8dafdd0e56a7bc8cbd4b62243b8317a18ef7806a197b42ad45213 , tri_key : {
+ΨZR=: b56b835719b7712bc4dbd60f1425958d52f0a578a14bca556cc0175ecdfdeb3f , tri_key :
+ΨZS=b56b835719b7712bc4dbd60f1425958d52f0a578a14bca556cc0175ecdfdeb3f , tri_key : {
+ΨZT=: f6fc8001b768b95361848d96dbde7de0831bde0c8706fe509fc063f5a82e391e , tri_key :
+ΨZU=f6fc8001b768b95361848d96dbde7de0831bde0c8706fe509fc063f5a82e391e , tri_key : {
+ΨZV=: cd80b3e5cef25c252288c8d12648ae780c1b8800f81857985464e5b265983bfe , tri_key :
+ΨZW=cd80b3e5cef25c252288c8d12648ae780c1b8800f81857985464e5b265983bfe , tri_key : {
+ΨZX=: fba13b5f24f7d932f0aa321632b0970348026c6794bce9b38fccfc07867c954d , tri_key :
+ΨZY=fba13b5f24f7d932f0aa321632b0970348026c6794bce9b38fccfc07867c954d , tri_key : {
+ΨZZ=: f254924a818b17865d4abd1523f7e2188eb9f501cc339f291efc29d7b0d7b9c1 , tri_key :
+ΨAA=f254924a818b17865d4abd1523f7e2188eb9f501cc339f291efc29d7b0d7b9c1 , tri_key : {
+ΨAB=: f5f138e13935763c2d9024549c7dfb3009e38726e9d3f5c8ad4b242a933863b5 , tri_key :
+ΨAC=f5f138e13935763c2d9024549c7dfb3009e38726e9d3f5c8ad4b242a933863b5 , tri_key : {
+ΨAD=: a861ed23c2e1135b81b0dbd5b4653d787cfcc6550efaf73e4913f8927b438a48 , tri_key :
+ΨAE=a861ed23c2e1135b81b0dbd5b4653d787cfcc6550efaf73e4913f8927b438a48 , tri_key : {
+ΨAF=: b21220722dadd72d054603eff4bbd91f634a5e0c4fb3225d0d179db8c02b561d , tri_key :
+ΨAG=b21220722dadd72d054603eff4bbd91f634a5e0c4fb3225d0d179db8c02b561d , tri_key : {
+ΨAH=: b44f98856d75a542e1691731f9abbab44f2d2584ea9ee1a52b0325b830151bd6 , tri_key :
+ΨAI=b44f98856d75a542e1691731f9abbab44f2d2584ea9ee1a52b0325b830151bd6 , tri_key : {
+ΨAJ=: d47a663fcd49525b510785462f6ec5f4bc01c7bb4c0cc677ab5a11fb962ba0f1 , tri_key :
+ΨAK=d47a663fcd49525b510785462f6ec5f4bc01c7bb4c0cc677ab5a11fb962ba0f1 , tri_key : {
+ΨAL=: acdb4be8deb67e6d38bc1d1aef3b2fd1c16684cb1dccffc4f519a74bc4955f17 , tri_key :
+ΨAM=acdb4be8deb67e6d38bc1d1aef3b2fd1c16684cb1dccffc4f519a74bc4955f17 , tri_key : {
+ΨAN=: b8dfc5090f2b38c40a817e08fc07a40cd4a86de6f82e82795e73f60679f05d54 , tri_key :
+ΨAO=b8dfc5090f2b38c40a817e08fc07a40cd4a86de6f82e82795e73f60679f05d54 , tri_key : {
+ΨAP=: e3985d5790f9cc2378c4be24e3d23a53eb392b2cc9ede7526f5883e02a4c856d , tri_key :
+ΨAQ=e3985d5790f9cc2378c4be24e3d23a53eb392b2cc9ede7526f5883e02a4c856d , tri_key : {
+ΨAR=: adbd075594cd671406529d3bb322a3bd9cfa1d422c94944e0e5cbf227b9fe4d9 , tri_key :
+ΨAS=adbd075594cd671406529d3bb322a3bd9cfa1d422c94944e0e5cbf227b9fe4d9 , tri_key : {
+ΨAT=digest : a1b7b420ff26058e49ddeaaf5a58bb52ae85d1be922ddb997882890253d , tri_key

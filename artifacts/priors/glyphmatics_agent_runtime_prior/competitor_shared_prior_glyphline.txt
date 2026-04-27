@@ -1,0 +1,2058 @@
+pCOMPETITORZvhz
+MODE SHARED_PRIOR_DATASET
+RULE STRUCTURE_NOT_BYTES
+NO_PRIVATE_DATA
+NO_BASE64
+NO_HIDDEN_PAYLOAD
+FILES 123
+DICT 2048
+BYTES 2721370
+
+ΨAA=UInt < UTerm , B1
+ΨAB=[ allow ( non_camel_case_types )
+ΨAC=allow ( non_camel_case_types ) ]
+ΨAD=UInt < UInt < UTerm
+ΨAE=< UInt < UTerm ,
+ΨAF=< UInt < UInt <
+ΨAG=UInt < UInt <
+ΨAH=#[allow(non_camel_case_types)]
+ΨAI=[ allow ( non_camel_case_types
+ΨAJ=allow ( non_camel_case_types )
+ΨAK== = = = =
+ΨAL=allow ( non_camel_case_types
+ΨAM=UInt < UTerm ,
+ΨAN=< UTerm , B1 >
+ΨAO=< UInt < UTerm
+ΨAP=[ allow ( non_snake_case )
+ΨAQ=allow ( non_snake_case ) ]
+ΨAR=( non_camel_case_types ) ]
+ΨAS=< UInt < UInt
+ΨAT=#[allow(non_snake_case)]
+ΨAU=[ allow ( non_snake_case
+ΨAV=allow ( non_snake_case )
+ΨAW=( non_camel_case_types )
+ΨAX=non_camel_case_types ) ]
+ΨAY=Integer > : : to_i64
+ΨAZ=UInt < UInt
+ΨBA=UInt < UTerm
+ΨBB=< UTerm , B1
+ΨBC=UTerm , B1 >
+ΨBD=UTerm , B1 > ,
+ΨBE=> > : : Output
+ΨBF=allow ( non_snake_case
+ΨBG=( non_camel_case_types
+ΨBH=non_camel_case_types )
+ΨBI=UInt < UInt < UInt
+ΨBJ=( non_snake_case ) ]
+ΨBK=< UInt <
+ΨBL=as Integer > : :
+ΨBM=> : : Output
+ΨBN=( non_snake_case )
+ΨBO=non_snake_case ) ]
+ΨBP=UTerm , B1
+ΨBQ=: : Output as Same
+ΨBR=: Output as Same <
+ΨBS=as Integer > :
+ΨBT=> : : to_i64 (
+ΨBU=: : to_i64 ( )
+ΨBV=( non_snake_case
+ΨBW=non_snake_case )
+ΨBX=Integer > : :
+ΨBY=< UTerm ,
+ΨBZ=: Output as Same
+ΨCA=Output as Same <
+ΨCB=: : Output
+ΨCC== PInt < UInt <
+ΨCD=PInt < UInt < UInt
+ΨCE=> : : Output as
+ΨCF=Unsigned > : : to_u64
+ΨCG=, B1 > , B0
+ΨCH=B1 > , B0 >
+ΨCI=as Integer >
+ΨCJ=> : : to_i64
+ΨCK=: : to_i64 (
+ΨCL=: to_i64 ( )
+ΨCM=NInt < UInt < UInt
+ΨCN== NInt < UInt <
+ΨCO=Output as Same
+ΨCP=[ allow (
+ΨCQ=assert_eq ( <
+ΨCR== PInt < UInt
+ΨCS=PInt < UInt <
+ΨCT=Integer > :
+ΨCU=: : Output as
+ΨCV=as Unsigned > : :
+ΨCW== NInt < UInt
+ΨCX=NInt < UInt <
+ΨCY=> , B0 >
+ΨCZ=as Integer
+ΨDA=: : to_i64
+ΨDB=: to_i64 (
+ΨDC=to_i64 ( )
+ΨDD=, B1 > ,
+ΨDE=assert_eq (
+ΨDF=B1 > , B0
+ΨDG=: Output
+ΨDH=PInt < UInt
+ΨDI=: to_i64 ( ) ,
+ΨDJ=to_i64 ( ) , <
+ΨDK=: to_i64 ( ) )
+ΨDL=as Unsigned > :
+ΨDM== UInt < UInt <
+ΨDN=> , B0 > ,
+ΨDO=: Output as
+ΨDP=Unsigned > : :
+ΨDQ=> : : to_u64 (
+ΨDR=: : to_u64 ( )
+ΨDS=Integer >
+ΨDT=NInt < UInt
+ΨDU=# ============================================================
+ΨDV== < < A as
+ΨDW=as Unsigned >
+ΨDX== UInt < UInt
+ΨDY=to_i64 ( ) ,
+ΨDZ=to_i64 ( ) )
+ΨEA=Unsigned > :
+ΨEB=> : : to_u64
+ΨEC=: : to_u64 (
+ΨED=: to_u64 ( )
+ΨEE=< B > > :
+ΨEF=B > > : :
+ΨEG=UTerm , B1 > >
+ΨEH=: to_i64
+ΨEI=to_i64 (
+ΨEJ=, B0 > , B0
+ΨEK=B0 > , B0 >
+ΨEL=Output as
+ΨEM=as Same <
+ΨEN=> , B0 > >
+ΨEO=PInt < UInt < UTerm
+ΨEP=as Unsigned
+ΨEQ=, B1 > , B1
+ΨER=B1 > , B1 >
+ΨES=type B = PInt <
+ΨET=B = PInt < UInt
+ΨEU=, B0 > ,
+ΨEV=> , B1 > >
+ΨEW=, B1 > >
+ΨEX=type A = NInt <
+ΨEY=A = NInt < UInt
+ΨEZ=type A = PInt <
+ΨFA=A = PInt < UInt
+ΨFB=> , B1 >
+ΨFC=type B = NInt <
+ΨFD=B = NInt < UInt
+ΨFE=type P1 = PInt<UInt<UTerm, B1>>;
+ΨFF=[ test ]
+ΨFG=type A =
+ΨFH=type B =
+ΨFI=type B = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨFJ=type B = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨFK=type A = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨFL=type A = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨFM=, B0 > , B1
+ΨFN=B0 > , B1 >
+ΨFO== PInt <
+ΨFP=type A = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨFQ=type A = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨFR=Unsigned >
+ΨFS=: : to_u64
+ΨFT=: to_u64 (
+ΨFU=to_u64 ( )
+ΨFV=< < A as
+ΨFW=type B = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨFX=type B = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨFY=type B = PInt
+ΨFZ=type B = UInt <
+ΨGA=NInt < UInt < UTerm
+ΨGB=: to_u64 ( ) ,
+ΨGC=to_u64 ( ) , <
+ΨGD=: to_u64 ( ) )
+ΨGE=type A = NInt
+ΨGF=type A = PInt
+ΨGG=type A = UInt <
+ΨGH== NInt <
+ΨGI=B0 > , B0
+ΨGJ=type B = NInt
+ΨGK=type B = PInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨGL=type B = PInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨGM=type A = NInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨGN=type A = NInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨGO=type A = PInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨGP=type A = PInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨGQ=B1 > , B1
+ΨGR=type B = NInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨGS== UInt <
+ΨGT=type B = NInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨGU=, B0 > >
+ΨGV=type B = UInt
+ΨGW=type A = UInt<UInt<UInt<UTerm, B1>, B0>, B0>;
+ΨGX=type A = UInt<UInt<UInt<UTerm, B1>, B0>, B1>;
+ΨGY=B = UInt < UInt
+ΨGZ=A = UInt < UInt
+ΨHA=type A = UInt
+ΨHB=type B = UInt<UInt<UInt<UTerm, B1>, B0>, B0>;
+ΨHC=type B = UInt<UInt<UInt<UTerm, B1>, B0>, B1>;
+ΨHD=to_u64 ( ) ,
+ΨHE=to_u64 ( ) )
+ΨHF=L return
+ΨHG=B0 > , B1
+ΨHH=to_ordering ( ) , Ordering
+ΨHI=type B = PInt<UInt<UTerm, B1>>;
+ΨHJ== UInt < UTerm ,
+ΨHK=type P2 = PInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨHL=: to_u64
+ΨHM=to_u64 (
+ΨHN=type B = NInt<UInt<UTerm, B1>>;
+ΨHO=type A = NInt<UInt<UTerm, B1>>;
+ΨHP=type A = PInt<UInt<UTerm, B1>>;
+ΨHQ=B = PInt <
+ΨHR=type P4 = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨHS=L self .
+ΨHT=A = NInt <
+ΨHU=A = PInt <
+ΨHV=Output as Same < P1
+ΨHW=type B = UInt<UInt<UTerm, B1>, B0>;
+ΨHX=B = NInt <
+ΨHY=type B = UInt<UInt<UTerm, B1>, B1>;
+ΨHZ=type A = UInt<UInt<UTerm, B1>, B1>;
+ΨIA=type A = UInt<UInt<UTerm, B1>, B0>;
+ΨIB=Output as Same < _0
+ΨIC=type N1 = NInt<UInt<UTerm, B1>>;
+ΨID=Ord > : : to_ordering
+ΨIE=type P5 = PInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨIF== UInt < UTerm
+ΨIG=, < P1 as Integer
+ΨIH=< P1 as Integer >
+ΨII=P1 as Integer > :
+ΨIJ=type N2 = NInt<UInt<UInt<UTerm, B1>, B0>>;
+ΨIK=type N4 = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>>;
+ΨIL=type P3 = PInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨIM=B = UInt <
+ΨIN=A = UInt <
+ΨIO=, < _0 as Integer
+ΨIP=< _0 as Integer >
+ΨIQ=_0 as Integer > :
+ΨIR=> : : to_ordering (
+ΨIS=: : to_ordering ( )
+ΨIT=: to_ordering ( ) ,
+ΨIU=type P1 = PInt <
+ΨIV=P1 = PInt < UInt
+ΨIW=type N5 = NInt<UInt<UInt<UInt<UTerm, B1>, B0>, B1>>;
+ΨIX=type U1 = UInt<UTerm, B1>;
+ΨIY=< P1 as Integer
+ΨIZ=P1 as Integer >
+ΨJA=type N3 = NInt<UInt<UInt<UTerm, B1>, B1>>;
+ΨJB=type B = UInt<UTerm, B1>;
+ΨJC=> : : to_ordering
+ΨJD=: : to_ordering (
+ΨJE=: to_ordering ( )
+ΨJF=to_ordering ( ) ,
+ΨJG=. append (
+ΨJH=< _0 as Integer
+ΨJI=_0 as Integer >
+ΨJJ=Output as Same < U0
+ΨJK=type U4 = UInt<UInt<UInt<UTerm, B1>, B0>, B0>;
+ΨJL=type P1 = PInt
+ΨJM=as Same < P1 >
+ΨJN=L " \"\"\""
+ΨJO=B = PInt
+ΨJP=type U5 = UInt<UInt<UInt<UTerm, B1>, B0>, B1>;
+ΨJQ=( ) , Ordering :
+ΨJR=) , Ordering : :
+ΨJS=// ============================================================
+ΨJT=type A = UInt<UTerm, B1>;
+ΨJU=, < U0 as Unsigned
+ΨJV=< U0 as Unsigned >
+ΨJW=U0 as Unsigned > :
+ΨJX=A = NInt
+ΨJY=A = PInt
+ΨJZ=as Same < _0 >
+ΨKA=B = NInt
+ΨKB=Same < P1 > >
+ΨKC=P1 as Integer
+ΨKD=: : to_ordering
+ΨKE=: to_ordering (
+ΨKF=to_ordering ( )
+ΨKG=type U2 = UInt<UInt<UTerm, B1>, B0>;
+ΨKH=def __init__ ( self
+ΨKI=type _0 = Z0;
+ΨKJ=Same < _0 > >
+ΨKK=_0 as Integer
+ΨKL=type U0 = UTerm;
+ΨKM=< U0 as Unsigned
+ΨKN=U0 as Unsigned >
+ΨKO=( ) , Ordering
+ΨKP=) , Ordering :
+ΨKQ=, Ordering : :
+ΨKR=<div class="tablet-lg:grid-col-fill individual_menu_level__1">
+ΨKS=as Same < P1
+ΨKT=type U3 = UInt<UInt<UTerm, B1>, B1>;
+ΨKU=B = UInt
+ΨKV=isinstance (
+ΨKW=Output as Same < U1
+ΨKX=A = UInt
+ΨKY=Output as Same < N1
+ΨKZ=type U0 = UTerm
+ΨLA=L def __init__ ( self
+ΨLB=type _0 = Z0
+ΨLC=as Same < _0
+ΨLD=. perform_action (
+ΨLE=: to_ordering
+ΨLF=to_ordering (
+ΨLG=< div class =
+ΨLH=, < U1 as Unsigned
+ΨLI=< U1 as Unsigned >
+ΨLJ=U1 as Unsigned > :
+ΨLK=: continue
+ΨLL=ActionInput ( id = GameAction
+ΨLM=def __init__ ( self ,
+ΨLN=L return None
+ΨLO=<div class="usa-nav__submenu-item no_menu_link_imaged">
+ΨLP=GameAction .
+ΨLQ=, Ordering : : Greater
+ΨLR=Ordering : : Greater )
+ΨLS=P1 = PInt <
+ΨLT=Same < P1 >
+ΨLU=) , < P1 as
+ΨLV=in range (
+ΨLW=as Same < U0 >
+ΨLX=U0 as Unsigned
+ΨLY=/ kaggle / working /
+ΨLZ=def __init__ (
+ΨMA=L " try:"
+ΨMB=return None
+ΨMC=U1 = UInt < UTerm
+ΨMD=Output as Same < P2
+ΨME=( self ,
+ΨMF=, < N1 as Integer
+ΨMG=< N1 as Integer >
+ΨMH=N1 as Integer > :
+ΨMI=L def __init__ (
+ΨMJ=append (
+ΨMK=. append
+ΨML=Same < _0 >
+ΨMM=) , < _0 as
+ΨMN=< < A as Add
+ΨMO=< A as Add <
+ΨMP=A as Add < B
+ΨMQ=as Add < B >
+ΨMR=< < A as Mul
+ΨMS=< A as Mul <
+ΨMT=A as Mul < B
+ΨMU=as Mul < B >
+ΨMV=< < A as Min
+ΨMW=< A as Min <
+ΨMX=A as Min < B
+ΨMY=as Min < B >
+ΨMZ=< < A as Max
+ΨNA=< A as Max <
+ΨNB=A as Max < B
+ΨNC=as Max < B >
+ΨND=< < A as Gcd
+ΨNE=< A as Gcd <
+ΨNF=A as Gcd < B
+ΨNG=as Gcd < B >
+ΨNH== < A as Cmp
+ΨNI=< A as Cmp <
+ΨNJ=A as Cmp < B
+ΨNK=as Cmp < B >
+ΨNL=) , Ordering
+ΨNM=, Ordering :
+ΨNN=Ordering : :
+ΨNO=as Ord > : :
+ΨNP=L if isinstance (
+ΨNQ=if isinstance (
+ΨNR=. perform_action
+ΨNS=perform_action (
+ΨNT=L " return None"
+ΨNU=__init__ ( self
+ΨNV=type U1 = UInt <
+ΨNW=< U1 as Unsigned
+ΨNX=U1 as Unsigned >
+ΨNY=Ordering : : Greater
+ΨNZ=B = UInt < UTerm
+ΨOA=type N1 = NInt <
+ΨOB=N1 = NInt < UInt
+ΨOC=Same < U0 > >
+ΨOD=perform_action ( ai , raw
+ΨOE=L if not
+ΨOF=/ kaggle / working
+ΨOG=kaggle / working /
+ΨOH=< < A as Sub
+ΨOI=< A as Sub <
+ΨOJ=A as Sub < B
+ΨOK=as Sub < B >
+ΨOL=> , B1 > ,
+ΨOM=[ str , Any ]
+ΨON=< P1 > > :
+ΨOO=P1 > > : :
+ΨOP=( ) , < P1
+ΨOQ=< < A as Div
+ΨOR=< A as Div <
+ΨOS=A as Div < B
+ΨOT=as Div < B >
+ΨOU=< < A as Rem
+ΨOV=< A as Rem <
+ΨOW=A as Rem < B
+ΨOX=as Rem < B >
+ΨOY=, < P2 as Integer
+ΨOZ=< P2 as Integer >
+ΨPA=P2 as Integer > :
+ΨPB=, Ordering : : Less
+ΨPC=Ordering : : Less )
+ΨPD=< N1 as Integer
+ΨPE=N1 as Integer >
+ΨPF=Add < B > >
+ΨPG=Mul < B > >
+ΨPH=Min < B > >
+ΨPI=Max < B > >
+ΨPJ=Gcd < B > >
+ΨPK=Cmp < B > >
+ΨPL=< span class = no_menu_link_imaged__title
+ΨPM=span class = no_menu_link_imaged__title >
+ΨPN=path : . glyphmatics /
+ΨPO=< div class
+ΨPP=div class =
+ΨPQ=A = UInt < UTerm
+ΨPR=L def __init__
+ΨPS=. perform_action ( ai ,
+ΨPT=__init__ ( self ,
+ΨPU=< _0 > > :
+ΨPV=_0 > > : :
+ΨPW=( ) , < _0
+ΨPX=L if isinstance
+ΨPY=as Same < U0
+ΨPZ=< < A as PartialDiv
+ΨQA=< A as PartialDiv <
+ΨQB=A as PartialDiv < B
+ΨQC=as PartialDiv < B >
+ΨQD=type P2 = PInt <
+ΨQE=P2 = PInt < UInt
+ΨQF=def __init__
+ΨQG=- - - - -
+ΨQH=span class = no_menu_link_imaged__title
+ΨQI=Output as Same < N2
+ΨQJ=if isinstance
+ΨQK=L " else:"
+ΨQL=type A = UTerm;
+ΨQM=class = usa -
+ΨQN=- nav__submenu - item no_menu_link_imaged
+ΨQO=nav__submenu - item no_menu_link_imaged >
+ΨQP=extract_entities (
+ΨQQ=type U1 = UInt
+ΨQR=as Same < U1 >
+ΨQS=U1 as Unsigned
+ΨQT=Output as Same < P3
+ΨQU=Output as Same < P4
+ΨQV=L if not isinstance (
+ΨQW=kaggle / working
+ΨQX=Sub < B > >
+ΨQY=type N1 = NInt
+ΨQZ=as Same < N1 >
+ΨRA=if not isinstance (
+ΨRB== self .
+ΨRC=Div < B > >
+ΨRD=Rem < B > >
+ΨRE=PartialDiv < B > >
+ΨRF=Ordering : : Less
+ΨRG=s . _world_model
+ΨRH=path : . glyphmatics
+ΨRI== extract_entities (
+ΨRJ=. _log . info (
+ΨRK=. perform_action ( ai
+ΨRL=perform_action ( ai ,
+ΨRM=nav__submenu - item no_menu_link_imaged
+ΨRN=json . dumps (
+ΨRO=< P2 as Integer
+ΨRP=P2 as Integer >
+ΨRQ=< / div >
+ΨRR=class = no_menu_link_imaged__title >
+ΨRS=_log = _GameLogger ( game_id
+ΨRT=Dict [ str , Any
+ΨRU=. n_observations
+ΨRV=L " continue"
+ΨRW=type A = Z0;
+ΨRX=/ kaggle / input
+ΨRY=__init__ (
+ΨRZ=type A = UTerm
+ΨSA=type P1 =
+ΨSB=P1 = PInt
+ΨSC=Same < P1
+ΨSD=, < P1 as
+ΨSE=< A as Add
+ΨSF=A as Add <
+ΨSG=as Add < B
+ΨSH=< A as Mul
+ΨSI=A as Mul <
+ΨSJ=as Mul < B
+ΨSK=< A as Min
+ΨSL=A as Min <
+ΨSM=as Min < B
+ΨSN=< A as Max
+ΨSO=A as Max <
+ΨSP=as Max < B
+ΨSQ=< A as Gcd
+ΨSR=A as Gcd <
+ΨSS=as Gcd < B
+ΨST=< A as Cmp
+ΨSU=A as Cmp <
+ΨSV=as Cmp < B
+ΨSW=, Ordering
+ΨSX=Ordering :
+ΨSY=as Ord > :
+ΨSZ=is not None
+ΨTA=copy . deepcopy (
+ΨTB== game . perform_action (
+ΨTC=, ensure_ascii = False )
+ΨTD=< < A as Pow
+ΨTE=< A as Pow <
+ΨTF=A as Pow < B
+ΨTG=as Pow < B >
+ΨTH=Same < U0 >
+ΨTI=) , < U0 as
+ΨTJ=s . _level_action_count
+ΨTK=type B = UTerm;
+ΨTL=< A as PartialDiv
+ΨTM=A as PartialDiv <
+ΨTN=as PartialDiv < B
+ΨTO=- col - fill individual_menu_level__1
+ΨTP=col - fill individual_menu_level__1 >
+ΨTQ=Same < U1 > >
+ΨTR=, , , , ,
+ΨTS=, < N2 as Integer
+ΨTT=< N2 as Integer >
+ΨTU=N2 as Integer > :
+ΨTV== copy . deepcopy (
+ΨTW=/ kaggle /
+ΨTX=class = no_menu_link_imaged__title
+ΨTY=Same < N1 > >
+ΨTZ=N1 as Integer
+ΨUA=for act_id , data in
+ΨUB=. _log = _GameLogger (
+ΨUC=L " if isinstance(goal_val, (list, tuple, set)):"
+ΨUD=Output as Same < P5
+ΨUE=L if not isinstance
+ΨUF=game . perform_action (
+ΨUG== _GameLogger ( game_id or
+ΨUH=[ str , Any
+ΨUI=str , Any ]
+ΨUJ=, < P3 as Integer
+ΨUK=< P3 as Integer >
+ΨUL=P3 as Integer > :
+ΨUM=, < P4 as Integer
+ΨUN=< P4 as Integer >
+ΨUO=P4 as Integer > :
+ΨUP=type P2 = PInt
+ΨUQ=as Same < P2 >
+ΨUR=, raw = True )
+ΨUS=type _0 =
+ΨUT=Same < _0
+ΨUU=, < _0 as
+ΨUV=from __future__ import annotations
+ΨUW== np . array (
+ΨUX=time . time ( )
+ΨUY=if not isinstance
+ΨUZ=col - fill individual_menu_level__1
+ΨVA=encoding = utf - )
+ΨVB== extract_entities
+ΨVC=Output as Same < N3
+ΨVD=( id = GameAction .
+ΨVE=perform_action ( ai
+ΨVF=L self . _log
+ΨVG=< A as Sub
+ΨVH=A as Sub <
+ΨVI=as Sub < B
+ΨVJ=PartialDiv < B >
+ΨVK=in enumerate (
+ΨVL== game . perform_action
+ΨVM=candidate in input_root . rglob
+ΨVN=self . action_counts [ action_id
+ΨVO=struct . unpack ( <
+ΨVP=Output as Same < U2
+ΨVQ=self . _log = _GameLogger
+ΨVR=last_r = game . perform_action
+ΨVS=in range
+ΨVT=L import
+ΨVU=, ensure_ascii = False
+ΨVV=ensure_ascii = False )
+ΨVW=act_id , data
+ΨVX=< A as Div
+ΨVY=A as Div <
+ΨVZ=as Div < B
+ΨWA=< A as Rem
+ΨWB=A as Rem <
+ΨWC=as Rem < B
+ΨWD=f . read ( )
+ΨWE=type B = UTerm
+ΨWF=type N2 = NInt <
+ΨWG=N2 = NInt < UInt
+ΨWH=self . action_scores
+ΨWI=. _level_action_count
+ΨWJ=Output as Same < N4
+ΨWK=L for act_id , data
+ΨWL=type A = Z0
+ΨWM=. _world_model
+ΨWN=GameAction . ACTION1
+ΨWO=self . _wm . effects
+ΨWP=- fill individual_menu_level__1 >
+ΨWQ=type P3 = PInt <
+ΨWR=P3 = PInt < UInt
+ΨWS=type P4 = PInt <
+ΨWT=P4 = PInt < UInt
+ΨWU=not isinstance (
+ΨWV=Pow < B > >
+ΨWW=as Same < U1
+ΨWX=_GameLogger ( game_id or
+ΨWY=ActionInput ( id =
+ΨWZ=. glyphmatics /
+ΨXA=copy . deepcopy
+ΨXB=: . glyphmatics /
+ΨXC=. _log = _GameLogger
+ΨXD=_log = _GameLogger (
+ΨXE=L self . game_type =
+ΨXF=, config : , compile_kind
+ΨXG=config : , compile_kind :
+ΨXH=, indent = , ensure_ascii
+ΨXI=indent = , ensure_ascii =
+ΨXJ=as Same < N1
+ΨXK=return GameAction .
+ΨXL=is not None :
+ΨXM=. _log . info
+ΨXN=_log . info (
+ΨXO=game . perform_action
+ΨXP=np . array (
+ΨXQ=, < U2 as Unsigned
+ΨXR=< U2 as Unsigned >
+ΨXS=U2 as Unsigned > :
+ΨXT== no_menu_link_imaged__title >
+ΨXU=encoding = utf -
+ΨXV=( json . dumps (
+ΨXW=class = usa
+ΨXX=Same < P2 > >
+ΨXY=P2 as Integer
+ΨXZ=kaggle / input
+ΨYA== copy . deepcopy
+ΨYB=L for candidate in input_root
+ΨYC=for candidate in input_root .
+ΨYD=s . _bfs_pre_solutions
+ΨYE=U0 = UTerm
+ΨYF=< U0 > > :
+ΨYG=U0 > > : :
+ΨYH=( ) , < U0
+ΨYI=. append ( (
+ΨYJ== struct . unpack (
+ΨYK== getattr (
+ΨYL=A as PartialDiv
+ΨYM=as PartialDiv <
+ΨYN=L " return []"
+ΨYO=self . context
+ΨYP=. items ( )
+ΨYQ=, < P5 as Integer
+ΨYR=< P5 as Integer >
+ΨYS=P5 as Integer > :
+ΨYT=json . dumps
+ΨYU=< N2 as Integer
+ΨYV=N2 as Integer >
+ΨYW== _GameLogger ( game_id
+ΨYX== , ensure_ascii = False
+ΨYY=( self ) :
+ΨYZ=Add < B >
+ΨZA=Mul < B >
+ΨZB=Min < B >
+ΨZC=Max < B >
+ΨZD=Gcd < B >
+ΨZE=Cmp < B >
+ΨZF=Ord > : :
+ΨZG=s . _world_model .
+ΨZH=. action_counts [ action_id ]
+ΨZI=- fill individual_menu_level__1
+ΨZJ=fill individual_menu_level__1 >
+ΨZK=div class
+ΨZL=getattr (
+ΨZM=Output as Same < U3
+ΨZN={ CheckDepInfo : { dep_info
+ΨZO=CheckDepInfo : { dep_info :
+ΨZP=ensure_ascii = False
+ΨZQ=struct . unpack (
+ΨZR=, < N3 as Integer
+ΨZS=< N3 as Integer >
+ΨZT=N3 as Integer > :
+ΨZU=( id = GameAction
+ΨZV=id = GameAction .
+ΨZW=#!/usr/bin/env python3
+ΨZX=L " return 6, {'x': pos[0], 'y': pos[1]}"
+ΨZY=type N6 = NInt<UInt<UInt<UInt<UTerm, B1>, B1>, B0>>;
+ΨZZ=type P6 = PInt<UInt<UInt<UInt<UTerm, B1>, B1>, B0>>;
+ΨAA=< P3 as Integer
+ΨAB=P3 as Integer >
+ΨAC=< P4 as Integer
+ΨAD=P4 as Integer >
+ΨAE=type B = Z0;
+ΨAF=self . _log
+ΨAG=L row [ column ]
+ΨAH=row [ column ] =
+ΨAI=, dtype = np .
+ΨAJ=self . effects
+ΨAK=Output as Same < U4
+ΨAL=Output as Same < N5
+ΨAM=for act_id , data
+ΨAN=themes / custom / usdoj_uswds
+ΨAO=__future__ import annotations
+ΨAP== no_menu_link_imaged__title
+ΨAQ=no_menu_link_imaged__title >
+ΨAR=L if s . _level_action_count
+ΨAS=if s . _level_action_count =
+ΨAT=self . context [
+ΨAU=config : , compile_kind
+ΨAV=indent = , ensure_ascii
+ΨAW=L ents = extract_entities (
+ΨAX=for candidate in input_root
+ΨAY=, < N4 as Integer
+ΨAZ=< N4 as Integer >
+ΨBA=N4 as Integer > :
+ΨBB=Output as Same < U5
+ΨBC=class = usa - nav__submenu
+ΨBD=< P1 > >
+ΨBE=P1 > > :
+ΨBF=) , < P1
+ΨBG=. glyphmatics
+ΨBH=type P5 = PInt <
+ΨBI=P5 = PInt < UInt
+ΨBJ=GameAction . from_id (
+ΨBK=L " if attr.startswith('__'): continue"
+ΨBL=L else :
+ΨBM== torch .
+ΨBN=. effects
+ΨBO=L if self .
+ΨBP=time . time (
+ΨBQ=. startswith (
+ΨBR=PartialDiv < B
+ΨBS=fill individual_menu_level__1
+ΨBT== scorecard . get (
+ΨBU=, < U3 as Unsigned
+ΨBV=< U3 as Unsigned >
+ΨBW=U3 as Unsigned > :
+ΨBX=_log = _GameLogger
+ΨBY=L self . game_type
+ΨBZ=self . game_type =
+ΨCA=. action_counts [ action_id
+ΨCB=action_counts [ action_id ]
+ΨCC=s . _level_action_count = =
+ΨCD=. _level_action_count = = :
+ΨCE=U1 = UInt <
+ΨCF=Same < U1 >
+ΨCG=) , < U1 as
+ΨCH=. action_scores
+ΨCI=. _bfs_pre_solutions
+ΨCJ=type N8 = NInt<UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B0>>;
+ΨCK=type P8 = PInt<UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B0>>;
+ΨCL=L " ai = ActionInput(id=GameAction.from_id(act_id), data=data) if data else ActionInput(id=GameAction.from_id(act_id))"
+ΨCM=. game_type =
+ΨCN=as Same < P2
+ΨCO=, raw = True
+ΨCP=raw = True )
+ΨCQ=type N2 = NInt
+ΨCR=as Same < N2 >
+ΨCS=return , { x :
+ΨCT=Sub < B >
+ΨCU=N1 = NInt <
+ΨCV=Same < N1 >
+ΨCW=) , < N1 as
+ΨCX=return GameAction
+ΨCY=type N3 = NInt <
+ΨCZ=N3 = NInt < UInt
+ΨDA=ActionInput ( id
+ΨDB=copy . deepcopy ( game
+ΨDC=L " for prev_lvl in range(new_level):"
+ΨDD=Dict [ str ,
+ΨDE== np . array
+ΨDF=_GameLogger ( game_id
+ΨDG=L return GameAction .
+ΨDH=CheckDepInfo : { dep_info
+ΨDI=] , declared_features : [
+ΨDJ=: release / . fingerprint
+ΨDK=release / . fingerprint /
+ΨDL=ents = extract_entities (
+ΨDM=, < U4 as Unsigned
+ΨDN=< U4 as Unsigned >
+ΨDO=U4 as Unsigned > :
+ΨDP=. _log . warning (
+ΨDQ=L return , { x
+ΨDR=Div < B >
+ΨDS=Rem < B >
+ΨDT=f . read (
+ΨDU=< A as Pow
+ΨDV=A as Pow <
+ΨDW=as Pow < B
+ΨDX=self . target_colors
+ΨDY=: : Greater )
+ΨDZ=< div class = usa
+ΨEA=div class = usa -
+ΨEB== struct . unpack
+ΨEC=- item no_menu_link_imaged >
+ΨED=GameAction . from_id ( act_id
+ΨEE=: . glyphmatics
+ΨEF=s . _prev_frame
+ΨEG=type U2 = UInt <
+ΨEH=U2 = UInt < UInt
+ΨEI=< U2 as Unsigned
+ΨEJ=U2 as Unsigned >
+ΨEK=act_id , data in
+ΨEL=type P3 = PInt
+ΨEM=as Same < P3 >
+ΨEN=type P4 = PInt
+ΨEO=as Same < P4 >
+ΨEP=not isinstance
+ΨEQ=< _0 > >
+ΨER=_0 > > :
+ΨES=) , < _0
+ΨET=in enumerate
+ΨEU=, < U5 as Unsigned
+ΨEV=< U5 as Unsigned >
+ΨEW=U5 as Unsigned > :
+ΨEX=_log . warning ( f
+ΨEY=s . _prev_action_id
+ΨEZ=if s . _level_action_count
+ΨFA=astype ( np . float32
+ΨFB=in self .
+ΨFC=in range ( , ,
+ΨFD== nn . Conv2d (
+ΨFE=eff . n_observations
+ΨFF=s . _level_action_count =
+ΨFG=L ents = extract_entities
+ΨFH=candidate in input_root .
+ΨFI=L last_mechanic_positions
+ΨFJ=L " g.perform_action(ai, raw=True)"
+ΨFK=type N4 = NInt <
+ΨFL=N4 = NInt < UInt
+ΨFM=. lower ( )
+ΨFN=self . _log . info
+ΨFO=type U6 = UInt<UInt<UInt<UTerm, B1>, B1>, B0>;
+ΨFP=type U7 = UInt<UInt<UInt<UTerm, B1>, B1>, B1>;
+ΨFQ=local : [ { CheckDepInfo
+ΨFR=encoding = utf
+ΨFS=( json . dumps
+ΨFT=< P5 as Integer
+ΨFU=P5 as Integer >
+ΨFV=L return None ,
+ΨFW=L self . _log .
+ΨFX=glyphmatics /
+ΨFY=dict [ str , Any
+ΨFZ=. _world_model .
+ΨGA=, declared_features :
+ΨGB=player2 , targets2 , walls2
+ΨGC=kaggle /
+ΨGD=L " self._log.info("
+ΨGE=L return None , None
+ΨGF=if __name__ == "__main__":
+ΨGG=( self .
+ΨGH=type B = Z0
+ΨGI=infer_player_and_goal (
+ΨGJ=L " for act_id, data in prev_sol:"
+ΨGK=is None :
+ΨGL=self . _log .
+ΨGM=action_counts [ action_id
+ΨGN=. _level_action_count = =
+ΨGO=_level_action_count = = :
+ΨGP=self . state_fields
+ΨGQ=in available_ids
+ΨGR=type U0 =
+ΨGS=Same < U0
+ΨGT=, < U0 as
+ΨGU=, < N5 as Integer
+ΨGV=< N5 as Integer >
+ΨGW=N5 as Integer > :
+ΨGX=if __name__ = = __main__
+ΨGY=self . scroll_indicators
+ΨGZ=as PartialDiv
+ΨHA=. read ( )
+ΨHB=struct . unpack
+ΨHC=< N3 as Integer
+ΨHD=N3 as Integer >
+ΨHE=id = GameAction
+ΨHF=ai , raw = True
+ΨHG=GameAction . from_id
+ΨHH=raw , avail_ids , step
+ΨHI=from typing import
+ΨHJ=. add_argument (
+ΨHK=L " g = copy.deepcopy(game)"
+ΨHL=if self .
+ΨHM=. items ( ) :
+ΨHN=Same < N2 > >
+ΨHO=N2 as Integer
+ΨHP=[ action_id ]
+ΨHQ=np . float32 )
+ΨHR== GameAction .
+ΨHS=/ bin / env python3
+ΨHT=] , declared_features :
+ΨHU=, declared_features : [
+ΨHV=release / . fingerprint
+ΨHW=ents = extract_entities
+ΨHX=individual_menu_level__1 >
+ΨHY=- item no_menu_link_imaged
+ΨHZ=item no_menu_link_imaged >
+ΨIA=custom / usdoj_uswds / images
+ΨIB=L continue
+ΨIC=L " f = np.array(r.frame[-1])"
+ΨID=L return [ ]
+ΨIE=. is_dir ( ) :
+ΨIF=L row [ column
+ΨIG=row [ column ]
+ΨIH=self . game_type
+ΨII={ rustc : , features
+ΨIJ=rustc : , features :
+ΨIK=, target : , profile
+ΨIL=target : , profile :
+ΨIM=: , compile_kind : }
+ΨIN=g . perform_action (
+ΨIO=L self . target_colors =
+ΨIP=L s . _bfs_pre_solutions
+ΨIQ=L " return 6, {'x': x, 'y': y}"
+ΨIR=L " last_r = game.perform_action("
+ΨIS=, dtype =
+ΨIT=_log . info
+ΨIU== scorecard . get
+ΨIV=scorecard . get (
+ΨIW=in avail_ids
+ΨIX=< N4 as Integer
+ΨIY=N4 as Integer >
+ΨIZ=raw , avail_ids
+ΨJA=self . action_hints
+ΨJB=L return GameAction
+ΨJC=str , Any
+ΨJD=Same < P3 > >
+ΨJE=P3 as Integer
+ΨJF=Same < P4 > >
+ΨJG=P4 as Integer
+ΨJH=P2 = PInt <
+ΨJI=Same < P2 >
+ΨJJ=) , < P2 as
+ΨJK=__name__ = = __main__ :
+ΨJL=. glyphmatics / locks /
+ΨJM=. _level_action_count =
+ΨJN=candidate in input_root
+ΨJO=in input_root . rglob (
+ΨJP=self . action_scores [ action_id
+ΨJQ=L " final_scorecard[\"source_url\"] = final_scorecard.get(\"source_url\", SOURCE_URL)"
+ΨJR=type U3 = UInt <
+ΨJS=U3 = UInt < UInt
+ΨJT=< U3 as Unsigned
+ΨJU=U3 as Unsigned >
+ΨJV=. is_dir ( )
+ΨJW=dtype = np .
+ΨJX=eJxVkFtywzAIAC - khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ
+ΨJY=return None , None
+ΨJZ=. _prev_action_id
+ΨKA=raw , avail_ids ,
+ΨKB=print ( json . dumps
+ΨKC=. add_argument ( - -
+ΨKD=submission . parquet
+ΨKE=usa - nav__submenu - item
+ΨKF=write_text ( json . dumps
+ΨKG=parents = True , exist_ok
+ΨKH=L last_mechanic_positions = [
+ΨKI== True )
+ΨKJ=type P5 = PInt
+ΨKK=as Same < P5 >
+ΨKL=L "def find_game_source_and_class(game_id, arc_env=None):"
+ΨKM=: { dep_info : release
+ΨKN={ dep_info : release /
+ΨKO=dep_info : release / .
+ΨKP=perform_action ( ActionInput ( id
+ΨKQ=_visited_hashes . add ( curr_hash
+ΨKR=< U1 > > :
+ΨKS=U1 > > : :
+ΨKT=( ) , < U1
+ΨKU=/ custom / usdoj_uswds /
+ΨKV=/ kaggle
+ΨKW=enumerate (
+ΨKX=type U4 = UInt <
+ΨKY=U4 = UInt < UInt
+ΨKZ=< U4 as Unsigned
+ΨLA=U4 as Unsigned >
+ΨLB=type N5 = NInt <
+ΨLC=N5 = NInt < UInt
+ΨLD=. _log . warning
+ΨLE=_log . warning (
+ΨLF=L " \"\"\"Record one transition and update action scores.\"\"\""
+ΨLG=L "# This replaces BFS with direct goal inference: once we know"
+ΨLH=< N1 > > :
+ΨLI=N1 > > : :
+ΨLJ=( ) , < N1
+ΨLK=L "if not os.getenv('KAGGLE_IS_COMPETITION_RERUN'):"
+ΨLL=, dtype = np
+ΨLM=A as Add
+ΨLN=as Add <
+ΨLO=A as Mul
+ΨLP=as Mul <
+ΨLQ=A as Min
+ΨLR=as Min <
+ΨLS=A as Max
+ΨLT=as Max <
+ΨLU=A as Gcd
+ΨLV=as Gcd <
+ΨLW=A as Cmp
+ΨLX=as Cmp <
+ΨLY== < A as
+ΨLZ=as Ord >
+ΨMA=( game_id
+ΨMB=L return str (
+ΨMC=self . _dir_cycle
+ΨMD=, encoding = utf -
+ΨME=L " s._stuck_count = 0"
+ΨMF=_level_action_count = =
+ΨMG=L " input_root = Path(\"/kaggle/input\")"
+ΨMH=np . array
+ΨMI=not in self .
+ΨMJ=L s . _bfs_solution =
+ΨMK=L "# Brute-force BFS explores cheaply but executes wastefully."
+ΨML=L "# For games where entity centroids don't move (SK48-style):"
+ΨMM=L "# - action_semantics: what each action method body suggests"
+ΨMN=L " def best_action_for_level(self, game_instance, level_idx):"
+ΨMO=L "# Trained online using rewards shaped by WorldModel priors."
+ΨMP=/ working /
+ΨMQ=in range ( ,
+ΨMR=) : continue
+ΨMS=type U5 = UInt <
+ΨMT=U5 = UInt < UInt
+ΨMU=< U5 as Unsigned
+ΨMV=U5 as Unsigned >
+ΨMW=, declared_features
+ΨMX=declared_features :
+ΨMY=. deepcopy ( game )
+ΨMZ=L " submission_df.to_parquet(\"/kaggle/working/submission.parquet\", index=False)"
+ΨNA=append ( (
+ΨNB=div class = usa
+ΨNC=nn . Conv2d ( ,
+ΨND=L "RECORDINGS_DIR=/kaggle/working/server_recording"
+ΨNE=type N3 = NInt
+ΨNF=as Same < N3 >
+ΨNG=self . target_colors =
+ΨNH=L g . perform_action (
+ΨNI=L " candidates.append((gx, gy))"
+ΨNJ=. perform_action ( ActionInput (
+ΨNK=. float32 )
+ΨNL=item no_menu_link_imaged
+ΨNM=from pathlib import Path
+ΨNN=L " cls_name = gid[0].upper() + gid[1:] if gid else 'Unknown'"
+ΨNO=L " def _on_level_change(s, new_level, frame, available_ids):"
+ΨNP=L " elif \"json\" in lowered or \"opaque\" in lowered or \"payload\" in lowered:"
+ΨNQ=- khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ >
+ΨNR=khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ > <
+ΨNS=. deepcopy (
+ΨNT=( environment_info
+ΨNU=. n_observations =
+ΨNV=, game_id = None )
+ΨNW=game_id = None ) :
+ΨNX=L s . _stuck_count
+ΨNY=- khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ
+ΨNZ=khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ >
+ΨOA=, ensure_ascii =
+ΨOB== None ) :
+ΨOC=type U2 = UInt
+ΨOD=as Same < U2 >
+ΨOE=U2 as Unsigned
+ΨOF=L if hasattr (
+ΨOG=. _wm . effects
+ΨOH=< div class = tablet
+ΨOI=div class = tablet -
+ΨOJ=super ( ) . __init__
+ΨOK=: . glyphmatics / locks
+ΨOL=L " \"steps_executed\": len([row for row in step_rows if row.get(\"action\")]),"
+ΨOM=) - > None :
+ΨON=. startswith
+ΨOO=startswith (
+ΨOP=best_score =
+ΨOQ=PartialDiv <
+ΨOR=nn . Conv2d (
+ΨOS=def __init__ ( self )
+ΨOT=] , declared_features
+ΨOU=declared_features : [
+ΨOV=. glyphmatics / locks
+ΨOW=L " m_up = np.zeros_like(mask1); m_up[:-1, :] = mask1[1:, :]"
+ΨOX=L " def observe(self, action_id, frame_before, frame_after):"
+ΨOY=L " Generates a short, maximally-informative probe sequence."
+ΨOZ=L " Heuristic = manhattan distance to goal entity's position"
+ΨPA=L " def __init__(self, game_cls, source_path, game_id=None):"
+ΨPB=khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2 - I_DOmMrn_AOw3S_kwO687lqYpptz7PZrPx2UQ3p8ouXQjWdk7ksTBLWstTguWGIVXgqLMcv0cHXqdlhK30DSmuDaQ
+ΨPC=L return [
+ΨPD=( self )
+ΨPE=Pow < B >
+ΨPF=self . goal_field
+ΨPG=L " return None, None"
+ΨPH=L self . target_colors
+ΨPI=self . action_counts [
+ΨPJ=L if attr . startswith
+ΨPK=if attr . startswith (
+ΨPL=L " self.game_type = 'unknown'"
+ΨPM=as Same < N2
+ΨPN=return , { x
+ΨPO=type N4 = NInt
+ΨPP=as Same < N4 >
+ΨPQ=L for act_id ,
+ΨPR=L " s.opt = optim.Adam(s.net.parameters(), lr=0.0003)"
+ΨPS=L " print(\"Non-competition mode: wrote dummy submission.parquet\")"
+ΨPT=. _prev_frame
+ΨPU=return None ,
+ΨPV== _GameLogger (
+ΨPW=id = GameAction . from_id
+ΨPX=L " last_player_pos = None"
+ΨPY=L " last_state_dict = None"
+ΨPZ=L last_mechanic_positions =
+ΨQA=last_mechanic_positions = [
+ΨQB=L " if hit is not None and hit not in found:"
+ΨQC=L " def _state_hash(self, g, frame, transient_fields=None):"
+ΨQD=L "# Given a loaded game class, reads the win condition by:"
+ΨQE=. game_type
+ΨQF== GameAction . from_id (
+ΨQG=L return , {
+ΨQH=s . _visited_hashes
+ΨQI=g = copy . deepcopy
+ΨQJ=L " # Write a trimmed __init__.py that only imports HeuristicAgent"
+ΨQK=, None )
+ΨQL=time . time
+ΨQM=self . _queue
+ΨQN== nn . Conv2d
+ΨQO=_world_model .
+ΨQP=bin / env python3
+ΨQQ=__name__ = = __main__
+ΨQR=glyphmatics / locks /
+ΨQS=[ step_in_level len (
+ΨQT=_level_action_count =
+ΨQU=in input_root . rglob
+ΨQV=L " if not r.frame: continue"
+ΨQW=extract_entities ( frame , bg
+ΨQX=. action_scores [ action_id ]
+ΨQY=L " return moves[self._dir_cycle % len(moves)], None"
+ΨQZ=L " def debug(self, msg): self._base.debug(self._fmt(msg))"
+ΨRA=L " def error(self, msg): self._base.error(self._fmt(msg))"
+ΨRB=L " Complements WorldModel when movers=[] for all actions."
+ΨRC=L " # Last resort: walk /kaggle/input looking for the file"
+ΨRD=L "# 1. Extracting the full source of the win/check method"
+ΨRE=L "# to identify which field must reach which value to win"
+ΨRF=L " # --- BFS pre-solver + source analyser (init-time) ---"
+ΨRG=L " sel = logits.gather(1, acts_c.unsqueeze(1)).squeeze(1)"
+ΨRH=L " cl = (logits[5:5 + 4096].clone() if logits.size(0) > 5"
+ΨRI=L " if sm < 1e-8: allp = torch.ones_like(allp) / len(allp)"
+ΨRJ=L " raise ValueError(f\"Unsupported runtime action: {action_str}\") from exc"
+ΨRK=L " final_scorecard[\"card_id\"] = final_scorecard.get(\"card_id\", card_id)"
+ΨRL=< N5 as Integer
+ΨRM=N5 as Integer >
+ΨRN=raise SystemExit (
+ΨRO=rustc : , features
+ΨRP=target : , profile
+ΨRQ=: , compile_kind :
+ΨRR=, compile_kind : }
+ΨRS=, profile : , path
+ΨRT=profile : , path :
+ΨRU== , ensure_ascii =
+ΨRV=g . perform_action
+ΨRW== getattr
+ΨRX=np . float32
+ΨRY=as Same < P3
+ΨRZ=as Same < P4
+ΨSA=game_type =
+ΨSB=L " print(\"Using bundled local environments:\", BUNDLED_ENVIRONMENTS_ROOT)"
+ΨSC=/ custom / usdoj_uswds
+ΨSD=custom / usdoj_uswds /
+ΨSE=from __future__ import
+ΨSF=. perform_action ( ActionInput
+ΨSG=perform_action ( ActionInput (
+ΨSH=, get_sprites_by_name , None )
+ΨSI=L " raise FileNotFoundError(f\"stem {stem!r} not found in {[str(d) for d in ENV_DIRS]}\")"
+ΨSJ=. items (
+ΨSK=items ( )
+ΨSL=Same < P5 > >
+ΨSM=P5 as Integer
+ΨSN=L " def _perform_and_drain(self, game, ai, max_drain=50):"
+ΨSO=L " transient = set(k for k, cnt in changed_count.items()"
+ΨSP=L " pq = [(hfn(f0), 0, counter, [], copy.deepcopy(game))]"
+ΨSQ=L " Returns (action_id, estimated_steps) or (None, None)."
+ΨSR=L " s._bfs_solution = s._bfs_pre_solutions.get(new_level)"
+ΨSS=L " oh.scatter_(0, torch.from_numpy(raw).unsqueeze(0), 1)"
+ΨST=L " valid = sorted([a for a in avail_ids if 1 <= a <= 5])"
+ΨSU=A as Sub
+ΨSV=as Sub <
+ΨSW=L " moves = [a for a in avail if a in [1, 2, 3, 4]]"
+ΨSX=game_id )
+ΨSY=: str ) - >
+ΨSZ=, , , padding =
+ΨTA=, , padding = )
+ΨTB=self . best_score
+ΨTC=class = tablet - lg
+ΨTD=. startswith ( __ )
+ΨTE== usa - nav__submenu
+ΨTF={ dep_info : release
+ΨTG=dep_info : release /
+ΨTH=: [ { CheckDepInfo :
+ΨTI=[ { CheckDepInfo : {
+ΨTJ=, checksum : false }
+ΨTK=checksum : false } }
+ΨTL=self . player_colors
+ΨTM=L " \"game_id\": game_id,"
+ΨTN=read_text ( encoding = utf
+ΨTO=L " # Multiple accepted ARC competition submission examples use this exact"
+ΨTP=for _ in range (
+ΨTQ=L " def __init__(self):"
+ΨTR=A as Div
+ΨTS=as Div <
+ΨTT=A as Rem
+ΨTU=as Rem <
+ΨTV=str , Any ] ]
+ΨTW=. frame [ - ]
+ΨTX=. add_argument ( -
+ΨTY=add_argument ( - -
+ΨTZ=L if in available_ids
+ΨUA=L self . best_score =
+ΨUB=self . state_fields :
+ΨUC=L " def _fmt(self, msg): return f\"[{self._gid}] {msg}\""
+ΨUD=L " def info(self, msg): self._base.info(self._fmt(msg))"
+ΨUE=L "# - which entity colours move, and in which direction"
+ΨUF=L " Lightweight causal model: action_id -> ActionEffect."
+ΨUG=L " player, goal = self.infer_player_and_goal(frame, bg)"
+ΨUH=L " # --- Systematic cycle through all valid actions ---"
+ΨUI=L "# 1. Observe all (action, before, after) transitions."
+ΨUJ=L "# Goal: build a rich WorldModel with minimum actions."
+ΨUK=L " self._build_probe_sequence(available_ids, frame, bg)"
+ΨUL=L " if transient_fields: ignore.update(transient_fields)"
+ΨUM=L " for act_id, data in actions[:min(12, len(actions))]:"
+ΨUN=L " dirs[:] = [d for d in dirs if not d.startswith('.')]"
+ΨUO=L " self._log.warning(f\"GoalReader probe failed: {e}\")"
+ΨUP=L " # (handles games that don't use get_sprites_by_name)"
+ΨUQ=L " Build an action sequence to reach the win condition."
+ΨUR=L " 2. FDM exploitation (strong signal: 80% best action)"
+ΨUS=: : Greater
+ΨUT=: Greater )
+ΨUU=. add_argument
+ΨUV=add_argument (
+ΨUW=. Conv2d ( , ,
+ΨUX=dtype = torch . float32
+ΨUY=dict [ str ,
+ΨUZ=L "# Non-rerun mode: produce a dummy submission so the notebook"
+ΨVA=not None :
+ΨVB=raw = True
+ΨVC== time . time (
+ΨVD=L last_action =
+ΨVE=scorecard . get
+ΨVF=Same < N3 > >
+ΨVG=N3 as Integer
+ΨVH=ActionInput (
+ΨVI=frame [ - ] )
+ΨVJ=s . _bfs_solution
+ΨVK== usa - nav__submenu -
+ΨVL=mkdir ( parents = True
+ΨVM=True , exist_ok = True
+ΨVN=L " for t in assign.targets:"
+ΨVO=action_counts [ action_id ] =
+ΨVP=shaped by WorldModel priors .
+ΨVQ=prev_lvl in range ( new_level
+ΨVR=type U8 = UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B0>;
+ΨVS=L " # (background + dominant fill), sum everything else"
+ΨVT=L " vals, counts = np.unique(frame, return_counts=True)"
+ΨVU=L "# using beam search over predicted entity positions."
+ΨVV=L " self._log = _GameLogger(game_id or game_class_name)"
+ΨVW=L " self._log.warning(f\"GoalReader init failed: {e}\")"
+ΨVX=L " # World-model guided reward: are we closer to goal?"
+ΨVY=L " \"completion_blockers\": local_context.get(\"completion_blockers\"),"
+ΨVZ=- - - - CELL
+ΨWA=if hasattr (
+ΨWB=L for act_id
+ΨWC=L s . _bfs_solution
+ΨWD=s . _bfs_solution =
+ΨWE=L " def __init__(self, cls=None):"
+ΨWF=L " with open(f'{WORKING_COPY}/agents/__init__.py', 'w') as f:"
+ΨWG=< P2 > > :
+ΨWH=P2 > > : :
+ΨWI=( ) , < P2
+ΨWJ=L return ,
+ΨWK=self . action_counts
+ΨWL=L g . perform_action
+ΨWM=input_root . rglob (
+ΨWN=import numpy as np
+ΨWO=L " \"position_delta\": report.delta.to_dict().get(\"position_delta\"),"
+ΨWP=L " \"crossed_marker\": report.delta.to_dict().get(\"crossed_marker\"),"
+ΨWQ=Dict [ str
+ΨWR=Same < U2 > >
+ΨWS=s . _log . info
+ΨWT=raise FileNotFoundError (
+ΨWU=. infer_player_and_goal (
+ΨWV=last_mechanic_positions =
+ΨWW=] = final_scorecard . get
+ΨWX== final_scorecard . get (
+ΨWY=working / submission . parquet
+ΨWZ=L " self._gid = str(game_id) if game_id else 'unknown'"
+ΨXA=L " dilated = mask1 | m_up | m_down | m_left | m_right"
+ΨXB=L " if action_id == 6 and data and changed_pixels > 0:"
+ΨXC=L " # Player = entity whose colors match a known mover"
+ΨXD=L " def _detect_transient_fields(self, game, actions):"
+ΨXE=L " _, g_score, _, hist, node_game = heapq.heappop(pq)"
+ΨXF=L " for root, dirs, files in os.walk('/kaggle/input'):"
+ΨXG=L "# This is static analysis only — no game execution."
+ΨXH=L " signal_strength = best_fdm_score - worst_fdm_score"
+ΨXI=L " probe_aid, probe_data = s._should_probe(avail_ids)"
+ΨXJ=L " unclicked = [(int(t[1]), int(t[0])) for t in targets if (int(t[1]), int(t[0])) not in self._clicked]"
+ΨXK=/ usdoj_uswds / images /
+ΨXL=type P9 = PInt<UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B1>>;
+ΨXM=L " # Write a .env that routes everything through the gateway"
+ΨXN=< span class =
+ΨXO=type U3 = UInt
+ΨXP=as Same < U3 >
+ΨXQ=U3 as Unsigned
+ΨXR=, encoding = utf
+ΨXS=for aid , eff in
+ΨXT=} ] , rustflags :
+ΨXU=] , rustflags : [
+ΨXV=, rustflags : [ ]
+ΨXW=rustflags : [ ] ,
+ΨXX=. deepcopy ( game
+ΨXY=deepcopy ( game )
+ΨXZ=. action_scores [ action_id
+ΨYA=action_scores [ action_id ]
+ΨYB=os . getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨYC=L " matches = glob.glob(pattern, recursive=True)"
+ΨYD=L " if str(getattr(mode, \"value\", mode)).lower() == \"competition\":"
+ΨYE=L " final_scorecard = _scorecard_to_dict(arc.close_scorecard(card_id))"
+ΨYF=L " total_levels_completed = scorecard.get(\"total_levels_completed\")"
+ΨYG=L " act, data = s._fallback_rand.choose(raw, avail_ids, step, None, [], np.zeros((64, 64), dtype=bool))"
+ΨYH=L " '''True when *d* contains <stem>/<version>/metadata.json (game-stem layout).'''"
+ΨYI=return str (
+ΨYJ== GameAction
+ΨYK=- - - CELL -
+ΨYL=- - CELL - -
+ΨYM=- CELL - - -
+ΨYN=CELL - - - -
+ΨYO=Same < N4 > >
+ΨYP=N4 as Integer
+ΨYQ=glyphmatics / locks
+ΨYR=L " return int(np.bincount(frame.flatten()).argmax())"
+ΨYS=L " After probing, hands control to EfficientPlanner."
+ΨYT=L " aid: eff for aid, eff in self._wm.effects.items()"
+ΨYU=L " initial = {k: v for k, v in game.__dict__.items()"
+ΨYV=L " f\"win_fields={list(set(self.win_fields))[:8]} \""
+ΨYW=L " gsbn = getattr(game, 'get_sprites_by_name', None)"
+ΨYX=L " oh = torch.zeros(16, 64, 64, dtype=torch.float32)"
+ΨYY=L " positive = [a for sc, a in dir_scored if sc >= 0]"
+ΨYZ=L " def _do_observe(s, raw, curr_hash, act_id, data):"
+ΨZA== GameAction . from_id
+ΨZB=perform_action ( ActionInput
+ΨZC=source_path , game_id = None
+ΨZD=, get_sprites_by_name , None
+ΨZE=get_sprites_by_name , None )
+ΨZF=_world_model . effects . get
+ΨZG=submission . parquet , index
+ΨZH=not None
+ΨZI=div class = tablet
+ΨZJ=, avail_ids , step
+ΨZK=. n_observations = =
+ΨZL=_perform_and_drain (
+ΨZM=if attr . startswith
+ΨZN=L s . _stuck_count =
+ΨZO=L " for candidate in input_root.rglob(\"sample_submission.parquet\"):"
+ΨZP=< U0 > >
+ΨZQ=U0 > > :
+ΨZR=) , < U0
+ΨZS=type U4 = UInt
+ΨZT=as Same < U4 >
+ΨZU=U4 as Unsigned
+ΨZV=type N5 = NInt
+ΨZW=as Same < N5 >
+ΨZX=_log . warning
+ΨZY=L " mod = importlib.util.module_from_spec(spec)"
+ΨZZ=L " break"
+ΨAA=is_dir ( ) :
+ΨAB=row [ column
+ΨAC=[ column ] =
+ΨAD=n_observations =
+ΨAE=, game_id = None
+ΨAF=game_id = None )
+ΨAG=s . _stuck_count
+ΨAH=. getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨAI=getenv ( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨAJ=L " WORKING_COPY = '/kaggle/working/arc-agi-3-just-explore'"
+ΨAK=L if self
+ΨAL=. warning ( f
+ΨAM=) . hexdigest ( )
+ΨAN=no_menu_link_imaged >
+ΨAO=- nav__submenu - item
+ΨAP=. write_text ( json .
+ΨAQ=kaggle / working / submission
+ΨAR=L "# FORGE v30 — World Model + Efficient Exploration"
+ΨAS=L "# Core philosophy aligned with ARC-AGI-3 scoring:"
+ΨAT=L " colors = frozenset(o['c'] for o in current_comp)"
+ΨAU=L " ents_before = extract_entities(frame_before, bg)"
+ΨAV=L " return useful[step_in_level % len(useful)], None"
+ΨAW=L " dist = abs(px - goal['x']) + abs(py - goal['y'])"
+ΨAX=L " if np.array_equal(curr_frame, prev_frame): break"
+ΨAY=L " actions = self._scan_actions(game, f0, bg_cache)"
+ΨAZ=L "# fields changed — these are the \"state fields\""
+ΨBA=L " sprite_names = getattr(self, 'sprite_names', [])"
+ΨBB=L " gsbn = getattr(obj, 'get_sprites_by_name', None)"
+ΨBC=L " # --- Level-specific state (reset per level) ---"
+ΨBD=L " # If no GoalReader plan and no BFS, try live BFS"
+ΨBE=L " Secondary signal: novelty (visiting new states)."
+ΨBF=L " player, goal = wm.infer_player_and_goal(raw, bg)"
+ΨBG=L " if bool(getattr(obs, \"full_reset\", False)) and step_index > 0:"
+ΨBH=type U1 =
+ΨBI=U1 = UInt
+ΨBJ=Same < U1
+ΨBK=, < U1 as
+ΨBL=in lowered
+ΨBM=. astype ( np .
+ΨBN=. read_text ( encoding =
+ΨBO=. warning ( f GoalReader
+ΨBP=act_id , data in actions
+ΨBQ=L last_player_pos = None
+ΨBR=L last_state_dict = None
+ΨBS=moves [ self . _dir_cycle
+ΨBT=L "%%writefile /kaggle/working/my_agent.py"
+ΨBU=L "!pip install --no-index --find-links \\"
+ΨBV=: return
+ΨBW=. _log .
+ΨBX=items ( ) :
+ΨBY=N2 = NInt <
+ΨBZ=Same < N2 >
+ΨCA=) , < N2 as
+ΨCB=[ action_id
+ΨCC=action_id ]
+ΨCD=type U5 = UInt
+ΨCE=as Same < U5 >
+ΨCF=U5 as Unsigned
+ΨCG=[ step_in_level len
+ΨCH=step_in_level len (
+ΨCI=. scroll_indicators
+ΨCJ=. effects . items (
+ΨCK=effects . items ( )
+ΨCL=L last_player_pos =
+ΨCM=L last_state_dict =
+ΨCN=if isinstance ( goal_val ,
+ΨCO=extract_entities ( frame ,
+ΨCP=s . _world_model . effects
+ΨCQ=. _world_model . effects .
+ΨCR=L " env = arc.make(game_id, scorecard_id=card_id, render_mode=None)"
+ΨCS=L " final_scorecard[\"tags\"] = final_scorecard.get(\"tags\", tags)"
+ΨCT=tablet - lg : grid
+ΨCU=_build_minimal_submission_rows ( )
+ΨCV=type N1 =
+ΨCW=N1 = NInt
+ΨCX=Same < N1
+ΨCY=, < N1 as
+ΨCZ=L " Record one (action, before, after) observation."
+ΨDA=L " pos = positions[step_in_level % len(positions)]"
+ΨDB=L " - Unique colour count as weak secondary signal."
+ΨDC=L " Only reset the frame-specific best state.\"\"\""
+ΨDD=L " def build_plan(self, frame, bg, available_ids):"
+ΨDE=L " _, g, _, path, px, py = heapq.heappop(frontier)"
+ΨDF=L " # Competition dataset path (poonszesen dataset)"
+ΨDG=L " # Find action with delta in the right direction"
+ΨDH=L " f\"(current={current_val} target={goal_val})\")"
+ΨDI=L " s.al = [GameAction.ACTION1, GameAction.ACTION2,"
+ΨDJ=L " changed = int(np.sum(prev_raw != curr_raw)) > 0"
+ΨDK=self ) :
+ΨDL=custom / usdoj_uswds
+ΨDM=L "arc = Arcade(environments_dir=env_dir, operation_mode=OperationMode.OFFLINE)"
+ΨDN=( np . float32 )
+ΨDO=self . win_comparisons
+ΨDP=L " if score < best_score:"
+ΨDQ=L " if 6 in available_ids:"
+ΨDR=L " self.best_score = -1.0"
+ΨDS=L " self._wm = world_model"
+ΨDT=self . _perform_and_drain (
+ΨDU=current = getattr ( current
+ΨDV=shaped by WorldModel priors
+ΨDW=return GameAction . ACTION1
+ΨDX=L raise FileNotFoundError (
+ΨDY== None )
+ΨDZ=. array (
+ΨEA=frame [ - ]
+ΨEB=} } ] , rustflags
+ΨEC=. _visited_hashes
+ΨED=L " if str(getattr(mode, \"value\", mode)).lower() == \"offline\":"
+ΨEE=L " card_id = arc.open_scorecard(source_url=SOURCE_URL, tags=tags)"
+ΨEF=L " submission_df = pd.DataFrame([row], columns=sample_df.columns)"
+ΨEG=as Same < P5
+ΨEH=self . _plan
+ΨEI=s . _bfs .
+ΨEJ=. unsqueeze ( )
+ΨEK=. target_colors
+ΨEL=, ensure_ascii
+ΨEM=ensure_ascii =
+ΨEN=L " act = moves[self._dir_cycle % len(moves)]"
+ΨEO=find_game_source_and_class ( game_id , arc_env
+ΨEP=self . _log . warning
+ΨEQ=L "# - whether the action causes any change at all"
+ΨER=L " ents_after = extract_entities(frame_after, bg)"
+ΨES=L " return valid[step_in_level % len(valid)], None"
+ΨET=L " per level but action semantics stay the same)."
+ΨEU=L " score_before = self._frame_score(frame_before)"
+ΨEV=L " if k.startswith('__') or k in ignore: continue"
+ΨEW=L " actions = [(a, None) for a in avail if a <= 5]"
+ΨEX=L " if time.time() - t0 > self.scan_timeout: break"
+ΨEY=L " if not last_r or not last_r.frame: return None"
+ΨEZ=L " # Try to get path from arc_env object directly"
+ΨFA=L "# has access to during competition) and infers:"
+ΨFB=L " def __init__(self, source_path, game_id=None):"
+ΨFC=L " elif 'move' in str(self.action_hints).lower():"
+ΨFD=L " s._world_model = WorldModel(game_id=s.game_id)"
+ΨFE=L " r -= 0.3 # penalise stuck actions more heavily"
+ΨFF=L " logits = s.net(tensor.unsqueeze(0)).squeeze(0)"
+ΨFG=L " target_arr = getattr(g, si.target_field, None)"
+ΨFH=L " # Strong signal: 80% exploit best, 20% explore"
+ΨFI=L " pos = unique_clicks[step % len(unique_clicks)]"
+ΨFJ=P3 = PInt <
+ΨFK=Same < P3 >
+ΨFL=) , < P3 as
+ΨFM=P4 = PInt <
+ΨFN=Same < P4 >
+ΨFO=) , < P4 as
+ΨFP=L " report = runtime.observe_outcome(action_str, next_state_dict)"
+ΨFQ=return [ ]
+ΨFR=L " '''Return every environment_files directory found under /kaggle/input.'''"
+ΨFS=L " \"https://www.kaggle.com/datasets/poonszesen/arc-interactive-community \""
+ΨFT=. dumps (
+ΨFU=L return str
+ΨFV=usa - nav__submenu
+ΨFW=raise ValueError (
+ΨFX=dep_info : release
+ΨFY=: [ { CheckDepInfo
+ΨFZ=[ { CheckDepInfo :
+ΨGA={ CheckDepInfo : {
+ΨGB=, checksum : false
+ΨGC=checksum : false }
+ΨGD== s . _world_model
+ΨGE=s . _current_level
+ΨGF=( / kaggle / input
+ΨGG=/ kaggle / input )
+ΨGH=L for candidate in
+ΨGI=self . step ( glyph
+ΨGJ=if in available_ids
+ΨGK=L self . best_score
+ΨGL=self . best_score =
+ΨGM=self . target_field
+ΨGN=attr . startswith (
+ΨGO=L s . _prev_frame =
+ΨGP=L " last_mechanic_positions = []"
+ΨGQ=href = https : /
+ΨGR=raise SystemExit
+ΨGS=: , compile_kind
+ΨGT=, compile_kind :
+ΨGU=compile_kind : }
+ΨGV=profile : , path
+ΨGW== , ensure_ascii
+ΨGX=. getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨGY=getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨGZ=. _dir_cycle len ( moves
+ΨHA=_dir_cycle len ( moves )
+ΨHB=choose ( raw , avail_ids
+ΨHC=. time ( )
+ΨHD=, avail_ids
+ΨHE=range ( , ,
+ΨHF=_wm . effects
+ΨHG=usr / bin / env
+ΨHH=[ action_id ] =
+ΨHI=L if not self .
+ΨHJ=grid - col - fill
+ΨHK=. startswith ( __
+ΨHL=startswith ( __ )
+ΨHM=array ( r . frame
+ΨHN=usa - nav__submenu -
+ΨHO=dtype = np . float32
+ΨHP=player2 , targets2 ,
+ΨHQ=L " last_action = None"
+ΨHR=raise FileNotFoundError
+ΨHS=. infer_player_and_goal
+ΨHT=g . perform_action ( ai
+ΨHU== final_scorecard . get
+ΨHV=final_scorecard . get (
+ΨHW=isinstance ( goal_val , (
+ΨHX=curr_hash , act_id , data
+ΨHY=action_scores [ action_id
+ΨHZ=act_id , data in prev_sol
+ΨIA=L " s.net = ForgeNet(s.IN, s.G).to(s.device)"
+ΨIB=L " mask = (frame == c); npix = int(np.sum(mask))"
+ΨIC=L " self.effects = {} # action_id -> ActionEffect"
+ΨID=L " Reuse all action knowledge for the new level."
+ΨIE=L " Heuristic score for how 'good' a frame looks."
+ΨIF=L " scored = [(self.action_scores.get(a, 0.0), a)"
+ΨIG=L " ActionInput(id=GameAction.ACTION1), raw=True)"
+ΨIH=L " if (data is None and last_dir_act is not None"
+ΨII=L " h = self._state_hash(g2, f, transient_fields)"
+ΨIJ=L " # Some envs expose a module or file attribute"
+ΨIK=L " if self.win_comparisons or self.sprite_names:"
+ΨIL=L " if not isinstance(v, (list, tuple)): continue"
+ΨIM=L " n_steps = 10 # non-numeric: just try 10 times"
+ΨIN=L " s._planner = EfficientPlanner(s._world_model)"
+ΨIO=L " def _cnn_action(s, raw, avail_ids, temp=0.5):"
+ΨIP=L " if lvl is None: lvl = getattr(lf, 'score', 0)"
+ΨIQ=signal_strength = best_fdm_score - worst_fdm_score
+ΨIR=L " for candidate in input_root.rglob(\"*submission*.parquet\"):"
+ΨIS=L "def _build_minimal_submission_rows() -> list[dict[str, Any]]:"
+ΨIT=L " print(\"Using sample submission schema from:\", sample_path)"
+ΨIU=import torch
+ΨIV=. append ( {
+ΨIW=as Same < N3
+ΨIX=( ai , raw =
+ΨIY=/ usdoj_uswds / images
+ΨIZ=usdoj_uswds / images /
+ΨJA=action_id - > ActionEffect
+ΨJB=self . effects [ action_id
+ΨJC=game . perform_action ( ai
+ΨJD=self . game_type = unknown
+ΨJE=get_sprites_by_name , None
+ΨJF=L if isinstance ( goal_val
+ΨJG=L s . _bfs_pre_solutions [
+ΨJH=L " # Copy the just-explore repo to a writable location"
+ΨJI=. lower (
+ΨJJ=lower ( )
+ΨJK=Same < U3 > >
+ΨJL== _GameLogger
+ΨJM=_GameLogger (
+ΨJN=add_argument ( -
+ΨJO=self . solutions
+ΨJP=L " if frame.shape[0] < 2 or frame.shape[1] < 2:"
+ΨJQ=L " Updates the ActionEffect for this action_id."
+ΨJR=L " score_after = self._frame_score(frame_after)"
+ΨJS=L " # Match win comparisons against state fields"
+ΨJT=L " steps = int(abs(remaining / best_delta)) + 1"
+ΨJU=L " s._log.warning(f\"BFS/GSA init error: {e}\")"
+ΨJV=L " # Compare histogram overlap (assembly prior)"
+ΨJW=L " 1. WM entity plan (player+goal+movers known)"
+ΨJX=L " 3. FDM moderate signal (avoid worst actions)"
+ΨJY=L " best_fdm_score, best_fdm_aid = dir_scored[0]"
+ΨJZ=L " s._clicked_positions.add(click_hash(cx, cy))"
+ΨKA=L " r = s._reward(s._prev_frame, raw, curr_hash,"
+ΨKB=L import torch
+ΨKC=self , glyph : str
+ΨKD=GameAction . RESET
+ΨKE=input_root . rglob
+ΨKF=_build_minimal_submission_rows (
+ΨKG=. unpack ( <
+ΨKH=, f . read (
+ΨKI=. read ( ) )
+ΨKJ=read ( ) ) [
+ΨKK=as Same < U2
+ΨKL=for act_id ,
+ΨKM=L if hasattr
+ΨKN=< < A as BitAnd
+ΨKO=< A as BitAnd <
+ΨKP=A as BitAnd < B
+ΨKQ=as BitAnd < B >
+ΨKR=< < A as BitXor
+ΨKS=< A as BitXor <
+ΨKT=A as BitXor < B
+ΨKU=as BitXor < B >
+ΨKV=L self . _log =
+ΨKW=/ themes / custom /
+ΨKX=L " r = g2.perform_action(ai, raw=True)"
+ΨKY=L " '''Return the environment_files path from a dataset mount, or None.'''"
+ΨKZ=A = UTerm
+ΨLA=not in self
+ΨLB=self . goal_value
+ΨLC=list [ dict [ str
+ΨLD=. _bfs_solution =
+ΨLE=L " \"goal_kind\": runtime.guidance.active_goal.get(\"kind\"),"
+ΨLF=. is_dir (
+ΨLG=is_dir ( )
+ΨLH=dtype = np
+ΨLI=: : Less )
+ΨLJ=. from_id ( act_id )
+ΨLK=Same < U4 > >
+ΨLL=Same < N5 > >
+ΨLM=N5 as Integer
+ΨLN=L " return int(np.bincount(perimeter).argmax())"
+ΨLO=L " def infer_player_and_goal(self, frame, bg):"
+ΨLP=L " def transfer_to_level(self, new_level_idx):"
+ΨLQ=L " def best_action(self, available_ids, step):"
+ΨLR=L " if not isinstance(n, ast.Compare): continue"
+ΨLS=L " for field, op, val in self.win_comparisons:"
+ΨLT=L " m = re.match(r'^(\\w+)\\[(\\d+)\\]$', part)"
+ΨLU=L " s._world_model.transfer_to_level(new_level)"
+ΨLV=L " cp = torch.sigmoid(cl / temp) / (s.G * s.G)"
+ΨLW=L " return dir_acts[step % len(dir_acts)], None"
+ΨLX=L " if eff6 is None or eff6.n_observations < 4:"
+ΨLY=L " lvl = getattr(lf, 'levels_completed', None)"
+ΨLZ=L " if si is None or si.game_type == 'unknown':"
+ΨMA=L " s._do_observe(raw, curr_hash, act_id, data)"
+ΨMB=L " f.write(\"\"\"from typing import Type, cast"
+ΨMC=L "AVAILABLE_AGENTS: dict[str, Type[Agent]] = {"
+ΨMD=L " toggle_evidence = any(e.get('toggle') for e in getattr(s._observer, 'click_effs', []))"
+ΨME=len ( self .
+ΨMF=as Same < N4
+ΨMG=( prev_frame
+ΨMH=L "# add all the recording files as valid agent names"
+ΨMI=. read (
+ΨMJ=. effects .
+ΨMK=for _ in range
+ΨML=( self , frame
+ΨMM=. target_field
+ΨMN=[ self . _dir_cycle len
+ΨMO=self . _dir_cycle len (
+ΨMP=if isinstance ( goal_val
+ΨMQ=raw , curr_hash , act_id
+ΨMR=extract_entities ( frame
+ΨMS=. _world_model . effects
+ΨMT=_world_model . effects .
+ΨMU=L " def _scan_actions(self, game, f0, bg):"
+ΨMV=L " for candidate in input_root.rglob(\"environment_files\"):"
+ΨMW={ WORKING_COPY }
+ΨMX=getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨMY=. float32
+ΨMZ=int ( np .
+ΨNA=. _bfs_solution
+ΨNB=, available_ids
+ΨNC=. read_text ( encoding
+ΨND=read_text ( encoding =
+ΨNE=s . _clicked_positions
+ΨNF=warning ( f GoalReader
+ΨNG=last_player_pos = None
+ΨNH=last_state_dict = None
+ΨNI=L " s._prev_frame = None"
+ΨNJ=L " s._bg = _get_bg(raw)"
+ΨNK=return hashlib . sha256 (
+ΨNL=__init__ ( self , game_id
+ΨNM=self . _perform_and_drain
+ΨNN=, source_path , game_id =
+ΨNO== self . _snapshot_deep (
+ΨNP=s . _visited_hashes . add
+ΨNQ=. _visited_hashes . add (
+ΨNR=L raise FileNotFoundError
+ΨNS=type P16 = PInt<UInt<UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B0>, B0>>;
+ΨNT=L " def solve_level(self, level_idx, max_states=300000, player_ent=None,"
+ΨNU=n_observations = =
+ΨNV=L s . _world_model
+ΨNW=s . _stuck_count =
+ΨNX=si . game_type = =
+ΨNY=L return str ( environment_info
+ΨNZ=return str ( environment_info .
+ΨOA=L last_mechanic_positions = [ ]
+ΨOB=nn . Conv2d
+ΨOC=( / kaggle /
+ΨOD=frame , bg )
+ΨOE=Same < U5 > >
+ΨOF=, , , padding
+ΨOG=, , padding =
+ΨOH=, padding = )
+ΨOI=__init__ ( self )
+ΨOJ=/ . fingerprint /
+ΨOK=raw , curr_hash ,
+ΨOL=in self . effects
+ΨOM=s . _prev_frame =
+ΨON=, raw , avail_ids
+ΨOO=L final_scorecard
+ΨOP=nav__submenu - item
+ΨOQ=from pathlib import
+ΨOR=pathlib import Path
+ΨOS=. write_text ( json
+ΨOT=write_text ( json .
+ΨOU=__init__ ( self ) :
+ΨOV=. mkdir ( parents =
+ΨOW== True , exist_ok =
+ΨOX=, exist_ok = True )
+ΨOY=s . _bfs . game_cls
+ΨOZ=int ( np . bincount
+ΨPA=, targets2 , walls2
+ΨPB=s . _prev_action_data
+ΨPC=game_id = s . game_id
+ΨPD=for a in avail_ids if
+ΨPE=L " if _check_adjacent(comp_mask, o2['mask']):"
+ΨPF=L " infer a goal entity from entity structure."
+ΨPG=L " # --- Any known-useful action, cycling ---"
+ΨPH=L " # Pick best-scoring action among available"
+ΨPI=L " return False # no plan found within budget"
+ΨPJ=L " try: r = game.perform_action(ai, raw=True)"
+ΨPK=L " last_r = game.perform_action(ai, raw=True)"
+ΨPL=L " if not hasattr(item, '__dict__'): continue"
+ΨPM=L " r += 1.0; s._visited_hashes.add(curr_hash)"
+ΨPN=L " acts_c = acts.clamp(0, logits.size(1) - 1)"
+ΨPO=L " def _pick_action(s, raw, avail_ids, step):"
+ΨPP=L " 4. Click exploration (unvisited positions)"
+ΨPQ=L " if (si and si.game_type == 'pattern_match'"
+ΨPR=L " if eff is None or eff.n_observations == 0:"
+ΨPS=L " growth = len(s._visited_hashes) - prev_new"
+ΨPT=L "# has valid output for the initial commit / save."
+ΨPU=L "def _scorecard_to_dict(scorecard: Any) -> dict[str, Any]:"
+ΨPV=L " print(\"Using Kaggle-mounted environments:\", candidate)"
+ΨPW=L " if 6 in avail_ids and (targets2 or len(getattr(s._observer, 'click_effs', [])) > 0):"
+ΨPX=L " act, data = s._fallback_lawn.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨPY=L " \"No environment_files/ under /kaggle/input. Add the competition \""
+ΨPZ=L "# --- from arc-agi-3-interactive-testbed-200-games.ipynb cell 12 ---"
+ΨQA=f . read
+ΨQB=A as Pow
+ΨQC=as Pow <
+ΨQD=import torch .
+ΨQE=np . zeros ( (
+ΨQF=s . _goal_plan
+ΨQG=. state_fields
+ΨQH=L def find_game_source_and_class ( game_id
+ΨQI=def find_game_source_and_class ( game_id ,
+ΨQJ=detect_player_pos ( prev_frame , cur_frame
+ΨQK=L " act, data = s._fallback_gf2.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨQL=L " act, data = s._fallback_nav.choose(raw, avail_ids, step, player2, targets2, walls2)"
+ΨQM=np . sum (
+ΨQN=deepcopy (
+ΨQO=. deepcopy
+ΨQP=https : / /
+ΨQQ=scorecard .
+ΨQR=https : / / www
+ΨQS=. hexdigest ( )
+ΨQT== nn . Linear (
+ΨQU=} ] , rustflags
+ΨQV=] , rustflags :
+ΨQW=, rustflags : [
+ΨQX=rustflags : [ ]
+ΨQY=: , profile : ,
+ΨQZ=, path : , deps
+ΨRA=path : , deps :
+ΨRB=deepcopy ( game
+ΨRC=class = tablet -
+ΨRD=( ) . __init__ (
+ΨRE=avail_ids , step
+ΨRF=L "from .agent import Agent, Playback"
+ΨRG=L " previous_player_pos=arc_state_dict.get(\"player_pos\"),"
+ΨRH=type N7 = NInt<UInt<UInt<UInt<UTerm, B1>, B1>, B1>>;
+ΨRI=type P7 = PInt<UInt<UInt<UInt<UTerm, B1>, B1>, B1>>;
+ΨRJ== https : / /
+ΨRK=. unsqueeze (
+ΨRL=float ( inf )
+ΨRM=if not self .
+ΨRN== time . time
+ΨRO=L last_action
+ΨRP=last_action =
+ΨRQ== scorecard .
+ΨRR=L "# action sequence toward the inferred goal"
+ΨRS=L "from collections import deque, defaultdict"
+ΨRT=L "_REVERSAL_PAIRS = {1: 2, 2: 1, 3: 4, 4: 3}"
+ΨRU=L " self._wm.effects[aid].n_observations == 0"
+ΨRV=L " if pos_key in visited_positions: continue"
+ΨRW=L " if len(path) >= self._max_depth: continue"
+ΨRX=L " self._log = _GameLogger(game_id or 'gsa')"
+ΨRY=L " if not isinstance(item, ast.FunctionDef):"
+ΨRZ=L " if not isinstance(node, ast.FunctionDef):"
+ΨSA=L " # Direct scalar fields on the game object"
+ΨSB=L " and estimate how many steps it will take."
+ΨSC=L " remaining = self.goal_value - current_val"
+ΨSD=L " s.c1 = nn.Conv2d(in_ch, 32, 3, padding=1)"
+ΨSE=L " mask = torch.full_like(al, float('-inf'))"
+ΨSF=L " best_aid, best_score = None, float('inf')"
+ΨSG=L " if raw is None: return GameAction.ACTION1"
+ΨSH=L " f\"WM_conf={s._world_model.confidence} \""
+ΨSI=L " f\"clicked={len(s._clicked_positions)} \""
+ΨSJ=hashlib . sha256 (
+ΨSK=import annotations
+ΨSL=to_toolkit_action ( action_str
+ΨSM=submission_df = pd . DataFrame
+ΨSN=L " for slug in (\"arc-interactive-community\", \"arc-interactive\"):"
+ΨSO=type P2 =
+ΨSP=P2 = PInt
+ΨSQ=Same < P2
+ΨSR=, < P2 as
+ΨSS=. context [
+ΨST=. solutions
+ΨSU=( self , msg )
+ΨSV=self , msg ) :
+ΨSW=import torch . nn
+ΨSX=. target_colors =
+ΨSY=self . has_target
+ΨSZ=step_in_level len
+ΨTA=torch . zeros ( ,
+ΨTB=. effects . items
+ΨTC=effects . items (
+ΨTD=self . _fmt ( msg
+ΨTE=L if in avail_ids
+ΨTF=L last_player_pos
+ΨTG=last_player_pos =
+ΨTH=L last_state_dict
+ΨTI=last_state_dict =
+ΨTJ=candidates . append ( (
+ΨTK=isinstance ( goal_val ,
+ΨTL=get ( self . goal_field
+ΨTM=parquet , index = False
+ΨTN=L "def _environment_game_id(environment_info: Any) -> str:"
+ΨTO=L " elif \"level\" in lowered and \"complete\" in lowered:"
+ΨTP=_dir_cycle len ( moves
+ΨTQ=L " if player and goal:"
+ΨTR=L " si = s._source_info"
+ΨTS=ensure_ascii = False ) ,
+ΨTT=if action_id not in self
+ΨTU=L self . player_colors =
+ΨTV=L self . action_counts [
+ΨTW=self . _wm = world_model
+ΨTX=if not isinstance ( node
+ΨTY=_extract_win_condition (
+ΨTZ=in self . state_fields :
+ΨUA=s . _bfs_pre_solutions [
+ΨUB=L . Directional fallback
+ΨUC=self . _wm .
+ΨUD=. Conv2d ( ,
+ΨUE=Conv2d ( , ,
+ΨUF== torch . sigmoid (
+ΨUG=L " pass"
+ΨUH=) - > None
+ΨUI=- > None :
+ΨUJ=self . _wm
+ΨUK=nn . Linear (
+ΨUL=, avail_ids ,
+ΨUM=range ( , , )
+ΨUN=data - entity -
+ΨUO=) . hexdigest (
+ΨUP== float ( inf )
+ΨUQ=self . game_cls
+ΨUR=( , , , padding
+ΨUS=L " return act, data"
+ΨUT=L game_id : game_id ,
+ΨUU=final_scorecard . get
+ΨUV=] = final_scorecard .
+ΨUW=L "_mod_logger = logging.getLogger(__name__)"
+ΨUX=L " self._log = _GameLogger(game_id or 'wm')"
+ΨUY=L " self.player_colors = candidate['colors']"
+ΨUZ=L " # 3. Test ACTION5 if present and unknown"
+ΨVA=L " Beam search over WorldModel predictions."
+ΨVB=L " State = (player_x, player_y, step_count)"
+ΨVC=L " self._log = _GameLogger(game_id or 'gr')"
+ΨVD=L " if not isinstance(n, ast.Call): continue"
+ΨVE=L " f\"sprite_names = {self.sprite_names}\")"
+ΨVF=L " s.cc1 = nn.Conv2d(128, 64, 3, padding=1)"
+ΨVG=L " s._log.warning(f\"BFS live error: {e}\")"
+ΨVH=L " bg_m = (raw == s._bg).astype(np.float32)"
+ΨVI=L " if dist < 3 and hist_diff == 0: r += 5.0"
+ΨVJ=L " else torch.zeros(4096, device=s.device))"
+ΨVK=ents_before = extract_entities ( frame_before
+ΨVL=_build_probe_sequence ( available_ids , frame
+ΨVM=L " for ds in [inp / slug] + list(inp.glob(f\"datasets/*/{slug}\")):"
+ΨVN=L " near = min(targets, key=lambda t: abs(t[0] - player[0]) + abs(t[1] - player[1]))"
+ΨVO=L import torch .
+ΨVP=if not r . frame
+ΨVQ=self . _solution
+ΨVR=. info (
+ΨVS=P5 = PInt <
+ΨVT=Same < P5 >
+ΨVU=) , < P5 as
+ΨVV=L " for candidate in input_root.rglob(\"metadata.json\"):"
+ΨVW=L " last_player_pos = next_state_dict.get(\"player_pos\")"
+ΨVX=include = eJxVkFtywzAIAC - khCNpqMAuMRYegZzm9nUdpU1_BMvymFExVdxcPtTKAsUap58HqPUN9TpZWxN_hUpdXrWBySX4LsQZlVuAVIkUZhqywYipO9kt48x55ybTA_7SfJ58dVTUR0hxeDLvXMOHvPV1W7l2
+ΨVY=L "# Grafted from llm-visual-analyzer-arc-agi-3.ipynb, stripped of LLM/runtime glue"
+ΨVZ=< N2 > > :
+ΨWA=N2 > > : :
+ΨWB=( ) , < N2
+ΨWC=in [ , , ,
+ΨWD=return , {
+ΨWE=( np . sum (
+ΨWF=BitAnd < B > >
+ΨWG=< < A as BitOr
+ΨWH=< A as BitOr <
+ΨWI=A as BitOr < B
+ΨWJ=as BitOr < B >
+ΨWK=BitXor < B > >
+ΨWL=game_id = None
+ΨWM=. action_hints
+ΨWN=. _stuck_count
+ΨWO=in avail_ids :
+ΨWP=usdoj_uswds / images
+ΨWQ=. agent import Agent
+ΨWR=L " return pool[step % len(pool)], None"
+ΨWS=def find_game_source_and_class ( game_id
+ΨWT=L " '''Return (game_id, env_dir) for a stem across all ENV_DIRS.'''"
+ΨWU=L " for vd in sorted(base.iterdir(), key=lambda p: p.name.lower()):"
+ΨWV=. frame [ -
+ΨWW=L "import os"
+ΨWX=/ usr / bin /
+ΨWY=typing import
+ΨWZ=L with open (
+ΨXA=player and goal :
+ΨXB=. action_counts [
+ΨXC=L last_r = game .
+ΨXD=self . win_fields
+ΨXE=attr . startswith
+ΨXF=L s . _prev_frame
+ΨXG=( parents = True ,
+ΨXH=prev_frame [ r , c
+ΨXI=player2 , targets2
+ΨXJ=arc - interactive - community
+ΨXK=return str ( environment_info
+ΨXL=_resolve_environments_dir ( )
+ΨXM=last_mechanic_positions = [ ]
+ΨXN=L " eff.mover_colors.add(e_after['colors'])"
+ΨXO=L "# or most unique pixel colours present)."
+ΨXP=L " return minority_total + len(vals) * 0.1"
+ΨXQ=L " if action_id not in self.action_scores:"
+ΨXR=L " self._wm.effects[5].n_observations == 0"
+ΨXS=L " changed_count = {k: 0 for k in initial}"
+ΨXT=L " if last_r.levels_completed < level_idx:"
+ΨXU=L " prev_sol = self.solutions.get(prev_idx)"
+ΨXV=L " self.win_method_src = ast.unparse(node)"
+ΨXW=L " if 'sprite' in name.lower() and n.args:"
+ΨXX=L " if len(v) == 0 or len(v) > 32: continue"
+ΨXY=L " if isinstance(val, (int, float, bool)):"
+ΨXZ=L " name, idx = m.group(1), int(m.group(2))"
+ΨYA=L " s.c3 = nn.Conv2d(64, 128, 3, padding=1)"
+ΨYB=L " # Pass the pre-positioned game instance"
+ΨYC=L " if si and si.game_type == 'scroll_map':"
+ΨYD=L " click_hash = lambda x, y: f\"c{x},{y}\""
+ΨYE=L " # Test click on each entity centre once"
+ΨYF=L " s._on_level_change(lvl, raw, avail_ids)"
+ΨYG=L " s._log.info(f\"FRAME_ROW {list(row)}\")"
+ΨYH=self . _build_probe_sequence ( available_ids
+ΨYI=best_action_for_level ( self , game_instance
+ΨYJ=_world_model . transfer_to_level ( new_level
+ΨYK=L "def to_toolkit_action(action_str: str) -> GameAction:"
+ΨYL=L " wanted = {str(game_id) for game_id in TEST_GAME_IDS}"
+ΨYM=L " if 0 <= n[0] < h and 0 <= n[1] < w and n not in vis and not walls[n[0], n[1]]:"
+ΨYN=import numpy as
+ΨYO=L " avail = game._available_actions"
+ΨYP=type U16 = UInt<UInt<UInt<UInt<UInt<UTerm, B1>, B0>, B0>, B0>, B0>;
+ΨYQ=L " name = getattr(st, \"name\", \"\") if st is not None else \"\""
+ΨYR=B = UTerm
+ΨYS=/ working
+ΨYT=working /
+ΨYU=< span class
+ΨYV=span class =
+ΨYW=np . zeros (
+ΨYX=as Same < U3
+ΨYY=L s . _log .
+ΨYZ=raise ValueError
+ΨZA=[ { CheckDepInfo
+ΨZB={ CheckDepInfo :
+ΨZC=CheckDepInfo : {
+ΨZD=checksum : false
+ΨZE=: , features : [
+ΨZF=. _current_level
+ΨZG=kaggle / input )
+ΨZH=for candidate in
+ΨZI=www . justice . gov
+ΨZJ=BUNDLED_ENVIRONMENTS_ROOT )
+ΨZK=( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨZL=L " with open(f'{WORKING_COPY}/.env', 'w') as f:"
+ΨZM=read ( )
+ΨZN=N3 = NInt <
+ΨZO=Same < N3 >
+ΨZP=) , < N3 as
+ΨZQ=( np . float32
+ΨZR=. exists ( ) :
+ΨZS=Conv2d ( , , ,
+ΨZT=, curr_hash , act_id ,
+ΨZU=self . _queue . append
+ΨZV=self . player_colors =
+ΨZW=s . _goal_plan = deque
+ΨZX=. _goal_plan = deque (
+ΨZY=self . action_scores [
+ΨZZ=_world_model . effects
+ΨAA=L " if 6 in avail_ids:"
+ΨAB=return hashlib . sha256
+ΨAC=action , before , after
+ΨAD=action_id not in self .
+ΨAE=. effects [ action_id ]
+ΨAF=L if score < best_score
+ΨAG=if score < best_score :
+ΨAH=L if in available_ids :
+ΨAI== self . _frame_score (
+ΨAJ=. action_scores . get (
+ΨAK=action_scores . get ( a
+ΨAL=if not actions : return
+ΨAM=, source_path , game_id
+ΨAN=source_path , game_id =
+ΨAO=L self . target_field =
+ΨAP=not isinstance ( node ,
+ΨAQ=isinstance ( node , ast
+ΨAR== self . _snapshot_deep
+ΨAS=self . _snapshot_deep (
+ΨAT=, get_sprites_by_name ,

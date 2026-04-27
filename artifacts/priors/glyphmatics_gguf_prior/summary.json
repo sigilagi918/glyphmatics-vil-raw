@@ -1,0 +1,13 @@
+{
+  "status": "built",
+  "out_dir": "/data/data/com.termux/files/home/glyphmatics_gguf_prior",
+  "dataset": "/data/data/com.termux/files/home/glyphmatics_gguf_prior/competitor_shared_prior_dataset.json",
+  "glyphline": "/data/data/com.termux/files/home/glyphmatics_gguf_prior/competitor_shared_prior_glyphline.txt",
+  "file_count": 12,
+  "dictionary_entries": 1754,
+  "total_functional_bytes": 762412,
+  "glyphline_bytes_estimated": 41845,
+  "semantic_compression_ratio_estimated": 18.219906798900706,
+  "semantic_reduction_percent_estimated": 94.51149772039265,
+  "dataset_digest": "8a6d3cff8595e9a23fb0902bac2b8af21c24d26948dfd854e4862331ae7405f9"
+}

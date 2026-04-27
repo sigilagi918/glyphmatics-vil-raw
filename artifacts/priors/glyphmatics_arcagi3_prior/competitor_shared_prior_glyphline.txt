@@ -1,0 +1,2058 @@
+pCOMPETITORZvhz
+MODE SHARED_PRIOR_DATASET
+RULE STRUCTURE_NOT_BYTES
+NO_PRIVATE_DATA
+NO_BASE64
+NO_HIDDEN_PAYLOAD
+FILES 26
+DICT 2048
+BYTES 2032044
+
+ΨAA== = = = =
+ΨAB=# =====================================================================
+ΨAC=ActionInput ( id = GameAction
+ΨAD=( id = GameAction .
+ΨAE=GameAction .
+ΨAF=GameAction . from_id ( act_id
+ΨAG=ActionInput ( id =
+ΨAH=. perform_action (
+ΨAI=isinstance (
+ΨAJ=( id = GameAction
+ΨAK=id = GameAction .
+ΨAL=ActionInput ( id
+ΨAM=GameAction . from_id (
+ΨAN=if isinstance (
+ΨAO=L return
+ΨAP=. perform_action
+ΨAQ=perform_action (
+ΨAR=perform_action ( ActionInput ( id
+ΨAS=id = GameAction
+ΨAT=. _log . info (
+ΨAU=. perform_action ( ActionInput (
+ΨAV=id = GameAction . from_id
+ΨAW== GameAction .
+ΨAX=GameAction . from_id
+ΨAY=. perform_action ( ActionInput
+ΨAZ=perform_action ( ActionInput (
+ΨBA== GameAction . from_id (
+ΨBB=L self .
+ΨBC=: continue
+ΨBD=except Exception
+ΨBE=. append (
+ΨBF=def __init__ ( self
+ΨBG=perform_action ( ActionInput
+ΨBH=if isinstance
+ΨBI=. from_id ( act_id )
+ΨBJ== GameAction . from_id
+ΨBK=self . action_field_deltas
+ΨBL=ActionInput (
+ΨBM=. _log . info
+ΨBN=_log . info (
+ΨBO=/ kaggle / working /
+ΨBP=, raw = True )
+ΨBQ=def __init__ ( self ,
+ΨBR== GameAction
+ΨBS=. from_id ( act_id
+ΨBT=from_id ( act_id )
+ΨBU=return None
+ΨBV=/ kaggle / working
+ΨBW=kaggle / working /
+ΨBX== game . perform_action (
+ΨBY=game . perform_action (
+ΨBZ=perform_action ( ai , raw
+ΨCA=_log . info ( f
+ΨCB=s . _level_action_count
+ΨCC=def __init__ (
+ΨCD=# --- from arc-policy-runtime-submission.ipynb cell 3 ---
+ΨCE=self . goal_field
+ΨCF=except Exception as e :
+ΨCG=id = GameAction . RESET
+ΨCH=last_r = game . perform_action
+ΨCI=in range (
+ΨCJ== game . perform_action
+ΨCK=s . _world_model
+ΨCL=, raw = True
+ΨCM=raw = True )
+ΨCN== copy . deepcopy (
+ΨCO=. action_field_deltas
+ΨCP=. perform_action ( ai ,
+ΨCQ=game . perform_action
+ΨCR=from_id ( act_id
+ΨCS=copy . deepcopy (
+ΨCT=( self ,
+ΨCU=. _log . warning (
+ΨCV=/ kaggle / input
+ΨCW=_log . info
+ΨCX=__init__ ( self
+ΨCY== GameAction . RESET )
+ΨCZ=GameAction . RESET ) ,
+ΨDA=s . _log . info
+ΨDB=g.perform_action(ActionInput(id=GameAction.RESET), raw=True)
+ΨDC== extract_entities (
+ΨDD=. _level_action_count
+ΨDE=if not isinstance (
+ΨDF=kaggle / working
+ΨDG=extract_entities (
+ΨDH=s . _bfs_pre_solutions
+ΨDI=_log . warning ( f
+ΨDJ=except Exception as e
+ΨDK=self . _log .
+ΨDL=act_id , data
+ΨDM=# --- from arc-agi-3-interactive-testbed-200-games.ipynb cell 7 ---
+ΨDN=self . _log
+ΨDO=GameAction . RESET
+ΨDP=except Exception :
+ΨDQ=. n_observations
+ΨDR=return GameAction .
+ΨDS=s . _prev_action_id
+ΨDT=__init__ ( self ,
+ΨDU=. perform_action ( ai
+ΨDV=perform_action ( ai ,
+ΨDW=/ kaggle /
+ΨDX== GameAction . RESET
+ΨDY=( ActionInput ( id =
+ΨDZ=return GameAction.from_id(act_id) if isinstance(act_id, int) else act_id
+ΨEA=GameAction . ACTION1
+ΨEB=except Exception as e:
+ΨEC=L " \"\"\""
+ΨED=s . _prev_action_data
+ΨEE== copy . deepcopy
+ΨEF=GameAction . RESET )
+ΨEG=policy - runtime - submission
+ΨEH=self . _log . info
+ΨEI=s . _world_model .
+ΨEJ=def __init__
+ΨEK=copy . deepcopy
+ΨEL== extract_entities
+ΨEM=. append
+ΨEN=append (
+ΨEO=. _log . warning
+ΨEP=_log . warning (
+ΨEQ=. _bfs_pre_solutions
+ΨER=. _world_model
+ΨES=ai = ActionInput(id=GameAction.from_id(act_id), data=data) if data \
+ΨET=for act_id , data in
+ΨEU=self . action_scores
+ΨEV=_log = _GameLogger ( game_id
+ΨEW=if not isinstance
+ΨEX=s . _bfs . game_cls
+ΨEY=not isinstance (
+ΨEZ=kaggle / input
+ΨFA=except Exception as
+ΨFB=is not None
+ΨFC=runtime - submission . ipynb
+ΨFD=except Exception:
+ΨFE=s . _visited_hashes
+ΨFF=) , raw = True
+ΨFG=self . effects
+ΨFH=. _prev_action_id
+ΨFI=getattr (
+ΨFJ=perform_action ( ai
+ΨFK== getattr (
+ΨFL=return GameAction
+ΨFM=( ActionInput ( id
+ΨFN=time . time ( )
+ΨFO=dict [ str , Any
+ΨFP=self . _log . warning
+ΨFQ=g . perform_action (
+ΨFR=. _log = _GameLogger (
+ΨFS== self .
+ΨFT=. _prev_action_data
+ΨFU=s . _prev_frame
+ΨFV=infer_player_and_goal (
+ΨFW== _GameLogger ( game_id or
+ΨFX=self . _wm . effects
+ΨFY=. items ( )
+ΨFZ=ents = extract_entities (
+ΨGA=. effects
+ΨGB=os . getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨGC=. action_scores
+ΨGD=__init__ (
+ΨGE=raw = True
+ΨGF=self . win_comparisons
+ΨGG=s . _level_action_count =
+ΨGH=. getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨGI=getenv ( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨGJ=. _log .
+ΨGK=self . action_counts [ action_id
+ΨGL=copy . deepcopy ( starting_game
+ΨGM=candidate in input_root . rglob
+ΨGN=ai = ActionInput(id=GameAction.from_id(act_id), data=data) \
+ΨGO=self . _log = _GameLogger
+ΨGP=. _world_model .
+ΨGQ=. _bfs . game_cls
+ΨGR=self . target_colors
+ΨGS=if isinstance(goal_val, (list, tuple, set)):
+ΨGT=_log . warning
+ΨGU=. _visited_hashes
+ΨGV=. getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨGW=getenv ( KAGGLE_IS_COMPETITION_RERUN )
+ΨGX=_GameLogger ( game_id or
+ΨGY=- submission . ipynb cell
+ΨGZ=submission . ipynb cell -
+ΨHA=. _log = _GameLogger
+ΨHB=_log = _GameLogger (
+ΨHC=. startswith (
+ΨHD=ents = extract_entities
+ΨHE=is not None :
+ΨHF=for candidate in input_root .
+ΨHG=game = copy.deepcopy(starting_game)
+ΨHH=not isinstance
+ΨHI=g . perform_action
+ΨHJ=- runtime - submission .
+ΨHK=in available_ids
+ΨHL=for act_id , data
+ΨHM=in range ( , ,
+ΨHN=. infer_player_and_goal (
+ΨHO=if data else ActionInput(id=GameAction.from_id(act_id))
+ΨHP=. _level_action_count =
+ΨHQ=extract_entities ( frame , bg
+ΨHR=. info ( f
+ΨHS=. warning ( f
+ΨHT=) : continue
+ΨHU=. append ( (
+ΨHV=L def __init__ ( self
+ΨHW== _GameLogger ( game_id
+ΨHX=. goal_field
+ΨHY=self . state_fields
+ΨHZ=. action_counts [ action_id ]
+ΨIA=getenv ( KAGGLE_IS_COMPETITION_RERUN
+ΨIB=. deepcopy ( starting_game )
+ΨIC=Exception as e :
+ΨID=s . _bfs_solution
+ΨIE=s . _log .
+ΨIF=else ActionInput ( id =
+ΨIG=. warning ( f GoalReader
+ΨIH== np . array (
+ΨII=in self .
+ΨIJ=( self ) :
+ΨIK=time . time (
+ΨIL=row [ column ] =
+ΨIM=if s . _level_action_count =
+ΨIN=. items ( ) :
+ΨIO=return , { x :
+ΨIP=eff . n_observations
+ΨIQ=self . action_scores [ action_id
+ΨIR=in range
+ΨIS=. from_id (
+ΨIT=. ipynb cell - -
+ΨIU=ipynb cell - - -
+ΨIV=for candidate in input_root
+ΨIW=. _prev_frame
+ΨIX=- runtime - submission
+ΨIY=arc - policy - runtime
+ΨIZ=submission . ipynb cell
+ΨJA=. startswith ( __ )
+ΨJB=L return None
+ΨJC=game_id = s . game_id
+ΨJD=act_id , data in
+ΨJE=self . scroll_indicators
+ΨJF=# --- from arc-policy-runtime-submission.ipynb cell 4 ---
+ΨJG=from_id ( act_id ) )
+ΨJH=( ActionInput (
+ΨJI=runtime - submission .
+ΨJJ=. infer_player_and_goal
+ΨJK=. action_counts [ action_id
+ΨJL=action_counts [ action_id ]
+ΨJM=s . _level_action_count = =
+ΨJN=. _level_action_count = = :
+ΨJO== scorecard . get (
+ΨJP=_world_model .
+ΨJQ=_log = _GameLogger
+ΨJR=self . game_type =
+ΨJS=. info (
+ΨJT=. deepcopy (
+ΨJU=in avail_ids
+ΨJV=. deepcopy ( starting_game
+ΨJW=deepcopy ( starting_game )
+ΨJX=_level_action_count =
+ΨJY=_bfs . game_cls
+ΨJZ=( KAGGLE_IS_COMPETITION_RERUN ) :
+ΨKA=. game_type =
+ΨKB=L " try:"
+ΨKC=. RESET ) , raw
+ΨKD=RESET ) , raw =
+ΨKE=self . action_field_deltas [ act_id
+ΨKF=copy . deepcopy ( game
+ΨKG=_GameLogger ( game_id
+ΨKH=kaggle /
+ΨKI=if isinstance ( goal_val ,
+ΨKJ=extract_entities ( frame ,
+ΨKK=dict [ str ,
+ΨKL=L def __init__ (
+ΨKM=[ colors ]
+ΨKN=if s . _level_action_count
+ΨKO=[ str , Any ]
+ΨKP=ai , raw = True
+ΨKQ=s . _clicked_positions
+ΨKR=warning ( f GoalReader
+ΨKS=not in self .
+ΨKT=ai = ActionInput ( id
+ΨKU=else ActionInput ( id
+ΨKV=self . action_field_deltas [
+ΨKW=return GameAction . from_id (
+ΨKX=_do_observe ( raw , curr_hash
+ΨKY=candidate in input_root .
+ΨKZ=/ kaggle
+ΨLA=self . player_colors
+ΨLB=L if isinstance (
+ΨLC=else ActionInput(id=GameAction.from_id(act_id))
+ΨLD=, ( int , float
+ΨLE== nn . Conv2d (
+ΨLF=self . game_type
+ΨLG=. warning (
+ΨLH=, None )
+ΨLI=[ action_id ]
+ΨLJ=isinstance ( goal_val , (
+ΨLK=curr_hash , act_id , data
+ΨLL=. action_scores [ action_id ]
+ΨLM=return None , None
+ΨLN=player2 , targets2 , walls2
+ΨLO=s . _bfs .
+ΨLP=self . target_colors =
+ΨLQ=. causes_change
+ΨLR=raw , avail_ids
+ΨLS=raw , avail_ids ,
+ΨLT=( KAGGLE_IS_COMPETITION_RERUN )
+ΨLU=KAGGLE_IS_COMPETITION_RERUN ) :
+ΨLV=runtime - submission
+ΨLW=- policy - runtime -
+ΨLX=apply_guidance ( brain . bootstrap_guidance
+ΨLY=def choose(self, frame, avail, turn, player, targets, walls):
+ΨLZ=action_counts [ action_id
+ΨMA=. _level_action_count = =
+ΨMB=_level_action_count = = :
+ΨMC== torch .
+ΨMD=L " return None"
+ΨME=bfs_game.perform_action(ActionInput(id=GameAction.RESET), raw=True)
+ΨMF== True )
+ΨMG=g . perform_action ( ActionInput
+ΨMH=if hasattr (
+ΨMI=in range ( ,
+ΨMJ=self . sprite_names
+ΨMK=self . goal_field ,
+ΨML=. game_cls
+ΨMM=deepcopy ( starting_game
+ΨMN=. _bfs_solution
+ΨMO=ActionInput(id=GameAction.ACTION1), raw=True)
+ΨMP=/ working /
+ΨMQ=. lower ( )
+ΨMR=raw , avail_ids , step
+ΨMS=. startswith
+ΨMT=startswith (
+ΨMU=- submission . ipynb
+ΨMV== ActionInput ( id =
+ΨMW=from_id ( act_id ) ,
+ΨMX=. startswith ( __
+ΨMY=startswith ( __ )
+ΨMZ=arc - interactive - community
+ΨNA== None ) :
+ΨNB== getattr
+ΨNC=int , float , bool
+ΨND=Exception as e
+ΨNE=] for o in current_comp
+ΨNF=for o in current_comp )
+ΨNG=if isinstance ( goal_val
+ΨNH=raw , curr_hash , act_id
+ΨNI=extract_entities ( frame
+ΨNJ=. action_field_deltas [ act_id ]
+ΨNK=. win_comparisons
+ΨNL=return GameAction . from_id
+ΨNM=L if not
+ΨNN=[ step_in_level len (
+ΨNO=submission .
+ΨNP=[ color_counts ]
+ΨNQ=( environment_info
+ΨNR=row [ column ]
+ΨNS=self . goal_value
+ΨNT== scorecard . get
+ΨNU=scorecard . get (
+ΨNV== { self .
+ΨNW=self . action_hints
+ΨNX=. ipynb cell -
+ΨNY=ipynb cell - -
+ΨNZ=- - - from arc
+ΨOA=- - from arc -
+ΨOB=. _wm . effects
+ΨOC=candidate in input_root
+ΨOD=in input_root . rglob (
+ΨOE=. action_scores [ action_id
+ΨOF=action_scores [ action_id ]
+ΨOG=game . perform_action ( ActionInput
+ΨOH=. items (
+ΨOI=items ( )
+ΨOJ=s._do_observe(raw, curr_hash, act_id, data)
+ΨOK=raw , curr_hash ,
+ΨOL=( KAGGLE_IS_COMPETITION_RERUN
+ΨOM=KAGGLE_IS_COMPETITION_RERUN )
+ΨON=in enumerate (
+ΨOO=. is_dir ( ) :
+ΨOP=_visited_hashes . add ( curr_hash
+ΨOQ=. game_type
+ΨOR=. _clicked_positions
+ΨOS=submission . parquet
+ΨOT=np . array (
+ΨOU=game_id )
+ΨOV=isinstance ( goal_val ,
+ΨOW=warning ( f
+ΨOX== np . array
+ΨOY=_level_action_count = =
+ΨOZ=return None ,
+ΨPA=. action_field_deltas [ act_id
+ΨPB=action_field_deltas [ act_id ]
+ΨPC== s . _world_model
+ΨPD=s . _current_level
+ΨPE=self . _dir_cycle
+ΨPF=f GoalReader
+ΨPG=return , { x
+ΨPH=( f GoalReader
+ΨPI=self . action_counts
+ΨPJ=s . _world_model . effects
+ΨPK=. _world_model . effects .
+ΨPL=( ActionInput
+ΨPM=for a in avail_ids if
+ΨPN=( game_id
+ΨPO=- from arc - policy
+ΨPP=from arc - policy -
+ΨPQ=, ast . Attribute )
+ΨPR=. deepcopy ( game )
+ΨPS=self . _queue
+ΨPT=( self , frame
+ΨPU=ents = extract_entities ( frame
+ΨPV=game = copy . deepcopy
+ΨPW=. is_dir ( )
+ΨPX=, available_ids
+ΨPY=nn . Conv2d ( ,
+ΨPZ=- policy - runtime
+ΨQA=policy - runtime -
+ΨQB=. n_observations =
+ΨQC=, game_id = None )
+ΨQD=game_id = None ) :
+ΨQE=in ast . walk (
+ΨQF=id = GameAction . ACTION1
+ΨQG=time . time
+ΨQH=L def __init__
+ΨQI=, curr_hash , act_id ,
+ΨQJ=append ( (
+ΨQK=items ( ) :
+ΨQL=RESET ) , raw
+ΨQM=for o in current_comp
+ΨQN=frame , bg )
+ΨQO=. target_colors
+ΨQP=L if isinstance
+ΨQQ=. target_field
+ΨQR=is None :
+ΨQS=. frame [ - ]
+ΨQT=nn . Conv2d (
+ΨQU=last_mechanic_positions = [
+ΨQV=self . action_counts [
+ΨQW=if attr . startswith (
+ΨQX=( act_id )
+ΨQY=action_scores [ action_id
+ΨQZ=runtime.apply_guidance(brain.bootstrap_guidance())
+ΨRA=( self .
+ΨRB=submission . ipynb
+ΨRC=ai = ActionInput (
+ΨRD== ActionInput ( id
+ΨRE=else ActionInput (
+ΨRF=isinstance ( v , (
+ΨRG=if self .
+ΨRH=. info ( f BFS
+ΨRI=for aid , eff in
+ΨRJ=action_id , frame_before , frame_after
+ΨRK== _GameLogger (
+ΨRL=in self . action_field_deltas
+ΨRM=. effects .
+ΨRN=[ step_in_level len
+ΨRO=step_in_level len (
+ΨRP=. scroll_indicators
+ΨRQ=. effects . items (
+ΨRR=effects . items ( )
+ΨRS=g = copy . deepcopy
+ΨRT=runtime . apply_guidance (
+ΨRU=in input_root . rglob
+ΨRV=in self . effects
+ΨRW=best_score =
+ΨRX=, get_sprites_by_name , None )
+ΨRY== GameAction . ACTION1 )
+ΨRZ=GameAction . ACTION1 ) ,
+ΨSA=action_field_deltas [ act_id
+ΨSB=( int , float
+ΨSC== nn . Conv2d
+ΨSD=L " else:"
+ΨSE=range ( , ,
+ΨSF=, float , bool )
+ΨSG=float , bool ) )
+ΨSH=isinstance ( goal_val
+ΨSI=. action_field_deltas [
+ΨSJ=_action_count , _full_reset , _action_complete
+ΨSK=- interactive -
+ΨSL=startswith ( __
+ΨSM=- interactive - community
+ΨSN=game_type =
+ΨSO=/ kaggle / input /
+ΨSP=s . _bfs
+ΨSQ=( / kaggle / working
+ΨSR=. __dict__ . items (
+ΨSS=__dict__ . items ( )
+ΨST=. _world_model . effects
+ΨSU=_world_model . effects .
+ΨSV=list [ dict [ str
+ΨSW=self . best_score
+ΨSX=self . action_field_deltas :
+ΨSY=s . _bfs_pre_solutions . get
+ΨSZ=. _bfs_pre_solutions . get (
+ΨTA=, , , padding =
+ΨTB=, , padding = )
+ΨTC=if not self.goal_field or not self.action_field_deltas:
+ΨTD=L if not isinstance (
+ΨTE=self . state_fields :
+ΨTF=( np . sum (
+ΨTG=frame [ - ]
+ΨTH=np . zeros_like ( mask1
+ΨTI=isinstance ( val ,
+ΨTJ=frame , bg
+ΨTK=- interactive
+ΨTL=- - interactive - testbed
+ΨTM=- interactive - testbed -
+ΨTN=interactive - testbed - -
+ΨTO=if data else ActionInput (
+ΨTP=data else ActionInput ( id
+ΨTQ=last_r = game.perform_action(
+ΨTR=action_counts [ action_id ] =
+ΨTS=shaped by WorldModel priors .
+ΨTT=prev_lvl in range ( new_level
+ΨTU=. target_frame
+ΨTV=. Conv2d ( , ,
+ΨTW=( self , frame ,
+ΨTX=. deepcopy
+ΨTY=[ str , Any
+ΨTZ=str , Any ]
+ΨUA=not None :
+ΨUB== time . time (
+ΨUC=scorecard . get
+ΨUD=not in self
+ΨUE=Exception :
+ΨUF=( act_id ) , data
+ΨUG=act_id ) , data =
+ΨUH== extract_entities ( frame ,
+ΨUI=s . _last_action_data = data
+ΨUJ=s . _bfs_solution =
+ΨUK=deepcopy (
+ΨUL=isinstance ( val
+ΨUM== s . _world_model .
+ΨUN=input_root . rglob (
+ΨUO=working / submission . parquet
+ΨUP=frame [ - ] )
+ΨUQ=. unsqueeze ( )
+ΨUR=raw , curr_hash
+ΨUS=last_r = game .
+ΨUT=last_mechanic_positions =
+ΨUU=] = final_scorecard . get
+ΨUV== final_scorecard . get (
+ΨUW=[ color_counts
+ΨUX=color_counts ]
+ΨUY=s . _goal_plan
+ΨUZ=. state_fields
+ΨVA=startswith ( __ ) :
+ΨVB=game_instance , self . goal_field
+ΨVC=act_id ,
+ΨVD=[ action_id
+ΨVE=action_id ]
+ΨVF=[ action_id ] =
+ΨVG=, curr_hash , act_id
+ΨVH=curr_hash , act_id ,
+ΨVI=get ( self . goal_field
+ΨVJ=. from_id
+ΨVK=from_id (
+ΨVL=dict [ str
+ΨVM=( / kaggle /
+ΨVN=source_path , game_id = None
+ΨVO=, get_sprites_by_name , None
+ΨVP=get_sprites_by_name , None )
+ΨVQ=_world_model . effects . get
+ΨVR=submission . parquet , index
+ΨVS=. solutions
+ΨVT=from arc - policy
+ΨVU=, ast . Attribute
+ΨVV=ast . Attribute )
+ΨVW=. deepcopy ( game
+ΨVX=deepcopy ( game )
+ΨVY=self . solutions
+ΨVZ=. _current_level
+ΨWA=s . _log
+ΨWB=L " continue"
+ΨWC=. zeros_like ( mask1 )
+ΨWD=for aid, deltas in self.action_field_deltas.items():
+ΨWE=Exception as
+ΨWF=o in current_comp )
+ΨWG=eff . causes_change
+ΨWH=runtime . apply_guidance
+ΨWI=moves = [a for a in avail if a in [1, 2, 3, 4]]
+ΨWJ=return (moves[turn % len(moves)] if moves else avail[0]), None
+ΨWK=not None
+ΨWL=np . sum (
+ΨWM=. n_observations = =
+ΨWN=_perform_and_drain (
+ΨWO=if attr . startswith
+ΨWP=, avail_ids , step
+ΨWQ=_wm . effects
+ΨWR=, ( list , tuple
+ΨWS=kaggle / working / submission
+ΨWT=- - - - CELL
+ΨWU=- - - CELL -
+ΨWV=- - CELL - -
+ΨWW=- CELL - - -
+ΨWX=CELL - - - -
+ΨWY=( int , float ,
+ΨWZ=. _bfs . game_cls (
+ΨXA=_bfs . game_cls ( )
+ΨXB=infer_player_and_goal ( frame , bg
+ΨXC=_build_minimal_submission_rows ( )
+ΨXD== GameAction . ACTION1
+ΨXE=GameAction . ACTION1 )
+ΨXF=policy - runtime
+ΨXG=n_observations =
+ΨXH=, game_id = None
+ΨXI=game_id = None )
+ΨXJ=s . _stuck_count
+ΨXK=s . _prev_frame =
+ΨXL=moves [ self . _dir_cycle
+ΨXM=act_id , data in actions
+ΨXN=find_game_source_and_class ( game_id , arc_env
+ΨXO=info ( f
+ΨXP=( ai , raw =
+ΨXQ=row [ column
+ΨXR=[ column ] =
+ΨXS=. _bfs_pre_solutions . get
+ΨXT=_bfs_pre_solutions . get (
+ΨXU=available_ids , frame , bg
+ΨXV=range ( , , )
+ΨXW=, avail_ids
+ΨXX=interactive - community
+ΨXY=parquet , index = False
+ΨXZ=. ipynb cell
+ΨYA=ipynb cell -
+ΨYB=- - from arc
+ΨYC=- from arc -
+ΨYD=self . target_frame
+ΨYE=a in avail_ids if <
+ΨYF=in avail_ids if < =
+ΨYG=self . _perform_and_drain (
+ΨYH=current = getattr ( current
+ΨYI=shaped by WorldModel priors
+ΨYJ=return GameAction . ACTION1
+ΨYK=action_field_deltas [
+ΨYL=for a in avail_ids
+ΨYM=. time ( )
+ΨYN=in lowered
+ΨYO=self . _queue . append
+ΨYP=self . player_colors =
+ΨYQ=s . _goal_plan = deque
+ΨYR=. _goal_plan = deque (
+ΨYS=self . action_scores [
+ΨYT=_world_model . effects
+ΨYU=signal_strength = best_fdm_score - worst_fdm_score
+ΨYV=warning (
+ΨYW=for act_id ,
+ΨYX=self . _wm .
+ΨYY=in enumerate
+ΨYZ=is_dir ( ) :
+ΨZA=eff . mean_dx
+ΨZB=eff . mean_dy
+ΨZC=s . game_id )
+ΨZD=act_id , data )
+ΨZE=if data else ActionInput
+ΨZF=player , targets , walls
+ΨZG=ai = ActionInput
+ΨZH=else ActionInput
+ΨZI=isinstance ( v ,
+ΨZJ=( frame , bg )
+ΨZK=. warning ( f BFS
+ΨZL=. target_colors =
+ΨZM=self . has_target
+ΨZN=step_in_level len
+ΨZO=torch . zeros ( ,
+ΨZP=. effects . items
+ΨZQ=effects . items (
+ΨZR=self . _fmt ( msg
+ΨZS=( goal_val , ( list
+ΨZT=goal_val , ( list ,
+ΨZU=- interactive - testbed
+ΨZV=interactive - testbed -
+ΨZW== extract_entities ( frame
+ΨZX=. _last_action_data = data
+ΨZY=runtime . apply_guidance ( brain
+ΨZZ=. infer_player_and_goal ( frame ,
+ΨAA=ents = extract_entities(frame, bg)
+ΨAB=if hasattr
+ΨAC=s . _frame_diff
+ΨAD=in current_comp
+ΨAE== s . game_id )
+ΨAF=self . _plan
+ΨAG=L " if isinstance(goal_val, (list, tuple, set)):"
+ΨAH=: return
+ΨAI=best_aid = aid
+ΨAJ=arc - interactive
+ΨAK=f"/kaggle/input/datasets/poonszesen/arc-interactive-community/environment_files/{gid}/*/{gid}.py",
+ΨAL=if in available_ids
+ΨAM=self . best_score =
+ΨAN=self . target_field
+ΨAO=L if not isinstance
+ΨAP=attr . startswith (
+ΨAQ=. __dict__ . items
+ΨAR=__dict__ . items (
+ΨAS=( / kaggle / input
+ΨAT=/ kaggle / input )
+ΨAU=. _dir_cycle len ( moves
+ΨAV=_dir_cycle len ( moves )
+ΨAW=choose ( raw , avail_ids
+ΨAX=self . game_cls
+ΨAY=len ( s . _visited_hashes
+ΨAZ=act_id , data in prev_sol
+ΨBA=s . game_id
+ΨBB=dtype = torch . float32
+ΨBC=g . perform_action ( ai
+ΨBD== final_scorecard . get
+ΨBE=final_scorecard . get (
+ΨBF=if not self .
+ΨBG=, curr_hash ,
+ΨBH=in ast . walk
+ΨBI=s . _do_observe ( raw
+ΨBJ=. _do_observe ( raw ,
+ΨBK=( self )
+ΨBL=self ) :
+ΨBM=return str (
+ΨBN=super ( ) . __init__
+ΨBO=player2 , targets2 ,
+ΨBP=action_id - > ActionEffect
+ΨBQ=self . effects [ action_id
+ΨBR=game . perform_action ( ai
+ΨBS=self . game_type = unknown
+ΨBT=get_sprites_by_name , None
+ΨBU=array ( r . frame
+ΨBV=. player_colors
+ΨBW=int ( np . sum
+ΨBX=( self , msg )
+ΨBY=self , msg ) :
+ΨBZ=_build_minimal_submission_rows (
+ΨCA=self , frame
+ΨCB=kaggle / input /
+ΨCC=self . _wm
+ΨCD=. warning
+ΨCE=( act_id
+ΨCF=interactive - community / environment_files
+ΨCG=in [ , , ,
+ΨCH=. game_cls ( )
+ΨCI=torch . sigmoid (
+ΨCJ=( self . goal_field ,
+ΨCK=def __init__ ( self )
+ΨCL=data else ActionInput (
+ΨCM=return [ ]
+ΨCN=eff . mover_colors
+ΨCO=avail_ids if < = a
+ΨCP=s . _log . warning
+ΨCQ=input_root . rglob
+ΨCR== np . zeros_like (
+ΨCS=if not isinstance(assign, ast.Assign): continue
+ΨCT=find_game_source_and_class (
+ΨCU=, dtype =
+ΨCV=for e in ents
+ΨCW=, avail_ids ,
+ΨCX== _GameLogger
+ΨCY=_GameLogger (
+ΨCZ=L self . _log
+ΨDA=, float , bool
+ΨDB=float , bool )
+ΨDC=[ dict [ str ,
+ΨDD=failed : { e }
+ΨDE=a in avail_ids if
+ΨDF=. _bfs_solution =
+ΨDG=isinstance ( val , (
+ΨDH=. effects . values (
+ΨDI=effects . values ( )
+ΨDJ=. zeros_like ( mask1
+ΨDK=zeros_like ( mask1 )
+ΨDL=wall_remaining = max(0, 8*3600 - 300 - (time.time() - getattr(s, 'start_time', time.time())))
+ΨDM=_bfs_pre_solutions . get
+ΨDN=s . _bfs_pre_solutions .
+ΨDO=( self , available_ids ,
+ΨDP=def find_game_source_and_class ( game_id ,
+ΨDQ=detect_player_pos ( prev_frame , cur_frame
+ΨDR=list , tuple , set
+ΨDS=curr_hash , act_id
+ΨDT=[ self . _dir_cycle len
+ΨDU=self . _dir_cycle len (
+ΨDV=. infer_player_and_goal ( raw ,
+ΨDW=self , action_id , frame_before
+ΨDX=. infer_player_and_goal ( frame
+ΨDY=infer_player_and_goal ( frame ,
+ΨDZ=return str ( environment_info .
+ΨEA=if os.getenv('KAGGLE_IS_COMPETITION_RERUN'):
+ΨEB=) , raw =
+ΨEC=k . startswith ( __
+ΨED=__init__ ( self , game_id
+ΨEE=self . _perform_and_drain
+ΨEF=, source_path , game_id =
+ΨEG== self . _snapshot_deep (
+ΨEH=s . _visited_hashes . add
+ΨEI=. _visited_hashes . add (
+ΨEJ=raise FileNotFoundError (
+ΨEK=( brain . bootstrap_guidance (
+ΨEL=brain . bootstrap_guidance ( )
+ΨEM=previous_mechanic_positions = last_mechanic_positions ,
+ΨEN=L import
+ΨEO=last_player_pos = None
+ΨEP=last_state_dict = None
+ΨEQ== None )
+ΨER=np . array
+ΨES=info ( f BFS
+ΨET={ gid } . py
+ΨEU=( prev_frame
+ΨEV=s . _source_info
+ΨEW=) : self . _base
+ΨEX=: self . _base .
+ΨEY={ WORKING_COPY }
+ΨEZ=/ working
+ΨFA=working /
+ΨFB=. lower (
+ΨFC=lower ( )
+ΨFD== ActionInput (
+ΨFE=act_id ) , data
+ΨFF=) , data = data
+ΨFG=, data = data )
+ΨFH=Path ( / kaggle
+ΨFI=Path("/kaggle/working/per_environment_results.json").write_text(json.dumps(per_env_results, indent=2), encoding="utf-8")
+ΨFJ=n_observations = =
+ΨFK=s . _stuck_count =
+ΨFL=si . game_type = =
+ΨFM=hasattr (
+ΨFN=interactive -
+ΨFO=device = s . device
+ΨFP=( raw , avail_ids ,
+ΨFQ=int ( np . bincount
+ΨFR=L for act_id , data
+ΨFS=, targets2 , walls2
+ΨFT=int ( np .
+ΨFU=. RESET ) ,
+ΨFV=self , frame ,
+ΨFW=Path ( / kaggle /
+ΨFX=o in current_comp
+ΨFY=in current_comp )
+ΨFZ=, raw , avail_ids
+ΨGA=_last_action_data = data
+ΨGB={ self .
+ΨGC=range ( ,
+ΨGD=s . _bfs_step
+ΨGE=, , , padding
+ΨGF=, , padding =
+ΨGG=, padding = )
+ΨGH=solver.solutions = dict(s._bfs_pre_solutions)
+ΨGI=ents_before = extract_entities ( frame_before
+ΨGJ=_build_probe_sequence ( available_ids , frame
+ΨGK=if r.levels_completed > level_idx or g2._current_level_index > level_idx:
+ΨGL=GoalReader :
+ΨGM=. frame [ -
+ΨGN=nn . Conv2d
+ΨGO=, game_id
+ΨGP=return , {
+ΨGQ=current_comp )
+ΨGR=. sprite_names
+ΨGS=. mover_colors
+ΨGT=. goal_field ,
+ΨGU=in available_ids and
+ΨGV=. _goal_plan = deque
+ΨGW=_goal_plan = deque (
+ΨGX=to_toolkit_action ( action_str
+ΨGY=submission_df = pd . DataFrame
+ΨGZ=None ) :
+ΨHA=. unsqueeze (
+ΨHB=, act_id , data )
+ΨHC=_bfs . game_cls (
+ΨHD=interactive - testbed
+ΨHE=- agi - - interactive
+ΨHF=agi - - interactive -
+ΨHG=previous_mechanic_positions = last_mechanic_positions
+ΨHH=def hfn(f, _=None): return self._proximity_heuristic(f, bg_cache, player_ent, target_ent)
+ΨHI=avail_ids , step
+ΨHJ=ast . Attribute
+ΨHK=deepcopy ( game
+ΨHL=[ colors
+ΨHM=colors ]
+ΨHN=player [
+ΨHO=] ) + abs (
+ΨHP=, game_id =
+ΨHQ=. game_id )
+ΨHR=scorecard .
+ΨHS=. action_field_deltas :
+ΨHT=next_state_dict . get (
+ΨHU=game . __dict__ . items
+ΨHV=( s . _visited_hashes )
+ΨHW=available_ids , frame ,
+ΨHX=. is_dir (
+ΨHY=is_dir ( )
+ΨHZ=import torch
+ΨIA=[ step len (
+ΨIB=report . delta . to_dict
+ΨIC=if action_id not in self
+ΨID=self . _wm = world_model
+ΨIE=if not isinstance ( node
+ΨIF=_extract_win_condition (
+ΨIG=in self . state_fields :
+ΨIH=s . _bfs_pre_solutions [
+ΨII=s . _world_model . infer_player_and_goal
+ΨIJ=. _world_model . infer_player_and_goal (
+ΨIK=def find_game_source_and_class ( game_id
+ΨIL=player , goal
+ΨIM== time . time
+ΨIN=last_action =
+ΨIO== scorecard .
+ΨIP=[ color_counts ] .
+ΨIQ=[ color_counts ] . get
+ΨIR=color_counts ] . get (
+ΨIS=_dir_cycle len ( moves
+ΨIT=self . _build_probe_sequence ( available_ids
+ΨIU=best_action_for_level ( self , game_instance
+ΨIV=_world_model . transfer_to_level ( new_level
+ΨIW=( starting_game )
+ΨIX=self . _max_depth
+ΨIY=in avail_ids if <
+ΨIZ=last_player_pos =
+ΨJA=last_state_dict =
+ΨJB=L self . game_type =
+ΨJC=[ a for a in
+ΨJD=ast . Attribute ) :
+ΨJE== torch . sigmoid (
+ΨJF=abs ( player [
+ΨJG=unsqueeze ( )
+ΨJH=last_r = game
+ΨJI=s . _prev_action_id ,
+ΨJJ=final_scorecard . get
+ΨJK=] = final_scorecard .
+ΨJL=_mod_logger.warning(f"GSA: source not found for {gid}, tried {len(patterns)} patterns")
+ΨJM=int , float
+ΨJN=enumerate (
+ΨJO=len ( self .
+ΨJP=. Conv2d ( ,
+ΨJQ=Conv2d ( , ,
+ΨJR=player , goal =
+ΨJS=available_ids )
+ΨJT=action sequence
+ΨJU=available_ids ,
+ΨJV=GoalReader plan
+ΨJW=. _prev_frame =
+ΨJX=torch . zeros (
+ΨJY=( , , , padding
+ΨJZ=/kaggle/input/competitions/arc-prize-2026-arc-agi-3/arc_agi_3_wheels \
+ΨKA=for e in ents if
+ΨKB=if not r . frame
+ΨKC=self . _solution
+ΨKD=arc - agi -
+ΨKE=action_id ] =
+ΨKF=for aid , eff
+ΨKG=( list , tuple
+ΨKH=goal_val , ( list
+ΨKI=( __ ) : continue
+ΨKJ=s . _last_action_data =
+ΨKK=s . _prev_action_data =
+ΨKL=. infer_player_and_goal ( raw
+ΨKM=infer_player_and_goal ( raw ,
+ΨKN=s . _world_model . confidence
+ΨKO=. _world_model . confidence }
+ΨKP=action_scores [ action_id ] =
+ΨKQ=infer_player_and_goal ( frame
+ΨKR=return str ( environment_info
+ΨKS=_resolve_environments_dir ( )
+ΨKT=L for candidate in input_root
+ΨKU=last_mechanic_positions = [ ]
+ΨKV=# Confidence rises with observations: any obs gives 10 pts, useful actions give 20 pts
+ΨKW=self._log.info(f"BFS L{level_idx}: SOLVED in {len(new_hist)} acts ({explored} nodes)")
+ΨKX=ents_after = extract_entities ( frame_after
+ΨKY=. _bfs .
+ΨKZ=torch . from_numpy (
+ΨLA=. agent import Agent
+ΨLB== set ( )
+ΨLC=game_id =
+ΨLD=ast . walk (
+ΨLE=. _do_observe ( raw
+ΨLF=_do_observe ( raw ,
+ΨLG=( raw , curr_hash ,
+ΨLH=( brain . bootstrap_guidance
+ΨLI=brain . bootstrap_guidance (
+ΨLJ=next_state_dict . get ( resources
+ΨLK=None , None
+ΨLL=next_levels_completed = int(next_state_dict.get("resources", {}).get("levels_completed", levels_completed) or 0)
+ΨLM=arc - agi - -
+ΨLN=data else ActionInput
+ΨLO=self._confidence = min(100, (n_total * 10) + (n_useful * 20) + (self._total_obs * 2))
+ΨLP=L " return []"
+ΨLQ=arc - policy -
+ΨLR=, dtype = np .
+ΨLS=game_id = None
+ΨLT=. action_hints
+ΨLU=. _stuck_count
+ΨLV=in avail_ids :
+ΨLW=BUNDLED_ENVIRONMENTS_ROOT )
+ΨLX=. _goal_plan
+ΨLY=prev_frame [ r , c
+ΨLZ=player2 , targets2
+ΨMA=player and goal :
+ΨMB=. action_counts [
+ΨMC=self . win_fields
+ΨMD=attr . startswith
+ΨME=( / kaggle
+ΨMF=for act_id
+ΨMG=int , float ,
+ΨMH=for a in avail
+ΨMI=self . _queue .
+ΨMJ=warning ( f BFS
+ΨMK=target_colors =
+ΨML=[ step_in_level
+ΨMM=in self . _wm .
+ΨMN=. action_counts
+ΨMO=effects . items
+ΨMP=( self . _fmt (
+ΨMQ=. _queue . append (
+ΨMR=_queue . append ( (
+ΨMS=in self . effects .
+ΨMT=( self . goal_field
+ΨMU=self . best_frame =
+ΨMV=__init__ ( self ) :
+ΨMW=- games . ipynb cell
+ΨMX=games . ipynb cell -
+ΨMY=action , before , after
+ΨMZ=action_id not in self .
+ΨNA=. effects [ action_id ]
+ΨNB=if score < best_score :
+ΨNC== self . _frame_score (
+ΨND=. action_scores . get (
+ΨNE=action_scores . get ( a
+ΨNF=if not actions : return
+ΨNG=, source_path , game_id
+ΨNH=source_path , game_id =
+ΨNI=not isinstance ( node ,
+ΨNJ=isinstance ( node , ast
+ΨNK== self . _snapshot_deep
+ΨNL=self . _snapshot_deep (
+ΨNM=, get_sprites_by_name ,
+ΨNN=for prev_lvl in range (
+ΨNO=. _visited_hashes . add
+ΨNP=_visited_hashes . add (
+ΨNQ=candidates . append ( (
+ΨNR=raise FileNotFoundError
+ΨNS=kaggle / working / server_recording
+ΨNT=JUST_EXPLORE = '/kaggle/input/datasets/inversion/arc-agi-3-just-explore/arc-agi-3-just-explore'
+ΨNU=def run_submission(max_steps_per_env: int = MAX_STEPS_PER_ENV) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+ΨNV=. _bfs_pre_solutions .
+ΨNW=( self , available_ids
+ΨNX=self , available_ids ,
+ΨNY=if act_id not in self.action_field_deltas:
+ΨNZ=best_fdm_score , best_fdm_aid = dir_scored
+ΨOA=__dict__ . items
+ΨOB=kaggle / input )
+ΨOC=for candidate in
+ΨOD=/ working / submission .
+ΨOE=. _world_model . infer_player_and_goal
+ΨOF=_world_model . infer_player_and_goal (
+ΨOG=find_game_source_and_class ( game_id ,
+ΨOH=for a in avail if
+ΨOI=. info ( f GoalReader
+ΨOJ=__init__ ( self , cls
+ΨOK=self . _dir_cycle len
+ΨOL=cx = sum(o['x'] * o['n'] for o in current_comp) / sum(o['n'] for o in current_comp)
+ΨOM=cy = sum(o['y'] * o['n'] for o in current_comp) / sum(o['n'] for o in current_comp)
+ΨON=match = next((eb for eb in ents_before if eb['colors'] == e_after['colors']), None)
+ΨOO=e [ colors ]
+ΨOP=- submission .
+ΨOQ=isinstance ( v
+ΨOR=Conv2d ( , , ,
+ΨOS=, frame_before , frame_after
+ΨOT=, action_id , frame_before ,
+ΨOU=if hasattr ( OperationMode ,
+ΨOV== toolkit_obs_to_arc_state (
+ΨOW=game_id ,
+ΨOX=len ( moves ) ]
+ΨOY=, frame ,
+ΨOZ=float ( inf )
+ΨPA=( self , game
+ΨPB=bfs_game . perform_action (
+ΨPC=rews = torch.tensor([e['r'] for e in batch], dtype=torch.float32, device=s.device)
+ΨPD=GameAction . ACTION6
+ΨPE=a for a in avail_ids
+ΨPF=s . _bfs . solutions
+ΨPG=( ) ) . hexdigest
+ΨPH=) ) . hexdigest (
+ΨPI=) . hexdigest ( )
+ΨPJ=. hexdigest ( ) [
+ΨPK=hexdigest ( ) [ :
+ΨPL== np . zeros_like
+ΨPM=np . zeros_like (
+ΨPN=bfs_game . perform_action ( ActionInput
+ΨPO=L " return 6, {'x': pos[0], 'y': pos[1]}"
+ΨPP=snap[f"{sname}[{i}].{attr}"] = float(val)
+ΨPQ=best_aid = aid; best_closeness = 0; break
+ΨPR=. _build_probe_sequence ( available_ids ,
+ΨPS=spec = importlib.util.spec_from_file_location('game_mod', self.game_path)
+ΨPT=. effects . values
+ΨPU=effects . values (
+ΨPV=zeros_like ( mask1
+ΨPW=previous_mechanic_positions=last_mechanic_positions,
+ΨPX== int ( np .
+ΨPY=( prev_frame , cur_frame )
+ΨPZ=( prev_frame = cur_frame )
+ΨQA=avail_ids , step , player2
+ΨQB=_build_row_from_sample ( sample_df
+ΨQC=_ACTION_VECTORS = {0: (0, -1), 1: (0, 1), 2: (-1, 0), 3: (1, 0)} # action_idx 0-3
+ΨQD=Path("/kaggle/working/final_scorecard.json").write_text(json.dumps(scorecard, indent=2), encoding="utf-8")
+ΨQE=( np . sum
+ΨQF=avail_ids if < =
+ΨQG=L row [ column ]
+ΨQH=frame [ -
+ΨQI=arc - interactive -
+ΨQJ=. parquet , index =
+ΨQK=( frame ,
+ΨQL=. _frame_diff
+ΨQM=action_id - >
+ΨQN=game_id = s .
+ΨQO== s . game_id
+ΨQP=torch . sigmoid
+ΨQQ=return (valid[step % len(valid)] if valid else 1), None
+ΨQR=ignore = {'_action_count', '_full_reset', '_action_complete', '_debug', '_seed'}
+ΨQS=self._log.warning("GSA: source path not found, running without static analysis")
+ΨQT=def write_submission_artifacts(scorecard: dict[str, Any], per_env_results: list[dict[str, Any]]) -> None:
+ΨQU=L if s . _level_action_count
+ΨQV== { self
+ΨQW=best_aid =
+ΨQX=- submission
+ΨQY=s . device )
+ΨQZ=_environment_game_id (
+ΨRA=self . action_scores :
+ΨRB=in available_ids and (
+ΨRC=] . n_observations = =
+ΨRD=. _perform_and_drain (
+ΨRE== ast . literal_eval (
+ΨRF=in self . state_fields
+ΨRG=attr . startswith ( __
+ΨRH=( self , game_instance
+ΨRI=isinstance ( d , float
+ΨRJ=by WorldModel priors .
+ΨRK=s . _prev_frame = None
+ΨRL=. _bfs_pre_solutions [
+ΨRM=in range ( new_level )
+ΨRN=. Directional fallback
+ΨRO=submission . parquet ,
+ΨRP=under / kaggle / input
+ΨRQ=explores cheaply but executes wastefully
+ΨRR=transfer_to_level ( self , new_level_idx
+ΨRS=_GameLogger ( game_id or game_class_name
+ΨRT=( scorecard
+ΨRU=( game_id )
+ΨRV=( list , tuple ,
+ΨRW=if aid in available_ids and
+ΨRX=infer_player_and_goal ( raw
+ΨRY=self . player_colors = None
+ΨRZ=self . target_colors = None
+ΨSA=self . _plan_confidence = .
+ΨSB=over WorldModel predictions
+ΨSC=. _world_model . confidence
+ΨSD=_world_model . confidence }
+ΨSE=return GameAction . ACTION6
+ΨSF=kaggle / working / my_agent
+ΨSG=L ents = extract_entities (
+ΨSH=_resolve_environments_dir (
+ΨSI=_find_sample_submission ( )
+ΨSJ=action_field_deltas :
+ΨSK=if isinstance ( val ,
+ΨSL=next_state_dict . get
+ΨSM=s . _prev_frame , raw
+ΨSN=( s . _visited_hashes
+ΨSO=s . _visited_hashes )
+ΨSP=available_ids , frame
+ΨSQ=if not s._goal_plan and s._bfs_solution is None and s._bfs and s._bfs.game_cls:
+ΨSR=e for e in ents
+ΨSS=in avail_ids if
+ΨST=hashlib . md5 (
+ΨSU== float ( inf )
+ΨSV=( self , game ,
+ΨSW=not r . frame :
+ΨSX=_bfs_solution =
+ΨSY=_world_model . infer_player_and_goal
+ΨSZ=find_game_source_and_class ( game_id
+ΨTA=: { e } )
+ΨTB=effects .
+ΨTC=( frame , bg
+ΨTD=final_scorecard .
+ΨTE=( raw , avail_ids
+ΨTF=( np . bincount (
+ΨTG=cur_frame [ r , c
+ΨTH=targets2 , walls2
+ΨTI=agi - - interactive
+ΨTJ=- testbed - - games
+ΨTK=testbed - - games .
+ΨTL=brain . bootstrap_guidance
+ΨTM=. apply_guidance ( brain .
+ΨTN=. bootstrap_guidance ( ) )
+ΨTO=avail = game . _available_actions
+ΨTP=import torch .
+ΨTQ=_goal_plan = deque
+ΨTR=, transient_fields
+ΨTS=transient_fields )
+ΨTT=color_counts ] . get
+ΨTU=, avail_ids , step ,
+ΨTV=from . heuristic_agent import HeuristicAgent
+ΨTW=if len(s.frames) > s._MAX_FRAMES: s.frames = s.frames[-s._MAX_FRAMES:]
+ΨTX== float (
+ΨTY=: return None
+ΨTZ=# Goal = entity that shares colours with player OR is the unique static entity
+ΨUA=return sum(abs(ents[i]['x'] - ents[j]['x']) + abs(ents[i]['y'] - ents[j]['y'])
+ΨUB=f"/kaggle/input/arc-interactive-community/environment_files/{gid}/*/{gid}.py",
+ΨUC=_snapshot_deep (
+ΨUD=. state_fields :
+ΨUE=. _stuck_count =
+ΨUF=si . game_type =
+ΨUG=. goal_value
+ΨUH=, frame , bg
+ΨUI=input_root .
+ΨUJ=in lowered :
+ΨUK== deque (
+ΨUL=torch . cat ( [
+ΨUM=step , player2 , targets2
+ΨUN=L " if attr.startswith('__'): continue"
+ΨUO=if isinstance(val, (int, float, bool)):
+ΨUP=. _build_probe_sequence ( available_ids
+ΨUQ=_build_probe_sequence ( available_ids ,
+ΨUR=Beam search over WorldModel predictions
+ΨUS=pos_key in visited_positions : continue
+ΨUT=Click exploration ( unvisited positions
+ΨUU=L else :
+ΨUV=L if self .
+ΨUW=s . _last_action_data
+ΨUX=. _last_action_data =
+ΨUY=. _prev_action_data =
+ΨUZ=s . _prev_action_id =
+ΨVA=for i in range(len(ents)) for j in range(i+1, len(ents))) / max(len(ents), 1)
+ΨVB=while pq and explored < max_states and (time.time() - t0) < self.bfs_timeout:
+ΨVC=f"FDM={dict((k, round(v,1)) for k,v in s._frame_diff.action_scores.items())}"
+ΨVD=. _prev_action_id ,
+ΨVE=if isinstance ( v ,
+ΨVF=game_id : game_id ,
+ΨVG=] = final_scorecard
+ΨVH== final_scorecard .
+ΨVI=L self . game_type
+ΨVJ=action_id ,
+ΨVK=_bfs_pre_solutions . get ( prev_lvl
+ΨVL=None frozenset of colours belonging
+ΨVM=self . class_name = game_class_name
+ΨVN=importlib . util . module_from_spec
+ΨVO=L " ai = ActionInput(id=GameAction.from_id(act_id), data=data) if data else ActionInput(id=GameAction.from_id(act_id))"
+ΨVP=list [ dict [
+ΨVQ=str , Any ] ]
+ΨVR=self . _log =
+ΨVS=. popleft ( )
+ΨVT=( new_level )
+ΨVU=if transient: self._log.info(f"BFS: detected transient fields: {transient}")
+ΨVV=mod = getattr(arc_env, '__file__', None) or getattr(arc_env, 'module', None)
+ΨVW== s . _bfs .
+ΨVX=gid } . py ,
+ΨVY=aid , eff in
+ΨVZ=self . _base
+ΨWA=( self , msg
+ΨWB=self , msg )
+ΨWC=sprite_names :
+ΨWD=. _source_info
+ΨWE=si . game_type
+ΨWF=: self . _base
+ΨWG=self . _base .
+ΨWH=, msg ) : self
+ΨWI=msg ) : self .
+ΨWJ=. _fmt ( msg )
+ΨWK=_fmt ( msg ) )
+ΨWL=np . zeros ( (
+ΨWM=[ ] - player [
+ΨWN=] - player [ ]
+ΨWO={ WORKING_COPY
+ΨWP=WORKING_COPY }
+ΨWQ=frame_before , frame_after
+ΨWR=, action_id , frame_before
+ΨWS=action_id , frame_before ,
+ΨWT=observe ( self , action_id
+ΨWU=frame , bg , available_ids
+ΨWV=_detect_transient_fields (
+ΨWW== s . _bfs_pre_solutions .
+ΨWX=BFSSolver ( src_path , cls
+ΨWY=self . target_frame = None
+ΨWZ=s . _prev_log_new_states =
+ΨXA=if hasattr ( OperationMode
+ΨXB== toolkit_obs_to_arc_state
+ΨXC=toolkit_obs_to_arc_state (
+ΨXD=, _full_reset , _action_complete
+ΨXE=- - - CELL
+ΨXF=- - CELL -
+ΨXG=- CELL - -
+ΨXH=CELL - - -
+ΨXI=. Conv2d (
+ΨXJ=. zeros (
+ΨXK=curr_hash ,
+ΨXL=s . _frame_diff .
+ΨXM=s . _prev_frame ,
+ΨXN== { } action_id -
+ΨXO={ } action_id - >
+ΨXP=, available_ids ,
+ΨXQ=si . target_field
+ΨXR== torch . sigmoid
+ΨXS=for d in ENV_DIRS
+ΨXT=color_counts ] .
+ΨXU=GameAction . ACTION1 ,
+ΨXV=GameAction . ACTION2 ,
+ΨXW=/ working / submission
+ΨXX=working / submission .
+ΨXY=/ submission . parquet
+ΨXZ=L " for prev_lvl in range(new_level):"
+ΨYA=if curr_hash not in s._visited_hashes:
+ΨYB=collections import deque , defaultdict
+ΨYC=maximally - informative probe sequence
+ΨYD=search over predicted entity positions
+ΨYE=_detect_transient_fields ( self , game
+ΨYF=win_comparisons or self . sprite_names
+ΨYG=_bfs_solution = s . _bfs_pre_solutions
+ΨYH=runtime .
+ΨYI=. game_cls (
+ΨYJ=game_cls ( )
+ΨYK=, act_id , data
+ΨYL=in enumerate ( objs )
+ΨYM=action_id not in self
+ΨYN=. effects [ action_id
+ΨYO=effects [ action_id ]
+ΨYP=eff in self . effects
+ΨYQ=if score < best_score
+ΨYR=if in available_ids :
+ΨYS=self . best_score = -
+ΨYT== self . _frame_score
+ΨYU=self . _frame_score (
+ΨYV=. action_scores . get
+ΨYW=action_scores . get (
+ΨYX=or not last_r . frame
+ΨYY=source_path , game_id
+ΨYZ=. game_type = unknown
+ΨZA=self . target_field =
+ΨZB=not isinstance ( node
+ΨZC=, ast . FunctionDef )
+ΨZD=ast . FunctionDef ) :
+ΨZE=t in assign . targets
+ΨZF=in assign . targets :
+ΨZG=_probe_state_fields (
+ΨZH=if not isinstance ( n
+ΨZI=self . _snapshot_deep
+ΨZJ=, get_sprites_by_name
+ΨZK=get_sprites_by_name ,
+ΨZL== getattr ( current ,
+ΨZM=for prev_lvl in range
+ΨZN=range ( new_level ) :
+ΨZO=_visited_hashes . add
+ΨZP=s . _visited_hashes .
+ΨZQ=si = s . _source_info
+ΨZR=si and si . game_type
+ΨZS=signal_strength > . :
+ΨZT=candidates . append (
+ΨZU=L return GameAction .
+ΨZV=isinstance ( act_id , int
+ΨZW=bfs_game . perform_action
+ΨZX=player = next((e for e in ents if e['colors'] == self.player_colors), None)
+ΨZY=# --- Directional actions: pick direction that moves player toward goal ---
+ΨZZ=try: r2 = game.perform_action(ActionInput(id=GameAction.ACTION1), raw=True)
+ΨAA=torch . from_numpy
+ΨAB=agent import Agent
+ΨAC=def __init__ ( s ,
+ΨAD=local environments : , BUNDLED_ENVIRONMENTS_ROOT
+ΨAE=environments_dir = _resolve_environments_dir ( )
+ΨAF=L return , { x
+ΨAG=s . _prev_action_id , s
+ΨAH=. _prev_action_id , s .
+ΨAI=open ( f { WORKING_COPY
+ΨAJ=deltas in self . action_field_deltas
+ΨAK=from arcengine import FrameData, GameAction, GameState, ActionInput
+ΨAL=def run_environment(arc: Arcade, card_id: str, game_id: str, *, max_steps: int) -> dict[str, Any]:
+ΨAM=str , Any
+ΨAN=. array (
+ΨAO=. game_id
+ΨAP=not self .
+ΨAQ=( ai , raw
+ΨAR=ai , raw =
+ΨAS=[ column ]
+ΨAT=column ] =
+ΨAU=v in game . __dict__
+ΨAV=in game . __dict__ .
+ΨAW=_bfs_pre_solutions .
+ΨAX=self , available_ids
+ΨAY=r . frame : continue
+ΨAZ=, data in prev_sol :
+ΨBA=. _bfs . solutions [
+ΨBB== / kaggle / working
+ΨBC=( act_id ) )
+ΨBD=float , bool
+ΨBE=[ dict [ str
+ΨBF=failed : { e
+ΨBG=. _dir_cycle
+ΨBH=if not self
+ΨBI=, curr_hash
+ΨBJ== ActionInput
+ΨBK=, data = data
+ΨBL=data = data )
+ΨBM=bfs_timeout =
+ΨBN=s . _observer
+ΨBO=, dtype = torch .
+ΨBP=. ACTION1 ) , raw
+ΨBQ=ACTION1 ) , raw =
+ΨBR=_do_observe ( raw
+ΨBS=s . _do_observe (
+ΨBT=( raw , curr_hash
+ΨBU=ents_sorted = sorted(ents, key=lambda e: -sum(e['color_counts'].values()))
+ΨBV=any_movers = any(len(eff.mover_colors) > 0 for eff in wm.effects.values())
+ΨBW=def _build_row_from_sample(sample_df: pd.DataFrame, scorecard: dict[str, Any]) -> dict[str, Any]:
+ΨBX=( game_instance , self .
+ΨBY=( prev_frame , cur_frame
+ΨBZ=prev_frame , cur_frame )
+ΨCA=( prev_frame = cur_frame
+ΨCB=prev_frame = cur_frame )
+ΨCC=self . scan_timeout = scan_timeout
+ΨCD=ipynb cell
+ΨCE=- from arc
+ΨCF=from arc -
+ΨCG=- - - from
+ΨCH=cell - - -
+ΨCI=( starting_game
+ΨCJ=starting_game )
+ΨCK=is not None and
+ΨCL=np . bincount (
+ΨCM=if in avail_ids
+ΨCN=in input_root .
+ΨCO=importlib . util
+ΨCP=k . startswith (
+ΨCQ=pd . DataFrame (
+ΨCR=np . array ( r
+ΨCS=. effects [
+ΨCT=, data = s .
+ΨCU=games . ipynb cell
+ΨCV=. apply_guidance (
+ΨCW=info ( f GoalReader
+ΨCX=self . scan_timeout
+ΨCY=self . player_trail
+ΨCZ=self . player_color
+ΨDA=[ self . _dir_cycle
+ΨDB=, raw , avail_ids ,
+ΨDC=s._last_action_data = data
+ΨDD=toolkit_action = to_toolkit_action ( action_str
+ΨDE=# (the original eagerly imports langgraph, smolagents, etc. which aren't available)
+ΨDF=ai = ActionInput(id=GameAction.from_id(act_id), data=data) if data else ActionInput(id=GameAction.from_id(act_id))
+ΨDG=self.action_field_deltas[act_id] = {}
+ΨDH=_build_probe_sequence ( available_ids
+ΨDI=array_equal ( curr_frame , prev_frame
+ΨDJ=def _detect_transient_fields ( self ,
+ΨDK=candidates . extend ( grid_candidates
+ΨDL=last_r . levels_completed < level_idx
+ΨDM=Competition dataset path ( poonszesen
+ΨDN=Returns ( action_id , estimated_steps
+ΨDO=_clicked_positions . add ( click_hash
+ΨDP=goal = next((e for e in ents if e['colors'] == self.target_colors), None)
+ΨDQ=tc = next((e for e in ents if e['colors'] == target_ent['colors']), None)
+ΨDR=# - game_type: 'entity_move' | 'scroll_map' | 'pattern_match' | 'unknown'
+ΨDS=s._log.info(f"BFS live attempt L{new_level} ({live_budget:.0f}s budget)")
+ΨDT=act_id )
+ΨDU=, tuple , set )
+ΨDV=tuple , set ) )
+ΨDW=__ ) : continue
+ΨDX=import torch . nn
+ΨDY=. action_scores .
+ΨDZ=self . _total_obs
+ΨEA=. _queue . append
+ΨEB=_queue . append (
+ΨEC=available_ids and
+ΨED=. player_colors =
+ΨEE=self , frame , bg
+ΨEF=self . best_frame
+ΨEG=. action_scores [
+ΨEH=the win condition
+ΨEI=return int ( np .
+ΨEJ=__init__ ( self )
+ΨEK=, available_ids )
+ΨEL=turn , player , targets
+ΨEM=self . _plan_confidence =
+ΨEN=. _prev_frame is not None
+ΨEO=for a in available_ids if
+ΨEP=_world_model . confidence
+ΨEQ=L ents = extract_entities
+ΨER=hasattr ( OperationMode ,
+ΨES=L last_mechanic_positions
+ΨET=_find_sample_submission (
+ΨEU=L " g.perform_action(ai, raw=True)"
+ΨEV=. time ( ) -
+ΨEW=F . relu ( s
+ΨEX=. relu ( s .
+ΨEY=( ) . __init__ (
+ΨEZ=prev_frame [ r ,
+ΨFA=self . positions
+ΨFB=return ,
+ΨFC=return [
+ΨFD=. Attribute )
+ΨFE=game instance
+ΨFF=# --- Click actions: cycle through all entity centres to avoid loops ---
+ΨFG=# Keep self.effects — action semantics are game-wide, not level-specific
+ΨFH="""Keep action knowledge across levels — action semantics are game-wide.
+ΨFI=def _proximity_heuristic(self, f, bg, player_ent=None, target_ent=None):
+ΨFJ=pc = next((e for e in ents if player_ent['colors'].issubset(e['colors'])
+ΨFK=last_r = game.perform_action(ActionInput(id=GameAction.RESET), raw=True)
+ΨFL=if isinstance(left, ast.Attribute) and isinstance(left.value, ast.Name):
+ΨFM="See [README](https://github.com/theredbluepill/arc-interactive/blob/main/README.md) for repo layout and setup."
+ΨFN=avail_ids ,
+ΨFO=. _bfs . solutions
+ΨFP=last_action = None
+ΨFQ=observe_outcome ( action_str , next_state_dict
+ΨFR=environments_dir = _resolve_environments_dir (
+ΨFS=_build_row_from_sample ( sample_df , scorecard
+ΨFT=/ arc - interactive
+ΨFU=( act_id ) if isinstance
+ΨFV=act_id ) if isinstance (
+ΨFW=) if isinstance ( act_id
+ΨFX=if isinstance ( act_id ,
+ΨFY=. apply_guidance ( brain
+ΨFZ=apply_guidance ( brain .
+ΨGA=. bootstrap_guidance ( )
+ΨGB=bootstrap_guidance ( ) )
+ΨGC=- community / environment_files /
+ΨGD=community / environment_files / {
+ΨGE=_prev_action_id , s . _prev_frame
+ΨGF=frozenset of colours belonging to
+ΨGG=GameAction . ACTION1 , GameAction
+ΨGH=f GoalReader :
+ΨGI=a in avail_ids
+ΨGJ=L return None ,
+ΨGK=player and goal
+ΨGL=action_counts [
+ΨGM=L self . _log .
+ΨGN=. game_type = =
+ΨGO=_kaggle_dataset_mounts ( inp
+ΨGP=astype ( np . float32
+ΨGQ=def observe(self, action_id, frame_before, frame_after, bg, data=None):
+ΨGR=def predict_best_action(self, frame, bg, available_ids, step_in_level):
+ΨGS=best_dist = abs(player['x'] - goal['x']) + abs(player['y'] - goal['y'])
+ΨGT=self._log.warning(f"BFS: Failed to load game class: {e}"); return False
+ΨGU=# - win_fields: names of fields checked in the win/level-complete logic
+ΨGV=self._log.info(f"GoalReader: action_deltas={self.action_field_deltas}")
+ΨGW=return float(current) if isinstance(current, (int, float)) else current
+ΨGX=s.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+ΨGY=avail_ids = [a.value if hasattr(a, 'value') else int(a) for a in avail]
+ΨGZ=, torch . from_numpy (
+ΨHA=return 6, {'x': pos[0], 'y': pos[1]}
+ΨHB=Lightweight causal model : action_id
+ΨHC=extract_entities ( frame_before , bg
+ΨHD=infer_player_and_goal ( self , frame
+ΨHE=self . infer_player_and_goal ( frame
+ΨHF=Complements WorldModel when movers =
+ΨHG=rich WorldModel with minimum actions
+ΨHH=search over WorldModel predictions .
+ΨHI=win comparisons against state fields
+ΨHJ=getattr ( game , get_sprites_by_name
+ΨHK=s . _world_model . transfer_to_level
+ΨHL=. _world_model . transfer_to_level (
+ΨHM=_bfs_pre_solutions . get ( new_level
+ΨHN=Compare histogram overlap ( assembly
+ΨHO=) ] , None
+ΨHP=return str
+ΨHQ=goal_field ,
+ΨHR=np . zeros (
+ΨHS=L " self._log.info("
+ΨHT=raise RuntimeError (
+ΨHU=self . _state_hash (
+ΨHV=enumerate ( objs ) :
+ΨHW=_update_confidence (
+ΨHX=L return None , None
+ΨHY=if player and goal :
+ΨHZ=score < best_score :
+ΨIA=] . n_observations =
+ΨIB=self . _plan = deque
+ΨIC=not actions : return
+ΨID=. _perform_and_drain
+ΨIE=not last_r . frame :
+ΨIF=not isinstance ( n ,
+ΨIG=isinstance ( n , ast
+ΨIH== ast . literal_eval
+ΨII=ast . literal_eval (
+ΨIJ=if callable ( gsbn )
+ΨIK=self , game_instance
+ΨIL=shaped by WorldModel
+ΨIM=by WorldModel priors
+ΨIN=s . _current_level =
+ΨIO=. _prev_frame = None
+ΨIP=solver = BFSSolver (
+ΨIQ=_bfs_pre_solutions [
+ΨIR=in range ( new_level
+ΨIS=Directional fallback
+ΨIT=and si . game_type =
+ΨIU=poonszesen / arc - interactive
+ΨIV=_full_reset , _action_complete
+ΨIW=from dotenv import load_dotenv
+ΨIX=pd . DataFrame
+ΨIY=L " for act_id, data in prev_sol:"
+ΨIZ=for k, v in game.__dict__.items():
+ΨJA=self . action_field_deltas . items
+ΨJB=game.perform_action(ActionInput(id=GameAction.RESET), raw=True)
+ΨJC=arc - agi
+ΨJD=win condition
+ΨJE=_prev_frame =
+ΨJF=torch . zeros
+ΨJG=a in avail if a
+ΨJH=player , targets ,
+ΨJI=def _environment_game_id ( environment_info :
+ΨJJ=_environment_game_id ( environment_info : Any
+ΨJK=if next_levels_completed > levels_completed :
+ΨJL=# frame_after) triples. Summarises each action as a "delta signature":
+ΨJM=# Decides which action to take during the "learning phase" of a level.
+ΨJN=# Strategy: test each available action once, then test click positions
+ΨJO=if not any(k in fname for k in ['win', 'check', 'complete', 'success',
+ΨJP=f"GoalReader: inferred goal = {self.goal_field} -> {self.goal_value}")
+ΨJQ=def _reward(s, prev_raw, curr_raw, curr_hash, action_id, action_data):
+ΨJR=abs(player['color_counts'].get(c, 0) - goal['color_counts'].get(c, 0))
+ΨJS=if isinstance ( val
+ΨJT=. _prev_frame , raw
+ΨJU=getattr ( arc_env ,
+ΨJV=self . goal_value =
+ΨJW=. _visited_hashes )
+ΨJX=s , raw , avail_ids
+ΨJY=effects . values
+ΨJZ=sorted ( [ a for
+ΨKA=name . lower ( )
+ΨKB=, data =
+ΨKC=. parquet , index
+ΨKD=parquet , index =
+ΨKE=, index = False )
+ΨKF=print("steps:", n, "terminal=", _terminal(obs), "state=", getattr(getattr(obs, "state", None), "name", obs))
+ΨKG=, GameAction .
+ΨKH=aid in available_ids and
+ΨKI=action_id , frame_before
+ΨKJ=self . goal_field , None
+ΨKK== s . _bfs_pre_solutions
+ΨKL== BFSSolver ( src_path ,
+ΨKM=self . best_frame = None
+ΨKN=self . win_comparisons :
+ΨKO=s . _prev_log_new_states
+ΨKP=. _prev_log_new_states =
+ΨKQ=if hasattr ( scorecard ,
+ΨKR=str ( environment_info .
+ΨKS=last_action = action_str
+ΨKT=action_field_deltas [ act_id ] [
+ΨKU=self . bfs_timeout = bfs_timeout
+ΨKV=def find_game_source_and_class (
+ΨKW=detect_player_pos ( prev_frame ,
+ΨKX=_do_observe (
+ΨKY=useful = [aid for aid in sorted(available_ids) if aid in self.effects
+ΨKZ=self.action_scores = {} # action_id -> running mean score improvement
+ΨLA=- Minority colour pixel count: sum of pixels in non-dominant colours.
+ΨLB=# Crucially: does NOT copy game state — plans over model predictions.
+ΨLC=if aid in available_ids and aid in [1, 2, 3, 4] and eff.causes_change
+ΨLD=# --- CNN fallback (also persists: we keep weights across levels) ---
+ΨLE=s._log.info(f"WM_DUMP player={player['colors'] if player else None} "
+ΨLF=abs ( player
+ΨLG=. _bfs_step
+ΨLH=, , padding
+ΨLI=, padding =
+ΨLJ=padding = )
+ΨLK== nn . Linear (
+ΨLL=) ) . hexdigest
+ΨLM=) . hexdigest (
+ΨLN=. hexdigest ( )
+ΨLO=hexdigest ( ) [
+ΨLP=np . zeros_like
+ΨLQ=return torch . cat (
+ΨLR=World Model + Efficient Exploration
+ΨLS=action sequence toward the inferred
+ΨLT=the ActionEffect for this action_id
+ΨLU== extract_entities ( frame_before ,
+ΨLV=extract_entities ( frame_after , bg
+ΨLW=goal = self . infer_player_and_goal
+ΨLX=transition and update action scores
+ΨLY=, hands control to EfficientPlanner
+ΨLZ=hands control to EfficientPlanner .
+ΨMA=def _detect_transient_fields ( self
+ΨMB=action_semantics : what each action
+ΨMC=def _extract_win_condition ( self )
+ΨMD=Match win comparisons against state
+ΨME=optimal_plan ( self , game_instance
+ΨMF=getattr ( obj , get_sprites_by_name
+ΨMG=Trained online using rewards shaped
+ΨMH=rewards shaped by WorldModel priors
+ΨMI=_world_model = WorldModel ( game_id
+ΨMJ=EfficientPlanner ( s . _world_model
+ΨMK=penalise stuck actions more heavily
+ΨML=exploration ( unvisited positions )
+ΨMM=. heuristic_agent import HeuristicAgent
+ΨMN=levels_completed ,
+ΨMO=[ color_counts ] )
+ΨMP=ents if e [ colors
+ΨMQ=dtype = np . int32
+ΨMR=. _dir_cycle len (
+ΨMS=avail_ids , step ,
+ΨMT=environments : , BUNDLED_ENVIRONMENTS_ROOT )
+ΨMU=next_state_dict = toolkit_obs_to_arc_state (
+ΨMV=environments_dir = _resolve_environments_dir
+ΨMW=Multiple accepted ARC competition submission
+ΨMX=accepted ARC competition submission examples
+ΨMY=best_closeness =
+ΨMZ== getattr ( lf ,
+ΨNA=L " g = copy.deepcopy(game)"
+ΨNB=sorted (
+ΨNC=for a in
+ΨND=. unsqueeze
+ΨNE=unsqueeze (
+ΨNF=list , tuple
+ΨNG=eff in self .
+ΨNH=in self . _wm
+ΨNI=( self . _fmt
+ΨNJ=self . _fmt (
+ΨNK=- - interactive -
+ΨNL=testbed - - games
+ΨNM=- - games . ipynb
+ΨNN=if k . startswith (
+ΨNO=. _last_action_data
+ΨNP=_last_action_data =
+ΨNQ=_prev_action_data =
+ΨNR=. _prev_action_id =
+ΨNS=_action_count , _full_reset ,
+ΨNT=per_env_results : list [ dict
+ΨNU=agent import Agent , Playback
+ΨNV=AVAILABLE_AGENTS : dict [ str
+ΨNW=not in self . action_field_deltas
+ΨNX=or not self . action_field_deltas
+ΨNY=# EfficientPlanner— A* over WorldModel predictions (not game copies)
+ΨNZ=color_counts[part['c']] = color_counts.get(part['c'], 0) + part['n']
+ΨOA=self.causes_change = False # does this action ever change the frame?
+ΨOB=self.player_colors = None # frozenset of colours belonging to player
+ΨOC=candidate = next((e for e in ents if e['colors'] == mover_cs), None)
+ΨOD=Construct a short action sequence. Returns True if a plan was found.
+ΨOE=# Reads the game's Python source at init time (same source the agent
+ΨOF="""Read a path like 'lgdrixfno[0].rotation' from a game instance."""
+ΨOG=player, goal = s._world_model.infer_player_and_goal(curr_raw, s._bg)
+ΨOH=s._log.info(f"FRAME_HIST bg={s._bg} colours={sorted(hist.items())}")
+ΨOI=act_id, data = s._pick_action(raw, avail_ids, s._level_action_count)
+ΨOJ=for point in next_state_dict.get("resources", {}).get("mechanic_candidate_positions", [])
+ΨOK=L continue
+ΨOL=L " f = np.array(r.frame[-1])"
+ΨOM=* / { gid }
+ΨON== scorecard
+ΨOO=arc - policy
+ΨOP=. append ( {
+ΨOQ=, dtype = np
+ΨOR=dtype = np .
+ΨOS=( game_id or
+ΨOT=. best_score
+ΨOU=L return [ ]
+ΨOV=len ( moves )
+ΨOW=/ arc - interactive -
+ΨOX=. _prev_action_id , s
+ΨOY=_prev_action_id , s .
+ΨOZ=. _current_level_index > level_idx :
+ΨPA=# Intelligence = Efficiency. Score = actions_human / actions_agent.
+ΨPB=n_useful = sum(1 for e in self.effects.values() if e.causes_change)
+ΨPC=Given current frame and available actions, return (action_id, data)
+ΨPD=Falls back to systematic cycling (not random) when model is sparse.
+ΨPE=# Once WorldModel confidence >= threshold, plan a short action path
+ΨPF=# 4. Comparing initial state fields against the win method's source
+ΨPG=# "field X must equal V", we find the action sequence that achieves
+ΨPH=loss = F.binary_cross_entropy_with_logits(sel, torch.sigmoid(rews))
+ΨPI=gid } . py
+ΨPJ=s . device
+ΨPK=, key = lambda
+ΨPL=frame_before ,
+ΨPM=avail_ids if <
+ΨPN=( frame_before
+ΨPO=L row [ column
+ΨPP=self . effects .
+ΨPQ=s . _goal_reader
+ΨPR=self . effects [
+ΨPS=s . _goal_plan =
+ΨPT=GameAction . ACTION2
+ΨPU=working / submission
+ΨPV=L self . target_colors =
+ΨPW=L s . _bfs_pre_solutions
+ΨPX=L " return 6, {'x': x, 'y': y}"
+ΨPY=- community / environment_files
+ΨPZ=community / environment_files /
+ΨQA=s . _frame_diff . action_scores
+ΨQB=def _environment_game_id ( environment_info
+ΨQC=arc_state_dict = toolkit_obs_to_arc_state (
+ΨQD=if next_levels_completed > levels_completed
+ΨQE=( game_instance , self
+ΨQF=game_instance , self .
+ΨQG=win / level - complete
+ΨQH=prev_frame , cur_frame
+ΨQI=prev_frame = cur_frame
+ΨQJ=, player2 , targets2 ,
+ΨQK=submission . parquet )
+ΨQL=kaggle / working / ARC
+ΨQM=L " last_r = game.perform_action("
+ΨQN=if attr.startswith('__'): continue
+ΨQO== extract_entities ( frame_after ,
+ΨQP=def infer_player_and_goal ( self ,
+ΨQQ=player_colors = candidate [ colors
+ΨQR=Systematic cycle through all valid
+ΨQS=Complements WorldModel when movers
+ΨQT=score_before = self . _frame_score
+ΨQU=self . _frame_score ( frame_before
+ΨQV=delta = score_after - score_before
+ΨQW=best_action ( self , available_ids
+ΨQX=search over WorldModel predictions
+ΨQY=self . _max_depth = max_plan_depth
+ΨQZ=transient_fields : ignore . update
+ΨRA=ignore . update ( transient_fields
+ΨRB=that don t use get_sprites_by_name
+ΨRC=def best_action_for_level ( self ,
+ΨRD=using rewards shaped by WorldModel
+ΨRE=remaining = total_budget - elapsed
+ΨRF=. _world_model . transfer_to_level
+ΨRG=_world_model . transfer_to_level (
+ΨRH=s . _bfs_pre_solutions [ new_level
+ΨRI=. _bfs_pre_solutions [ new_level ]
+ΨRJ=_bfs_pre_solutions [ new_level ] =
+ΨRK=Reward shaped by WorldModel priors
+ΨRL=histogram overlap ( assembly prior
+ΨRM=signal_strength = best_fdm_score -
+ΨRN== best_fdm_score - worst_fdm_score
+ΨRO=r . frame
+ΨRP== torch . float32
+ΨRQ=_prev_action_id ,
+ΨRR=if isinstance ( v
+ΨRS=, data in actions
+ΨRT=return act , data
+ΨRU=( OperationMode ,
+ΨRV=game_id : game_id
+ΨRW=final_scorecard [
+ΨRX== final_scorecard
+ΨRY=, GameAction
+ΨRZ=if e [ colors ]
+ΨSA=: list [ dict [
+ΨSB=( np . bincount
+ΨSC=cur_frame [ r ,
+ΨSD=self . _clicked
+ΨSE=self . _sol_idx
+ΨSF=metadata . json
+ΨSG=. delta . to_dict (
+ΨSH=delta . to_dict ( )
+ΨSI=in enumerate ( objs
+ΨSJ=( action , before ,
+ΨSK=if action_id not in
+ΨSL=effects [ action_id
+ΨSM=transfer_to_level (
+ΨSN=self . _frame_score
+ΨSO=action_scores . get
+ΨSP=. _wm = world_model
+ΨSQ=available_ids and (
+ΨSR=return len ( self .
+ΨSS=, available_ids ) :
+ΨST== heapq . heappop (
+ΨSU=path . exists ( str
+ΨSV=game_type = unknown
+ΨSW=self . has_target =
+ΨSX=isinstance ( node ,
+ΨSY=, ast . FunctionDef
+ΨSZ=ast . FunctionDef )
+ΨTA=in assign . targets
+ΨTB== self . goal_value
+ΨTC=deltas . get ( self
+ΨTD=if isinstance ( d ,
+ΨTE=current = getattr (
+ΨTF== getattr ( current
+ΨTG=getattr ( current ,
+ΨTH=WorldModel priors .
+ΨTI=prev_lvl in range (
+ΨTJ=range ( new_level )
+ΨTK=[ new_level ] = sol
+ΨTL=_bg = _get_bg ( raw
+ΨTM=. _visited_hashes .
+ΨTN=. add ( curr_hash )
+ΨTO=signal_strength > .
+ΨTP=candidates . append
+ΨTQ=L return GameAction
+ΨTR=, raw , curr_hash ,
+ΨTS=FileNotFoundError (
+ΨTT=for d in ENV_DIRS :
+ΨTU=levels_completed = next_levels_completed
+ΨTV=. array ( r .
+ΨTW=( r . frame [
+ΨTX=r . frame [ -
+ΨTY=# 4. TRANSFER: carry the world model across levels so later levels
+ΨTZ=# Learns what each action does by observing (frame_before, action,
+ΨUA=self.target_colors = None # frozenset of colours belonging to goal
+ΨUB=Returns (player_entity, goal_entity) from extract_entities output.
+ΨUC=# Cumulative mean — doesn't decay, preserves early strong signals.
+ΨUD=# 2. If ACTION6 available and under-observed, probe entity centres
+ΨUE=and k not in ('_action_count', '_full_reset', '_action_complete')}
+ΨUF=heapq.heappush(pq, (new_g + hfn(f, g2), new_g, counter:=counter+1,
+ΨUG=# - has_target: whether __init__ stores a static target/goal array
+ΨUH="""Parse the win/level-complete method and extract comparisons."""
+ΨUI=dist = abs(player['x'] - goal['x']) + abs(player['y'] - goal['y'])
+ΨUJ=raw = np.array(lf.frame[-1], dtype=np.int64) if lf.frame else None
+ΨUK=s._prev_action_id, s._prev_frame, raw, s._bg, s._prev_action_data)
+ΨUL=cy = s._prev_action_data.get('y', 0) if s._prev_action_data else 0
+ΨUM=cx = s._prev_action_data.get('x', 0) if s._prev_action_data else 0
+ΨUN=with open (
+ΨUO=( new_level
+ΨUP=( goal_val , (
+ΨUQ=list , tuple ,
+ΨUR=if aid in available_ids
+ΨUS=hasattr ( ast , unparse
+ΨUT=self . effects . values
+ΨUU=self . _plan_confidence
+ΨUV=_prev_frame is not None
+ΨUW=self . goal_type = None
+ΨUX=self . win_method_src =
+ΨUY=. to_parquet ( / kaggle
+ΨUZ=to_parquet ( / kaggle /
+ΨVA=a in available_ids if <
+ΨVB=in available_ids if < =
+ΨVC=self . _game_instance =
+ΨVD=_build_probe_sequence (
+ΨVE=working / my_agent . py
+ΨVF=frame , available_ids )
+ΨVG=_get_operation_mode ( )
+ΨVH=hasattr ( OperationMode
+ΨVI=input_root . exists ( )
+ΨVJ=action_field_deltas [ act_id ] =
+ΨVK=not self . action_field_deltas :
+ΨVL=if lf.state in [GameState.NOT_PLAYED, GameState.GAME_OVER]:
+ΨVM=L " final_scorecard[\"source_url\"] = final_scorecard.get(\"source_url\", SOURCE_URL)"
+ΨVN=local_context = report.local_context if isinstance(report.local_context, dict) else {}
+ΨVO=( act_id ) ,
+ΨVP=[ colors ] )
+ΨVQ=float ( np .
+ΨVR=bincount ( frame . flatten
+ΨVS=writefile / kaggle / working
+ΨVT=/ working / server_recording
+ΨVU=f / kaggle / input
+ΨVV=self . _confidence
+ΨVW=in game . __dict__
+ΨVX=fdm . target_frame
+ΨVY=. frame : continue
+ΨVZ=, data in prev_sol
+ΨWA=data in prev_sol :
+ΨWB=os . path . exists
+ΨWC=_bfs . solutions [
+ΨWD=environments : , BUNDLED_ENVIRONMENTS_ROOT
+ΨWE=next_state_dict = toolkit_obs_to_arc_state
+ΨWF=previous_player_pos = arc_state_dict . get
+ΨWG=score_source : runtime . last_score_source
+ΨWH=next_levels_completed > levels_completed :
+ΨWI=final_scorecard = _scorecard_to_dict ( arc
+ΨWJ=_scorecard_to_dict ( arc . close_scorecard
+ΨWK=, targets , walls
+ΨWL=avail , turn , player
+ΨWM=L last_mechanic_positions = [
+ΨWN=heuristic_agent import HeuristicAgent
+ΨWO=routes everything through the gateway
+ΨWP=# 1. HYPOTHESISE: build an ActionModel from the first few probing
+ΨWQ=# GoalInferencer — infers win condition from entity state changes
+ΨWR=# This lets the planner reason about actions without game copies.
+ΨWS=# Sort entities by pixel count descending for consistent ordering
+ΨWT=self._queue.append((6, {'x': int(ent['x']), 'y': int(ent['y'])}))
+ΨWU=def __init__(self, world_model, max_plan_depth=20, beam_width=8):
+ΨWV=# BFS SOLVER (retained for __init__ pre-solve on tractable games)
+ΨWW=if getattr(g, k, initial[k]) != initial[k]: changed_count[k] += 1
+ΨWX=# 3. Running each action once, re-snapshotting, and finding which
+ΨWY=if isinstance(v0, (int, float)) and isinstance(v1, (int, float)):
+ΨWZ=# Sprite objects via get_sprites_by_name with AST-extracted names
+ΨXA=# ── Discrete/rotation goal: find action that moves toward goal ─
+ΨXB=# Used when WorldModel confidence is low and planner has no plan.
+ΨXC=# Confidence threshold above which we trust the WorldModel enough
+ΨXD="""Return next probe action if we still have unknowns to test."""
+ΨXE=pd.DataFrame(flat_rows).to_parquet("/kaggle/working/step_trace.parquet", index=False)
+ΨXF=np . sum
+ΨXG=. argmax ( ) )
+ΨXH=. best_score =
+ΨXI=_frame_score (
+ΨXJ=last_r . frame
+ΨXK=target_field =
+ΨXL=state_fields :
+ΨXM=_stuck_count =
+ΨXN=L "def find_game_source_and_class(game_id, arc_env=None):"
+ΨXO=if s._bfs_solution and s._bfs_step < len(s._bfs_solution):
+ΨXP=act_id ) if isinstance
+ΨXQ=if isinstance ( act_id
+ΨXR=apply_guidance ( brain
+ΨXS=. bootstrap_guidance (
+ΨXT=bootstrap_guidance ( )
+ΨXU=solver.game_cls = s._bfs.game_cls
+ΨXV=for prev_lvl in range(new_level):
+ΨXW=BFS explores cheaply but executes
+ΨXX=cheaply but executes wastefully .
+ΨXY=sequence toward the inferred goal
+ΨXZ=_mod_logger = logging . getLogger
+ΨYA=is_composite : len ( current_comp
+ΨYB=Updates the ActionEffect for this
+ΨYC=ActionEffect for this action_id .
+ΨYD== extract_entities ( frame_before
+ΨYE=extract_entities ( frame_before ,
+ΨYF=goal entity from entity structure
+ΨYG=return useful [ step_in_level len
+ΨYH=most unique pixel colours present
+ΨYI=score_after = self . _frame_score
+ΨYJ=self . _frame_score ( frame_after
+ΨYK=WorldModel with minimum actions .
+ΨYL=hands control to EfficientPlanner
+ΨYM=beam search over predicted entity
+ΨYN=over predicted entity positions .
+ΨYO=Heuristic = manhattan distance to
+ΨYP=manhattan distance to goal entity
+ΨYQ=if pos_key in visited_positions :
+ΨYR=visited_positions . add ( pos_key
+ΨYS=_detect_transient_fields ( self ,
+ΨYT=target_ent = None , starting_game
+ΨYU=path from arc_env object directly
+ΨYV=dataset path ( poonszesen dataset
+ΨYW=self . _extract_win_condition ( )
+ΨYX=def _extract_win_condition ( self
+ΨYY=_extract_win_condition ( self ) :
+ΨYZ=game , get_sprites_by_name , None
+ΨZA=new_level , frame , available_ids
+ΨZB=. transfer_to_level ( new_level )
+ΨZC=exploration ( unvisited positions
+ΨZD=goal = wm . infer_player_and_goal
+ΨZE=final_scorecard , per_env_results
+ΨZF=[ step len
+ΨZG=step len (
+ΨZH=frozenset of colours belonging
+ΨZI=eff . causes_change : continue
+ΨZJ=getattr ( game_instance , self
+ΨZK=logging . getLogger ( __name__
+ΨZL=. class_name = game_class_name
+ΨZM=util . module_from_spec ( spec
+ΨZN=solve_level ( self , level_idx
+ΨZO=actions = self . _scan_actions
+ΨZP=def find_game_source_and_class
+ΨZQ=detect_player_pos ( prev_frame
+ΨZR=positions = lawnmower_scan ( ,
+ΨZS=ACTION1 , GameAction . ACTION2
+ΨZT=/ { gid } .
+ΨZU=def __init__ ( s
+ΨZV=hashlib . md5
+ΨZW== float ( inf
+ΨZX=self , game ,
+ΨZY=not r . frame
+ΨZZ=. iterdir ( )
+ΨAA=L " \"\"\"Record one transition and update action scores.\"\"\""
+ΨAB=L "# This replaces BFS with direct goal inference: once we know"
+ΨAC=Built from a handful of probing observations, then reused across
+ΨAD=# 3. Pick the action that most recently produced the best delta.
+ΨAE=# This means "action 4 was great early on" stays remembered even
+ΨAF=# ── Infer game type from structural evidence only ─────────────
+ΨAG=# 2. Instantiating the game and snapshotting all instance fields
+ΨAH=self.sprite_names = [] # names used in get_sprites_by_name calls
+ΨAI=action_id that most directly moves goal_field toward goal_value,
+ΨAJ=s._goal_reader = None # GoalReader: direct win-condition planner
+ΨAK=src_path, cls = find_game_source_and_class(s.game_id, s.arc_env)
+ΨAL=s._source_info = GameSourceAnalyser(src_path, game_id=s.game_id)
+ΨAM=for c in set(player['color_counts']) | set(goal['color_counts'])
+ΨAN=idx = np.random.choice(len(allp), p=allp.cpu().detach().numpy())
+ΨAO=# ── Source shortcuts ──────────────────────────────────────────
+ΨAP=# ── 1. WM entity plan ─────────────────────────────────────────
+ΨAQ=# ── 2. FDM exploitation ───────────────────────────────────────
+ΨAR=# ── 3. Click exploration ──────────────────────────────────────
+ΨAS=s._log.info(f"FRAME_DIFF pixels_changed={diff_px} / {raw.size}")
+ΨAT=a for a in

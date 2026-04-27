@@ -1,0 +1,13 @@
+{
+  "status": "built",
+  "out_dir": "/data/data/com.termux/files/home/glyphmatics_notebook_solver_prior",
+  "dataset": "/data/data/com.termux/files/home/glyphmatics_notebook_solver_prior/competitor_shared_prior_dataset.json",
+  "glyphline": "/data/data/com.termux/files/home/glyphmatics_notebook_solver_prior/competitor_shared_prior_glyphline.txt",
+  "file_count": 157,
+  "dictionary_entries": 2048,
+  "total_functional_bytes": 3910628,
+  "glyphline_bytes_estimated": 78767,
+  "semantic_compression_ratio_estimated": 49.64805057955743,
+  "semantic_reduction_percent_estimated": 97.98582222599542,
+  "dataset_digest": "f805cc085f56d248c6b8a292d6887a8c78254fdd25bda5d09f29f5fe1edc47bb"
+}

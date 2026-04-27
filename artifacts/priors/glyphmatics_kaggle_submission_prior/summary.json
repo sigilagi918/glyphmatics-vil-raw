@@ -1,0 +1,13 @@
+{
+  "status": "built",
+  "out_dir": "/data/data/com.termux/files/home/glyphmatics_kaggle_submission_prior",
+  "dataset": "/data/data/com.termux/files/home/glyphmatics_kaggle_submission_prior/competitor_shared_prior_dataset.json",
+  "glyphline": "/data/data/com.termux/files/home/glyphmatics_kaggle_submission_prior/competitor_shared_prior_glyphline.txt",
+  "file_count": 145,
+  "dictionary_entries": 2048,
+  "total_functional_bytes": 3899618,
+  "glyphline_bytes_estimated": 78767,
+  "semantic_compression_ratio_estimated": 49.50827123033758,
+  "semantic_reduction_percent_estimated": 97.98013549019417,
+  "dataset_digest": "c0ee4834d2b66fbc3679ff3cad4954add1d3768465b97125c8e420849b01a510"
+}

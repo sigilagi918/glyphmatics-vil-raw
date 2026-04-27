@@ -1,0 +1,13 @@
+{
+  "status": "built",
+  "out_dir": "/data/data/com.termux/files/home/glyphmatics_arcagi3_prior",
+  "dataset": "/data/data/com.termux/files/home/glyphmatics_arcagi3_prior/competitor_shared_prior_dataset.json",
+  "glyphline": "/data/data/com.termux/files/home/glyphmatics_arcagi3_prior/competitor_shared_prior_glyphline.txt",
+  "file_count": 26,
+  "dictionary_entries": 2048,
+  "total_functional_bytes": 2032044,
+  "glyphline_bytes_estimated": 63780,
+  "semantic_compression_ratio_estimated": 31.860206961429917,
+  "semantic_reduction_percent_estimated": 96.8612884366677,
+  "dataset_digest": "a6eb7524cc439b431e7b75344185561a7cd1faad56531b23673523e41321920a"
+}
