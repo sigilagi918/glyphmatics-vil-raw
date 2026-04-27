@@ -2,7 +2,7 @@
   "format": "GlyphMatics Known OS Ubuntu Prior",
   "version": "0.9.2-dev",
   "root": "/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu",
-  "created_at": 1777291866,
+  "created_at": 1777291931,
   "boundary": "Ubuntu public OS structure only. User data, secrets, logs, and runtime pseudo-filesystems excluded.",
   "os_release": {
     "PRETTY_NAME": "Ubuntu 25.10",

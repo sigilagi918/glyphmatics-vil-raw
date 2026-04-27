@@ -1,7 +1,7 @@
 {
   "format": "GlyphMatics Known OS Ubuntu Prior Summary",
   "version": "0.9.2-dev",
-  "created_at": 1777291866,
+  "created_at": 1777291931,
   "root": "/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu",
   "os_pretty_name": "Ubuntu 25.10",
   "os_id": "ubuntu",
@@ -14,5 +14,5 @@
   "semantic_structure_reduction_percent": 99.99692761745268,
   "dictionary_entries": 752,
   "boundary": "Known OS prior, structural only, no private/user/runtime data.",
-  "dataset_digest": "2cc0fe9270c2a4cbe96a76ecebd7c6f2e1d4f0b33229de218ea305b4911b7d1a"
+  "dataset_digest": "78bd4bf5912ba2f9e9cb13ed84574cc81b87f2451dca77577306b67cb42f724a"
 }
