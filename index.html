@@ -254,12 +254,12 @@
       </p>
 
       <div class="metric">
-        <div class="big">177,581.30 : 1</div>
+        <div class="big">967,611.07 : 1</div>
         <div class="sub">Semantic execution compression ratio</div>
-        <div class="sub">10,832,459 expanded verified artifact bytes / 61 canonical glyphline bytes</div>
-        <div class="sub">Expanded execution yield: 17,758,130%</div>
-        <div class="sub">Glyphline transport size: 0.0005631% of expanded artifact</div>
-        <div class="sub">Semantic reduction: 99.999437%</div>
+        <div class="sub">59,024,275 expanded verified artifact bytes / 61 canonical glyphline bytes</div>
+        <div class="sub">Expanded execution yield: 96,761,106.56%</div>
+        <div class="sub">Glyphline transport size: 0.00010335% of expanded artifact</div>
+        <div class="sub">Semantic reduction: 99.99989665%</div>
       </div>
     </div>
 
@@ -408,6 +408,19 @@ No G14 Lock without verification.</pre>
         to a registered operation.
       </p>
     </div>
+  
+    <div class="card">
+      <h2>Latest Verified Proof Run</h2>
+      <pre>proof: examples/proof_run_v072.sh
+expanded artifact bytes: 59,024,275
+canonical glyphline bytes: 61
+ratio: 967,611.07 : 1
+expanded execution yield: 96,761,106.56%
+glyphline transport size: 0.00010335% of expanded artifact
+semantic reduction: 99.99989665%</pre>
+      <p class="good">G14 proof path passed: image → OCR → canonical glyphlines → install → TN/MPS → pack → activate → lineage → visual artifact.</p>
+    </div>
+
   </section>
 </main>
 
@@ -543,7 +556,7 @@ async function renderArtifact() {
   downloadCanvas(canvas, "glyphmatics_transport.png");
   downloadText(text, "glyphlines.txt");
 
-  const expanded = 10832459;
+  const expanded = 59024275;
   const ratio = expanded / bytes;
   const percentYield = ratio * 100;
   const transportPercent = (bytes / expanded) * 100;
