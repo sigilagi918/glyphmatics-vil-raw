@@ -1,0 +1,1351 @@
+{
+  "format": "GlyphMatics Public Chat-Agent Weight Structural Prior",
+  "version": "0.9.1-dev",
+  "definition": "Indexes public/owned model-weight structures without copying raw tensors.",
+  "boundary": "Raw tensors are not copied. Only file type, size, sample hash, and parseable metadata/header structures are stored.",
+  "records": [
+    {
+      "path": "models/Wizard.gguf",
+      "project": "models",
+      "extension": ".gguf",
+      "size_bytes": 4783156960,
+      "sample_sha256_first_1mb": "5999f9693d3621e38f57f2a6bda4e61ba10e14d74364981cb29ce91d621a4395",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "models/Qwen.gguf",
+      "project": "models",
+      "extension": ".gguf",
+      "size_bytes": 5027783488,
+      "sample_sha256_first_1mb": "1b65fb39a71a9be78db01d54e7def7f8b43332cfb77c4a25dc44cf6fb25ff50a",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "qwen"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/model.safetensors",
+      "project": "models",
+      "extension": ".safetensors",
+      "size_bytes": 90868376,
+      "sample_sha256_first_1mb": "166fdce4b53b8ae8ef4af6d25711495a88c3d764359ee874f8676b9aeb99cbcf",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "safetensors",
+        "tensor_count": 104,
+        "dtype_counts": {
+          "I64": 1,
+          "F32": 103
+        },
+        "shape_counts_top": {
+          "384": 57,
+          "384x384": 25,
+          "1536": 6,
+          "1536x384": 6,
+          "384x1536": 6,
+          "1x512": 1,
+          "512x384": 1,
+          "2x384": 1,
+          "30522x384": 1
+        },
+        "metadata_keys": [
+          "format"
+        ]
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/pytorch_model.bin",
+      "project": "models",
+      "extension": ".bin",
+      "size_bytes": 90888945,
+      "sample_sha256_first_1mb": "4d68f44f8406a8d39c1b1864affc381af337c501ab78ac8f2fbd1b37e0a0d4df",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 23026053,
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_arm64.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 23026053,
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512_vnni.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 23026053,
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O1.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 90360328,
+      "sample_sha256_first_1mb": "cc4fe406ed1ea74db88fc7c4545c38a7b13e43f0c3fdb364b44a7367990cc3a9",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_quint8_avx2.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 23046789,
+      "sample_sha256_first_1mb": "0ba93af1cd2e5e81f41c9c3156c40f007dd1d6487fc11f3305096e928f7720a6",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 90405214,
+      "sample_sha256_first_1mb": "1b4ec1342eaeac745144dbf3702126ccf7a9abdef266ec943d6352382fb87498",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O4.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 45212349,
+      "sample_sha256_first_1mb": "a7703f43d597549e7cd086e6ad20384daf2e39eafb7f4cd18311e2a6ed216399",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O3.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 90326497,
+      "sample_sha256_first_1mb": "2a70c6b123742df55cecc5f696ef41b4964a4b848511b730df99be276b839363",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O2.onnx",
+      "project": "models",
+      "extension": ".onnx",
+      "size_bytes": 90326566,
+      "sample_sha256_first_1mb": "37b58def3e187f67953d74e958c3ec0879e3f83358b808f19e460d0258aeb258",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model_qint8_quantized.bin",
+      "project": "models",
+      "extension": ".bin",
+      "size_bytes": 22933664,
+      "sample_sha256_first_1mb": "2575e02fb0aa12cebab504291ecabbdbb828691e39ca938a811497ac259cef7f",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model.bin",
+      "project": "models",
+      "extension": ".bin",
+      "size_bytes": 90265744,
+      "sample_sha256_first_1mb": "750f824b5b2812e275b5bac052a70a2bbfd9782d5a4f33a81dce8ed0a8e6efba",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-aquila.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 4825676,
+      "sample_sha256_first_1mb": "18dca1e88c43bdebcab1343dc189b80349cdffe1aaefc7214cd8eb9d235a56ac",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-baichuan.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1340998,
+      "sample_sha256_first_1mb": "1e950745b63d586ed59cbca2536a8112bd79e615626c989f9b14f07f218bb9d7",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-bert-bge.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 627549,
+      "sample_sha256_first_1mb": "fbcbe22278fb302694d5f4a41bfe48c5f90e8e3554eab1c0435387dff654a854",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-command-r.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 10874545,
+      "sample_sha256_first_1mb": "7d64d52083282ae6b7be36849e0f50318f6b45c97bfe2cbc6cec9ed78df9b3c4",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "cohere"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-deepseek-coder.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1156067,
+      "sample_sha256_first_1mb": "bf9e5482eff66a0eec6c8d72fe2d621bbd508ff00e1962683a801ef697d3d667",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "deepseek"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-deepseek-llm.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 3970167,
+      "sample_sha256_first_1mb": "82f0a2407ca5f5980a42f8e0a655478c9a4d812a364063cc1a5dfcf245e30686",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "deepseek"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-falcon.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 2287728,
+      "sample_sha256_first_1mb": "81d4485b863049205e8c4d731fe21f4dd9e1a230aab1897f4fe46ce9781dfab5",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "falcon"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gpt-2.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1766807,
+      "sample_sha256_first_1mb": "2d08a66306d1b3f261d83a408cf5ce9b02efec7f2d06e9df44c262ea65a7a7c3",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gpt-neox.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1771431,
+      "sample_sha256_first_1mb": "51070702e36e1dff4e28a68f2f1affc7a654f065cf5f48a1b6af8507e63a01c9",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-llama-bpe.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 7818140,
+      "sample_sha256_first_1mb": "571ec0d998799f581f866dce9af3e0ff1bbaab5c0e4f47559a47c41496e62911",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-llama-spm.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 723869,
+      "sample_sha256_first_1mb": "16c3724582d59aa8bf84711894e833f916ee46a31d80e21312759c48bf8d0e69",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-mpt.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1771393,
+      "sample_sha256_first_1mb": "845536c7df4f5e14eff01368769b54ba506d98df4873eab77172de530db015c3",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 6821877,
+      "sample_sha256_first_1mb": "3c078b545f0bc2a6eadc81bf22ad49ab6f04df337d846b83113cc698bebc67ed",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-phi-3.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 726019,
+      "sample_sha256_first_1mb": "967d7190d11c4842eab697079d98d56c2116e10eb617be355a2733bfc132e326",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "phi"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-qwen2.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 5928681,
+      "sample_sha256_first_1mb": "db48553d309d5abc82b4ea548656265eae72aa4a5606db2b1453a25819787a9a",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "qwen"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-refact.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1720710,
+      "sample_sha256_first_1mb": "d5a66250f4126a18eb0ef8bda7c8e8f40c7067779562da04638f3613a368fb57",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "agent_runtime",
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-starcoder.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 1719346,
+      "sample_sha256_first_1mb": "a2852ca8ae4bc11c849fde57382efdd372dc87710c00406896a7c2c9ad0e78fb",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights",
+        "eval_benchmark"
+      ]
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gemma-4.gguf",
+      "project": "llama.cpp",
+      "extension": ".gguf",
+      "size_bytes": 15776467,
+      "sample_sha256_first_1mb": "33443f8632db7d258ea4bc3846fbfcb3986e469540d72e993bd015cedf6358b4",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "llama",
+        "gemma"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "tokenizer",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_C.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 7720,
+      "sample_sha256_first_1mb": "c917cbe70abecba21c16bb272e6045c35f4b13820042ddba8125c708f6b4b34a",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_CXX.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 7904,
+      "sample_sha256_first_1mb": "e8a254b3b5d53b2fa166475b5dba702b877430122e3c4cfe080376c16bbe7d75",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_C.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 7720,
+      "sample_sha256_first_1mb": "83087961f4f06e84471b3b507c1c11f233fad64100130167b91a10c2c7d43442",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_CXX.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 7904,
+      "sample_sha256_first_1mb": "aed4497b7932229e1a4bbbb184409377afd74d139719b34ab5881e582e5c67e9",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_C.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 6976,
+      "sample_sha256_first_1mb": "04123b50ad6c42c24c89a355ea2918aae069c24b29c2d51353586867fbf170fd",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_CXX.bin",
+      "project": "llama.cpp",
+      "extension": ".bin",
+      "size_bytes": 7056,
+      "sample_sha256_first_1mb": "3dcc096535d146d4ffe581da8a4e27ebe282c4e142e9cc42db24eea0014f0bcd",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "llama"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "sigilagi/SigilAGI.gguf",
+      "project": "sigilagi",
+      "extension": ".gguf",
+      "size_bytes": 2829697984,
+      "sample_sha256_first_1mb": "ecf211fd71c4a2627c02e6a01ee979073721d4f5821514e4520657b4c50603b7",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "memory_rag",
+        "weights",
+        "eval_benchmark"
+      ]
+    },
+    {
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.pt",
+      "project": "vil-canonical-glyph-system",
+      "extension": ".pt",
+      "size_bytes": 2371235,
+      "sample_sha256_first_1mb": "f696ae2704ed7e7fbc4713a7a941b1015e958b71887b69a983ead9294de0197a",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "pt",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "chat_protocol",
+        "memory_rag",
+        "weights"
+      ]
+    },
+    {
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.2.pt",
+      "project": "vil-canonical-glyph-system",
+      "extension": ".pt",
+      "size_bytes": 113431045,
+      "sample_sha256_first_1mb": "b27cc4bdb90994b1c72d904cc183a0655179bdea6524f29637fac927724ec3d4",
+      "boundary": "structural index only; raw tensors are not copied",
+      "structure": {
+        "format": "pt",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "families": [
+        "general_chat_agent"
+      ],
+      "prior_layers": [
+        "chat_protocol",
+        "memory_rag",
+        "weights"
+      ]
+    }
+  ],
+  "dictionary": [
+    {
+      "glyph": "WAA",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "gguf",
+      "size_bytes": 4783156960,
+      "path": "models/Wizard.gguf",
+      "sample_sha256_first_1mb": "5999f9693d3621e38f57f2a6bda4e61ba10e14d74364981cb29ce91d621a4395"
+    },
+    {
+      "glyph": "WAB",
+      "kind": "weight_file",
+      "family": "qwen",
+      "format": "gguf",
+      "size_bytes": 5027783488,
+      "path": "models/Qwen.gguf",
+      "sample_sha256_first_1mb": "1b65fb39a71a9be78db01d54e7def7f8b43332cfb77c4a25dc44cf6fb25ff50a"
+    },
+    {
+      "glyph": "WAC",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "safetensors",
+      "size_bytes": 90868376,
+      "path": "models/all-MiniLM-L6-v2/model.safetensors",
+      "sample_sha256_first_1mb": "166fdce4b53b8ae8ef4af6d25711495a88c3d764359ee874f8676b9aeb99cbcf"
+    },
+    {
+      "glyph": "WAD",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "384",
+      "count": 57
+    },
+    {
+      "glyph": "WAE",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "384x384",
+      "count": 25
+    },
+    {
+      "glyph": "WAF",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "1536",
+      "count": 6
+    },
+    {
+      "glyph": "WAG",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "1536x384",
+      "count": 6
+    },
+    {
+      "glyph": "WAH",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "384x1536",
+      "count": 6
+    },
+    {
+      "glyph": "WAI",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "1x512",
+      "count": 1
+    },
+    {
+      "glyph": "WAJ",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "512x384",
+      "count": 1
+    },
+    {
+      "glyph": "WAK",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "2x384",
+      "count": 1
+    },
+    {
+      "glyph": "WAL",
+      "kind": "tensor_shape",
+      "format": "safetensors",
+      "value": "30522x384",
+      "count": 1
+    },
+    {
+      "glyph": "WAM",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "bin",
+      "size_bytes": 90888945,
+      "path": "models/all-MiniLM-L6-v2/pytorch_model.bin",
+      "sample_sha256_first_1mb": "4d68f44f8406a8d39c1b1864affc381af337c501ab78ac8f2fbd1b37e0a0d4df"
+    },
+    {
+      "glyph": "WAN",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 23026053,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512.onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8"
+    },
+    {
+      "glyph": "WAO",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 23026053,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_arm64.onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8"
+    },
+    {
+      "glyph": "WAP",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 23026053,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512_vnni.onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8"
+    },
+    {
+      "glyph": "WAQ",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 90360328,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O1.onnx",
+      "sample_sha256_first_1mb": "cc4fe406ed1ea74db88fc7c4545c38a7b13e43f0c3fdb364b44a7367990cc3a9"
+    },
+    {
+      "glyph": "WAR",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 23046789,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_quint8_avx2.onnx",
+      "sample_sha256_first_1mb": "0ba93af1cd2e5e81f41c9c3156c40f007dd1d6487fc11f3305096e928f7720a6"
+    },
+    {
+      "glyph": "WAS",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 90405214,
+      "path": "models/all-MiniLM-L6-v2/onnx/model.onnx",
+      "sample_sha256_first_1mb": "1b4ec1342eaeac745144dbf3702126ccf7a9abdef266ec943d6352382fb87498"
+    },
+    {
+      "glyph": "WAT",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 45212349,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O4.onnx",
+      "sample_sha256_first_1mb": "a7703f43d597549e7cd086e6ad20384daf2e39eafb7f4cd18311e2a6ed216399"
+    },
+    {
+      "glyph": "WAU",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 90326497,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O3.onnx",
+      "sample_sha256_first_1mb": "2a70c6b123742df55cecc5f696ef41b4964a4b848511b730df99be276b839363"
+    },
+    {
+      "glyph": "WAV",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "onnx",
+      "size_bytes": 90326566,
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O2.onnx",
+      "sample_sha256_first_1mb": "37b58def3e187f67953d74e958c3ec0879e3f83358b808f19e460d0258aeb258"
+    },
+    {
+      "glyph": "WAW",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "bin",
+      "size_bytes": 22933664,
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model_qint8_quantized.bin",
+      "sample_sha256_first_1mb": "2575e02fb0aa12cebab504291ecabbdbb828691e39ca938a811497ac259cef7f"
+    },
+    {
+      "glyph": "WAX",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "bin",
+      "size_bytes": 90265744,
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model.bin",
+      "sample_sha256_first_1mb": "750f824b5b2812e275b5bac052a70a2bbfd9782d5a4f33a81dce8ed0a8e6efba"
+    },
+    {
+      "glyph": "WAY",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 4825676,
+      "path": "llama.cpp/models/ggml-vocab-aquila.gguf",
+      "sample_sha256_first_1mb": "18dca1e88c43bdebcab1343dc189b80349cdffe1aaefc7214cd8eb9d235a56ac"
+    },
+    {
+      "glyph": "WAZ",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1340998,
+      "path": "llama.cpp/models/ggml-vocab-baichuan.gguf",
+      "sample_sha256_first_1mb": "1e950745b63d586ed59cbca2536a8112bd79e615626c989f9b14f07f218bb9d7"
+    },
+    {
+      "glyph": "WBA",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 627549,
+      "path": "llama.cpp/models/ggml-vocab-bert-bge.gguf",
+      "sample_sha256_first_1mb": "fbcbe22278fb302694d5f4a41bfe48c5f90e8e3554eab1c0435387dff654a854"
+    },
+    {
+      "glyph": "WBB",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 10874545,
+      "path": "llama.cpp/models/ggml-vocab-command-r.gguf",
+      "sample_sha256_first_1mb": "7d64d52083282ae6b7be36849e0f50318f6b45c97bfe2cbc6cec9ed78df9b3c4"
+    },
+    {
+      "glyph": "WBC",
+      "kind": "weight_file",
+      "family": "cohere",
+      "format": "gguf",
+      "size_bytes": 10874545,
+      "path": "llama.cpp/models/ggml-vocab-command-r.gguf",
+      "sample_sha256_first_1mb": "7d64d52083282ae6b7be36849e0f50318f6b45c97bfe2cbc6cec9ed78df9b3c4"
+    },
+    {
+      "glyph": "WBD",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1156067,
+      "path": "llama.cpp/models/ggml-vocab-deepseek-coder.gguf",
+      "sample_sha256_first_1mb": "bf9e5482eff66a0eec6c8d72fe2d621bbd508ff00e1962683a801ef697d3d667"
+    },
+    {
+      "glyph": "WBE",
+      "kind": "weight_file",
+      "family": "deepseek",
+      "format": "gguf",
+      "size_bytes": 1156067,
+      "path": "llama.cpp/models/ggml-vocab-deepseek-coder.gguf",
+      "sample_sha256_first_1mb": "bf9e5482eff66a0eec6c8d72fe2d621bbd508ff00e1962683a801ef697d3d667"
+    },
+    {
+      "glyph": "WBF",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 3970167,
+      "path": "llama.cpp/models/ggml-vocab-deepseek-llm.gguf",
+      "sample_sha256_first_1mb": "82f0a2407ca5f5980a42f8e0a655478c9a4d812a364063cc1a5dfcf245e30686"
+    },
+    {
+      "glyph": "WBG",
+      "kind": "weight_file",
+      "family": "deepseek",
+      "format": "gguf",
+      "size_bytes": 3970167,
+      "path": "llama.cpp/models/ggml-vocab-deepseek-llm.gguf",
+      "sample_sha256_first_1mb": "82f0a2407ca5f5980a42f8e0a655478c9a4d812a364063cc1a5dfcf245e30686"
+    },
+    {
+      "glyph": "WBH",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 2287728,
+      "path": "llama.cpp/models/ggml-vocab-falcon.gguf",
+      "sample_sha256_first_1mb": "81d4485b863049205e8c4d731fe21f4dd9e1a230aab1897f4fe46ce9781dfab5"
+    },
+    {
+      "glyph": "WBI",
+      "kind": "weight_file",
+      "family": "falcon",
+      "format": "gguf",
+      "size_bytes": 2287728,
+      "path": "llama.cpp/models/ggml-vocab-falcon.gguf",
+      "sample_sha256_first_1mb": "81d4485b863049205e8c4d731fe21f4dd9e1a230aab1897f4fe46ce9781dfab5"
+    },
+    {
+      "glyph": "WBJ",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1766807,
+      "path": "llama.cpp/models/ggml-vocab-gpt-2.gguf",
+      "sample_sha256_first_1mb": "2d08a66306d1b3f261d83a408cf5ce9b02efec7f2d06e9df44c262ea65a7a7c3"
+    },
+    {
+      "glyph": "WBK",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1771431,
+      "path": "llama.cpp/models/ggml-vocab-gpt-neox.gguf",
+      "sample_sha256_first_1mb": "51070702e36e1dff4e28a68f2f1affc7a654f065cf5f48a1b6af8507e63a01c9"
+    },
+    {
+      "glyph": "WBL",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 7818140,
+      "path": "llama.cpp/models/ggml-vocab-llama-bpe.gguf",
+      "sample_sha256_first_1mb": "571ec0d998799f581f866dce9af3e0ff1bbaab5c0e4f47559a47c41496e62911"
+    },
+    {
+      "glyph": "WBM",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 723869,
+      "path": "llama.cpp/models/ggml-vocab-llama-spm.gguf",
+      "sample_sha256_first_1mb": "16c3724582d59aa8bf84711894e833f916ee46a31d80e21312759c48bf8d0e69"
+    },
+    {
+      "glyph": "WBN",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1771393,
+      "path": "llama.cpp/models/ggml-vocab-mpt.gguf",
+      "sample_sha256_first_1mb": "845536c7df4f5e14eff01368769b54ba506d98df4873eab77172de530db015c3"
+    },
+    {
+      "glyph": "WBO",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 6821877,
+      "path": "llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf",
+      "sample_sha256_first_1mb": "3c078b545f0bc2a6eadc81bf22ad49ab6f04df337d846b83113cc698bebc67ed"
+    },
+    {
+      "glyph": "WBP",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 726019,
+      "path": "llama.cpp/models/ggml-vocab-phi-3.gguf",
+      "sample_sha256_first_1mb": "967d7190d11c4842eab697079d98d56c2116e10eb617be355a2733bfc132e326"
+    },
+    {
+      "glyph": "WBQ",
+      "kind": "weight_file",
+      "family": "phi",
+      "format": "gguf",
+      "size_bytes": 726019,
+      "path": "llama.cpp/models/ggml-vocab-phi-3.gguf",
+      "sample_sha256_first_1mb": "967d7190d11c4842eab697079d98d56c2116e10eb617be355a2733bfc132e326"
+    },
+    {
+      "glyph": "WBR",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 5928681,
+      "path": "llama.cpp/models/ggml-vocab-qwen2.gguf",
+      "sample_sha256_first_1mb": "db48553d309d5abc82b4ea548656265eae72aa4a5606db2b1453a25819787a9a"
+    },
+    {
+      "glyph": "WBS",
+      "kind": "weight_file",
+      "family": "qwen",
+      "format": "gguf",
+      "size_bytes": 5928681,
+      "path": "llama.cpp/models/ggml-vocab-qwen2.gguf",
+      "sample_sha256_first_1mb": "db48553d309d5abc82b4ea548656265eae72aa4a5606db2b1453a25819787a9a"
+    },
+    {
+      "glyph": "WBT",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1720710,
+      "path": "llama.cpp/models/ggml-vocab-refact.gguf",
+      "sample_sha256_first_1mb": "d5a66250f4126a18eb0ef8bda7c8e8f40c7067779562da04638f3613a368fb57"
+    },
+    {
+      "glyph": "WBU",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 1719346,
+      "path": "llama.cpp/models/ggml-vocab-starcoder.gguf",
+      "sample_sha256_first_1mb": "a2852ca8ae4bc11c849fde57382efdd372dc87710c00406896a7c2c9ad0e78fb"
+    },
+    {
+      "glyph": "WBV",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "gguf",
+      "size_bytes": 15776467,
+      "path": "llama.cpp/models/ggml-vocab-gemma-4.gguf",
+      "sample_sha256_first_1mb": "33443f8632db7d258ea4bc3846fbfcb3986e469540d72e993bd015cedf6358b4"
+    },
+    {
+      "glyph": "WBW",
+      "kind": "weight_file",
+      "family": "gemma",
+      "format": "gguf",
+      "size_bytes": 15776467,
+      "path": "llama.cpp/models/ggml-vocab-gemma-4.gguf",
+      "sample_sha256_first_1mb": "33443f8632db7d258ea4bc3846fbfcb3986e469540d72e993bd015cedf6358b4"
+    },
+    {
+      "glyph": "WBX",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 7720,
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_C.bin",
+      "sample_sha256_first_1mb": "c917cbe70abecba21c16bb272e6045c35f4b13820042ddba8125c708f6b4b34a"
+    },
+    {
+      "glyph": "WBY",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 7904,
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sample_sha256_first_1mb": "e8a254b3b5d53b2fa166475b5dba702b877430122e3c4cfe080376c16bbe7d75"
+    },
+    {
+      "glyph": "WBZ",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 7720,
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_C.bin",
+      "sample_sha256_first_1mb": "83087961f4f06e84471b3b507c1c11f233fad64100130167b91a10c2c7d43442"
+    },
+    {
+      "glyph": "WCA",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 7904,
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_CXX.bin",
+      "sample_sha256_first_1mb": "aed4497b7932229e1a4bbbb184409377afd74d139719b34ab5881e582e5c67e9"
+    },
+    {
+      "glyph": "WCB",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 6976,
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_C.bin",
+      "sample_sha256_first_1mb": "04123b50ad6c42c24c89a355ea2918aae069c24b29c2d51353586867fbf170fd"
+    },
+    {
+      "glyph": "WCC",
+      "kind": "weight_file",
+      "family": "llama",
+      "format": "bin",
+      "size_bytes": 7056,
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_CXX.bin",
+      "sample_sha256_first_1mb": "3dcc096535d146d4ffe581da8a4e27ebe282c4e142e9cc42db24eea0014f0bcd"
+    },
+    {
+      "glyph": "WCD",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "gguf",
+      "size_bytes": 2829697984,
+      "path": "sigilagi/SigilAGI.gguf",
+      "sample_sha256_first_1mb": "ecf211fd71c4a2627c02e6a01ee979073721d4f5821514e4520657b4c50603b7"
+    },
+    {
+      "glyph": "WCE",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "pt",
+      "size_bytes": 2371235,
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.pt",
+      "sample_sha256_first_1mb": "f696ae2704ed7e7fbc4713a7a941b1015e958b71887b69a983ead9294de0197a"
+    },
+    {
+      "glyph": "WCF",
+      "kind": "weight_file",
+      "family": "general_chat_agent",
+      "format": "pt",
+      "size_bytes": 113431045,
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.2.pt",
+      "sample_sha256_first_1mb": "b27cc4bdb90994b1c72d904cc183a0655179bdea6524f29637fac927724ec3d4"
+    }
+  ]
+}
