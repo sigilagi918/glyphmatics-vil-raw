@@ -1,0 +1,22 @@
+GlyphMatics VIL-RAW Artifact Runtime v0.6 — G14 LOCK
+
+Stop condition reached.
+
+Verified chain:
+1. pgvayh installed GlyphMatics core.
+2. p hcbme tn:20 b:64 TMGE cv ruz executed real MPS/GHZ tensor-network self-test.
+3. pPvhz packed the system into .gma.json.
+4. pAvhz activated the pack in isolated restore space.
+5. pLvhz appended lineage blocks.
+6. pVvhz encoded the .gma.json pack into raw PGM visual memory.
+7. The PGM visual artifact restored the exact .gma.json bytes.
+8. Restored pack verified true.
+9. Restored pack activated true.
+10. TN self-test passed true.
+11. Final activation sealed true.
+
+Current rule:
+Stop adding features until this version is documented, copied off-device, and tested from a fresh Termux install.
+
+Status:
+G14 accepted.
