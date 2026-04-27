@@ -1,0 +1,849 @@
+{
+  "format": "GlyphMatics Public Submission Notebook Prior Summary",
+  "version": "0.9.5-dev",
+  "created_at": 1777313990,
+  "kernel_count": 104,
+  "total_code_bytes": 6623638,
+  "glyphline_bytes": 1383283,
+  "semantic_structure_ratio_vs_code_bytes": 4.78834627476807,
+  "semantic_structure_reduction_percent": 79.11596316103024,
+  "dictionary_entries": 5010,
+  "top_refs": [
+    {
+      "ref": "yakolle/mercari-lgb-ensemble",
+      "detected_score": 1.0,
+      "total_code_bytes": 206452,
+      "code_sha256": "09d809b9a63f7d91bec646f1360ef42041f17a66bfe6ec028fbff76d9b0a278d",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-tune",
+      "detected_score": 1.0,
+      "total_code_bytes": 162279,
+      "code_sha256": "787ce26f5eb57f105d9fa44a09f5e2fbdceb47cacddf589ecd49dbae0cd52486",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-tune3",
+      "detected_score": 1.0,
+      "total_code_bytes": 162178,
+      "code_sha256": "841255f44ac0f5e7436c424ea2d09b36449cb3e1d0ab8a97ca3f79f32e5fbe53",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-tune1",
+      "detected_score": 1.0,
+      "total_code_bytes": 162168,
+      "code_sha256": "0eaec9265e2c32f6bca9b5b2ecfd4b8598e1aca914e423e70e6f407c6d2547aa",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-tune2",
+      "detected_score": 1.0,
+      "total_code_bytes": 162163,
+      "code_sha256": "9b0011e378e98ade08ad7bba3b67e85e9a2310715f7db4acc0edac17364bb7fd",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-linear-tune",
+      "detected_score": 1.0,
+      "total_code_bytes": 160407,
+      "code_sha256": "a6a84c9eb2be0348a0b267df4f99e9f3c6bf17eb6264f9c12f9f64a9100d3618",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "franciscoangulo/nebula-fotonic-ray-tracing-inference",
+      "detected_score": 1.0,
+      "total_code_bytes": 127867,
+      "code_sha256": "e7295197fcded2e1fb4e4ac9b29eb17c603d7517bd49d33e5041c10c977119d1",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "mohit98765/arc-2026-mcts-program-synthesis-v9",
+      "detected_score": 1.0,
+      "total_code_bytes": 86512,
+      "code_sha256": "907d507e103af3dd9733f9e2b341bde1f6390bcd9b75d264914f09dc03b17b27",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-3",
+      "detected_score": 1.0,
+      "total_code_bytes": 61582,
+      "code_sha256": "3f559c56135ec4608c3bfd98a91b4090af5919c7b7ed2f49612b5cf94847f2bf",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "mohit98765/arc-2026-object-relational-program-synthesis-v2",
+      "detected_score": 1.0,
+      "total_code_bytes": 54658,
+      "code_sha256": "100aa0dcb41213ab8fb84ec927bb39ee75891d70cce9c806679c8728fef85d10",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "ninjazzle/visualizing-nba-seasons-history-part-2-points",
+      "detected_score": 1.0,
+      "total_code_bytes": 45783,
+      "code_sha256": "e54acf58fbb7875f5ce3ffb66fa1f20e293598f5f432b11deda2338dbf683753",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "madison88/nhl-expected-goals-model-and-heat-maps",
+      "detected_score": 1.0,
+      "total_code_bytes": 41355,
+      "code_sha256": "4e8d356bf4eb5c7fc437edb63330958f03f57468c3460743679a818c7cad5ef1",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "vitanhtrng/improving-customers-satisfaction-and-return",
+      "detected_score": 1.0,
+      "total_code_bytes": 25384,
+      "code_sha256": "2702551d4e70da1d2b27bcd49aaccb9d3d1a7bda0e7fb5fad8d172f62f23b38a",
+      "solver_layers": [
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-v5-ultimate",
+      "detected_score": 1.0,
+      "total_code_bytes": 20695,
+      "code_sha256": "b6e1c001ec9149a687056ebcd07f23fbef21551d98497e98bded1b60e9388bda",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-v4-advanced",
+      "detected_score": 1.0,
+      "total_code_bytes": 15855,
+      "code_sha256": "a8d9ed88c00d4c262ea2ef7bfd7340d89b7b57d4a5b2a542e94df5e7afb1a9aa",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-v2-enhanced-25-transforms",
+      "detected_score": 1.0,
+      "total_code_bytes": 13636,
+      "code_sha256": "995e2d9b35f1d7738a13000be2296d05ecfdc7af882a8be7ae0b09518c9e0e74",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-v10-cnn-learning",
+      "detected_score": 1.0,
+      "total_code_bytes": 13512,
+      "code_sha256": "b79545f451c63545b592ec77d5671a3e4c925a153bf0693351d0da2b108cf688",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-v6-learning",
+      "detected_score": 1.0,
+      "total_code_bytes": 11400,
+      "code_sha256": "c613e4bd6c48bb6365d0375039ed0d08d05c216dc0ef33f9f1f29126b6854085",
+      "solver_layers": [
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "metacore485/metacore-agi-arc-agi-3-submission",
+      "detected_score": 1.0,
+      "total_code_bytes": 10903,
+      "code_sha256": "fe7b88b4683de4e24a3422040c3aab5adbd33c241af98ea79ba4fc555b05b0d2",
+      "solver_layers": [
+        "grid_transform",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-v3-aggressive-30-transforms",
+      "detected_score": 1.0,
+      "total_code_bytes": 9886,
+      "code_sha256": "9979a96c90602e3aadd1a2d49c3927553d0a249e0821328abc671f2014b292d5",
+      "solver_layers": [
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "zfturbo/max-flow-with-min-cost-v2-0-9267",
+      "detected_score": 1.0,
+      "total_code_bytes": 9213,
+      "code_sha256": "2dcea895723cb7ad14d50e07229d2b85ceaa57d5f2720ed7a2035cbe48603922",
+      "solver_layers": [
+        "heuristics",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "softkleenex/arc-prize-2025-baseline-submission",
+      "detected_score": 1.0,
+      "total_code_bytes": 6719,
+      "code_sha256": "83f235fa52b6af97e0d777f1c942217f63ba71dd366ff825c3674162e97687b2",
+      "solver_layers": [
+        "grid_transform",
+        "pattern_completion",
+        "heuristics",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "tracrew/catalyst-22-2",
+      "detected_score": 0.7,
+      "total_code_bytes": 42841,
+      "code_sha256": "a397ab9597b78d6f726e0eda11006432dbeb8fd1665145362c3bea2853102acd",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "bbobwayne/recod-luc-wayneia-v72",
+      "detected_score": 0.5,
+      "total_code_bytes": 18262,
+      "code_sha256": "e91ce93e669119955fcb67f728f41ea85bf13784e3d8bc85ed498e95b7569c79",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "bbobwayne/recod-luc-wayneia-inference-v7-dinov2",
+      "detected_score": 0.5,
+      "total_code_bytes": 18160,
+      "code_sha256": "7b86fbc48d6813215062110cccda30733f45706e4fe59228fa110ec20f96618a",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "bbobwayne/recod-luc-wayneia-v71",
+      "detected_score": 0.5,
+      "total_code_bytes": 18144,
+      "code_sha256": "4ff44d99f76fac4c9a50d7b4204e0940c5f173240a9dc46460a48640eb3c4c73",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "anokas/spellchecked-xgb",
+      "detected_score": 0.47003199274,
+      "total_code_bytes": 258638,
+      "code_sha256": "9bf5b6653638c81ee24cdda58b6d4e912623fa5c7368879a8f8cc8834972d1e8",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "brucec/ephlangbench-lib",
+      "detected_score": 0.3,
+      "total_code_bytes": 359006,
+      "code_sha256": "8a8fc560032173aa0c05494fea1e670f19f68e2fbcaf1d80ac5ee5e20421f857",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "mohit98765/arc-2026-reinforce-policy-gradient-v8",
+      "detected_score": 0.0,
+      "total_code_bytes": 86242,
+      "code_sha256": "d2a83984fad130cd8e5e1e32752c1c6bea5b6b819b4856e93f79839bf9750e82",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-2",
+      "detected_score": 0.0,
+      "total_code_bytes": 15333,
+      "code_sha256": "0e37fafcc68bb6b30d87be12c22669625e97c385afcca0a2584465c460732085",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "heuristics",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "mpekalski/fork-of-zfturbo-maxflow-with-mincost-0-94092x",
+      "detected_score": 0.0,
+      "total_code_bytes": 6987,
+      "code_sha256": "6cc8c3781247874ee8c16125272538ad15a63f889a26953ddaf4847a26317e13",
+      "solver_layers": [
+        "heuristics",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "solokop/arc-prize-2025-simple-submission",
+      "detected_score": 0.0,
+      "total_code_bytes": 6688,
+      "code_sha256": "93df5b338bc6daf0d12d5d53ac7001e544710db0ea87d07a8b5ac87430722102",
+      "solver_layers": [
+        "grid_transform",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "evanpieser/transcendplexity-arc-agi-2",
+      "detected_score": null,
+      "total_code_bytes": 441796,
+      "code_sha256": "daa14c8b6ce6d028993268eb1da1e3da8830705210a28993fd0e09895809660c",
+      "solver_layers": [
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-tuned",
+      "detected_score": null,
+      "total_code_bytes": 182982,
+      "code_sha256": "665dd10ba35cbb30cbd7dc86b53d0a59b2ba16f1432e1ef20601b016e04f6581",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "united/home-depot-2",
+      "detected_score": null,
+      "total_code_bytes": 180640,
+      "code_sha256": "5f03b32187a7dc6ce851b3dcd8dd6def593305bcdbc9827d0395d307175a8948",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "united/test-script-apr-23",
+      "detected_score": null,
+      "total_code_bytes": 180331,
+      "code_sha256": "b9e16f2c21b0566af89a604de8cd91261e280e1478e4fa69ce74271ec918b217",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "sarora6/newproductsearch",
+      "detected_score": null,
+      "total_code_bytes": 180057,
+      "code_sha256": "dbc8c736017be11aaba0e742907c86656df928220362fd828ab6b81c1e720889",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "united/random-forest-regressor-v1",
+      "detected_score": null,
+      "total_code_bytes": 179975,
+      "code_sha256": "e2d2fbbd62cc259d03d1aa7a2aa33f0cf57b5e0c23b8eb175adda01e3c194755",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-without-embed-ols-round",
+      "detected_score": null,
+      "total_code_bytes": 174836,
+      "code_sha256": "6968a80b19397cebc782689b6267b6ca923d24220952bd66b62be3d85b4bc0d8",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-lgb-with-embed-ols-round",
+      "detected_score": null,
+      "total_code_bytes": 174584,
+      "code_sha256": "10c3e6c02a9b430adf1f56029af1bec90d7a56439b16f0d571894c18b70571c0",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "chirz8/cjk1404-1",
+      "detected_score": null,
+      "total_code_bytes": 173092,
+      "code_sha256": "c2f3ee18fe20f6b15eee56129e9272c365a83f2cbb56d374cfb879221ceff804",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "naheed/fixing-typos",
+      "detected_score": null,
+      "total_code_bytes": 172540,
+      "code_sha256": "cfdb37cce18c5a693d935250329c40b67eccb9b81b5384c7e7df9eeb04ae2270",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-final-regression",
+      "detected_score": null,
+      "total_code_bytes": 141781,
+      "code_sha256": "82fc45f26a6eecaec380831c55b990c0b30e539fca78bc649ceb86bd986d0d63",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "tariqalabdulrahman/duolingo-words",
+      "detected_score": null,
+      "total_code_bytes": 136594,
+      "code_sha256": "624c0a98606cbe873c9312167b85706d137a8d444ff097b4795b971ea164f096",
+      "solver_layers": [
+        "object_detection",
+        "pattern_completion",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-final-huber",
+      "detected_score": null,
+      "total_code_bytes": 136500,
+      "code_sha256": "9d089f4509f0042ae0c1284e0e58ac22f2002580aea639518fa8678736334760",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-blend",
+      "detected_score": null,
+      "total_code_bytes": 136317,
+      "code_sha256": "bf7010dc69ab4cdf28bfdb0f8c332688bb5d65b344a19ae1d20fb967289be601",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-ftrl-untuned",
+      "detected_score": null,
+      "total_code_bytes": 135353,
+      "code_sha256": "dd4a26d4b24edeee86c03f0656fb902dd6d25ad5da875ad3affa3d66b5ebe5c7",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yakolle/mercari-stack",
+      "detected_score": null,
+      "total_code_bytes": 131754,
+      "code_sha256": "e74e487af361640da2c52d4499f035d4471ad2fbe63f50e174353d9d5d63580f",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "yusufengintetik/3-dsl-2-public-5-tasks",
+      "detected_score": null,
+      "total_code_bytes": 103834,
+      "code_sha256": "278d09002a0cb31c241ffebbab9ecb245604f4dbab558390469fe37e3746022f",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    },
+    {
+      "ref": "jimthompson/visualizing-kaggle-team-structures",
+      "detected_score": null,
+      "total_code_bytes": 99146,
+      "code_sha256": "951bb29fdbdb04887b5a8c9ac9335f564f2d54032ed6e276682bc92e6878caba",
+      "solver_layers": [
+        "object_detection",
+        "grid_transform",
+        "color_reasoning",
+        "pattern_completion",
+        "search_planning",
+        "heuristics",
+        "program_synthesis",
+        "ensemble",
+        "submission_io",
+        "neural_symbolic"
+      ]
+    }
+  ],
+  "dataset_digest": "49b46ac71722cb237953ef311069b80311c88f168392f91c34988c24161c1d90"
+}
