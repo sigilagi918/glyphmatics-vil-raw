@@ -1,0 +1,31 @@
+{
+  "format": "GlyphMatics HV Prior Fusion Summary",
+  "version": "0.9.0-dev",
+  "created_at": 1777291234,
+  "roots": [
+    "/data/data/com.termux/files/home/kaggle",
+    "/data/data/com.termux/files/home/arc3_glyphmatic",
+    "/data/data/com.termux/files/home/arcagi3_glyph_encoded",
+    "/data/data/com.termux/files/home/llama.cpp",
+    "/data/data/com.termux/files/home/models",
+    "/data/data/com.termux/files/home/sigilagi",
+    "/data/data/com.termux/files/home/sigilagi_real",
+    "/data/data/com.termux/files/home/glyphmatics-vil-raw",
+    "/data/data/com.termux/files/home/vil-canonical-glyph-system",
+    "/data/data/com.termux/files/home/vil-glyphmatic-demo"
+  ],
+  "text_file_count": 2202,
+  "weight_file_count": 43,
+  "total_text_bytes": 51299735,
+  "total_weight_bytes": 13735257138,
+  "total_observed_bytes": 13786556873,
+  "glyphline_bytes": 1309239,
+  "semantic_structure_ratio_vs_observed_bytes": 10530.206381722512,
+  "semantic_structure_reduction_percent": 99.9905035099622,
+  "horizontal_glyphs": 13,
+  "vertical_glyphs": 115,
+  "structural_glyphs": 4096,
+  "weight_glyphs": 11,
+  "boundary": "Public/owned artifacts only. Weights are structurally indexed, not raw-copied.",
+  "dataset_digest": "e3f1fadae845ff85183e8e83ece634dc919beeec931e19f7692944ee51987156"
+}

@@ -1,0 +1,2364 @@
+{
+  "format": "GlyphMatics Weight Structural Prior",
+  "version": "0.9.0-dev",
+  "definition": "Indexes public/owned model weight structures without copying raw tensors.",
+  "boundary": "Structural metadata only; not byte-lossless full weight reconstruction.",
+  "weights": [
+    {
+      "path": "llama.cpp/models/ggml-vocab-aquila.gguf",
+      "size_bytes": 4825676,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "18dca1e88c43bdebcab1343dc189b80349cdffe1aaefc7214cd8eb9d235a56ac",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-baichuan.gguf",
+      "size_bytes": 1340998,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "1e950745b63d586ed59cbca2536a8112bd79e615626c989f9b14f07f218bb9d7",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-bert-bge.gguf",
+      "size_bytes": 627549,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "fbcbe22278fb302694d5f4a41bfe48c5f90e8e3554eab1c0435387dff654a854",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-command-r.gguf",
+      "size_bytes": 10874545,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "7d64d52083282ae6b7be36849e0f50318f6b45c97bfe2cbc6cec9ed78df9b3c4",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-deepseek-coder.gguf",
+      "size_bytes": 1156067,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "bf9e5482eff66a0eec6c8d72fe2d621bbd508ff00e1962683a801ef697d3d667",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-deepseek-llm.gguf",
+      "size_bytes": 3970167,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "82f0a2407ca5f5980a42f8e0a655478c9a4d812a364063cc1a5dfcf245e30686",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-falcon.gguf",
+      "size_bytes": 2287728,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "81d4485b863049205e8c4d731fe21f4dd9e1a230aab1897f4fe46ce9781dfab5",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gpt-2.gguf",
+      "size_bytes": 1766807,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "2d08a66306d1b3f261d83a408cf5ce9b02efec7f2d06e9df44c262ea65a7a7c3",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gpt-neox.gguf",
+      "size_bytes": 1771431,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "51070702e36e1dff4e28a68f2f1affc7a654f065cf5f48a1b6af8507e63a01c9",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-llama-bpe.gguf",
+      "size_bytes": 7818140,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "571ec0d998799f581f866dce9af3e0ff1bbaab5c0e4f47559a47c41496e62911",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-llama-spm.gguf",
+      "size_bytes": 723869,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "16c3724582d59aa8bf84711894e833f916ee46a31d80e21312759c48bf8d0e69",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-mpt.gguf",
+      "size_bytes": 1771393,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "845536c7df4f5e14eff01368769b54ba506d98df4873eab77172de530db015c3",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf",
+      "size_bytes": 6821877,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "3c078b545f0bc2a6eadc81bf22ad49ab6f04df337d846b83113cc698bebc67ed",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-phi-3.gguf",
+      "size_bytes": 726019,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "967d7190d11c4842eab697079d98d56c2116e10eb617be355a2733bfc132e326",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-qwen2.gguf",
+      "size_bytes": 5928681,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "db48553d309d5abc82b4ea548656265eae72aa4a5606db2b1453a25819787a9a",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-refact.gguf",
+      "size_bytes": 1720710,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "d5a66250f4126a18eb0ef8bda7c8e8f40c7067779562da04638f3613a368fb57",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-starcoder.gguf",
+      "size_bytes": 1719346,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "a2852ca8ae4bc11c849fde57382efdd372dc87710c00406896a7c2c9ad0e78fb",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "benchmark_solver",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/models/ggml-vocab-gemma-4.gguf",
+      "size_bytes": 15776467,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "33443f8632db7d258ea4bc3846fbfcb3986e469540d72e993bd015cedf6358b4",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "inference_runtime",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "tokenize",
+        "weights"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_C.bin",
+      "size_bytes": 7720,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "c917cbe70abecba21c16bb272e6045c35f4b13820042ddba8125c708f6b4b34a",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_CXX.bin",
+      "size_bytes": 7904,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "e8a254b3b5d53b2fa166475b5dba702b877430122e3c4cfe080376c16bbe7d75",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_C.bin",
+      "size_bytes": 7720,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "83087961f4f06e84471b3b507c1c11f233fad64100130167b91a10c2c7d43442",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/4.3.1/CMakeDetermineCompilerABI_CXX.bin",
+      "size_bytes": 7904,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "aed4497b7932229e1a4bbbb184409377afd74d139719b34ab5881e582e5c67e9",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_C.bin",
+      "size_bytes": 6976,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "04123b50ad6c42c24c89a355ea2918aae069c24b29c2d51353586867fbf170fd",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "llama.cpp/build/CMakeFiles/FindOpenMP/ompver_CXX.bin",
+      "size_bytes": 7056,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "3dcc096535d146d4ffe581da8a4e27ebe282c4e142e9cc42db24eea0014f0bcd",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "inference_runtime",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "source",
+        "weights",
+        "verify"
+      ],
+      "project": "llama.cpp"
+    },
+    {
+      "path": "models/Wizard.gguf",
+      "size_bytes": 4783156960,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "5999f9693d3621e38f57f2a6bda4e61ba10e14d74364981cb29ce91d621a4395",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/Qwen.gguf",
+      "size_bytes": 5027783488,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "1b65fb39a71a9be78db01d54e7def7f8b43332cfb77c4a25dc44cf6fb25ff50a",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/model.safetensors",
+      "size_bytes": 90868376,
+      "extension": ".safetensors",
+      "sample_sha256_first_1mb": "166fdce4b53b8ae8ef4af6d25711495a88c3d764359ee874f8676b9aeb99cbcf",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "safetensors",
+        "metadata": {
+          "format": "pt"
+        },
+        "tensor_count": 104,
+        "dtype_counts": {
+          "I64": 1,
+          "F32": 103
+        },
+        "shape_counts_top": {
+          "384": 57,
+          "384x384": 25,
+          "1536": 6,
+          "1536x384": 6,
+          "384x1536": 6,
+          "1x512": 1,
+          "512x384": 1,
+          "2x384": 1,
+          "30522x384": 1
+        },
+        "tensors": [
+          {
+            "name": "embeddings.position_ids",
+            "dtype": "I64",
+            "shape": [
+              1,
+              512
+            ],
+            "shape_key": "1x512",
+            "data_offsets": [
+              0,
+              4096
+            ]
+          },
+          {
+            "name": "embeddings.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              4096,
+              5632
+            ]
+          },
+          {
+            "name": "embeddings.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              5632,
+              7168
+            ]
+          },
+          {
+            "name": "embeddings.position_embeddings.weight",
+            "dtype": "F32",
+            "shape": [
+              512,
+              384
+            ],
+            "shape_key": "512x384",
+            "data_offsets": [
+              7168,
+              793600
+            ]
+          },
+          {
+            "name": "embeddings.token_type_embeddings.weight",
+            "dtype": "F32",
+            "shape": [
+              2,
+              384
+            ],
+            "shape_key": "2x384",
+            "data_offsets": [
+              793600,
+              796672
+            ]
+          },
+          {
+            "name": "embeddings.word_embeddings.weight",
+            "dtype": "F32",
+            "shape": [
+              30522,
+              384
+            ],
+            "shape_key": "30522x384",
+            "data_offsets": [
+              796672,
+              47678464
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              47678464,
+              47680000
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              47680000,
+              47681536
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              47681536,
+              47683072
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              47683072,
+              48272896
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              48272896,
+              48274432
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              48274432,
+              48864256
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              48864256,
+              48865792
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              48865792,
+              49455616
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              49455616,
+              49457152
+            ]
+          },
+          {
+            "name": "encoder.layer.0.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              49457152,
+              50046976
+            ]
+          },
+          {
+            "name": "encoder.layer.0.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              50046976,
+              50053120
+            ]
+          },
+          {
+            "name": "encoder.layer.0.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              50053120,
+              52412416
+            ]
+          },
+          {
+            "name": "encoder.layer.0.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              52412416,
+              52413952
+            ]
+          },
+          {
+            "name": "encoder.layer.0.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              52413952,
+              52415488
+            ]
+          },
+          {
+            "name": "encoder.layer.0.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              52415488,
+              52417024
+            ]
+          },
+          {
+            "name": "encoder.layer.0.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              52417024,
+              54776320
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              54776320,
+              54777856
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              54777856,
+              54779392
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              54779392,
+              54780928
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              54780928,
+              55370752
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              55370752,
+              55372288
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              55372288,
+              55962112
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              55962112,
+              55963648
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              55963648,
+              56553472
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              56553472,
+              56555008
+            ]
+          },
+          {
+            "name": "encoder.layer.1.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              56555008,
+              57144832
+            ]
+          },
+          {
+            "name": "encoder.layer.1.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              57144832,
+              57150976
+            ]
+          },
+          {
+            "name": "encoder.layer.1.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              57150976,
+              59510272
+            ]
+          },
+          {
+            "name": "encoder.layer.1.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              59510272,
+              59511808
+            ]
+          },
+          {
+            "name": "encoder.layer.1.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              59511808,
+              59513344
+            ]
+          },
+          {
+            "name": "encoder.layer.1.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              59513344,
+              59514880
+            ]
+          },
+          {
+            "name": "encoder.layer.1.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              59514880,
+              61874176
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              61874176,
+              61875712
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              61875712,
+              61877248
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              61877248,
+              61878784
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              61878784,
+              62468608
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              62468608,
+              62470144
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              62470144,
+              63059968
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              63059968,
+              63061504
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              63061504,
+              63651328
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              63651328,
+              63652864
+            ]
+          },
+          {
+            "name": "encoder.layer.2.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              63652864,
+              64242688
+            ]
+          },
+          {
+            "name": "encoder.layer.2.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              64242688,
+              64248832
+            ]
+          },
+          {
+            "name": "encoder.layer.2.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              64248832,
+              66608128
+            ]
+          },
+          {
+            "name": "encoder.layer.2.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              66608128,
+              66609664
+            ]
+          },
+          {
+            "name": "encoder.layer.2.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              66609664,
+              66611200
+            ]
+          },
+          {
+            "name": "encoder.layer.2.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              66611200,
+              66612736
+            ]
+          },
+          {
+            "name": "encoder.layer.2.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              66612736,
+              68972032
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              68972032,
+              68973568
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              68973568,
+              68975104
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              68975104,
+              68976640
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              68976640,
+              69566464
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              69566464,
+              69568000
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              69568000,
+              70157824
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              70157824,
+              70159360
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              70159360,
+              70749184
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              70749184,
+              70750720
+            ]
+          },
+          {
+            "name": "encoder.layer.3.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              70750720,
+              71340544
+            ]
+          },
+          {
+            "name": "encoder.layer.3.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              71340544,
+              71346688
+            ]
+          },
+          {
+            "name": "encoder.layer.3.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              71346688,
+              73705984
+            ]
+          },
+          {
+            "name": "encoder.layer.3.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              73705984,
+              73707520
+            ]
+          },
+          {
+            "name": "encoder.layer.3.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              73707520,
+              73709056
+            ]
+          },
+          {
+            "name": "encoder.layer.3.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              73709056,
+              73710592
+            ]
+          },
+          {
+            "name": "encoder.layer.3.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              73710592,
+              76069888
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              76069888,
+              76071424
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              76071424,
+              76072960
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              76072960,
+              76074496
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              76074496,
+              76664320
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              76664320,
+              76665856
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              76665856,
+              77255680
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              77255680,
+              77257216
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              77257216,
+              77847040
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              77847040,
+              77848576
+            ]
+          },
+          {
+            "name": "encoder.layer.4.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              77848576,
+              78438400
+            ]
+          },
+          {
+            "name": "encoder.layer.4.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              78438400,
+              78444544
+            ]
+          },
+          {
+            "name": "encoder.layer.4.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              78444544,
+              80803840
+            ]
+          },
+          {
+            "name": "encoder.layer.4.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              80803840,
+              80805376
+            ]
+          },
+          {
+            "name": "encoder.layer.4.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              80805376,
+              80806912
+            ]
+          },
+          {
+            "name": "encoder.layer.4.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              80806912,
+              80808448
+            ]
+          },
+          {
+            "name": "encoder.layer.4.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              80808448,
+              83167744
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              83167744,
+              83169280
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              83169280,
+              83170816
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              83170816,
+              83172352
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              83172352,
+              83762176
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.key.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              83762176,
+              83763712
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.key.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              83763712,
+              84353536
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.query.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              84353536,
+              84355072
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.query.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              84355072,
+              84944896
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.value.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              84944896,
+              84946432
+            ]
+          },
+          {
+            "name": "encoder.layer.5.attention.self.value.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              84946432,
+              85536256
+            ]
+          },
+          {
+            "name": "encoder.layer.5.intermediate.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              1536
+            ],
+            "shape_key": "1536",
+            "data_offsets": [
+              85536256,
+              85542400
+            ]
+          },
+          {
+            "name": "encoder.layer.5.intermediate.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              1536,
+              384
+            ],
+            "shape_key": "1536x384",
+            "data_offsets": [
+              85542400,
+              87901696
+            ]
+          },
+          {
+            "name": "encoder.layer.5.output.LayerNorm.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              87901696,
+              87903232
+            ]
+          },
+          {
+            "name": "encoder.layer.5.output.LayerNorm.weight",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              87903232,
+              87904768
+            ]
+          },
+          {
+            "name": "encoder.layer.5.output.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              87904768,
+              87906304
+            ]
+          },
+          {
+            "name": "encoder.layer.5.output.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              1536
+            ],
+            "shape_key": "384x1536",
+            "data_offsets": [
+              87906304,
+              90265600
+            ]
+          },
+          {
+            "name": "pooler.dense.bias",
+            "dtype": "F32",
+            "shape": [
+              384
+            ],
+            "shape_key": "384",
+            "data_offsets": [
+              90265600,
+              90267136
+            ]
+          },
+          {
+            "name": "pooler.dense.weight",
+            "dtype": "F32",
+            "shape": [
+              384,
+              384
+            ],
+            "shape_key": "384x384",
+            "data_offsets": [
+              90267136,
+              90856960
+            ]
+          }
+        ],
+        "truncated_tensors": false
+      },
+      "horizontal_layers": [
+        "tokenization",
+        "model_weights",
+        "vector_memory",
+        "tensor_network",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/pytorch_model.bin",
+      "size_bytes": 90888945,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "4d68f44f8406a8d39c1b1864affc381af337c501ab78ac8f2fbd1b37e0a0d4df",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512.onnx",
+      "size_bytes": 23026053,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_arm64.onnx",
+      "size_bytes": 23026053,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_qint8_avx512_vnni.onnx",
+      "size_bytes": 23026053,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "3f1cbd6c3cd08ce96f31aba6b87e19a59814db6ebb1601ecd2ee18134383b5e8",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O1.onnx",
+      "size_bytes": 90360328,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "cc4fe406ed1ea74db88fc7c4545c38a7b13e43f0c3fdb364b44a7367990cc3a9",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_quint8_avx2.onnx",
+      "size_bytes": 23046789,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "0ba93af1cd2e5e81f41c9c3156c40f007dd1d6487fc11f3305096e928f7720a6",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model.onnx",
+      "size_bytes": 90405214,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "1b4ec1342eaeac745144dbf3702126ccf7a9abdef266ec943d6352382fb87498",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O4.onnx",
+      "size_bytes": 45212349,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "a7703f43d597549e7cd086e6ad20384daf2e39eafb7f4cd18311e2a6ed216399",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O3.onnx",
+      "size_bytes": 90326497,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "2a70c6b123742df55cecc5f696ef41b4964a4b848511b730df99be276b839363",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/onnx/model_O2.onnx",
+      "size_bytes": 90326566,
+      "extension": ".onnx",
+      "sample_sha256_first_1mb": "37b58def3e187f67953d74e958c3ec0879e3f83358b808f19e460d0258aeb258",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "onnx",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model_qint8_quantized.bin",
+      "size_bytes": 22933664,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "2575e02fb0aa12cebab504291ecabbdbb828691e39ca938a811497ac259cef7f",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "models/all-MiniLM-L6-v2/openvino/openvino_model.bin",
+      "size_bytes": 90265744,
+      "extension": ".bin",
+      "sample_sha256_first_1mb": "750f824b5b2812e275b5bac052a70a2bbfd9782d5a4f33a81dce8ed0a8e6efba",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "bin",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "models"
+    },
+    {
+      "path": "sigilagi/SigilAGI.gguf",
+      "size_bytes": 2829697984,
+      "extension": ".gguf",
+      "sample_sha256_first_1mb": "ecf211fd71c4a2627c02e6a01ee979073721d4f5821514e4520657b4c50603b7",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "gguf",
+        "parse_error": "No module named 'gguf_tensor_prior_builder'"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "benchmark_solver",
+        "tensor_network",
+        "ui_web",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights"
+      ],
+      "project": "sigilagi"
+    },
+    {
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.pt",
+      "size_bytes": 2371235,
+      "extension": ".pt",
+      "sample_sha256_first_1mb": "f696ae2704ed7e7fbc4713a7a941b1015e958b71887b69a983ead9294de0197a",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "pt",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "normalize",
+        "weights",
+        "verify"
+      ],
+      "project": "vil-canonical-glyph-system"
+    },
+    {
+      "path": "vil-canonical-glyph-system/vil-encoder-v1.2.pt",
+      "size_bytes": 113431045,
+      "extension": ".pt",
+      "sample_sha256_first_1mb": "b27cc4bdb90994b1c72d904cc183a0655179bdea6524f29637fac927724ec3d4",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "pt",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "normalize",
+        "weights",
+        "verify"
+      ],
+      "project": "vil-canonical-glyph-system"
+    },
+    {
+      "path": "vil-glyphmatic-demo/models/vil-encoder-v1.2.pt",
+      "size_bytes": 113431045,
+      "extension": ".pt",
+      "sample_sha256_first_1mb": "b27cc4bdb90994b1c72d904cc183a0655179bdea6524f29637fac927724ec3d4",
+      "note": "structural metadata only; raw weights are not copied",
+      "structure": {
+        "format": "pt",
+        "parse_mode": "filename_size_sample_hash_only"
+      },
+      "horizontal_layers": [
+        "model_weights",
+        "security_verification"
+      ],
+      "vertical_stages": [
+        "weights",
+        "verify"
+      ],
+      "project": "vil-glyphmatic-demo"
+    }
+  ],
+  "dictionary": [
+    {
+      "glyph": "WAA",
+      "kind": "safetensors_dtype",
+      "value": "I64",
+      "count": 1
+    },
+    {
+      "glyph": "WAB",
+      "kind": "safetensors_dtype",
+      "value": "F32",
+      "count": 103
+    },
+    {
+      "glyph": "WAC",
+      "kind": "safetensors_shape",
+      "value": "384",
+      "count": 57
+    },
+    {
+      "glyph": "WAD",
+      "kind": "safetensors_shape",
+      "value": "384x384",
+      "count": 25
+    },
+    {
+      "glyph": "WAE",
+      "kind": "safetensors_shape",
+      "value": "1536",
+      "count": 6
+    },
+    {
+      "glyph": "WAF",
+      "kind": "safetensors_shape",
+      "value": "1536x384",
+      "count": 6
+    },
+    {
+      "glyph": "WAG",
+      "kind": "safetensors_shape",
+      "value": "384x1536",
+      "count": 6
+    },
+    {
+      "glyph": "WAH",
+      "kind": "safetensors_shape",
+      "value": "1x512",
+      "count": 1
+    },
+    {
+      "glyph": "WAI",
+      "kind": "safetensors_shape",
+      "value": "512x384",
+      "count": 1
+    },
+    {
+      "glyph": "WAJ",
+      "kind": "safetensors_shape",
+      "value": "2x384",
+      "count": 1
+    },
+    {
+      "glyph": "WAK",
+      "kind": "safetensors_shape",
+      "value": "30522x384",
+      "count": 1
+    }
+  ]
+}
