@@ -1,0 +1,87 @@
+{
+  "format": "GlyphMatics ARCAGI3 Notebook Structural Glyphpack",
+  "version": "0.1.0",
+  "glyphstring": "pARC3Zvhz",
+  "mode": "functional_code_only",
+  "notebook_count": 12,
+  "dictionary_entries": 512,
+  "raw_code_bytes": 1127771,
+  "glyphline_bytes": 890176,
+  "semantic_compression_ratio": 1.2669078923718455,
+  "semantic_reduction_percent": 21.067663559357356,
+  "glyphline_sha256": "00b2ddc5d4874a7078499f0a6dff4cdbf4e7cdf6ab6c7d7f2b3abf9f94e9a8f1",
+  "records": [
+    {
+      "path": "kaggle/arc3_submission_final.ipynb",
+      "code_sha256": "7ee36b3f179a2d36eb58e906a0cc6cc47cde726a1d968da5227f9eedb28bbefc",
+      "code_bytes": 112782,
+      "line_count": 2621
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-final.ipynb",
+      "code_sha256": "f8d462fe850d388cfce0cf06c4f7e1cfeb6bf57b61e3fa1ebc732a199795f719",
+      "code_bytes": 112786,
+      "line_count": 2621
+    },
+    {
+      "path": "kaggle/sigilagi/forge-arc-agi-3-agent.ipynb",
+      "code_sha256": "e7a5fb9f079c686bcc9d152d8addfd7f908248a5783b0bd24e83e297ae7060a8",
+      "code_bytes": 40112,
+      "line_count": 894
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-random-agent.ipynb",
+      "code_sha256": "f7f6a7bc638d13695805759f0487588b8db9453964b6e1bc26d7b4b17953b265",
+      "code_bytes": 3606,
+      "line_count": 111
+    },
+    {
+      "path": "kaggle/Matthew_Blake_Ward_GlyphMatics_SigilAGI_2026V6.ipynb",
+      "code_sha256": "2d735ed4438c2557ed3818c675c4ab80f51d503f62bd64b4e2e777a9ec66f527",
+      "code_bytes": 128728,
+      "line_count": 3059
+    },
+    {
+      "path": "kaggle/arc-policy-runtime-submission.ipynb",
+      "code_sha256": "fa2d4be15c34bf364c1fa662ec641a4af1f28f8feb84975a72c3dd3aefd1372d",
+      "code_bytes": 154118,
+      "line_count": 367
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-ready.ipynb",
+      "code_sha256": "7ee36b3f179a2d36eb58e906a0cc6cc47cde726a1d968da5227f9eedb28bbefc",
+      "code_bytes": 112782,
+      "line_count": 2621
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-hybrid.ipynb",
+      "code_sha256": "f8d462fe850d388cfce0cf06c4f7e1cfeb6bf57b61e3fa1ebc732a199795f719",
+      "code_bytes": 112786,
+      "line_count": 2621
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-just-explore_patched.ipynb",
+      "code_sha256": "99dced76d0c8adf840c4624d938665b717164778a36c46b8e323b37097a15c2f",
+      "code_bytes": 100170,
+      "line_count": 2294
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-just-explore.ipynb",
+      "code_sha256": "27b16d5bab9cd1a2c9b1c02d2ef76c2c57d9479a4635c8d841f75ce8d539365f",
+      "code_bytes": 83542,
+      "line_count": 1874
+    },
+    {
+      "path": "kaggle/arc3-sample-submission-just-explore_merged.ipynb",
+      "code_sha256": "27b16d5bab9cd1a2c9b1c02d2ef76c2c57d9479a4635c8d841f75ce8d539365f",
+      "code_bytes": 83542,
+      "line_count": 1874
+    },
+    {
+      "path": "kaggle/ash-s-arc-agi-3-agent.ipynb",
+      "code_sha256": "3fe5ae7c2374f28e4bd558bc3e1c0aeb444d3fe88b5013486c2967038c47fbcb",
+      "code_bytes": 82817,
+      "line_count": 1836
+    }
+  ]
+}
