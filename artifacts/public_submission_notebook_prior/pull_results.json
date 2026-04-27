@@ -1,0 +1,418 @@
+[
+  {
+    "ref": "ravikaash/qor-arc-agi-3-agent",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/ravikaash__qor-arc-agi-3-agent",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/ravikaash__qor-arc-agi-3-agent\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-py311-offline",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-py311-offline",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-py311-offline\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "wwwwwwrjoin/arc-agi-2-baseline",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/wwwwwwrjoin__arc-agi-2-baseline",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/wwwwwwrjoin__arc-agi-2-baseline\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-conditional-program-synthesis-v4",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-conditional-program-synthesis-v4",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-conditional-program-synthesis-v4\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "metacore485/metacore-agi-arc-agi-3-submission",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/metacore485__metacore-agi-arc-agi-3-submission",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/metacore485__metacore-agi-arc-agi-3-submission\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-inference-v7-dinov2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-inference-v7-dinov2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-inference-v7-dinov2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v6",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v6",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v6\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v5",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-smartexplorer-v5",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-smartexplorer-v5\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "tracrew/catalyst-22-2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/tracrew__catalyst-22-2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/tracrew__catalyst-22-2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-py311-offline-none",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-py311-offline-none",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-py311-offline-none\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v8",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v8",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v8\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-graphexplorer-v2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-graphexplorer-v2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v1",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-graphexplorer-v1",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-graphexplorer-v1\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__ggrope-world-model-v1-arc-agi-2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__ggrope-world-model-v1-arc-agi-2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "bbobwayne/physionet-ecg-wayneia-v5-optimized",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__physionet-ecg-wayneia-v5-optimized",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__physionet-ecg-wayneia-v5-optimized\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v7",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v7",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v7\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v3",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-smartexplorer-v3",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-smartexplorer-v3\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-3",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__ggrope-world-model-v1-arc-agi-3",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__ggrope-world-model-v1-arc-agi-3\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-v71",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-v71",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-v71\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-object-relational-program-synthesis-v2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-object-relational-program-synthesis-v2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-object-relational-program-synthesis-v2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-relational-graph-program-synthesis-v3",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-relational-graph-program-synthesis-v3",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-relational-graph-program-synthesis-v3\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-v72",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-v72",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/bbobwayne__recod-luc-wayneia-v72\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v5",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v5",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v5\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-v10-cnn-learning",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-v10-cnn-learning",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-v10-cnn-learning\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "wordingone/arc-agi-3-baseline-graph-explorer",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/wordingone__arc-agi-3-baseline-graph-explorer",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/wordingone__arc-agi-3-baseline-graph-explorer\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-llm-guided-program-synthesis-v5",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-llm-guided-program-synthesis-v5",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-llm-guided-program-synthesis-v5\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-rag-program-synthesis-v6",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-rag-program-synthesis-v6",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-rag-program-synthesis-v6\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-reinforce-policy-gradient-v8",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-reinforce-policy-gradient-v8",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-reinforce-policy-gradient-v8\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "mohit98765/arc-2026-mcts-program-synthesis-v9",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-mcts-program-synthesis-v9",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/mohit98765__arc-2026-mcts-program-synthesis-v9\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v9",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v9",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/abdullahasoliman__soliman-arc-agi-3-agent-boundaryexplorer-v9\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-72-primitive-dsl",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-72-primitive-dsl",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-72-primitive-dsl\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "evanpieser/transcendplexity-arc-agi-2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/evanpieser__transcendplexity-arc-agi-2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/evanpieser__transcendplexity-arc-agi-2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "hansuelijud/template-arc2020-1st-place-solution-by-icecuber",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/hansuelijud__template-arc2020-1st-place-solution-by-icecuber",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/hansuelijud__template-arc2020-1st-place-solution-by-icecuber\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "zvoicu/solution",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/zvoicu__solution",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/zvoicu__solution\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v5-ultimate",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v5-ultimate",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v5-ultimate\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-v2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-v2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/seconds0__trm-arc-agi-2-inference-v2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-baseline-submission",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-baseline-submission",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-baseline-submission\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "solokop/arc-prize-2025-smarter-submission",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-smarter-submission",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-smarter-submission\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "vandittyagi0909/coral-arc-agi-2-solution",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/vandittyagi0909__coral-arc-agi-2-solution",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/vandittyagi0909__coral-arc-agi-2-solution\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "solokop/arc-prize-2025-simple-submission",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-simple-submission",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-simple-submission\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "thezetaproject/jepa-program-synthesis-v1-arc-agi-2",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__jepa-program-synthesis-v1-arc-agi-2",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/thezetaproject__jepa-program-synthesis-v1-arc-agi-2\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v8-hybrid-ultimate",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v8-hybrid-ultimate",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v8-hybrid-ultimate\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "solokop/arc-prize-2025-beam-search",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-beam-search",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/solokop__arc-prize-2025-beam-search\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v7-dsl-program-search",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v7-dsl-program-search",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v7-dsl-program-search\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v6-learning",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v6-learning",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v6-learning\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v3-aggressive-30-transforms",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v3-aggressive-30-transforms",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v3-aggressive-30-transforms\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "yakolle/mercari-lgb-ensemble",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/yakolle__mercari-lgb-ensemble",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/yakolle__mercari-lgb-ensemble\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v2-enhanced-25-transforms",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v2-enhanced-25-transforms",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v2-enhanced-25-transforms\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v4-advanced",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v4-advanced",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/softkleenex__arc-prize-2025-v4-advanced\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v6",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v6",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/shota0205__arc-prize-2026-ttt-dsl-v6\n",
+    "stderr": "",
+    "ok": true
+  },
+  {
+    "ref": "boristown/visualization",
+    "dir": "/data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/boristown__visualization",
+    "returncode": 0,
+    "stdout": "Source code and metadata downloaded to /data/data/com.termux/files/home/glyphmatics_public_submission_notebook_vault/boristown__visualization\n",
+    "stderr": "",
+    "ok": true
+  }
+]

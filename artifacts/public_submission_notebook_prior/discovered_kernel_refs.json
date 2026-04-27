@@ -1,0 +1,574 @@
+[
+  {
+    "ref": "ravikaash/qor-arc-agi-3-agent",
+    "query": "ARC AGI public score",
+    "row": {
+      "ref": "ravikaash/qor-arc-agi-3-agent",
+      "title": "QOR ARC-AGI-3 Agent",
+      "author": "Ravikash Gupta",
+      "lastRunTime": "2026-03-26 23:57:02.607000",
+      "totalVotes": "24"
+    }
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-py311-offline",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "seconds0/trm-arc-agi-2-inference-py311-offline",
+      "title": "TRM ARC-AGI-2 Inference (Py311 Offline)",
+      "author": "seconds0",
+      "lastRunTime": "2025-10-25 11:42:17.727000",
+      "totalVotes": "10"
+    }
+  },
+  {
+    "ref": "wwwwwwrjoin/arc-agi-2-baseline",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "wwwwwwrjoin/arc-agi-2-baseline",
+      "title": "ARC-AGI-2 Baseline",
+      "author": "wwwwwwrjoin",
+      "lastRunTime": "2026-04-16 14:16:43.290000",
+      "totalVotes": "7"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-conditional-program-synthesis-v4",
+    "query": "ARC AGI object detection",
+    "row": {
+      "ref": "mohit98765/arc-2026-conditional-program-synthesis-v4",
+      "title": "ARC 2026 Conditional Program Synthesis v4",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-23 12:47:01.867000",
+      "totalVotes": "3"
+    }
+  },
+  {
+    "ref": "metacore485/metacore-agi-arc-agi-3-submission",
+    "query": "ARC AGI BFS",
+    "row": {
+      "ref": "metacore485/metacore-agi-arc-agi-3-submission",
+      "title": "MetaCore AGI ARC-AGI-3 Submission",
+      "author": "metacore485",
+      "lastRunTime": "2026-03-30 04:13:33.473000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-inference-v7-dinov2",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "bbobwayne/recod-luc-wayneia-inference-v7-dinov2",
+      "title": "Recod-LUC WayneIA Inference V7 DINOv2",
+      "author": "bbobWayne",
+      "lastRunTime": "2025-12-28 23:56:28.853000",
+      "totalVotes": "3"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v6",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v6",
+      "title": "Soliman ARC-AGI-3 Agent - BoundaryExplorer v6",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 12:37:58.283000",
+      "totalVotes": "5"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v5",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v5",
+      "title": "Soliman ARC-AGI-3 Agent - SmartExplorer v5",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 12:24:42.923000",
+      "totalVotes": "5"
+    }
+  },
+  {
+    "ref": "tracrew/catalyst-22-2",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "tracrew/catalyst-22-2",
+      "title": "catalyst-22.2",
+      "author": "Tra Crew",
+      "lastRunTime": "2025-11-07 11:14:38.470000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-py311-offline-none",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "seconds0/trm-arc-agi-2-inference-py311-offline-none",
+      "title": "TRM ARC-AGI-2 Inference (Py311 Offline) None",
+      "author": "seconds0",
+      "lastRunTime": "2025-10-26 02:46:00.420000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v8",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v8",
+      "title": "Soliman ARC-AGI-3 Agent - BoundaryExplorer v8",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 13:04:36.103000",
+      "totalVotes": "3"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v2",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v2",
+      "title": "Soliman ARC-AGI-3 Agent - GraphExplorer v2",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 11:34:50.617000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v1",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-graphexplorer-v1",
+      "title": "Soliman ARC-AGI-3 Agent - GraphExplorer v1",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 10:42:57.900000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-2",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-2",
+      "title": "GGRoPE-World-Model v1 — ARC-AGI-2",
+      "author": "Isaiah Nwukor",
+      "lastRunTime": "2026-04-17 13:56:15.243000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "bbobwayne/physionet-ecg-wayneia-v5-optimized",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "bbobwayne/physionet-ecg-wayneia-v5-optimized",
+      "title": "PhysioNet ECG WayneIA V5 Optimized",
+      "author": "bbobWayne",
+      "lastRunTime": "2025-12-28 19:37:21.157000",
+      "totalVotes": "3"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v7",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v7",
+      "title": "Soliman ARC-AGI-3 Agent - BoundaryExplorer v7",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 12:51:28.330000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v3",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-smartexplorer-v3",
+      "title": "Soliman ARC-AGI-3 Agent - SmartExplorer v3",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 11:54:16.500000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-3",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "thezetaproject/ggrope-world-model-v1-arc-agi-3",
+      "title": "GGRoPE-World-Model v1 -- ARC-AGI-3",
+      "author": "Isaiah Nwukor",
+      "lastRunTime": "2026-04-14 01:14:06.513000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-v71",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "bbobwayne/recod-luc-wayneia-v71",
+      "title": "recod-luc-wayneia-v71",
+      "author": "bbobWayne",
+      "lastRunTime": "2025-12-29 00:04:33.813000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-object-relational-program-synthesis-v2",
+    "query": "ARC AGI object detection",
+    "row": {
+      "ref": "mohit98765/arc-2026-object-relational-program-synthesis-v2",
+      "title": "ARC 2026 Object-Relational Program Synthesis v2",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-13 11:09:33.640000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-relational-graph-program-synthesis-v3",
+    "query": "ARC AGI object detection",
+    "row": {
+      "ref": "mohit98765/arc-2026-relational-graph-program-synthesis-v3",
+      "title": "ARC 2026 Relational Graph Program Synthesis v3",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-14 06:16:04.317000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "bbobwayne/recod-luc-wayneia-v72",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "bbobwayne/recod-luc-wayneia-v72",
+      "title": "recod-luc-wayneia-v72",
+      "author": "bbobWayne",
+      "lastRunTime": "2025-12-29 14:52:06.823000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v2",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "shota0205/arc-prize-2026-ttt-dsl-v2",
+      "title": "ARC Prize 2026 - TTT + DSL v2",
+      "author": "SHOTA TAKIYANAGI",
+      "lastRunTime": "2026-04-14 01:38:35.463000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v5",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "shota0205/arc-prize-2026-ttt-dsl-v5",
+      "title": "ARC Prize 2026 TTT DSL v5",
+      "author": "SHOTA TAKIYANAGI",
+      "lastRunTime": "2026-04-14 03:56:32.737000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-v10-cnn-learning",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-v10-cnn-learning",
+      "title": "Soliman ARC-AGI-3 Agent v10 - CNN Learning",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 14:02:02.647000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "wordingone/arc-agi-3-baseline-graph-explorer",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "wordingone/arc-agi-3-baseline-graph-explorer",
+      "title": "ARC-AGI-3 Baseline Graph Explorer",
+      "author": "Hyunjun Han",
+      "lastRunTime": "2026-03-31 02:33:43.367000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-llm-guided-program-synthesis-v5",
+    "query": "ARC AGI program synthesis",
+    "row": {
+      "ref": "mohit98765/arc-2026-llm-guided-program-synthesis-v5",
+      "title": "ARC 2026 LLM-Guided Program Synthesis v5",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-27 09:07:21.263000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-rag-program-synthesis-v6",
+    "query": "ARC AGI program synthesis",
+    "row": {
+      "ref": "mohit98765/arc-2026-rag-program-synthesis-v6",
+      "title": "ARC 2026 RAG Program Synthesis v6",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-27 09:22:21.493000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-reinforce-policy-gradient-v8",
+    "query": "ARC AGI program synthesis",
+    "row": {
+      "ref": "mohit98765/arc-2026-reinforce-policy-gradient-v8",
+      "title": "ARC 2026 REINFORCE Policy Gradient v8",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-27 10:15:27.800000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "mohit98765/arc-2026-mcts-program-synthesis-v9",
+    "query": "ARC AGI object detection",
+    "row": {
+      "ref": "mohit98765/arc-2026-mcts-program-synthesis-v9",
+      "title": "ARC 2026 MCTS Program Synthesis v9",
+      "author": "Mohit",
+      "lastRunTime": "2026-04-27 10:34:01.047000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v9",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "abdullahasoliman/soliman-arc-agi-3-agent-boundaryexplorer-v9",
+      "title": "Soliman ARC-AGI-3 Agent - BoundaryExplorer v9",
+      "author": "Abdullah Soliman",
+      "lastRunTime": "2026-03-27 13:11:50.073000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-72-primitive-dsl",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "shota0205/arc-prize-2026-ttt-72-primitive-dsl",
+      "title": "ARC Prize 2026 - TTT + 72-Primitive DSL",
+      "author": "SHOTA TAKIYANAGI",
+      "lastRunTime": "2026-04-14 01:35:44.813000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "evanpieser/transcendplexity-arc-agi-2",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "evanpieser/transcendplexity-arc-agi-2",
+      "title": "TranscendPlexity ARC-AGI-2",
+      "author": "Evan Pieser",
+      "lastRunTime": "2026-03-26 16:48:21.657000",
+      "totalVotes": "6"
+    }
+  },
+  {
+    "ref": "hansuelijud/template-arc2020-1st-place-solution-by-icecuber",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "hansuelijud/template-arc2020-1st-place-solution-by-icecuber",
+      "title": "[Template] ARC2020 1st place solution by icecuber",
+      "author": "Hansueli Jud",
+      "lastRunTime": "2024-06-09 14:53:21.803000",
+      "totalVotes": "500"
+    }
+  },
+  {
+    "ref": "zvoicu/solution",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "zvoicu/solution",
+      "title": "Solution",
+      "author": "voicu",
+      "lastRunTime": "2024-10-26 12:06:35.490000",
+      "totalVotes": "28"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v5-ultimate",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v5-ultimate",
+      "title": "ARC Prize 2025 V5 Ultimate",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 07:13:39.183000",
+      "totalVotes": "14"
+    }
+  },
+  {
+    "ref": "seconds0/trm-arc-agi-2-inference-v2",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "seconds0/trm-arc-agi-2-inference-v2",
+      "title": "TRM ARC‑AGI‑2 Inference v2",
+      "author": "seconds0",
+      "lastRunTime": "2025-10-08 03:28:32.827000",
+      "totalVotes": "9"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-baseline-submission",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-baseline-submission",
+      "title": "ARC Prize 2025 - Baseline Submission",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 05:59:56.313000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "solokop/arc-prize-2025-smarter-submission",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "solokop/arc-prize-2025-smarter-submission",
+      "title": "ARC Prize 2025 - Smarter Submission",
+      "author": "Steve Le (Solokop)",
+      "lastRunTime": "2025-10-20 08:10:12.737000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "vandittyagi0909/coral-arc-agi-2-solution",
+    "query": "ARC AGI program synthesis",
+    "row": {
+      "ref": "vandittyagi0909/coral-arc-agi-2-solution",
+      "title": "CORAL: ARC-AGI-2 Solution",
+      "author": "Vandit",
+      "lastRunTime": "2026-04-11 13:46:51.507000",
+      "totalVotes": "8"
+    }
+  },
+  {
+    "ref": "solokop/arc-prize-2025-simple-submission",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "solokop/arc-prize-2025-simple-submission",
+      "title": "ARC Prize 2025 - Simple Submission",
+      "author": "Steve Le (Solokop)",
+      "lastRunTime": "2025-10-20 08:00:19.387000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "thezetaproject/jepa-program-synthesis-v1-arc-agi-2",
+    "query": "ARC AGI program synthesis",
+    "row": {
+      "ref": "thezetaproject/jepa-program-synthesis-v1-arc-agi-2",
+      "title": "JEPA-Program-Synthesis v1 — ARC-AGI-2",
+      "author": "Isaiah Nwukor",
+      "lastRunTime": "2026-04-17 13:53:22.330000",
+      "totalVotes": "3"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v8-hybrid-ultimate",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v8-hybrid-ultimate",
+      "title": "ARC Prize 2025 V8 Hybrid Ultimate",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 15:44:30.180000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "solokop/arc-prize-2025-beam-search",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "solokop/arc-prize-2025-beam-search",
+      "title": "ARC Prize 2025 - Beam Search",
+      "author": "Steve Le (Solokop)",
+      "lastRunTime": "2025-10-21 08:47:38.950000",
+      "totalVotes": "2"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v7-dsl-program-search",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v7-dsl-program-search",
+      "title": "ARC Prize 2025 V7 DSL Program Search",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 15:42:17.827000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v6-learning",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v6-learning",
+      "title": "ARC Prize 2025 V6 Learning",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 07:38:52.993000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v3-aggressive-30-transforms",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v3-aggressive-30-transforms",
+      "title": "ARC Prize 2025 - V3 Aggressive (30+ Transforms)",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 07:09:51.680000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "yakolle/mercari-lgb-ensemble",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "yakolle/mercari-lgb-ensemble",
+      "title": "mercari_lgb_ensemble",
+      "author": "Yakolle Zhang",
+      "lastRunTime": "2018-01-02 20:38:48.547000",
+      "totalVotes": "5"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v2-enhanced-25-transforms",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v2-enhanced-25-transforms",
+      "title": "ARC Prize 2025 - V2 Enhanced (25+ Transforms)",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 07:06:21.470000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "softkleenex/arc-prize-2025-v4-advanced",
+    "query": "ARC Prize submission",
+    "row": {
+      "ref": "softkleenex/arc-prize-2025-v4-advanced",
+      "title": "ARC Prize 2025 V4 Advanced",
+      "author": "softkleenex",
+      "lastRunTime": "2025-10-14 07:13:21.963000",
+      "totalVotes": "0"
+    }
+  },
+  {
+    "ref": "shota0205/arc-prize-2026-ttt-dsl-v6",
+    "query": "ARC AGI ensemble",
+    "row": {
+      "ref": "shota0205/arc-prize-2026-ttt-dsl-v6",
+      "title": "ARC Prize 2026 TTT DSL v6",
+      "author": "SHOTA TAKIYANAGI",
+      "lastRunTime": "2026-04-14 08:25:22.257000",
+      "totalVotes": "1"
+    }
+  },
+  {
+    "ref": "boristown/visualization",
+    "query": "ARC AGI Kaggle notebook",
+    "row": {
+      "ref": "boristown/visualization",
+      "title": "visualization",
+      "author": "暗黑AGI",
+      "lastRunTime": "2025-07-30 14:16:01.530000",
+      "totalVotes": "1"
+    }
+  }
+]
