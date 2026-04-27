@@ -79,6 +79,10 @@ The active Hugging Face static UI is:
 
 https://huggingface.co/spaces/Nine1Eight/glyphmatics-vil-raw-static
 
-The full artifact Space remains:
+The full artifact/archive Space is:
 
 https://huggingface.co/spaces/Nine1Eight/glyphmatics-vil-raw
+
+GitHub source of truth:
+
+https://github.com/sigilagi918/glyphmatics-vil-raw
