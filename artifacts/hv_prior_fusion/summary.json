@@ -1,7 +1,7 @@
 {
   "format": "GlyphMatics HV Prior Fusion Summary",
   "version": "0.9.0-dev",
-  "created_at": 1777291234,
+  "created_at": 1777291307,
   "roots": [
     "/data/data/com.termux/files/home/kaggle",
     "/data/data/com.termux/files/home/arc3_glyphmatic",
@@ -14,18 +14,18 @@
     "/data/data/com.termux/files/home/vil-canonical-glyph-system",
     "/data/data/com.termux/files/home/vil-glyphmatic-demo"
   ],
-  "text_file_count": 2202,
+  "text_file_count": 2208,
   "weight_file_count": 43,
-  "total_text_bytes": 51299735,
+  "total_text_bytes": 53975452,
   "total_weight_bytes": 13735257138,
-  "total_observed_bytes": 13786556873,
-  "glyphline_bytes": 1309239,
-  "semantic_structure_ratio_vs_observed_bytes": 10530.206381722512,
-  "semantic_structure_reduction_percent": 99.9905035099622,
+  "total_observed_bytes": 13789232590,
+  "glyphline_bytes": 1318299,
+  "semantic_structure_ratio_vs_observed_bytes": 10459.867291107708,
+  "semantic_structure_reduction_percent": 99.9904396492597,
   "horizontal_glyphs": 13,
   "vertical_glyphs": 115,
   "structural_glyphs": 4096,
   "weight_glyphs": 11,
   "boundary": "Public/owned artifacts only. Weights are structurally indexed, not raw-copied.",
-  "dataset_digest": "e3f1fadae845ff85183e8e83ece634dc919beeec931e19f7692944ee51987156"
+  "dataset_digest": "60d94888566d4f6ffcd578bd43fddfd0ba2c8d83693d7364ec4f17672f30a86b"
 }
