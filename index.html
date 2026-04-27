@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GlyphMatics VIL-RAW Encoder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #090b10;
+      --panel: #111722;
+      --panel2: #161e2d;
+      --text: #e8eefc;
+      --muted: #9aa9c4;
+      --accent: #7dd3fc;
+      --good: #86efac;
+      --bad: #fca5a5;
+      --border: #283449;
+      --code: #06080d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #111827 0, var(--bg) 45%);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    header {
+      padding: 32px 18px 18px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 48px);
+      letter-spacing: -0.04em;
+    }
+    h2 { margin-top: 0; }
+    p { color: var(--muted); }
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 18px 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: linear-gradient(180deg, var(--panel), #0d111a);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--text);
+      padding: 12px;
+      font: inherit;
+    }
+    textarea {
+      min-height: 180px;
+      resize: vertical;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: var(--code);
+    }
+    button {
+      cursor: pointer;
+      background: linear-gradient(180deg, #1e3a5f, #12243d);
+      border-color: #31547d;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+    button:hover { filter: brightness(1.12); }
+    .row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .row > * { flex: 1; min-width: 180px; }
+    .status {
+      white-space: pre-wrap;
+      background: var(--code);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      min-height: 120px;
+      overflow: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #c7d2fe;
+    }
+    .pill {
+      display: inline-block;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      margin: 3px 4px 3px 0;
+      font-size: 12px;
+    }
+    a.download {
+      display: inline-block;
+      margin: 8px 8px 0 0;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: #0f2a3d;
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid #27506d;
+      font-weight: 700;
+    }
+    canvas {
+      max-width: 100%;
+      image-rendering: pixelated;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: #000;
+    }
+    .ok { color: var(--good); }
+    .bad { color: var(--bad); }
+    footer {
+      max-width: 1100px;
+      margin: auto;
+      padding: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>GlyphMatics VIL-RAW Encoder</h1>
+  <p>
+    Encode code, files, folders, GGUFs, model blobs, OS images, or text into
+    exact byte-preserving GlyphMatics artifacts and raw visual memory images.
+  </p>
+  <div>
+    <span class="pill">pVvhz visual encode</span>
+    <span class="pill">pPvhz pack</span>
+    <span class="pill">pAvhz restore/activate-ready</span>
+    <span class="pill">browser-only</span>
+    <span class="pill">no external libraries</span>
+  </div>
+</header>
+
+<main>
+  <section class="grid">
+    <div class="card">
+      <h2>1. Encode Text / Code</h2>
+      <label>Virtual filename</label>
+      <input id="textName" value="payload.txt">
+      <label>Paste code, config, script, prompt, manifest, or OS bootstrap text</label>
+      <textarea id="textInput" spellcheck="false">print("GlyphMatics VIL-RAW")</textarea>
+      <button onclick="encodeText()">Encode Text as Artifact</button>
+    </div>
+
+    <div class="card">
+      <h2>2. Encode Single File</h2>
+      <label>Any file: .py, .zip, .gguf, .img, .iso, .bin, .json, .tar, etc.</label>
+      <input id="singleFile" type="file">
+      <label>Image width</label>
+      <input id="singleWidth" type="number" value="512" min="16" max="8192">
+      <button onclick="encodeSingleFile()">Encode Single File to Raw Visual PGM</button>
+      <p>Best for large binaries because payload bytes are stored directly, not base64-packed.</p>
+    </div>
+
+    <div class="card">
+      <h2>3. Encode Multiple Files / Folder</h2>
+      <label>Select files</label>
+      <input id="multiFiles" type="file" multiple>
+      <label>Select folder</label>
+      <input id="folderFiles" type="file" webkitdirectory multiple>
+      <label>Image width</label>
+      <input id="packWidth" type="number" value="512" min="16" max="8192">
+      <button onclick="encodeMulti()">Encode Pack + Visual PGM</button>
+      <p>Folders are packed as JSON with base64 file payloads. Use for source trees and small-to-medium repos.</p>
+    </div>
+
+    <div class="card">
+      <h2>4. Restore Visual Artifact</h2>
+      <label>Select .pgm created by this page</label>
+      <input id="restoreImage" type="file" accept=".pgm,image/x-portable-graymap">
+      <button onclick="restoreVisual()">Restore Payload from PGM</button>
+      <p>Restores exact original bytes if the SHA-256 lock matches.</p>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Output</h2>
+      <div id="links"></div>
+      <label>Status</label>
+      <div id="status" class="status">Ready.</div>
+    </div>
+
+    <div class="card">
+      <h2>Visual Preview</h2>
+      <canvas id="preview" width="512" height="256"></canvas>
+      <p>
+        Preview is a canvas rendering of the generated raw bytes. Download the .pgm file for the actual artifact.
+      </p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Format Lock</h2>
+    <p>
+      Raw visual files use a binary PGM/P5 image. The pixel raster begins with:
+    </p>
+    <div class="status">magic[8] = GMVIL02\0
+header_len[4] = unsigned big-endian
+payload_len[8] = unsigned big-endian
+sha256[32] = SHA-256 of payload bytes
+header_json[header_len]
+payload[payload_len]
+zero padding to width × height</div>
+  </section>
+</main>
+
+<footer>
+  Security rule: G6 Signal is not G15 Key. Observation is not authorization. No G14 Lock without verification.
+</footer>
+
+<script>
+const MAGIC = new Uint8Array([0x47,0x4d,0x56,0x49,0x4c,0x30,0x32,0x00]); // GMVIL02\0
+
+function $(id) {
+  return document.getElementById(id);
+}
+
+function log(obj) {
+  if (typeof obj === "string") {
+    $("status").textContent = obj;
+  } else {
+    $("status").textContent = JSON.stringify(obj, null, 2);
+  }
+}
+
+function clearLinks() {
+  $("links").innerHTML = "";
+}
+
+function addDownload(name, blob) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = name;
+  a.className = "download";
+  a.textContent = "Download " + name;
+  $("links").appendChild(a);
+}
+
+function safeName(name) {
+  return (name || "artifact").replace(/[^\w.\-]+/g, "_").slice(0, 160);
+}
+
+function concatBytes(parts) {
+  let total = 0;
+  for (const p of parts) total += p.length;
+  const out = new Uint8Array(total);
+  let off = 0;
+  for (const p of parts) {
+    out.set(p, off);
+    off += p.length;
+  }
+  return out;
+}
+
+function u32be(n) {
+  const b = new Uint8Array(4);
+  new DataView(b.buffer).setUint32(0, n, false);
+  return b;
+}
+
+function u64be(n) {
+  const b = new Uint8Array(8);
+  const view = new DataView(b.buffer);
+  const hi = Math.floor(n / 2 ** 32);
+  const lo = n >>> 0;
+  view.setUint32(0, hi, false);
+  view.setUint32(4, lo, false);
+  return b;
+}
+
+function readU32be(bytes, off) {
+  return new DataView(bytes.buffer, bytes.byteOffset + off, 4).getUint32(0, false);
+}
+
+function readU64be(bytes, off) {
+  const view = new DataView(bytes.buffer, bytes.byteOffset + off, 8);
+  const hi = view.getUint32(0, false);
+  const lo = view.getUint32(4, false);
+  return hi * 2 ** 32 + lo;
+}
+
+async function sha256Bytes(bytes) {
+  const hash = await crypto.subtle.digest("SHA-256", bytes);
+  return new Uint8Array(hash);
+}
+
+function hex(bytes) {
+  return Array.from(bytes).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function bytesToBase64(bytes) {
+  let binary = "";
+  const chunk = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunk) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunk));
+  }
+  return btoa(binary);
+}
+
+function base64ToBytes(b64) {
+  const binary = atob(b64);
+  const out = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) out[i] = binary.charCodeAt(i);
+  return out;
+}
+
+function textBytes(s) {
+  return new TextEncoder().encode(s);
+}
+
+function bytesText(bytes) {
+  return new TextDecoder().decode(bytes);
+}
+
+async function buildVisual(payload, meta, width) {
+  width = Number(width || 512);
+  if (!Number.isFinite(width) || width < 16) width = 512;
+
+  const digest = await sha256Bytes(payload);
+  const header = textBytes(JSON.stringify(meta));
+  const prefix = concatBytes([
+    MAGIC,
+    u32be(header.length),
+    u64be(payload.length),
+    digest,
+    header,
+    payload
+  ]);
+
+  const height = Math.ceil(prefix.length / width);
+  const rasterLen = width * height;
+  const raster = new Uint8Array(rasterLen);
+  raster.set(prefix);
+
+  const pgmHeader = textBytes("P5\n# GlyphMatics VIL-RAW pVvhz\n" + width + " " + height + "\n255\n");
+  const pgm = concatBytes([pgmHeader, raster]);
+
+  return { pgm, width, height, digestHex: hex(digest), headerLen: header.length, payloadLen: payload.length, meta };
+}
+
+function renderPreview(pgmInfo) {
+  const canvas = $("preview");
+  const w = Math.min(pgmInfo.width, 1024);
+  const scale = pgmInfo.width / w;
+  const h = Math.max(1, Math.floor(pgmInfo.height / scale));
+
+  canvas.width = w;
+  canvas.height = h;
+
+  const ctx = canvas.getContext("2d");
+  const img = ctx.createImageData(w, h);
+
+  const pgm = pgmInfo.pgm;
+  const raster = extractRasterFromBuiltPgm(pgm);
+
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const sx = Math.floor(x * scale);
+      const sy = Math.floor(y * scale);
+      const v = raster[sy * pgmInfo.width + sx] || 0;
+      const i = (y * w + x) * 4;
+      img.data[i] = v;
+      img.data[i + 1] = v;
+      img.data[i + 2] = v;
+      img.data[i + 3] = 255;
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+}
+
+function extractRasterFromBuiltPgm(pgm) {
+  let newlines = 0;
+  let i = 0;
+  while (i < pgm.length && newlines < 4) {
+    if (pgm[i] === 10) newlines++;
+    i++;
+  }
+  return pgm.subarray(i);
+}
+
+async function encodeText() {
+  clearLinks();
+  try {
+    const filename = safeName($("textName").value || "payload.txt");
+    const payload = textBytes($("textInput").value);
+    const sha = hex(await sha256Bytes(payload));
+
+    const pack = {
+      format: "GlyphMatics Text Artifact",
+      version: "web-0.1",
+      glyphstring: "pVvhz",
+      created_at: new Date().toISOString(),
+      files: [{
+        path: filename,
+        size: payload.length,
+        sha256: sha,
+        encoding: "base64",
+        data_b64: bytesToBase64(payload)
+      }]
+    };
+
+    const packBytes = textBytes(JSON.stringify(pack, null, 2));
+    const packSha = hex(await sha256Bytes(packBytes));
+
+    const packBlob = new Blob([packBytes], { type: "application/json" });
+    addDownload(filename + ".gma.json", packBlob);
+
+    const visual = await buildVisual(packBytes, {
+      mode: "text-pack",
+      original_name: filename,
+      pack_sha256: packSha,
+      payload_type: "application/json"
+    }, 512);
+
+    addDownload(filename + ".pgm", new Blob([visual.pgm], { type: "image/x-portable-graymap" }));
+    renderPreview(visual);
+
+    log({
+      status: "encoded_text",
+      filename,
+      text_sha256: sha,
+      pack_sha256: packSha,
+      visual_payload_sha256: visual.digestHex,
+      bytes: payload.length,
+      visual_size: visual.pgm.length
+    });
+  } catch (e) {
+    log({ error: String(e), stack: e.stack });
+  }
+}
+
+async function encodeSingleFile() {
+  clearLinks();
+  try {
+    const file = $("singleFile").files[0];
+    if (!file) throw new Error("Select one file first.");
+
+    const payload = new Uint8Array(await file.arrayBuffer());
+    const digestHex = hex(await sha256Bytes(payload));
+    const width = Number($("singleWidth").value || 512);
+
+    const visual = await buildVisual(payload, {
+      mode: "single-file-raw",
+      name: file.name,
+      type: file.type || "application/octet-stream",
+      size: file.size,
+      lastModified: file.lastModified,
+      sha256: digestHex
+    }, width);
+
+    const outName = safeName(file.name) + ".pgm";
+    addDownload(outName, new Blob([visual.pgm], { type: "image/x-portable-graymap" }));
+    renderPreview(visual);
+
+    log({
+      status: "encoded_single_file_raw",
+      source: file.name,
+      source_size: file.size,
+      source_sha256: digestHex,
+      visual: outName,
+      width: visual.width,
+      height: visual.height,
+      visual_bytes: visual.pgm.length
+    });
+  } catch (e) {
+    log({ error: String(e), stack: e.stack });
+  }
+}
+
+async function encodeMulti() {
+  clearLinks();
+  try {
+    const files = [
+      ...Array.from($("multiFiles").files || []),
+      ...Array.from($("folderFiles").files || [])
+    ];
+
+    if (!files.length) throw new Error("Select files or a folder first.");
+
+    const entries = [];
+    for (const f of files) {
+      const bytes = new Uint8Array(await f.arrayBuffer());
+      const sha = hex(await sha256Bytes(bytes));
+      entries.push({
+        path: f.webkitRelativePath || f.name,
+        name: f.name,
+        size: f.size,
+        type: f.type || "application/octet-stream",
+        lastModified: f.lastModified,
+        sha256: sha,
+        encoding: "base64",
+        data_b64: bytesToBase64(bytes)
+      });
+    }
+
+    const pack = {
+      format: "GlyphMatics Web Pack",
+      version: "web-0.1",
+      glyphstring: "pPvhz",
+      created_at: new Date().toISOString(),
+      file_count: entries.length,
+      files: entries
+    };
+
+    const manifest = entries.map(e => ({
+      path: e.path,
+      size: e.size,
+      sha256: e.sha256,
+      type: e.type
+    }));
+
+    pack.manifest = manifest;
+    pack.manifest_sha256 = hex(await sha256Bytes(textBytes(JSON.stringify(manifest))));
+
+    const packBytes = textBytes(JSON.stringify(pack, null, 2));
+    const packSha = hex(await sha256Bytes(packBytes));
+    pack.pack_sha256 = packSha;
+
+    const finalPackBytes = textBytes(JSON.stringify(pack, null, 2));
+    const finalPackSha = hex(await sha256Bytes(finalPackBytes));
+
+    addDownload("glyphmatics_web_pack_" + finalPackSha.slice(0, 16) + ".gma.json",
+      new Blob([finalPackBytes], { type: "application/json" }));
+
+    const width = Number($("packWidth").value || 512);
+    const visual = await buildVisual(finalPackBytes, {
+      mode: "multi-file-pack",
+      file_count: entries.length,
+      pack_sha256: finalPackSha,
+      payload_type: "application/json"
+    }, width);
+
+    addDownload("glyphmatics_web_pack_" + finalPackSha.slice(0, 16) + ".pgm",
+      new Blob([visual.pgm], { type: "image/x-portable-graymap" }));
+
+    renderPreview(visual);
+
+    log({
+      status: "encoded_multi_pack",
+      file_count: entries.length,
+      pack_sha256: finalPackSha,
+      visual_payload_sha256: visual.digestHex,
+      pack_bytes: finalPackBytes.length,
+      visual_bytes: visual.pgm.length
+    });
+  } catch (e) {
+    log({ error: String(e), stack: e.stack });
+  }
+}
+
+function parsePgm(bytes) {
+  let pos = 0;
+
+  function skipWsAndComments() {
+    while (pos < bytes.length) {
+      const c = bytes[pos];
+      if (c === 35) {
+        while (pos < bytes.length && bytes[pos] !== 10) pos++;
+      } else if (c === 9 || c === 10 || c === 13 || c === 32) {
+        pos++;
+      } else {
+        break;
+      }
+    }
+  }
+
+  function token() {
+    skipWsAndComments();
+    const start = pos;
+    while (pos < bytes.length && ![9,10,13,32].includes(bytes[pos])) pos++;
+    return bytesText(bytes.subarray(start, pos));
+  }
+
+  const magic = token();
+  if (magic !== "P5") throw new Error("Not a binary PGM/P5 image.");
+
+  const width = Number(token());
+  const height = Number(token());
+  const maxval = Number(token());
+
+  if (maxval !== 255) throw new Error("Only 8-bit PGM maxval 255 supported.");
+
+  if ([9,10,13,32].includes(bytes[pos])) pos++;
+
+  const raster = bytes.subarray(pos, pos + width * height);
+  if (raster.length < width * height) throw new Error("PGM raster is truncated.");
+
+  return { width, height, raster };
+}
+
+async function restoreVisual() {
+  clearLinks();
+  try {
+    const file = $("restoreImage").files[0];
+    if (!file) throw new Error("Select a .pgm file first.");
+
+    const bytes = new Uint8Array(await file.arrayBuffer());
+    const { width, height, raster } = parsePgm(bytes);
+
+    for (let i = 0; i < MAGIC.length; i++) {
+      if (raster[i] !== MAGIC[i]) throw new Error("GlyphMatics magic header not found.");
+    }
+
+    const headerLen = readU32be(raster, 8);
+    const payloadLen = readU64be(raster, 12);
+    const expected = raster.subarray(20, 52);
+    const headerStart = 52;
+    const headerEnd = headerStart + headerLen;
+    const payloadStart = headerEnd;
+    const payloadEnd = payloadStart + payloadLen;
+
+    if (payloadEnd > raster.length) throw new Error("Payload length exceeds raster.");
+
+    const header = JSON.parse(bytesText(raster.subarray(headerStart, headerEnd)));
+    const payload = raster.subarray(payloadStart, payloadEnd);
+    const actual = await sha256Bytes(payload);
+
+    const verified = hex(expected) === hex(actual);
+    if (!verified) throw new Error("SHA-256 mismatch. Refusing restore.");
+
+    let name = "restored_payload.bin";
+    let type = "application/octet-stream";
+
+    if (header.mode === "single-file-raw" && header.name) {
+      name = "restored_" + safeName(header.name);
+      type = header.type || type;
+    } else if ((header.mode || "").includes("pack")) {
+      name = "restored_" + (header.pack_sha256 || hex(actual)).slice(0, 16) + ".gma.json";
+      type = "application/json";
+    }
+
+    addDownload(name, new Blob([payload], { type }));
+
+    log({
+      status: "restored_visual_payload",
+      verified,
+      image: file.name,
+      width,
+      height,
+      header,
+      payload_len: payloadLen,
+      payload_sha256: hex(actual),
+      restored_name: name
+    });
+  } catch (e) {
+    log({ error: String(e), stack: e.stack });
+  }
+}
+</script>
+</body>
+</html>
