@@ -38,3 +38,27 @@ The image contains only visible glyphlines. Execution is recovered from OCR plus
 Verified semantic execution compression ratio:
 Plain text
 4,636,425 expanded artifact bytes / 61 glyphline bytes = 76,006.97 : 1
+
+## Verified Demo Path
+
+```text
+single image
+→ OCR extract
+→ canonical glyphlines
+→ install
+→ TN/MPS selftest
+→ pack
+→ activate
+→ lineage append
+→ visual artifact
+→ compression ratio report
+Run:
+Bash
+python src/glyphmatics_literal_image.py extract artifacts/glyphmatics_transport.png
+python src/glyphmatics_literal_image.py run artifacts/glyphmatics_transport.png
+Current verified literal glyphline ratio:
+Plain text
+10,832,459 expanded artifact bytes / 61 glyphline bytes = 177,581.30 : 1
+See:
+Plain text
+docs/COMPRESSION_METRICS.md
