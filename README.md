@@ -72,3 +72,13 @@ Plain text
 See:
 Plain text
 docs/COMPRESSION_METRICS.md
+
+## Live Static UI
+
+The active Hugging Face static UI is:
+
+https://huggingface.co/spaces/Nine1Eight/glyphmatics-vil-raw-static
+
+The full artifact Space remains:
+
+https://huggingface.co/spaces/Nine1Eight/glyphmatics-vil-raw
