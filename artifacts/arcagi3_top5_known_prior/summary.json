@@ -1,0 +1,61 @@
+{
+  "format": "GlyphMatics ARCAGI3 Top-5 Known Prior Summary",
+  "version": "0.9.3-dev",
+  "created_at": 1777292131,
+  "notebook_count": 5,
+  "total_notebook_bytes": 303501,
+  "total_code_bytes": 259888,
+  "glyphline_bytes": 221364,
+  "semantic_structure_ratio_vs_notebook_bytes": 1.3710494931425163,
+  "semantic_structure_ratio_vs_code_bytes": 1.1740301042626624,
+  "semantic_structure_reduction_vs_notebook_percent": 27.063172773730557,
+  "dictionary_entries": 1087,
+  "selected": [
+    {
+      "rank": 1,
+      "path": "kaggle/nvarc-bf16-retry-seed-loop-v31.ipynb",
+      "detected_score": 1.0,
+      "score_detected": true,
+      "arc_relevance": 128,
+      "code_bytes": 41889,
+      "code_sha256": "d09b5044568c3f48bdbaa02e7395d3238ac2e1f2995df601d175f89539895c57"
+    },
+    {
+      "rank": 2,
+      "path": "kaggle/sentient9.ipynb",
+      "detected_score": 1.0,
+      "score_detected": true,
+      "arc_relevance": 126,
+      "code_bytes": 13679,
+      "code_sha256": "f53fb1c5f2fc63991a0befc8bd426dcd1be4d550d6e028e670528486f329a138"
+    },
+    {
+      "rank": 3,
+      "path": "kaggle/arc-agi-v8.ipynb",
+      "detected_score": 1.0,
+      "score_detected": true,
+      "arc_relevance": 119,
+      "code_bytes": 38133,
+      "code_sha256": "42bcfa6514ce59fb2740379aeb256db1c6ffaeab2de490b83b126c6da4cbefd1"
+    },
+    {
+      "rank": 4,
+      "path": "kaggle/ash-s-arc-agi-3-agent.ipynb",
+      "detected_score": 1.0,
+      "score_detected": true,
+      "arc_relevance": 110,
+      "code_bytes": 82740,
+      "code_sha256": "e465226652faf8ae04411a0d07214b9137311f0864952efc800486f62e39ce80"
+    },
+    {
+      "rank": 5,
+      "path": "kaggle/arc3-sample-submission-just-explore.ipynb",
+      "detected_score": 1.0,
+      "score_detected": true,
+      "arc_relevance": 104,
+      "code_bytes": 83447,
+      "code_sha256": "cde1af2f97fe2b1ebdd24defd2db15d74795a99997107f8d6279136a8ab10665"
+    }
+  ],
+  "dataset_digest": "aa940bcba82c8be4b297c079d28fcebad74c663a45734fe37be213c5b553ad64"
+}
