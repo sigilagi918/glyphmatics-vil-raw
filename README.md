@@ -1,3 +1,13 @@
+---
+title: GlyphMatics VIL-RAW
+emoji: 🧬
+colorFrom: blue
+colorTo: green
+sdk: static
+app_file: index.html
+pinned: false
+---
+
 # GlyphMatics VIL-RAW Artifact Runtime
 
 Locked version: v0.6
