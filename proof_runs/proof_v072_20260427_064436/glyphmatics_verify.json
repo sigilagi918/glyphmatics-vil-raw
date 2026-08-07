@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "install_digest": "aae1c50dd5a7549825738574c193dca957d4045ef3d459b9a1210c90dba06cc5",
+  "checks": {
+    "/data/data/com.termux/files/home/.glyphmatics/glyphmatics_runtime.py": {
+      "expected": "3f08585f195ad7e58256b89db4340acceb874a419b00d531b639857daa8b6365",
+      "actual": "3f08585f195ad7e58256b89db4340acceb874a419b00d531b639857daa8b6365",
+      "match": true
+    },
+    "/data/data/com.termux/files/home/.glyphmatics/artifacts/core_artifact.json": {
+      "expected": "751889f55f0b804833cf13b609dc0000840756bd43beddd73e5bae032db12b03",
+      "actual": "751889f55f0b804833cf13b609dc0000840756bd43beddd73e5bae032db12b03",
+      "match": true
+    },
+    "/data/data/com.termux/files/usr/bin/glyphmatics": {
+      "expected": "d489cc579f0b2c38766d2abd7a322a53fd64209650e90edb4d7aca390b9d5bb1",
+      "actual": "d489cc579f0b2c38766d2abd7a322a53fd64209650e90edb4d7aca390b9d5bb1",
+      "match": true
+    }
+  }
+}

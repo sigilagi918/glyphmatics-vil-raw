@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/.glyphmatics/visual/visual_9e91fb21933ac3fb.pgm
+/data/data/com.termux/files/home/.glyphmatics/visual/visual_c907a5ac2e8b35f1.pgm
+/data/data/com.termux/files/home/.glyphmatics/visual/visual_f4f8e808c35674fa.pgm

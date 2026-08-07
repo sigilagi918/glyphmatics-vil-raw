@@ -1,0 +1,134 @@
+[RUN] /data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/install_glyphmatics.py pgvayh
+[RUN] /data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/glyphmatics_tn_vm.py p hcbme tn:20 b:64 TMGE cv ruz
+[RUN] glyphmatics-pack pack
+[RUN] glyphmatics-pack activate /data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json --fresh
+[RUN] glyphmatics-lineage append
+[RUN] glyphmatics-visual encode /data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json
+{
+  "ok": true,
+  "glyphline_count": 6,
+  "raw_glyphlines": [
+    "pgvayh",
+    "p hcbme tn:20 b:64 TMGE cv ruz",
+    "pPvhz",
+    "pPAvhz",
+    "pLvhz",
+    "pVvhz"
+  ],
+  "canonical_glyphlines": [
+    "pgvayh",
+    "p hcbme tn:20 b:64 TMGE cv ruz",
+    "pPvhz",
+    "pAvhz",
+    "pLvhz",
+    "pVvhz"
+  ],
+  "results": [
+    {
+      "glyphline": "pgvayh",
+      "action": "install_glyphmatics",
+      "result": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "/data/data/com.termux/files/home/install_glyphmatics.py",
+          "pgvayh"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"installed\",\n  \"glyphstring\": \"pgvayh\",\n  \"glyphmatics_home\": \"/data/data/com.termux/files/home/.glyphmatics\",\n  \"runtime\": \"/data/data/com.termux/files/home/.glyphmatics/glyphmatics_runtime.py\",\n  \"artifact\": \"/data/data/com.termux/files/home/.glyphmatics/artifacts/core_artifact.json\",\n  \"cli\": \"/data/data/com.termux/files/usr/bin/glyphmatics\",\n  \"lock\": \"/data/data/com.termux/files/home/.glyphmatics/locks/install.lock.json\",\n  \"install_digest\": \"aae1c50dd5a7549825738574c193dca957d4045ef3d459b9a1210c90dba06cc5\"\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    },
+    {
+      "glyphline": "p hcbme tn:20 b:64 TMGE cv ruz",
+      "action": "run_tn_selftest",
+      "result": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "/data/data/com.termux/files/home/glyphmatics_tn_vm.py",
+          "p",
+          "hcbme",
+          "tn:20",
+          "b:64",
+          "TMGE",
+          "cv",
+          "ruz"
+        ],
+        "returncode": 0,
+        "stdout": "[h] hydrate_artifact: Loaded /data/data/com.termux/files/home/.glyphmatics/artifacts/core_artifact.json\n[c] create_space: Created TN execution space\n[b] build_backend: Built MPS backend shell\n[m] mount_memory: Mounted /data/data/com.termux/files/home/.glyphmatics/memory\n[e] execute_chain: Safe activation chain executed\n[T] enable_tensor_network: Enabled MPS backend n=20, chi=64, estimated_entries=81920\n[M] initialize_mps: Initialized |0...0> MPS n=20, chi=64\n[G] run_tensor_graph: Ran GHZ MPS circuit; norm=1.000000000000, max_bond=2\n[E] error_bound_check: small-n exact check l2_error=0.000e+00, norm_error=2.220e-16\n[c] collapse_to_memory: Collapsed TN state to /data/data/com.termux/files/home/.glyphmatics/memory/tn_collapse_999ec3e8482ab823.json\n[v] validate: python_ok=True, backend_ok=True, tn_error_ok=True\n[r] register: Registered /data/data/com.termux/files/home/.glyphmatics/registry/tn_reg_a728ae9f8602964d.json\n[u] update_registry: Updated /data/data/com.termux/files/home/.glyphmatics/registry/tn_index.json\n[z] seal_definition: G14 TN seal written /data/data/com.termux/files/home/.glyphmatics/locks/tn_seal_23bfa6f956b1abca.json\n\n=== TN ACTIVATION RESULT ===\n{\n  \"status\": \"activated\",\n  \"glyphline\": \"p hcbme tn:20 b:64 TMGE cv ruz\",\n  \"dialect\": \"python\",\n  \"args\": {\n    \"tn\": 20,\n    \"b\": 64\n  },\n  \"context\": {\n    \"glyphline\": \"p hcbme tn:20 b:64 TMGE cv ruz\",\n    \"dialect\": \"python\",\n    \"created_at\": 1777290278,\n    \"artifact\": \"/data/data/com.termux/files/home/.glyphmatics/artifacts/core_artifact.json\",\n    \"artifact_digest\": \"751889f55f0b804833cf13b609dc0000840756bd43beddd73e5bae032db12b03\",\n    \"space\": {\n      \"name\": \"GlyphMatics_TN_Execution_Space\",\n      \"mode\": \"mps_tensor_network\"\n    },\n    \"backend\": {\n      \"type\": \"tensor_network_mps\",\n      \"enabled\": true,\n      \"n_qubits\": 20,\n      \"bond_dim\": 64,\n      \"memory_model\": \"O(n * chi^2)\",\n      \"estimated_complex_entries\": 81920\n    },\n    \"memory_mounted\": true,\n    \"verified\": true,\n    \"sealed\": true,\n    \"tn_compute\": {\n      \"initialized\": true,\n      \"n_qubits\": 20,\n      \"bond_dim\": 64,\n      \"initial_norm\": 1.0,\n      \"initial_max_bond\": 1,\n      \"circuit\": \"GHZ_MPS_TEST\",\n      \"description\": \"H(0) followed by CNOT ladder creates low-entanglement GHZ state\",\n      \"norm\": 0.9999999999999998,\n      \"max_bond\": 2,\n      \"bond_dims\": [\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2,\n        2\n      ],\n      \"prob_all_zero\": 0.4999999999999999,\n      \"prob_all_one\": 0.4999999999999999,\n      \"nonzero_expected\": [\n        \"00000000000000000000\",\n        \"11111111111111111111\"\n      ]\n    },\n    \"error_check\": {\n      \"test_n\": 8,\n      \"bond_dim\": 64,\n      \"reference\": \"exact_GHZ_closed_form\",\n      \"l2_error\": 0.0,\n      \"norm_error\": 2.220446049250313e-16,\n      \"threshold\": 1e-09,\n      \"passed\": true\n    },\n    \"memory_path\": \"/data/data/com.termux/files/home/.glyphmatics/memory\",\n    \"executed\": true,\n    \"args_seen\": {\n      \"tn\": 20,\n      \"b\": 64\n    },\n    \"last_collapse\": \"/data/data/com.termux/files/home/.glyphmatics/memory/tn_collapse_999ec3e8482ab823.json\",\n    \"registered\": \"/data/data/com.termux/files/home/.glyphmatics/registry/tn_reg_a728ae9f8602964d.json\",\n    \"registry_index\": \"/data/data/com.termux/files/home/.glyphmatics/registry/tn_index.json\",\n    \"seal\": \"/data/data/com.termux/files/home/.glyphmatics/locks/tn_seal_23bfa6f956b1abca.json\",\n    \"seal_digest\": \"23bfa6f956b1abca2dbe2cf857bec9a2a83e44d01c0dd5e00f7da15e03fd16f6\"\n  },\n  \"steps\": [\n    {\n      \"glyph\": \"h\",\n      \"name\": \"hydrate_artifact\",\n      \"ok\": true,\n      \"detail\": \"Loaded /data/data/com.termux/files/home/.glyphmatics/artifacts/core_artifact.json\"\n    },\n    {\n      \"glyph\": \"c\",\n      \"name\": \"create_space\",\n      \"ok\": true,\n      \"detail\": \"Created TN execution space\"\n    },\n    {\n      \"glyph\": \"b\",\n      \"name\": \"build_backend\",\n      \"ok\": true,\n      \"detail\": \"Built MPS backend shell\"\n    },\n    {\n      \"glyph\": \"m\",\n      \"name\": \"mount_memory\",\n      \"ok\": true,\n      \"detail\": \"Mounted /data/data/com.termux/files/home/.glyphmatics/memory\"\n    },\n    {\n      \"glyph\": \"e\",\n      \"name\": \"execute_chain\",\n      \"ok\": true,\n      \"detail\": \"Safe activation chain executed\"\n    },\n    {\n      \"glyph\": \"T\",\n      \"name\": \"enable_tensor_network\",\n      \"ok\": true,\n      \"detail\": \"Enabled MPS backend n=20, chi=64, estimated_entries=81920\"\n    },\n    {\n      \"glyph\": \"M\",\n      \"name\": \"initialize_mps\",\n      \"ok\": true,\n      \"detail\": \"Initialized |0...0> MPS n=20, chi=64\"\n    },\n    {\n      \"glyph\": \"G\",\n      \"name\": \"run_tensor_graph\",\n      \"ok\": true,\n      \"detail\": \"Ran GHZ MPS circuit; norm=1.000000000000, max_bond=2\"\n    },\n    {\n      \"glyph\": \"E\",\n      \"name\": \"error_bound_check\",\n      \"ok\": true,\n      \"detail\": \"small-n exact check l2_error=0.000e+00, norm_error=2.220e-16\"\n    },\n    {\n      \"glyph\": \"c\",\n      \"name\": \"collapse_to_memory\",\n      \"ok\": true,\n      \"detail\": \"Collapsed TN state to /data/data/com.termux/files/home/.glyphmatics/memory/tn_collapse_999ec3e8482ab823.json\"\n    },\n    {\n      \"glyph\": \"v\",\n      \"name\": \"validate\",\n      \"ok\": true,\n      \"detail\": \"python_ok=True, backend_ok=True, tn_error_ok=True\"\n    },\n    {\n      \"glyph\": \"r\",\n      \"name\": \"register\",\n      \"ok\": true,\n      \"detail\": \"Registered /data/data/com.termux/files/home/.glyphmatics/registry/tn_reg_a728ae9f8602964d.json\"\n    },\n    {\n      \"glyph\": \"u\",\n      \"name\": \"update_registry\",\n      \"ok\": true,\n      \"detail\": \"Updated /data/data/com.termux/files/home/.glyphmatics/registry/tn_index.json\"\n    },\n    {\n      \"glyph\": \"z\",\n      \"name\": \"seal_definition\",\n      \"ok\": true,\n      \"detail\": \"G14 TN seal written /data/data/com.termux/files/home/.glyphmatics/locks/tn_seal_23bfa6f956b1abca.json\"\n    }\n  ],\n  \"activation_digest\": \"525a05d95ccd9062f5ba4b4d4f789e884467e28b695e5c4a4bc59eb36bd73930\"\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    },
+    {
+      "glyphline": "pPvhz",
+      "action": "pack_runtime",
+      "result": {
+        "cmd": [
+          "glyphmatics-pack",
+          "pack"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"packed\",\n  \"path\": \"/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json\",\n  \"file_count\": 59,\n  \"manifest_digest\": \"9427daec0a44dfba3209efade9c19dd79c324fd311d2ec57c9a28dea1ce9dd84\",\n  \"pack_digest\": \"1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef\"\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    },
+    {
+      "glyphline": "pAvhz",
+      "action": "activate_latest_pack",
+      "pack": "/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json",
+      "result": {
+        "cmd": [
+          "glyphmatics-pack",
+          "activate",
+          "/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json",
+          "--fresh"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"activated\",\n  \"activation_glyphstring\": \"pAvhz\",\n  \"pack\": \"/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json\",\n  \"pack_digest\": \"1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef\",\n  \"work_dir\": \"/data/data/com.termux/files/home/.glyphmatics/activations/activation_1f1d83144cf708e8\",\n  \"verify_pack\": {\n    \"verified\": true,\n    \"path\": \"/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json\",\n    \"file_count\": 59,\n    \"manifest_digest_expected\": \"9427daec0a44dfba3209efade9c19dd79c324fd311d2ec57c9a28dea1ce9dd84\",\n    \"manifest_digest_actual\": \"9427daec0a44dfba3209efade9c19dd79c324fd311d2ec57c9a28dea1ce9dd84\",\n    \"manifest_match\": true,\n    \"pack_digest_expected\": \"1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef\",\n    \"pack_digest_actual\": \"1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef\",\n    \"pack_match\": true,\n    \"failed\": []\n  },\n  \"install_result\": {\n    \"cmd\": [\n      \"/data/data/com.termux/files/usr/bin/python\",\n      \"/data/data/com.termux/files/home/.glyphmatics/activations/activation_1f1d83144cf708e8/install_glyphmatics.py\",\n      \"pgvayh\"\n    ],\n    \"returncode\": 0,\n    \"log\": \"/data/data/com.termux/files/home/.glyphmatics/activations/activation_1f1d83144cf708e8/activation_logs/install.log\",\n    \"ok\": true\n  },\n  \"tn_result\": {\n    \"cmd\": [\n      \"/data/data/com.termux/files/usr/bin/python\",\n      \"/data/data/com.termux/files/home/.glyphmatics/activations/activation_1f1d83144cf708e8/glyphmatics_tn_vm.py\",\n      \"p\",\n      \"hcbme\",\n      \"tn:20\",\n      \"b:64\",\n      \"TMGE\",\n      \"cv\",\n      \"ruz\"\n    ],\n    \"returncode\": 0,\n    \"log\": \"/data/data/com.termux/files/home/.glyphmatics/activations/activation_1f1d83144cf708e8/activation_logs/tn_selftest.log\",\n    \"ok\": true\n  },\n  \"tn_verified\": true,\n  \"tn_sealed\": true,\n  \"tn_error_passed\": true,\n  \"tn_seal_digest\": \"91a0f92f00bd672cf5bbb00178616fc19ce6324445be459f4995b2b8e5f18a34\",\n  \"created_at\": 1777290282,\n  \"activation_digest\": \"d2f72a1cf38220a8b04504098247fe439e3e57fd372b2a55a943bcac37521a35\",\n  \"activation_seal\": \"/data/data/com.termux/files/home/.glyphmatics/locks/pack_activation_d2f72a1cf38220a8.json\"\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    },
+    {
+      "glyphline": "pLvhz",
+      "action": "append_lineage",
+      "result": {
+        "cmd": [
+          "glyphmatics-lineage",
+          "append"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"lineage_appended\",\n  \"lineage_glyphstring\": \"pLvhz\",\n  \"chain\": \"/data/data/com.termux/files/home/.glyphmatics/lineage/lineage.jsonl\",\n  \"head\": \"/data/data/com.termux/files/home/.glyphmatics/lineage/head.json\",\n  \"lineage_index\": 6,\n  \"block_digest\": \"d387fe1fb4e146b92252753d4976aae1c4d6f4a1b755d4f54b2f28c8338ecd38\",\n  \"pack_digest\": \"1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef\",\n  \"activation_digest\": \"d2f72a1cf38220a8b04504098247fe439e3e57fd372b2a55a943bcac37521a35\",\n  \"tn_seal_digest\": \"91a0f92f00bd672cf5bbb00178616fc19ce6324445be459f4995b2b8e5f18a34\",\n  \"chain_verified\": true\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    },
+    {
+      "glyphline": "pVvhz",
+      "action": "encode_latest_pack_to_image",
+      "pack": "/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json",
+      "result": {
+        "cmd": [
+          "glyphmatics-visual",
+          "encode",
+          "/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"visual_encoded\",\n  \"glyphstring\": \"pVvhz\",\n  \"source\": \"/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json\",\n  \"visual\": \"/data/data/com.termux/files/home/.glyphmatics/visual/visual_9e91fb21933ac3fb.pgm\",\n  \"source_sha256\": \"9e91fb21933ac3fbb257fcabfa1857680b5e60c1b4aca56f57a5b8c7c6f76375\",\n  \"source_size\": 59024275,\n  \"width\": 512,\n  \"height\": 115282,\n  \"visual_seal\": \"/data/data/com.termux/files/home/.glyphmatics/locks/visual_seal_f37836c89f54d8c4.json\",\n  \"visual_digest\": \"f37836c89f54d8c4a3ddc7c79553ea5985138137ff91af6f7ae0f50ce52a1153\"\n}\n",
+        "stderr": "",
+        "ok": true
+      }
+    }
+  ],
+  "source_image": "artifacts/glyphmatics_transport.png",
+  "glyphlines": [
+    "pgvayh",
+    "p hcbme tn:20 b:64 TMGE cv ruz",
+    "pPvhz",
+    "pPAvhz",
+    "pLvhz",
+    "pVvhz"
+  ]
+}

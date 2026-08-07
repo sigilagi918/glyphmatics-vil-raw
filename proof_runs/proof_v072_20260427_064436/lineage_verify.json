@@ -1,0 +1,36 @@
+{
+  "verified": true,
+  "block_count": 7,
+  "head_ok": true,
+  "head": {
+    "format": "GlyphMatics Lineage Block",
+    "version": "0.5.0",
+    "lineage_glyphstring": "pLvhz",
+    "lineage_index": 6,
+    "created_at": 1777290282,
+    "parent_block_digest": "a1ece54358986b30d68840b92a597a17a0e4689024d70e4579f5bff4048c6862",
+    "parent_pack_digest": "ed791054c6c5cf8db1c24e28ef27af7cd2d1953deafc83f46e227de285f5e235",
+    "pack_path": "/data/data/com.termux/files/home/.glyphmatics/packs/glyphmatics_pack_1f1d83144cf708e8.gma.json",
+    "pack_file_sha256": "9e91fb21933ac3fbb257fcabfa1857680b5e60c1b4aca56f57a5b8c7c6f76375",
+    "pack_digest": "1f1d83144cf708e800cac30be98f3c1f15e9158da1b067de69c87ee4f53386ef",
+    "pack_manifest_digest": "9427daec0a44dfba3209efade9c19dd79c324fd311d2ec57c9a28dea1ce9dd84",
+    "pack_file_count": 59,
+    "pack_version": "0.4.0",
+    "activation_seal_path": "/data/data/com.termux/files/home/.glyphmatics/locks/pack_activation_d2f72a1cf38220a8.json",
+    "activation_seal_sha256": "c1199dbc424361b2eecef812f0bdb237a67f1b22b59491d9a2929c8c017f0d25",
+    "activation_digest": "d2f72a1cf38220a8b04504098247fe439e3e57fd372b2a55a943bcac37521a35",
+    "activation_status": "activated",
+    "activation_glyphstring": "pAvhz",
+    "tn_verified": true,
+    "tn_sealed": true,
+    "tn_error_passed": true,
+    "tn_seal_digest": "91a0f92f00bd672cf5bbb00178616fc19ce6324445be459f4995b2b8e5f18a34",
+    "rule": {
+      "pLvhz": "Python → lineage append → verify chain → hash-lock head → seal lineage",
+      "parent_lock": "current block binds previous block digest and previous pack digest",
+      "current_lock": "current block binds pack digest, activation digest, TN seal digest"
+    },
+    "block_digest": "d387fe1fb4e146b92252753d4976aae1c4d6f4a1b755d4f54b2f28c8338ecd38"
+  },
+  "failures": []
+}

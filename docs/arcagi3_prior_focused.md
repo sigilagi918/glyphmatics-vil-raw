@@ -1,0 +1,570 @@
+# ARCAGI3 Focused Prior
+
+Input rows: 10051
+
+Focused rows: 1102
+
+## world_model (298)
+
+- `SDS` x121 score=1230 :: `s._do_observe(raw, curr_hash, act_id, data)`
+- `SHI` x108 score=1100 :: `ents = extract_entities(frame, bg)`
+- `SFG` x94 score=940 :: `s._do_observe(raw, curr_hash, act_id, data)`
+- `SKV` x81 score=810 :: `ents = extract_entities(frame, bg)`
+- `SFT` x52 score=540 :: `s._observer = GameObserver()`
+- `SZA` x40 score=450 :: `Complements WorldModel when movers=[] for all actions.`
+- `SWW` x41 score=430 :: `and (abs(eff.mean_dx) > 0.1 or abs(eff.mean_dy) > 0.1)`
+- `SRH` x40 score=420 :: `s._frame_diff.observe(s._prev_action_id, s._prev_frame, raw)`
+- `SWM` x40 score=420 :: `self.action_counts = {} # action_id -> observation count`
+- `SWN` x40 score=420 :: `def observe(self, action_id, frame_before, frame_after):`
+- `SBS` x40 score=420 :: `s._do_observe(raw, curr_hash, probe_aid, probe_data)`
+- `SMD` x40 score=420 :: `scored = [(self.action_scores.get(a, 0.0), a)`
+- `SMB` x40 score=420 :: `if not self.action_scores:`
+- `SHP` x40 score=420 :: `s._world_model.observe(`
+- `SMD` x42 score=420 :: `s._observer = GameObserver()`
+- `SKD` x39 score=410 :: `any_movers = any(len(eff.mover_colors) > 0 for eff in wm.effects.values())`
+- `SPR` x36 score=410 :: `# EfficientPlanner— A* over WorldModel predictions (not game copies)`
+- `SQR` x36 score=410 :: `# Once WorldModel confidence >= threshold, plan a short action path`
+- `SRR` x36 score=410 :: `# 2. If ACTION6 available and under-observed, probe entity centres`
+- `SSY` x36 score=410 :: `# Used when WorldModel confidence is low and planner has no plan.`
+- `SSZ` x36 score=410 :: `# Confidence threshold above which we trust the WorldModel enough`
+- `SUK` x36 score=410 :: `# WorldModel — maps action_id -> expected frame delta signature`
+- `SZW` x36 score=410 :: `# Trained online using rewards shaped by WorldModel priors.`
+- `SAV` x39 score=410 :: `score = abs(player['x'] + eff.mean_dx - goal['x']) + \`
+- `SBV` x39 score=410 :: `and a in wm.effects and wm.effects[a].causes_change])`
+- `SHK` x36 score=410 :: `# Goal: build a rich WorldModel with minimum actions.`
+- `SJU` x39 score=410 :: `player, goal = wm.infer_player_and_goal(raw, bg)`
+- `SSR` x36 score=410 :: `s._world_model = WorldModel(game_id=s.game_id)`
+- `STQ` x39 score=410 :: `abs(player['y'] + eff.mean_dy - goal['y'])`
+- `SCG` x36 score=410 :: `Beam search over WorldModel predictions.`
+- `SHG` x39 score=410 :: `[(fdm.action_scores.get(a, 0.0), a)`
+- `SNN` x36 score=410 :: `Reward shaped by WorldModel priors.`
+- `SOS` x39 score=410 :: `ents = extract_entities(raw, bg)`
+- `SJQ` x38 score=400 :: `f"FDM={dict((k, round(v,1)) for k,v in s._frame_diff.action_scores.items())}"`
+- `SRF` x38 score=400 :: `player, goal = s._world_model.infer_player_and_goal(raw, s._bg)`
+- `STH` x38 score=400 :: `s._log.info(f"FDM_DUMP scores={s._frame_diff.action_scores}")`
+- `SUH` x38 score=400 :: `# ── Observe previous action ───────────────────────────────`
+- `SLB` x38 score=400 :: `f"WM_DUMP aid={aid} change={eff.causes_change} "`
+- `SLC` x38 score=400 :: `f"movers={[list(c) for c in eff.mover_colors]} "`
+- `SQE` x38 score=400 :: `f"dx={eff.mean_dx:.2f} dy={eff.mean_dy:.2f} "`
+- `SNT` x36 score=380 :: `def observe(self, action_id, frame_before, frame_after, bg, data=None):`
+- `SPD` x36 score=380 :: `if aid in available_ids and aid in [1, 2, 3, 4] and eff.causes_change`
+- `SPT` x36 score=380 :: `self.causes_change = False # does this action ever change the frame?`
+- `SPZ` x36 score=380 :: `player, goal = s._world_model.infer_player_and_goal(curr_raw, s._bg)`
+- `SQO` x36 score=380 :: `n_useful = sum(1 for e in self.effects.values() if e.causes_change)`
+- `SRQ` x36 score=380 :: `Returns (player_entity, goal_entity) from extract_entities output.`
+- `SUO` x36 score=380 :: `# Do NOT reset action_scores or action_counts — these transfer.`
+- `SVV` x36 score=380 :: `if aid not in available_ids or not eff.causes_change: continue`
+- `SCC` x36 score=380 :: `self.mover_colors = set() # which entity colour-sets move`
+- `SCE` x36 score=380 :: `changed_pixels = int(np.sum(frame_before != frame_after))`
+- `SCF` x36 score=380 :: `Use observed mover sets to identify the player entity and`
+- `SDP` x36 score=380 :: `player, goal = self._wm.infer_player_and_goal(frame, bg)`
+- `SFT` x36 score=380 :: `self._confidence = 0 # 0-100, rises as we observe more`
+- `SFW` x36 score=380 :: `and self.effects[aid].causes_change and 1 <= aid <= 5]`
+- `SHH` x36 score=380 :: `return (f"ActionEffect(change={self.causes_change}, "`
+- `SHI` x36 score=380 :: `f"mover={self.mover_colors}, dx={self.mean_dx:.1f}, "`
+- `SHJ` x36 score=380 :: `# 1. Observe all (action, before, after) transitions.`
+- `SIT` x36 score=380 :: `Lightweight causal model: action_id -> ActionEffect.`
+- `SIU` x36 score=380 :: `self.mean_dx = 0.0 # average x displacement of mover`
+- `SIV` x36 score=380 :: `self.mean_dy = 0.0 # average y displacement of mover`
+- `SIW` x36 score=380 :: `player, goal = self.infer_player_and_goal(frame, bg)`
+- `SKM` x36 score=380 :: `f"dy={self.mean_dy:.1f}, n={self.n_observations})")`
+- `SLL` x36 score=380 :: `if action_id == 6 and data and changed_pixels > 0:`
+- `SNH` x36 score=380 :: `def _do_observe(s, raw, curr_hash, act_id, data):`
+- `SOU` x36 score=380 :: `ents_before = extract_entities(frame_before, bg)`
+- `SSE` x36 score=380 :: `ents_after = extract_entities(frame_after, bg)`
+- `SUB` x36 score=380 :: `self.effects = {} # action_id -> ActionEffect`
+- `SVS` x36 score=380 :: `Updates the ActionEffect for this action_id.`
+- `SVT` x36 score=380 :: `eff.mean_dx = (eff.mean_dx * (n-1) + dx) / n`
+- `SVU` x36 score=380 :: `eff.mean_dy = (eff.mean_dy * (n-1) + dy) / n`
+- `SXR` x36 score=380 :: `def infer_player_and_goal(self, frame, bg):`
+- `SDY` x36 score=380 :: `eff.mover_colors.add(e_after['colors'])`
+- `SMY` x36 score=380 :: `all_movers.update(eff.mover_colors)`
+- `SNC` x36 score=380 :: `entities = extract_entities(f0, bg)`
+- `SPO` x36 score=380 :: `new_px = player['x'] + eff.mean_dx`
+- `SPP` x36 score=380 :: `new_py = player['y'] + eff.mean_dy`
+- `SVQ` x36 score=380 :: `def extract_entities(frame, bg):`
+- `SEF` x36 score=380 :: `ents = extract_entities(f, bg)`
+- `SIL` x36 score=380 :: `new_px = px + eff.mean_dx`
+- `SIM` x36 score=380 :: `new_py = py + eff.mean_dy`
+
+## goal_reader (169)
+
+- `SFT` x72 score=740 :: `if not self.goal_field or not self.action_field_deltas:`
+- `SHT` x54 score=540 :: `if not self.goal_field or not self.action_field_deltas:`
+- `SUF` x38 score=430 :: `# ── GoalReader plan (direct win-condition execution) ──────`
+- `SNY` x36 score=410 :: `self._log.info(f"GoalReader: action_deltas={self.action_field_deltas}")`
+- `SOL` x36 score=410 :: `f"GoalReader: inferred goal = {self.goal_field} -> {self.goal_value}")`
+- `STU` x36 score=410 :: `s._goal_reader = None # GoalReader: direct win-condition planner`
+- `SUW` x36 score=410 :: `self._log.info(f"GoalReader: state_fields={self.state_fields}")`
+- `SYO` x36 score=410 :: `f"GoalReader: win comparisons = {self.win_comparisons[:6]} "`
+- `SCR` x36 score=410 :: `self._log.warning(f"GoalReader.optimal_plan failed: {e}")`
+- `SCS` x36 score=410 :: `# GoalReader: reads win condition and probes state fields`
+- `SDU` x36 score=410 :: `self._log.info(f"GoalReader: goal = {field} {op} {val}")`
+- `SDV` x36 score=410 :: `self._log.warning(f"GoalReader.best_action failed: {e}")`
+- `SJP` x36 score=410 :: `s._log.warning(f"GoalReader plan build failed: {e}")`
+- `SKT` x36 score=410 :: `f"GoalReader: plan = {n_steps}x action {best_aid} "`
+- `SLU` x36 score=410 :: `self._log.warning(f"GoalReader probe failed: {e}")`
+- `SNA` x36 score=410 :: `self._log.warning(f"GoalReader init failed: {e}")`
+- `SNF` x36 score=410 :: `s._log.info(f"GoalReader plan for L{new_level}: "`
+- `SPJ` x36 score=410 :: `# If no GoalReader plan and no BFS, try live BFS`
+- `SGN` x36 score=410 :: `# Build GoalReader plan for this level`
+- `SPK` x36 score=410 :: `s._goal_reader = GoalReader(`
+- `SNX` x36 score=380 :: `# - win_fields: names of fields checked in the win/level-complete logic`
+- `SRV` x36 score=380 :: `"""Parse the win/level-complete method and extract comparisons."""`
+- `SSN` x36 score=380 :: `# GoalInferencer — infers win condition from entity state changes`
+- `STT` x36 score=380 :: `action_id that most directly moves goal_field toward goal_value,`
+- `SUX` x36 score=380 :: `current_val = float(getattr(game_instance, self.goal_field, 0))`
+- `SUY` x36 score=380 :: `current_val = self._read_nested(game_instance, self.goal_field)`
+- `SWG` x36 score=380 :: `d = self.action_field_deltas[best_aid].get(self.goal_field, 0)`
+- `SXD` x36 score=380 :: `self.state_fields = [] # fields that change when actions fire`
+- `SXG` x36 score=380 :: `self.goal_field, _, self.goal_value = self.win_comparisons[0]`
+- `SYN` x36 score=380 :: `self.win_method_src = None # full source of win/check method`
+- `SZU` x36 score=380 :: `current_val = getattr(game_instance, self.goal_field, None)`
+- `SBF` x36 score=380 :: `self.win_comparisons = [] # [(field_name, op, value), ...]`
+- `SBG` x36 score=380 :: `def best_action_for_level(self, game_instance, level_idx):`
+- `SCQ` x36 score=380 :: `from the win condition AST (stored in self.sprite_names).`
+- `SDQ` x36 score=380 :: `# ── Scan win/level-complete method ────────────────────`
+- `SDS` x36 score=380 :: `# Given a loaded game class, reads the win condition by:`
+- `SEX` x36 score=380 :: `if gr and gr.goal_field and s._bfs and s._bfs.game_cls:`
+- `SJF` x36 score=380 :: `self.goal_value = None # target value for goal_field`
+- `SJJ` x36 score=380 :: `if self.goal_field is None and self.win_comparisons:`
+- `SJL` x36 score=380 :: `Build an action sequence to reach the win condition.`
+- `SJM` x36 score=380 :: `if '.' in self.goal_field or '[' in self.goal_field:`
+- `SNB` x36 score=380 :: `self.win_comparisons.append((field, op_str, val))`
+- `SPD` x36 score=380 :: `self.goal_field = None # field to maximise/reach`
+- `SUI` x36 score=380 :: `if self.win_comparisons or self.sprite_names:`
+- `SXX` x36 score=380 :: `for field, op, val in self.win_comparisons:`
+- `SBA` x36 score=380 :: `remaining = self.goal_value - current_val`
+- `SEG` x36 score=380 :: `self.win_method_src = ast.unparse(node)`
+- `SIB` x36 score=380 :: `d = deltas.get(self.goal_field, None)`
+- `SKQ` x36 score=380 :: `d = deltas.get(self.goal_field, 0.0)`
+- `SEI` x36 score=380 :: `def _probe_state_fields(self):`
+- `SEL` x36 score=380 :: `if k not in self.state_fields:`
+- `SEM` x36 score=380 :: `if field in self.state_fields:`
+- `SVZ` x36 score=380 :: `self.state_fields.append(k)`
+- `SBP` x36 score=380 :: `self._probe_state_fields()`
+- `SBS` x36 score=380 :: `goal_val = self.goal_value`
+- `SYA` x36 score=380 :: `self.goal_field = field`
+- `SSO` x36 score=380 :: `if self.state_fields:`
+- `SSP` x36 score=380 :: `self.goal_value = val`
+- `SXC` x29 score=320 :: `# ── GoalReader plan (direct win-condition execution) ──────`
+- `SRJ` x27 score=300 :: `self._log.info(f"GoalReader: action_deltas={self.action_field_deltas}")`
+- `SSE` x27 score=300 :: `f"GoalReader: inferred goal = {self.goal_field} -> {self.goal_value}")`
+- `SXM` x27 score=300 :: `s._goal_reader = None # GoalReader: direct win-condition planner`
+- `SYU` x27 score=300 :: `self._log.info(f"GoalReader: state_fields={self.state_fields}")`
+- `SCG` x27 score=300 :: `f"GoalReader: win comparisons = {self.win_comparisons[:6]} "`
+- `SHE` x27 score=300 :: `self._log.warning(f"GoalReader.optimal_plan failed: {e}")`
+- `SHF` x27 score=300 :: `# GoalReader: reads win condition and probes state fields`
+- `SII` x27 score=300 :: `self._log.info(f"GoalReader: goal = {field} {op} {val}")`
+- `SIJ` x27 score=300 :: `self._log.warning(f"GoalReader.best_action failed: {e}")`
+- `SOF` x27 score=300 :: `s._log.warning(f"GoalReader plan build failed: {e}")`
+- `SPU` x27 score=300 :: `f"GoalReader: plan = {n_steps}x action {best_aid} "`
+- `SRG` x27 score=300 :: `self._log.warning(f"GoalReader probe failed: {e}")`
+- `SSI` x27 score=300 :: `self._log.warning(f"GoalReader init failed: {e}")`
+- `SSN` x27 score=300 :: `s._log.info(f"GoalReader plan for L{new_level}: "`
+- `SUN` x27 score=300 :: `# If no GoalReader plan and no BFS, try live BFS`
+- `SRT` x27 score=300 :: `# Build GoalReader plan for this level`
+- `SIY` x27 score=300 :: `s._goal_reader = GoalReader(`
+- `SRI` x27 score=270 :: `# - win_fields: names of fields checked in the win/level-complete logic`
+- `SVJ` x27 score=270 :: `"""Parse the win/level-complete method and extract comparisons."""`
+- `SWD` x27 score=270 :: `# GoalInferencer — infers win condition from entity state changes`
+- `SXL` x27 score=270 :: `action_id that most directly moves goal_field toward goal_value,`
+
+## bfs (192)
+
+- `SEI` x111 score=1130 :: `g = s._bfs.game_cls()`
+- `SLX` x88 score=900 :: `g = copy.deepcopy(game)`
+- `SRQ` x84 score=840 :: `g = s._bfs.game_cls()`
+- `SVH` x78 score=800 :: `s._bfs_step = 0`
+- `SEC` x72 score=740 :: `bfs_game.perform_action(ActionInput(id=GameAction.RESET), raw=True)`
+- `SIS` x72 score=740 :: `solver.solutions = dict(s._bfs_pre_solutions)`
+- `SWO` x72 score=740 :: `solver.game_cls = s._bfs.game_cls`
+- `SAN` x65 score=650 :: `g = copy.deepcopy(game)`
+- `SFP` x54 score=540 :: `bfs_game.perform_action(ActionInput(id=GameAction.RESET), raw=True)`
+- `SME` x54 score=540 :: `solver.solutions = dict(s._bfs_pre_solutions)`
+- `SDY` x54 score=540 :: `solver.game_cls = s._bfs.game_cls`
+- `SOJ` x46 score=480 :: `L " g = copy.deepcopy(game)"`
+- `SSC` x41 score=430 :: `if s._bfs_solution and s._bfs_step < len(s._bfs_solution):`
+- `SOB` x41 score=430 :: `act_id, data = s._bfs_solution[s._bfs_step]`
+- `SRC` x40 score=420 :: `s._bfs_solution = None`
+- `SKU` x40 score=420 :: `L " s._bfs_step = 0"`
+- `SWX` x36 score=410 :: `# BFSSolver — retained for __init__ pre-solve on simple games`
+- `SGL` x39 score=410 :: `and si.target_field and s._bfs and s._bfs.game_cls`
+- `SJN` x36 score=410 :: `s._bfs = BFSSolver(src_path, cls, game_id=s.game_id)`
+- `SPJ` x36 score=410 :: `# If no GoalReader plan and no BFS, try live BFS`
+- `SSU` x36 score=410 :: `solver = BFSSolver(src_path, cls,`
+- `SVJ` x39 score=410 :: `self.bfs_timeout = bfs_timeout`
+- `SEH` x39 score=410 :: `s._bfs_solution = sol`
+- `SUG` x38 score=400 :: `# ── BFS pre-solve ─────────────────────────────────────────`
+- `SOE` x38 score=400 :: `# Use pre-solved BFS if available`
+- `SIU` x36 score=380 :: `self._log.info(f"BFS L{level_idx}: SOLVED in {len(new_hist)} acts ({explored} nodes)")`
+- `SKF` x36 score=380 :: `if not s._goal_plan and s._bfs_solution is None and s._bfs and s._bfs.game_cls:`
+- `SKY` x36 score=380 :: `while pq and explored < max_states and (time.time() - t0) < self.bfs_timeout:`
+- `SLH` x36 score=380 :: `if transient: self._log.info(f"BFS: detected transient fields: {transient}")`
+- `SMO` x36 score=380 :: `s._log.info(f"BFS live attempt L{new_level} ({live_budget:.0f}s budget)")`
+- `SNW` x36 score=380 :: `self._log.warning(f"BFS: Failed to load game class: {e}"); return False`
+- `SRT` x36 score=380 :: `heapq.heappush(pq, (new_g + hfn(f, g2), new_g, counter:=counter+1,`
+- `SSS` x36 score=380 :: `# BFS SOLVER (retained for __init__ pre-solve on tractable games)`
+- `SUQ` x36 score=380 :: `heapq.heappush(frontier, (f, len(new_path), counter:=counter+1,`
+- `SWI` x36 score=380 :: `s._log.info(f"BFS live solved L{new_level} ({len(sol)} acts)")`
+- `SYM` x36 score=380 :: `# This replaces BFS with direct goal inference: once we know`
+- `SZJ` x36 score=380 :: `# Brute-force BFS explores cheaply but executes wastefully.`
+- `SZY` x36 score=380 :: `for act_id, data in s._bfs_pre_solutions.get(prev_lvl, []):`
+- `SEV` x36 score=380 :: `s._log.info(f"BFS pre-solved L{lvl} ({len(sol)} acts)")`
+- `SEW` x36 score=380 :: `s._log.info(f"BFS pre-solve L{lvl} failed, continuing")`
+- `SEX` x36 score=380 :: `if gr and gr.goal_field and s._bfs and s._bfs.game_cls:`
+- `SEY` x36 score=380 :: `s._log.info(f"BFS live L{new_level} failed, using FDM")`
+- `SGC` x36 score=380 :: `# --- BFS pre-solver + source analyser (init-time) ---`
+- `SGD` x36 score=380 :: `s._log.info(f"BFS pre-solve starting for {s.game_id}")`
+- `SHQ` x36 score=380 :: `pq = [(hfn(f0), 0, counter, [], copy.deepcopy(game))]`
+- `SHV` x36 score=380 :: `sol = solver.solve_level(lvl, starting_game=bfs_game)`
+- `SHW` x36 score=380 :: `s._bfs_solution = s._bfs_pre_solutions.get(new_level)`
+- `SJQ` x36 score=380 :: `sol = solver.solve_level(new_level, starting_game=g)`
+- `SLN` x36 score=380 :: `self._log.warning(f"BFS drain failed: {e}"); raise`
+- `SLR` x36 score=380 :: `_, g_score, _, hist, node_game = heapq.heappop(pq)`
+- `SNE` x36 score=380 :: `prev_sol = s._bfs_pre_solutions.get(prev_lvl, [])`
+- `SPI` x36 score=380 :: `# Advance bfs_game through this level's solution`
+- `SQT` x36 score=380 :: `_, g, _, path, px, py = heapq.heappop(frontier)`
+- `SUP` x36 score=380 :: `s._bfs.game_cls, src_path, game_id=s.game_id)`
+- `SXZ` x36 score=380 :: `bfs_timeout=live_budget, game_id=s.game_id)`
+- `SZS` x36 score=380 :: `s._log.warning(f"BFS/GSA init error: {e}")`
+- `SGO` x36 score=380 :: `s._log.warning(f"BFS live error: {e}")`
+- `SID` x36 score=380 :: `bfs_game.perform_action(ai, raw=True)`
+- `SIE` x36 score=380 :: `s._bfs_pre_solutions[new_level] = sol`
+- `SKU` x36 score=380 :: `s._bfs.game_path, s._bfs.class_name,`
+- `SSV` x36 score=380 :: `s._bfs.solutions[new_level] = sol`
+- `SAE` x36 score=380 :: `s._bfs_pre_solutions[lvl] = sol`
+- `SPL` x36 score=380 :: `bfs_game = s._bfs.game_cls()`
+- `SWF` x36 score=380 :: `s._bfs.solutions[lvl] = sol`
+- `SIW` x36 score=380 :: `s._bfs_pre_solutions = {}`
+- `SGX` x36 score=380 :: `if not frontier: break`
+- `SHI` x36 score=380 :: `bfs_timeout=per_level,`
+- `SVP` x31 score=310 :: `if s._bfs_solution and s._bfs_step < len(s._bfs_solution):`
+- `STJ` x31 score=310 :: `act_id, data = s._bfs_solution[s._bfs_step]`
+- `SAV` x27 score=300 :: `# BFSSolver — retained for __init__ pre-solve on simple games`
+- `SJQ` x30 score=300 :: `and si.target_field and s._bfs and s._bfs.game_cls`
+- `SOD` x27 score=300 :: `s._bfs = BFSSolver(src_path, cls, game_id=s.game_id)`
+- `SUN` x27 score=300 :: `# If no GoalReader plan and no BFS, try live BFS`
+- `SJP` x27 score=300 :: `solver = BFSSolver(src_path, cls,`
+- `SZO` x30 score=300 :: `s._bfs_solution = None`
+- `SFW` x27 score=290 :: `path = bfs_path(frame, player, tuple(near), walls)`
+- `SCN` x27 score=290 :: `def bfs_path(grid, start, goal, walls):`
+- `SXD` x29 score=290 :: `# ── BFS pre-solve ─────────────────────────────────────────`
+- `SCR` x29 score=290 :: `# Use pre-solved BFS if available`
+- `SPM` x29 score=290 :: `self.bfs_timeout = bfs_timeout`
+
+## frame_diff (102)
+
+- `SWX` x80 score=820 :: `self.best_score = -1.0`
+- `SBI` x75 score=770 :: `if score < best_score:`
+- `SJK` x62 score=620 :: `self.best_score = -1.0`
+- `SQN` x57 score=570 :: `if score < best_score:`
+- `SLD` x40 score=420 :: `- Minority colour pixel count: sum of pixels in non-dominant colours.`
+- `SPL` x40 score=420 :: `match = float(np.sum(frame == self.target_frame)) / frame.size`
+- `SRG` x40 score=420 :: `For counter/fill games, progress = minority colours growing.`
+- `SRH` x40 score=420 :: `s._frame_diff.observe(s._prev_action_id, s._prev_frame, raw)`
+- `STM` x40 score=420 :: `self.target_frame = None # detected static target (if any)`
+- `SVB` x40 score=420 :: `- If target_frame known: pixel similarity to it (primary)`
+- `SZB` x40 score=420 :: `self.best_frame = None # frame with highest score seen`
+- `SYB` x40 score=420 :: `return minority_total + len(vals) * 0.1`
+- `SDB` x40 score=420 :: `self.best_frame = frame_after.copy()`
+- `SJS` x40 score=420 :: `if self.target_frame is not None:`
+- `SJT` x40 score=420 :: `if score_after > self.best_score:`
+- `SWW` x40 score=420 :: `self.best_score = score_after`
+- `SRB` x40 score=420 :: `self.best_frame = None`
+- `SZF` x39 score=410 :: `fdm.target_frame = np.array(target_arr, dtype=np.int64)`
+- `SEU` x36 score=410 :: `s._frame_diff = FrameDiffModel() # for non-entity games`
+- `SVM` x39 score=410 :: `best_aid, best_score = None, float('inf')`
+- `SJA` x39 score=410 :: `f"shape={fdm.target_frame.shape}")`
+- `SVK` x39 score=410 :: `and fdm.target_frame is None):`
+- `SSD` x36 score=410 :: `class FrameDiffModel:`
+- `SZL` x39 score=410 :: `fdm = s._frame_diff`
+- `SJQ` x38 score=400 :: `f"FDM={dict((k, round(v,1)) for k,v in s._frame_diff.action_scores.items())}"`
+- `SQJ` x38 score=400 :: `s._log.info(f"FRAME_DIFF pixels_changed={diff_px} / {raw.size}")`
+- `STH` x38 score=400 :: `s._log.info(f"FDM_DUMP scores={s._frame_diff.action_scores}")`
+- `SHD` x38 score=400 :: `self.target_frame = None`
+- `SCE` x36 score=380 :: `changed_pixels = int(np.sum(frame_before != frame_after))`
+- `SLL` x36 score=380 :: `if action_id == 6 and data and changed_pixels > 0:`
+- `SLQ` x36 score=380 :: `hist_diff = sum(abs(pc['color_counts'].get(c, 0) -`
+- `SCO` x36 score=380 :: `if dist < 3 and hist_diff == 0: r += 5.0`
+- `SZV` x36 score=380 :: `return dist + (hist_diff * 5.0)`
+- `SWG` x36 score=380 :: `s._frame_diff.reset_level()`
+- `SWH` x36 score=380 :: `L " if score < best_score:"`
+- `SWJ` x36 score=380 :: `L " self.best_score = -1.0"`
+- `SIH` x36 score=380 :: `best_score = float('inf')`
+- `SGT` x36 score=380 :: `if changed_pixels > 0:`
+- `SUW` x34 score=360 :: `best_score = score; best_aid = aid`
+- `SBX` x33 score=350 :: `minority_total = float(np.sum(sorted_counts[2:])) # skip top 2`
+- `SDG` x33 score=350 :: `# Minority colour signal: exclude the two most common colours`
+- `SNX` x31 score=310 :: `- Minority colour pixel count: sum of pixels in non-dominant colours.`
+- `SRX` x31 score=310 :: `match = float(np.sum(frame == self.target_frame)) / frame.size`
+- `STP` x31 score=310 :: `For counter/fill games, progress = minority colours growing.`
+- `STQ` x31 score=310 :: `s._frame_diff.observe(s._prev_action_id, s._prev_frame, raw)`
+- `SVO` x31 score=310 :: `self.target_frame = None # detected static target (if any)`
+- `SWW` x31 score=310 :: `- If target_frame known: pixel similarity to it (primary)`
+- `SAS` x31 score=310 :: `self.best_frame = None # frame with highest score seen`
+- `SCX` x31 score=310 :: `return minority_total + len(vals) * 0.1`
+- `SKG` x31 score=310 :: `self.best_frame = frame_after.copy()`
+- `SVQ` x31 score=310 :: `if self.target_frame is not None:`
+- `SVR` x31 score=310 :: `if score_after > self.best_score:`
+- `SMU` x31 score=310 :: `self.best_score = score_after`
+- `SQM` x31 score=310 :: `self.best_frame = None`
+- `SBU` x30 score=300 :: `fdm.target_frame = np.array(target_arr, dtype=np.int64)`
+- `SJH` x27 score=300 :: `s._frame_diff = FrameDiffModel() # for non-entity games`
+- `SAR` x30 score=300 :: `best_aid, best_score = None, float('inf')`
+- `SUW` x30 score=300 :: `f"shape={fdm.target_frame.shape}")`
+- `SLP` x30 score=300 :: `and fdm.target_frame is None):`
+- `SMN` x29 score=290 :: `f"FDM={dict((k, round(v,1)) for k,v in s._frame_diff.action_scores.items())}"`
+- `STJ` x29 score=290 :: `s._log.info(f"FRAME_DIFF pixels_changed={diff_px} / {raw.size}")`
+- `SVZ` x29 score=290 :: `s._log.info(f"FDM_DUMP scores={s._frame_diff.action_scores}")`
+- `SEZ` x29 score=290 :: `self.target_frame = None`
+- `SGR` x27 score=270 :: `changed_pixels = int(np.sum(frame_before != frame_after))`
+- `SQX` x27 score=270 :: `if action_id == 6 and data and changed_pixels > 0:`
+- `SRC` x27 score=270 :: `hist_diff = sum(abs(pc['color_counts'].get(c, 0) -`
+- `SLR` x27 score=270 :: `if dist < 3 and hist_diff == 0: r += 5.0`
+- `SSO` x27 score=270 :: `return dist + (hist_diff * 5.0)`
+- `SPZ` x27 score=270 :: `s._frame_diff.reset_level()`
+- `SGW` x27 score=270 :: `best_score = float('inf')`
+- `SON` x25 score=250 :: `best_score = score; best_aid = aid`
+- `SIO` x24 score=240 :: `minority_total = float(np.sum(sorted_counts[2:])) # skip top 2`
+- `SJO` x24 score=240 :: `# Minority colour signal: exclude the two most common colours`
+- `SHW` x18 score=200 :: `L " if action_id == 6 and data and changed_pixels > 0:"`
+- `SKB` x18 score=200 :: `L " best_aid, best_score = None, float('inf')"`
+- `SNU` x18 score=200 :: `L " if dist < 3 and hist_diff == 0: r += 5.0"`
+- `SRG` x18 score=200 :: `L " return minority_total + len(vals) * 0.1"`
+- `SCP` x18 score=200 :: `L " self.best_frame = frame_after.copy()"`
+- `SMX` x18 score=200 :: `L " best_score = score; best_aid = aid"`
+- `SQU` x18 score=200 :: `L " if self.target_frame is not None:"`
+
+## click_action6 (63)
+
+- `SOP` x109 score=1110 :: `return 6, {'x': x, 'y': y}`
+- `STE` x89 score=890 :: `return 6, {'x': x, 'y': y}`
+- `SOC` x75 score=770 :: `return 6, {'x': pos[0], 'y': pos[1]}`
+- `STH` x57 score=570 :: `return 6, {'x': pos[0], 'y': pos[1]}`
+- `SAR` x38 score=430 :: `return GameAction.ACTION6`
+- `SQE` x40 score=420 :: `L " return 6, {'x': x, 'y': y}"`
+- `SRR` x36 score=410 :: `# 2. If ACTION6 available and under-observed, probe entity centres`
+- `SUP` x36 score=410 :: `# Directional effects only (ACTION6 hard to model positionally)`
+- `SUT` x36 score=410 :: `g, ActionInput(id=GameAction.ACTION6, data={'x': cx, 'y': cy}))`
+- `SBJ` x36 score=410 :: `return GameAction.ACTION6, {'x': ci % s.G, 'y': ci // s.G}`
+- `SKK` x36 score=410 :: `self.is_click = False # ACTION6 type`
+- `SEU` x39 score=410 :: `return 6, {'x': cx, 'y': cy}`
+- `SNC` x36 score=380 :: `# --- Click actions: cycle through all entity centres to avoid loops ---`
+- `SSQ` x36 score=380 :: `self._queue.append((6, {'x': int(ent['x']), 'y': int(ent['y'])}))`
+- `SVU` x36 score=380 :: `eff.click_targets.append((data.get('x', 0), data.get('y', 0)))`
+- `SCD` x36 score=380 :: `self.click_targets = [] # (x,y) coords that caused change`
+- `SDL` x36 score=380 :: `return 6, {'x': int(target['x']), 'y': int(target['y'])}`
+- `SFU` x36 score=380 :: `# Cycle through all entity centres based on step count`
+- `SHL` x36 score=380 :: `for ent in ents[:4]: # probe at most 4 entity centres`
+- `SLL` x36 score=380 :: `if action_id == 6 and data and changed_pixels > 0:`
+- `SBD` x36 score=380 :: `L " return 6, {'x': pos[0], 'y': pos[1]}"`
+- `SEB` x36 score=380 :: `actions.append((6, {'x': cx, 'y': cy}))`
+- `SIT` x36 score=380 :: `e.is_click = (action_id == 6)`
+- `SBL` x30 score=320 :: `return 6, {'x': int(x), 'y': int(y)}`
+- `SVN` x29 score=320 :: `return GameAction.ACTION6`
+- `SVF` x27 score=300 :: `# 2. If ACTION6 available and under-observed, probe entity centres`
+- `SYN` x27 score=300 :: `# Directional effects only (ACTION6 hard to model positionally)`
+- `SYR` x27 score=300 :: `g, ActionInput(id=GameAction.ACTION6, data={'x': cx, 'y': cy}))`
+- `SFJ` x27 score=300 :: `return GameAction.ACTION6, {'x': ci % s.G, 'y': ci // s.G}`
+- `SYI` x27 score=300 :: `self.is_click = False # ACTION6 type`
+- `SVT` x30 score=300 :: `return 6, {'x': cx, 'y': cy}`
+- `SLO` x26 score=280 :: `return 6, {'x': int(near[1]), 'y': int(near[0])}`
+- `SYA` x26 score=280 :: `return 6, {'x': int(t[1]), 'y': int(t[0])}`
+- `SQM` x27 score=270 :: `# --- Click actions: cycle through all entity centres to avoid loops ---`
+- `SWG` x27 score=270 :: `self._queue.append((6, {'x': int(ent['x']), 'y': int(ent['y'])}))`
+- `SZP` x27 score=270 :: `eff.click_targets.append((data.get('x', 0), data.get('y', 0)))`
+- `SGQ` x27 score=270 :: `self.click_targets = [] # (x,y) coords that caused change`
+- `SHZ` x27 score=270 :: `return 6, {'x': int(target['x']), 'y': int(target['y'])}`
+- `SKM` x27 score=270 :: `# Cycle through all entity centres based on step count`
+- `SLX` x27 score=270 :: `for ent in ents[:4]: # probe at most 4 entity centres`
+- `SQX` x27 score=270 :: `if action_id == 6 and data and changed_pixels > 0:`
+- `SNZ` x27 score=270 :: `actions.append((6, {'x': cx, 'y': cy}))`
+- `SCU` x27 score=270 :: `e.is_click = (action_id == 6)`
+- `SKS` x24 score=240 :: `return 6, {'x': int(x), 'y': int(y)}`
+- `SCN` x18 score=230 :: `L " self.is_click = False # ACTION6 type"`
+- `SOZ` x21 score=210 :: `return 6, {'x': int(near[1]), 'y': int(near[0])}`
+- `SFJ` x21 score=210 :: `return 6, {'x': int(t[1]), 'y': int(t[0])}`
+- `SHW` x18 score=200 :: `L " if action_id == 6 and data and changed_pixels > 0:"`
+- `SKB` x20 score=200 :: `L " return 6, {'x': x, 'y': y}"`
+- `SZL` x18 score=180 :: `L " return 6, {'x': pos[0], 'y': pos[1]}"`
+- `ANH` x2 score=70 :: `# 2. If ACTION6 available and under-observed, probe entity centres`
+- `APV` x2 score=70 :: `# Directional effects only (ACTION6 hard to model positionally)`
+- `APZ` x2 score=70 :: `g, ActionInput(id=GameAction.ACTION6, data={'x': cx, 'y': cy}))`
+- `AVF` x2 score=70 :: `return GameAction.ACTION6, {'x': ci % s.G, 'y': ci // s.G}`
+- `AGN` x4 score=60 :: `return 6, {'x': pos[0], 'y': pos[1]}`
+- `AKE` x2 score=40 :: `# --- Click actions: cycle through all entity centres to avoid loops ---`
+- `AOD` x2 score=40 :: `self._queue.append((6, {'x': int(ent['x']), 'y': int(ent['y'])}))`
+- `AQY` x2 score=40 :: `eff.click_targets.append((data.get('x', 0), data.get('y', 0)))`
+- `AVP` x2 score=40 :: `self.click_targets = [] # (x,y) coords that caused change`
+- `AWX` x2 score=40 :: `return 6, {'x': int(target['x']), 'y': int(target['y'])}`
+- `AZA` x2 score=40 :: `# Cycle through all entity centres based on step count`
+- `AAH` x2 score=40 :: `for ent in ents[:4]: # probe at most 4 entity centres`
+- `ADD` x2 score=40 :: `if action_id == 6 and data and changed_pixels > 0:`
+
+## cnn_fallback (153)
+
+- `SAR` x122 score=1240 :: `def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:`
+- `SAN` x122 score=1220 :: `def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:`
+- `SCI` x113 score=1150 :: `yield from super().modify_tensors(data_torch, name, bid)`
+- `SBQ` x113 score=1130 :: `yield from super().modify_tensors(data_torch, name, bid)`
+- `SOJ` x102 score=1040 :: `res->t_logits = cur;`
+- `SJU` x102 score=1020 :: `res->t_logits = cur;`
+- `SWT` x92 score=940 :: `import torch`
+- `SDP` x56 score=580 :: `import torch.nn as nn`
+- `SZA` x51 score=530 :: `import torch.nn.functional as F`
+- `SXA` x45 score=450 :: `import torch.nn as nn`
+- `SXP` x39 score=440 :: `s.net = ForgeNet(s.IN, s.G).to(s.device)`
+- `SRI` x39 score=440 :: `class ForgeNet(nn.Module):`
+- `SDR` x41 score=430 :: `import torch.optim as optim`
+- `SDJ` x36 score=410 :: `# ForgeNet — CNN fallback when planner confidence is low`
+- `SIU` x36 score=410 :: `# CNN FALLBACK (ForgeNet)`
+- `SDQ` x41 score=410 :: `import torch.nn.functional as F`
+- `SRE` x38 score=400 :: `s.buf.append({'s': s._prev_frame.copy(), 'a': cnn_idx, 'r': r})`
+- `SJN` x36 score=380 :: `rews = torch.tensor([e['r'] for e in batch], dtype=torch.float32, device=s.device)`
+- `SOA` x36 score=380 :: `s.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')`
+- `SPE` x36 score=380 :: `# --- CNN fallback (also persists: we keep weights across levels) ---`
+- `SQU` x36 score=380 :: `loss = F.binary_cross_entropy_with_logits(sel, torch.sigmoid(rews))`
+- `SXK` x36 score=380 :: `x = F.relu(s.c1(x)); x = F.relu(s.c2(x)); f = F.relu(s.c3(x))`
+- `SXN` x36 score=380 :: `acts = torch.tensor([e['a'] for e in batch], device=s.device)`
+- `SYS` x36 score=380 :: `cf = F.relu(s.cc1(f)); cl = s.cc2(cf).reshape(f.size(0), -1)`
+- `SBI` x36 score=380 :: `return torch.cat([oh, torch.from_numpy(bg_m).unsqueeze(0),`
+- `SDW` x36 score=380 :: `states = torch.stack([s._tensor(e['s']) for e in batch])`
+- `SEZ` x36 score=380 :: `if not a6: cl = cl + torch.full_like(cl, float('-inf'))`
+- `SGF` x36 score=380 :: `sel = logits.gather(1, acts_c.unsqueeze(1)).squeeze(1)`
+- `SGG` x36 score=380 :: `cl = (logits[5:5 + 4096].clone() if logits.size(0) > 5`
+- `SGH` x36 score=380 :: `if sm < 1e-8: allp = torch.ones_like(allp) / len(allp)`
+- `SHX` x36 score=380 :: `oh.scatter_(0, torch.from_numpy(raw).unsqueeze(0), 1)`
+- `SNG` x36 score=380 :: `oh = torch.zeros(16, 64, 64, dtype=torch.float32)`
+- `SST` x36 score=380 :: `logits = s.net(tensor.unsqueeze(0)).squeeze(0)`
+- `SZU` x36 score=380 :: `acts_c = acts.clamp(0, logits.size(1) - 1)`
+- `SBC` x36 score=380 :: `mask = torch.full_like(al, float('-inf'))`
+- `SCL` x36 score=380 :: `s.cc1 = nn.Conv2d(128, 64, 3, padding=1)`
+- `SCN` x36 score=380 :: `torch.zeros(9, 64, 64)], 0).to(s.device)`
+- `SCP` x36 score=380 :: `else torch.zeros(4096, device=s.device))`
+- `SJK` x36 score=380 :: `return torch.cat([al, cl], 1)`
+- `SJN` x36 score=380 :: `ap = torch.sigmoid(al / temp)`
+- `SWC` x36 score=380 :: `s.cc2 = nn.Conv2d(64, 1, 1)`
+- `SWD` x36 score=380 :: `al = s.ah(F.relu(s.af(af)))`
+- `SBV` x36 score=380 :: `allp = torch.cat([ap, cp])`
+- `SYI` x36 score=380 :: `al = logits[:5].clone()`
+- `SHK` x36 score=380 :: `logits = s.net(states)`
+- `SZX` x35 score=370 :: `cp = torch.sigmoid(cl / temp) / (s.G * s.G)`
+- `SMI` x35 score=370 :: `"torch.nn.functional",`
+- `SVK` x35 score=350 :: `"torch.nn.functional",`
+- `SFW` x29 score=320 :: `s.net = ForgeNet(s.IN, s.G).to(s.device)`
+- `SMB` x29 score=320 :: `class ForgeNet(nn.Module):`
+- `SYI` x31 score=310 :: `import torch.optim as optim`
+- `SHX` x27 score=300 :: `# ForgeNet — CNN fallback when planner confidence is low`
+- `SHJ` x27 score=300 :: `# CNN FALLBACK (ForgeNet)`
+- `SUK` x29 score=290 :: `s.buf.append({'s': s._prev_frame.copy(), 'a': cnn_idx, 'r': r})`
+- `SLG` x26 score=280 :: `data_torch = torch.stack(datas, dim=0)`
+- `SMS` x27 score=270 :: `rews = torch.tensor([e['r'] for e in batch], dtype=torch.float32, device=s.device)`
+- `SRL` x27 score=270 :: `s.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')`
+- `STB` x27 score=270 :: `# --- CNN fallback (also persists: we keep weights across levels) ---`
+- `SUU` x27 score=270 :: `loss = F.binary_cross_entropy_with_logits(sel, torch.sigmoid(rews))`
+- `SBI` x27 score=270 :: `x = F.relu(s.c1(x)); x = F.relu(s.c2(x)); f = F.relu(s.c3(x))`
+- `SBL` x27 score=270 :: `acts = torch.tensor([e['a'] for e in batch], device=s.device)`
+- `SCK` x27 score=270 :: `cf = F.relu(s.cc1(f)); cl = s.cc2(cf).reshape(f.size(0), -1)`
+- `SFI` x27 score=270 :: `return torch.cat([oh, torch.from_numpy(bg_m).unsqueeze(0),`
+- `SIK` x27 score=270 :: `states = torch.stack([s._tensor(e['s']) for e in batch])`
+- `SJM` x27 score=270 :: `if not a6: cl = cl + torch.full_like(cl, float('-inf'))`
+- `SKX` x27 score=270 :: `sel = logits.gather(1, acts_c.unsqueeze(1)).squeeze(1)`
+- `SKY` x27 score=270 :: `cl = (logits[5:5 + 4096].clone() if logits.size(0) > 5`
+- `SKZ` x27 score=270 :: `if sm < 1e-8: allp = torch.ones_like(allp) / len(allp)`
+- `SMJ` x27 score=270 :: `oh.scatter_(0, torch.from_numpy(raw).unsqueeze(0), 1)`
+- `SSO` x27 score=270 :: `oh = torch.zeros(16, 64, 64, dtype=torch.float32)`
+- `SYO` x27 score=270 :: `logits = s.net(tensor.unsqueeze(0)).squeeze(0)`
+- `SGR` x27 score=270 :: `acts_c = acts.clamp(0, logits.size(1) - 1)`
+- `SIZ` x27 score=270 :: `mask = torch.full_like(al, float('-inf'))`
+- `SLO` x27 score=270 :: `s.cc1 = nn.Conv2d(128, 64, 3, padding=1)`
+- `SLQ` x27 score=270 :: `torch.zeros(9, 64, 64)], 0).to(s.device)`
+- `SLS` x27 score=270 :: `else torch.zeros(4096, device=s.device))`
+- `SDL` x27 score=270 :: `return torch.cat([al, cl], 1)`
+- `SDO` x27 score=270 :: `ap = torch.sigmoid(al / temp)`
+- `SPV` x27 score=270 :: `s.cc2 = nn.Conv2d(64, 1, 1)`
+- `SPW` x27 score=270 :: `al = s.ah(F.relu(s.af(af)))`
+
+## arc_grid (156)
+
+- `SAV` x196 score=1980 :: `# --- from arc-policy-runtime-submission.ipynb cell 3 ---`
+- `SBB` x154 score=1540 :: `# --- from arc-policy-runtime-submission.ipynb cell 3 ---`
+- `SCF` x112 score=1140 :: `# --- from arc-policy-runtime-submission.ipynb cell 4 ---`
+- `SDG` x88 score=880 :: `# --- from arc-policy-runtime-submission.ipynb cell 4 ---`
+- `SIO` x34 score=360 :: `"kaggle/arc3-sample-submission-stochastic-goose.ipynb",`
+- `SBO` x34 score=360 :: `"classification": "competition_submission",`
+- `SUA` x34 score=340 :: `"kaggle/arc3-sample-submission-stochastic-goose.ipynb",`
+- `SMZ` x34 score=340 :: `"classification": "competition_submission",`
+- `SHQ` x30 score=320 :: `def run_submission(max_steps_per_env: int = MAX_STEPS_PER_ENV) -> tuple[dict[str, Any], list[dict[str, Any]]]:`
+- `SIH` x30 score=320 :: `def write_submission_artifacts(scorecard: dict[str, Any], per_env_results: list[dict[str, Any]]) -> None:`
+- `SQF` x30 score=320 :: `print("No sample submission parquet found. Writing minimal ARC fallback schema.")`
+- `SVA` x30 score=320 :: `submission_df.to_parquet("/kaggle/working/submission.parquet", index=False)`
+- `SAH` x30 score=320 :: `# Multiple accepted ARC competition submission examples use this exact`
+- `SHC` x30 score=320 :: `for candidate in input_root.rglob("sample_submission.parquet"):`
+- `SIK` x30 score=320 :: `submission_df = pd.DataFrame([row], columns=sample_df.columns)`
+- `SKB` x30 score=320 :: `def _build_minimal_submission_rows() -> list[dict[str, Any]]:`
+- `SNP` x30 score=320 :: `for candidate in input_root.rglob("*submission*.parquet"):`
+- `SNQ` x30 score=320 :: `print("Using sample submission schema from:", sample_path)`
+- `SNR` x30 score=320 :: `"kaggle/arc3-sample-submission-just-explore_merged.ipynb",`
+- `SXK` x30 score=320 :: `"kaggle/arc3-sample-submission-just-explore.ipynb",`
+- `SAG` x30 score=320 :: `print("Wrote /kaggle/working/submission.parquet")`
+- `SGC` x30 score=320 :: `def _find_sample_submission() -> Path | None:`
+- `SRY` x30 score=320 :: `sample_path = _find_sample_submission()`
+- `SRZ` x30 score=320 :: `rows = _build_minimal_submission_rows()`
+- `SKN` x30 score=320 :: `submission_df = pd.DataFrame(`
+- `SRK` x28 score=300 :: `"kaggle/arc3-sample-submission-just-explore_patched.ipynb",`
+- `SLF` x28 score=300 :: `"kaggle/arc3-sample-submission-hybrid.ipynb",`
+- `SMR` x28 score=300 :: `"kaggle/arc3-sample-submission-final.ipynb",`
+- `SMS` x28 score=300 :: `"kaggle/my_agent_hybrid_submission_safe.py",`
+- `SMT` x28 score=300 :: `"kaggle/arc3-sample-submission-ready.ipynb",`
+- `SGE` x28 score=300 :: `"kaggle/arc3_submission_final.ipynb",`
+- `SXR` x30 score=300 :: `"kaggle/arc3-sample-submission-just-explore_merged.ipynb",`
+- `SIL` x30 score=300 :: `"kaggle/arc3-sample-submission-just-explore.ipynb",`
+- `SBM` x28 score=280 :: `"kaggle/arc3-sample-submission-just-explore_patched.ipynb",`
+- `SXG` x28 score=280 :: `"kaggle/arc3-sample-submission-hybrid.ipynb",`
+- `SZF` x28 score=280 :: `"kaggle/arc3-sample-submission-final.ipynb",`
+- `SZG` x28 score=280 :: `"kaggle/my_agent_hybrid_submission_safe.py",`
+- `SZH` x28 score=280 :: `"kaggle/arc3-sample-submission-ready.ipynb",`
+- `SQY` x28 score=280 :: `"kaggle/arc3_submission_final.ipynb",`
+- `SWU` x25 score=270 :: `"kaggle/my_agent_hybrid_submission_safe_ls20_forgefusion.py",`
+- `SQI` x24 score=260 :: `"kaggle/my_agent_hybrid_submission_safe_ls20.py",`
+- `SDA` x23 score=250 :: `"arcagi3_glyph_encoded/restored_code/10_arc3-sample-submission-just-explore_merged.py",`
+- `SJZ` x23 score=250 :: `"arcagi3_glyph_encoded/restored_code/9_arc3-sample-submission-just-explore.py",`
+- `SHM` x25 score=250 :: `"kaggle/my_agent_hybrid_submission_safe_ls20_forgefusion.py",`
+- `SOY` x22 score=240 :: `"glyphmatics-vil-raw/artifacts/priors/glyphmatics_kaggle_submission_prior/competitor_shared_prior_dataset.json",`
+- `SBG` x22 score=240 :: `"arcagi3_glyph_encoded/restored_code/0_arc3_submission_final.py",`
+- `SFN` x22 score=240 :: `print("Non-competition mode: wrote dummy submission.parquet")`
+- `SGQ` x22 score=240 :: `# Non-rerun mode: produce a dummy submission so the notebook`
+- `SDY` x22 score=240 :: `'submission.parquet', index=False)`
+- `SKL` x22 score=240 :: `"_build_minimal_submission_rows",`
+- `SBX` x24 score=240 :: `"kaggle/my_agent_hybrid_submission_safe_ls20.py",`
+- `SJS` x21 score=230 :: `"arcagi3_glyph_encoded/restored_code/8_arc3-sample-submission-just-explore_patched.py",`
+- `SWF` x21 score=230 :: `"arcagi3_glyph_encoded/restored_code/7_arc3-sample-submission-hybrid.py",`
+- `SWZ` x21 score=230 :: `"arcagi3_glyph_encoded/restored_code/1_arc3-sample-submission-final.py",`
+- `SXA` x21 score=230 :: `"arcagi3_glyph_encoded/restored_code/6_arc3-sample-submission-ready.py",`
+- `SJO` x23 score=230 :: `def run_submission(max_steps_per_env: int = MAX_STEPS_PER_ENV) -> tuple[dict[str, Any], list[dict[str, Any]]]:`
+- `SKJ` x23 score=230 :: `def write_submission_artifacts(scorecard: dict[str, Any], per_env_results: list[dict[str, Any]]) -> None:`
+- `SPD` x23 score=230 :: `"arcagi3_glyph_encoded/restored_code/10_arc3-sample-submission-just-explore_merged.py",`
+- `SSM` x23 score=230 :: `print("No sample submission parquet found. Writing minimal ARC fallback schema.")`
+- `STM` x23 score=230 :: `"arcagi3_glyph_encoded/restored_code/9_arc3-sample-submission-just-explore.py",`
+- `SWS` x23 score=230 :: `submission_df.to_parquet("/kaggle/working/submission.parquet", index=False)`
+- `SBQ` x23 score=230 :: `# Multiple accepted ARC competition submission examples use this exact`
+- `SJZ` x23 score=230 :: `for candidate in input_root.rglob("sample_submission.parquet"):`
+- `SLE` x23 score=230 :: `submission_df = pd.DataFrame([row], columns=sample_df.columns)`
+- `SMO` x23 score=230 :: `def _build_minimal_submission_rows() -> list[dict[str, Any]]:`
+- `SQO` x23 score=230 :: `for candidate in input_root.rglob("*submission*.parquet"):`
+- `SQP` x23 score=230 :: `print("Using sample submission schema from:", sample_path)`
+- `SFD` x23 score=230 :: `print("Wrote /kaggle/working/submission.parquet")`
+- `SNG` x23 score=230 :: `def _find_sample_submission() -> Path | None:`
+- `SEY` x23 score=230 :: `sample_path = _find_sample_submission()`
+- `SEZ` x23 score=230 :: `rows = _build_minimal_submission_rows()`
+- `SZY` x23 score=230 :: `submission_df = pd.DataFrame(`
+- `SEX` x20 score=220 :: `"kaggle/arc3-sample-submission-random-agent.ipynb",`
+- `SKG` x22 score=220 :: `"arcagi3_glyph_encoded/restored_code/0_arc3_submission_final.py",`
+- `SHW` x22 score=220 :: `"_build_minimal_submission_rows",`
+- `SKX` x21 score=210 :: `"glyphmatics-vil-raw/artifacts/priors/glyphmatics_kaggle_submission_prior/competitor_shared_prior_dataset.json",`
+- `STG` x21 score=210 :: `"arcagi3_glyph_encoded/restored_code/8_arc3-sample-submission-just-explore_patched.py",`
+- `SFK` x21 score=210 :: `"arcagi3_glyph_encoded/restored_code/7_arc3-sample-submission-hybrid.py",`
+- `SGE` x21 score=210 :: `"arcagi3_glyph_encoded/restored_code/1_arc3-sample-submission-final.py",`
+- `SGF` x21 score=210 :: `"arcagi3_glyph_encoded/restored_code/6_arc3-sample-submission-ready.py",`
+
